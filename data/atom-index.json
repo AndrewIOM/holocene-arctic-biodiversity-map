@@ -164743,7 +164743,7 @@
     "NodeId": {
       "FriendlyKey": [
         "inferencemethodnode",
-        "atlas_moore, p.d., webb, j.a. and collinson, m.e. 1991: pollen analysis. oxford: blackwell."
+        "atlas_moore"
       ]
     },
     "NodeTypeName": "InferenceMethodNode",
@@ -165023,7 +165023,7 @@
     "NodeId": {
       "FriendlyKey": [
         "inferencemethodnode",
-        "atlas_rundgren, m. 1995: biostratigraphic evidence of the allerød–younger dryas–preboreal oscillation in northern iceland. quaternary research 44, 405–16."
+        "atlas_rundgren"
       ]
     },
     "NodeTypeName": "InferenceMethodNode",
