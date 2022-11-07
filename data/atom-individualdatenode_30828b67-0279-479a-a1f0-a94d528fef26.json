@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "30828b67-0279-479a-a1f0-a94d528fef26"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "TimeEstimate": 9570.0,
+          "Date": {
+            "RadiocarbonUncalibrated": 9570.0
+          },
+          "MaterialDated": {
+            "item": "bulk"
+          },
+          "SampleDepth": {
+            "_depth": 443.0
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  []
+]

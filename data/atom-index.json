@@ -13,6 +13,246 @@
     "NodeId": {
       "FriendlyKey": [
         "taxonnode",
+        "family_ericaceae"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Ericaceae [Family]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_empetrum"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Empetrum [Genus]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_empetrum_nigrum_l."
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Empetrum nigrum L. [Species]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualtimelinenode",
+        "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+      ]
+    },
+    "NodeTypeName": "IndividualTimelineNode",
+    "PrettyName": "A study timeline"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "36056390-0aca-44fe-b82a-c20b206c683f"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "8dded7b4-f950-4111-8b92-a84bad216aa1"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "family_salicaceae"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Salicaceae [Family]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_salix"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Salix [Genus]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_salix_lanata_l."
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Salix lanata L. [Species]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "bfbefe0d-3671-4ee9-bcf2-a56ae7ff320f"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "c4f1cc38-ea62-49db-ad6c-c9bba42816fa"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "subspecies_betula_pubescens_tortuosa_(ledeb.) nyman"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Betula pubescens subsp. tortuosa (Ledeb.) Nyman [Subspecies]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_betula_pubescens_ehrh."
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Betula pubescens Ehrh. [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "family_brassicaceae"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Brassicaceae [Family]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_capsella"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Capsella [Genus]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_capsella_bursa-pastoris_(l.) medik."
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Capsella bursa-pastoris (L.) Medik. [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "family_poaceae"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Poaceae [Family]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "family_cyperaceae"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Cyperaceae [Family]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "family_rosaceae"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Rosaceae [Family]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_dryas"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Dryas [Genus]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_dryas_octopetala_l."
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Dryas octopetala L. [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "family_cupressaceae"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Cupressaceae [Family]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_juniperus"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Juniperus [Genus]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_juniperus_communis_l."
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Juniperus communis L. [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
         "family_betulaceae"
       ]
     },
@@ -28,6 +268,26 @@
     },
     "NodeTypeName": "TaxonNode",
     "PrettyName": "Betula [Genus]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualtimelinenode",
+        "99a0efd3-b6f3-442e-8cff-d16984038315"
+      ]
+    },
+    "NodeTypeName": "IndividualTimelineNode",
+    "PrettyName": "A study timeline"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_rundgren_evonipapmeftsp_1998"
+      ]
+    },
+    "NodeTypeName": "SourceNode",
+    "PrettyName": "Rundgren, M. (1998). Early-Holocene vegetation of northern Iceland: pollen and plant macrofossil evidence from the Skagi peninsula"
   },
   {
     "NodeId": {
@@ -157373,16 +157633,6 @@
     "NodeId": {
       "FriendlyKey": [
         "sourcenode",
-        "pub_rundgren_evonipapmeftsp_1998"
-      ]
-    },
-    "NodeTypeName": "SourceNode",
-    "PrettyName": "Rundgren, M. (1998). Early-Holocene vegetation of northern Iceland: pollen and plant macrofossil evidence from the Skagi peninsula"
-  },
-  {
-    "NodeId": {
-      "FriendlyKey": [
-        "sourcenode",
         "pub_de vernal_peocaocitnsdtld_1998"
       ]
     },
@@ -164388,5 +164638,425 @@
     },
     "NodeTypeName": "SourceNode",
     "PrettyName": "Adaime, M. E.; Antoniades, D.; Legendre, P.; Pienitz, R. (?). Postglacial palaeoenvironmental reconstruction of the Fury and Hecla Strait region (Nunavut) inferred from microfossils and geochemical proxies"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "contextnode",
+        "3530c740-746c-457f-b6bf-c1c76641bd5a"
+      ]
+    },
+    "NodeTypeName": "ContextNode",
+    "PrettyName": "Site: Lake Geitakarlsvötn"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "27aa089d-a135-45cd-a2ec-5c98bafa3010"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "62ceb9d8-8fdb-4574-b3d1-f76830e135a4"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "30828b67-0279-479a-a1f0-a94d528fef26"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "0804a9e6-5636-4a18-9d59-eb6f91244928"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "contextnode",
+        "8180c571-2e31-498c-894e-fd5bd4e07ec2"
+      ]
+    },
+    "NodeTypeName": "ContextNode",
+    "PrettyName": "Site: Lake Torfadalsvatn"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "81b484e8-93ae-4617-b7bc-e6d96f183ed1"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "bea4d235-86fe-42bf-b6c3-7ef1e55ff892"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "d9d51ca3-5982-4461-b986-0a3af9123a5a"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "4f9e3fca-8393-4f3e-8872-e28e3f62bbab"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "inferencemethodnode",
+        "atlas_moore, p.d., webb, j.a. and collinson, m.e. 1991: pollen analysis. oxford: blackwell."
+      ]
+    },
+    "NodeTypeName": "InferenceMethodNode",
+    "PrettyName": "Explicit: Atlas or Key - Moore, P.D., Webb, J.A. and Collinson, M.E. 1991: Pollen analysis. Oxford: Blackwell."
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_betula pubescens ssp. tortuosa"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Betula pubescens ssp. tortuosa"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_betula nana"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Betula nana"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_salix"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Salix"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_juniperus communis"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Juniperus communis"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_empetrum nigrum"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Empetrum nigrum"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_dryas octopetala"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Dryas octopetala"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_cyperaceae"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Cyperaceae"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_poaceae"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Poaceae"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_capsella bursa-pastoris type"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Capsella bursa-pastoris type"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_ranunculus type"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Ranunculus type"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_caltha palustris"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Caltha palustris"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_thalictrum alpinum"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Thalictrum alpinum"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_apiaceae"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Apiaceae"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_rosaceae undiff."
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Rosaceae undiff."
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_potentilla type"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Potentilla type"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_plantago maritima"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Plantago maritima"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_armeria maritima"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Armeria maritima"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_galium type"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Galium type"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_sedum type"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Sedum type"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_chenopodiaceae"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Chenopodiaceae"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_caryophyllaceae"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Caryophyllaceae"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_oxyria + rumex"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Oxyria + Rumex"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_koenigia islandica"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Koenigia islandica"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_saxifraga"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Saxifraga"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_lycopodium annotinum"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Lycopodium annotinum"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_selaginella selaginoides"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Selaginella selaginoides"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_polypodicaeae"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Polypodicaeae"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "inferencemethodnode",
+        "atlas_rundgren, m. 1995: biostratigraphic evidence of the allerød–younger dryas–preboreal oscillation in northern iceland. quaternary research 44, 405–16."
+      ]
+    },
+    "NodeTypeName": "InferenceMethodNode",
+    "PrettyName": "Explicit: Atlas or Key - Rundgren, M. 1995: Biostratigraphic evidence of the Allerød–Younger Dryas–Preboreal oscillation in northern Iceland. Quaternary Research 44, 405–16."
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_juniperus type"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Juniperus type"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_hornungia type"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Hornungia type"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_empetrum nigrum ssp. nigrum type"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Morphotype: Pollen - Empetrum nigrum ssp. nigrum type"
   }
 ]

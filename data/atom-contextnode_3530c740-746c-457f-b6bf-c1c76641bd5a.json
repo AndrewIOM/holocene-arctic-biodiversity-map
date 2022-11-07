@@ -1,0 +1,34 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "3530c740-746c-457f-b6bf-c1c76641bd5a"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Geitakarlsvötn"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 66.083333
+              },
+              {
+                "item": -20.266667
+              }
+            ]
+          },
+          "SampleOrigin": "LakeSediment",
+          "SampleLocationDescription": {
+            "item": "Steep slopes to west and south. Two inflows. Large catchment area approx 15km2."
+          }
+        }
+      }
+    }
+  ],
+  []
+]

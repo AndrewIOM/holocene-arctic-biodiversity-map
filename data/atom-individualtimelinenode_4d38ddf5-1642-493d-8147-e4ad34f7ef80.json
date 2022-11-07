@@ -1,0 +1,235 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "36056390-0aca-44fe-b82a-c20b206c683f"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "8dded7b4-f950-4111-8b92-a84bad216aa1"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "bfbefe0d-3671-4ee9-bcf2-a56ae7ff320f"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c4f1cc38-ea62-49db-ad6c-c9bba42816fa"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "4f9e3fca-8393-4f3e-8872-e28e3f62bbab"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "d9d51ca3-5982-4461-b986-0a3af9123a5a"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "bea4d235-86fe-42bf-b6c3-7ef1e55ff892"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "81b484e8-93ae-4617-b7bc-e6d96f183ed1"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "8180c571-2e31-498c-894e-fd5bd4e07ec2"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "99a0efd3-b6f3-442e-8cff-d16984038315"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "0804a9e6-5636-4a18-9d59-eb6f91244928"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "11300ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7800ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

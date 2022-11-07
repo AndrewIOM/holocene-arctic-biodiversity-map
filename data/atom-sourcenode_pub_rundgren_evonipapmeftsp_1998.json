@@ -8,7 +8,7 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
+        "Included": {
           "Bibliographic": {
             "Author": {
               "item": "Rundgren, M."
@@ -24,5 +24,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_rundgren_evonipapmeftsp_1998"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4d38ddf5-1642-493d-8147-e4ad34f7ef80"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_rundgren_evonipapmeftsp_1998"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "99a0efd3-b6f3-442e-8cff-d16984038315"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "bea4d235-86fe-42bf-b6c3-7ef1e55ff892"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "TimeEstimate": 9180.0,
+          "Date": {
+            "RadiocarbonUncalibrated": 9180.0
+          },
+          "MaterialDated": {
+            "item": "mosses"
+          },
+          "SampleDepth": {
+            "_depth": 705.0
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  []
+]

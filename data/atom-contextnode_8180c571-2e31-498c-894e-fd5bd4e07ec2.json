@@ -1,0 +1,34 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "8180c571-2e31-498c-894e-fd5bd4e07ec2"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Torfadalsvatn"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 66.066667
+              },
+              {
+                "item": -20.383333
+              }
+            ]
+          },
+          "SampleOrigin": "LakeSediment",
+          "SampleLocationDescription": {
+            "item": "Rocky plateaux surrounding site. Dwarf shrub heaths. "
+          }
+        }
+      }
+    }
+  ],
+  []
+]
