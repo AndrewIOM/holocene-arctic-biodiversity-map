@@ -1,7 +1,402 @@
 source_id	source_title	source_year	site_name	LatDD	LonDD	inferred_from	inferred_using	biodiversity_measure	inferred_as	sample_origin
+			Settlement Point Afognak Island	58.05	-152.7	Contemporaneous Whole Organism: Picea sitchensis (Bong.) Carriére	Implicit	PresenceOnly	Picea sitchensis (Bong.) Carriére [Species]	LivingOrganism
+			Four Twelve with Revisit	67.93	-162.3	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Arrigetch	67.45	-154.05	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Sheenjek River and Flats	68.63	-143.72	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Fox River Bank	64.82	-163.7	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Grasshopper Hill	64.92	-163.67	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Kobuk/Noatak	67.07	-159.62	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Firth River	68.1	-141.1	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Chimney Lake	67.12	-150.08	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			North Fork Koyukuk	67.15	-150.08	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Nutirwik Creek	67.15	-149.13	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Nutirwik Creek Floodplain	67.15	-149.13	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Hunt Fork of John River	67.13	-152.07	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Sheenjek River	68.08	-143.13	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Almond Butter Lower	65.18	-162.2	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Almond Butter Upper	65.18	-162.22	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Alpine View	65.12	-162.18	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Burnt Over	65.22	-162.25	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Bye Rosanne	65.08	-162.18	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Death Valley	65.2	-162.27	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Echo Slope	65.1	-162.15	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Frost Valley	65.08	-162.15	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Gordon's Cat	65.2	-162.2	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Hey Bear	65.22	-162.22	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Hey Bear Upper	65.22	-162.22	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Mt. Mole	65.08	-162.18	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Ptarmigan Hill	65.07	-162.23	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Windy Ridge Alaska	65.18	-162.22	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Dalton Highway Mile Post 171	67.22	-150.27	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Dalton Highway Mile Post 182	67.35	-150.05	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Dalton Highway Mile Post 184	67.38	-150.1	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Dalton Highway Mile Post 199	67.53	-149.85	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Dalton Highway Mile Post 200	67.55	-149.83	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Dalton Highway Mile Post 201	67.57	-149.82	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Dalton Highway Mile Post 235	68.03	-149.68	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Fish Trap	60.48	-154.33	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Portage Lake	60.5	-153.88	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Middle Telaquana	60.97	-153.92	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Lower Twin Lake	60.65	-154.02	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Dalton Highway	67.9667	-149.7667	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Sukak Pak	67.35	-149.4667	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Kodiak Island	57.6167	-152.3167	Contemporaneous Whole Organism: Picea sitchensis (Bong.) Carriére	Implicit	PresenceOnly	Picea sitchensis (Bong.) Carriére [Species]	LivingOrganism
+			412/Noatak	67.9167	-162.3	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Giddings	67.0833	-157.9167	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Pony Point  Kodiak Island	57.62	-152.28	Contemporaneous Whole Organism: Picea sitchensis (Bong.) Carriére	Implicit	PresenceOnly	Picea sitchensis (Bong.) Carriére [Species]	LivingOrganism
+			Babe Creek Toe Slope	64.9997	147.6663	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Isthmus  Kodiak Island	57.63	-152.33	Contemporaneous Whole Organism: Picea sitchensis (Bong.) Carriére	Implicit	PresenceOnly	Picea sitchensis (Bong.) Carriére [Species]	LivingOrganism
+			Fork Twin Creek  Kodiak Island	57.6	-152.32	Contemporaneous Whole Organism: Picea sitchensis (Bong.) Carriére	Implicit	PresenceOnly	Picea sitchensis (Bong.) Carriére [Species]	LivingOrganism
+			Fort Chimo (Merged)	58.37	-68.38	Contemporaneous Whole Organism: Larix laricina (Du Roi) K. Koch	Implicit	PresenceOnly	Larix laricina (Du Roi) K. Koch [Species]	LivingOrganism
+			Nain A+b	56.55	-62	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Thelon Game Sanctuary	63.83	-104	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Spruce Creek	68.63	-138.63	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Border Beacon	55.33	-63.25	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Willow Lake	62.17	-119.13	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Willow Lake Insel	62.17	-119.13	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Bras d'Or Lake	62.45	-116.13	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Fort Providence	61.17	-117.37	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Fort Simpson McKenzie River Terrace	61.68	-120.72	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Dorothea Lake	54.2	-61.57	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Mountain Lake Newfoundland	53.48	-58.67	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Mountain Lake Newfoundland Ufe	53.48	-58.67	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Bras d'Or Lake (Insel)	62.45	-116.13	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Pethai Peninsula	62.68	-110.97	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Fort Simpson McKenzie River Unstable Slope	61.68	-120.72	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Austin Lake	62.17	-110.08	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Mac Kinley	62.73	-111.63	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Churchill	58.67	-93.48	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Lac Romanel	56.23	-67.72	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Lac Romanel (Feucht)	56.23	-67.72	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Wakuach Lake	55.28	-67.12	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Wakuach Lake	55.28	-67.12	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Eastmain River feucht	52.03	-77.85	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			No Name Lake	54.58	-77.57	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			No Name Lake (Trocken)	54.58	-77.57	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Fishing Creek	52.02	-82.9	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Churchill	58.67	-93.48	Contemporaneous Whole Organism: Larix laricina (Du Roi) K. Koch	Implicit	PresenceOnly	Larix laricina (Du Roi) K. Koch [Species]	LivingOrganism
+			Charlie Lake	60.03	-100.43	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Coats River	55.73	-76.15	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Lac Natuak	57.22	-71.5	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Lac Natuak (Trocken)	57.22	-71.5	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Buffalo Lake	60.28	-115.27	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Eastmain River trocken	52.03	-77.85	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Coats River (Feucht)	55.73	-76.15	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Yasinski Lake (Trocken)	53.23	-77.67	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Yasinski Lake (Feucht)	53.23	-77.67	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Fort Nelson	58.33	-122.83	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Discovery Ridge (Trees less 200 years)	65.35	-126.7	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Discovery Ridge (Trees grtr 200 years)	65.35	-126.7	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Katherine Creek (Trees less 200 years)	64.97	-127.48	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Katherine Creek (Trees grtr 200 years)	64.97	-127.48	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Richardson Mountain (Trees less 100 years)	66.72	-136.28	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Richardson Mountain (Trees grtr 100 years)	66.72	-136.28	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Skipping Bullet (Trees less 200 years)	64.98	-127.57	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Skipping Bullet (Trees grtr 200 years)	64.98	-127.57	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Tombstone Mountain (Trees less 100 years)	64.52	-138.32	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Tombstone Mountain (Trees grtr 100 years)	64.52	-138.32	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Wood Buffalo National Park Site SF	59.98	-112.35	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Wood Buffalo National Park Site RL	59.8	-112.17	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Wood Buffalo National Park Site BR	59.12	-112.18	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Wood Buffalo National Park Site PR	59.75	-112.2	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Wood Buffalo National Park Site NL	59.58	-111.33	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Campbell Dolomite Upland	68.27	-133.33	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Coppermine River	67.23	-115.92	Contemporaneous Whole Organism: Picea sp.	Implicit	PresenceOnly	Picea [Genus]	LivingOrganism
+			Franklin Mountains	65.33	-126.68	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Hornby Cabin	64.03	-103.87	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			MacKenzie Mountains	65	-127.83	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Twisted Tree Heartrot Hill	65	-138.33	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Churchill Composite	58.72	-94.07	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Castle Peninsula	56.17	-76.55	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Nutak	57.5	-61.75	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Bonif  historisc	55.33	-77.83	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Campbell Dolomite Upland B fos.	68.27	-133.33	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Campbell Dolomite Upland B	68.27	-133.33	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Eyeglass Lake	57.92	-61.6	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Medusa Bay	56.92	-61.5	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			White Spruce Upland, Churchill MB	58.62	-93.8	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			White Spruce Upland, Churchill MB	58.62	-93.8	Contemporaneous Whole Organism: Larix laricina (Du Roi) K. Koch	Implicit	PresenceOnly	Larix laricina (Du Roi) K. Koch [Species]	LivingOrganism
+			Black Spruce Wetland, Churchill MB	58.62	-93.83	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Black Spruce Wetland, Churchill MB	58.62	-93.83	Contemporaneous Whole Organism: Larix laricina (Du Roi) K. Koch	Implicit	PresenceOnly	Larix laricina (Du Roi) K. Koch [Species]	LivingOrganism
+			NFOR, Wapusk National Park, Manitoba	58.53	-93.47	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			NFOR, Wapusk National Park, Manitoba	58.53	-93.47	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			NFOR, Wapusk National Park, Manitoba	58.53	-93.47	Contemporaneous Whole Organism: Larix laricina (Du Roi) K. Koch	Implicit	PresenceOnly	Larix laricina (Du Roi) K. Koch [Species]	LivingOrganism
+			TUND, Wapusk National Park, Manitoba	57.95	-93.22	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			TUND, Wapusk National Park, Manitoba	57.95	-93.22	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			SFOR, Wapusk National Park, Manitoba	57.32	-93.03	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			SFOR, Wapusk National Park, Manitoba	57.32	-93.03	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			TUND, Wapusk National Park, Manitoba	57.95	-93.22	Contemporaneous Whole Organism: Larix laricina (Du Roi) K. Koch	Implicit	PresenceOnly	Larix laricina (Du Roi) K. Koch [Species]	LivingOrganism
+			Shadow Lake	62.57	-114.35	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Settling Pond	62.52	-114.35	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Central Pond	62.5	-114.35	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			APIT	62.48	-114.37	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Fox Lake	62.48	-114.42	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Kam Lake	62.42	-114.42	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Dettah Road	62.47	-114.3	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			River Lake	62.6	-114.13	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Prelude Lake	62.55	-113.85	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Prelude Lake East	62.52	-113.82	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Ingraham Trail	62.55	-113.87	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Fifty Kilometres	62.5	-113.43	Contemporaneous Whole Organism: Pinus banksiana Lamb.	Implicit	PresenceOnly	Pinus banksiana Lamb. [Species]	LivingOrganism
+			Bison	61.7	-116.95	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Falls	61.2	-120	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Falls	61.2	-120	Contemporaneous Whole Organism: Pinus balfouriana Balf.	Implicit	PresenceOnly	Pinus balfouriana Balf. [Species]	LivingOrganism
+			No Map Lake	60.0333	-119.05	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Darcey Lake	60.9167	-111.6	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Darcey Lake	60.9167	-111.6	Contemporaneous Whole Organism: Pinus balfouriana Balf.	Implicit	PresenceOnly	Pinus balfouriana Balf. [Species]	LivingOrganism
+			Fahey	61.4333	-121.2667	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Squatters Camp	61.1	-118.7833	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Electric Light Forest	61.35	-120.8	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Electric Light Forest	61.35	-120.8	Contemporaneous Whole Organism: Pinus balfouriana Balf.	Implicit	PresenceOnly	Pinus balfouriana Balf. [Species]	LivingOrganism
+			Taltson River	60.55	-110.6	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Taltson River	60.55	-110.6	Contemporaneous Whole Organism: Pinus balfouriana Balf.	Implicit	PresenceOnly	Pinus balfouriana Balf. [Species]	LivingOrganism
+			Tombolo	56	-61	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Napaktok Bay Spruce/Napaktok Woods	57.15	-62.3	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Salt Water Pond	56.5167	-61.9167	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Pistolet Bay	55.4167	-61.3167	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Ittyhauk Bay	56	-61	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Coppermine River	67.23	-115.92	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	LivingOrganism
+			Firth River Yukon	68.7833	-142.35	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Thelon	64.0333	-103.8667	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Eagle Fecal/Horton River	69.5	-127.8333	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Ptarmigan	69.5	-127.8333	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Ptarmigan	69.5	-127.8333	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+			Rock Glacier Yukon	61.3667	-128.35	Contemporaneous Whole Organism: Abies lasiocarpa (Hook.) Nutt.	Implicit	PresenceOnly	Abies lasiocarpa (Hook.) Nutt. [Species]	LivingOrganism
+			Laagennus Pyhantunturi National Park	67	27.12	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Laagennus Pyhantunturi National Park	67	27.12	Contemporaneous Whole Organism: Picea abies (L.) H. Karst.	Implicit	PresenceOnly	Picea abies (L.) H. Karst. [Species]	LivingOrganism
+			Palasjarvi Palastunturi	68.03	24.1	Contemporaneous Whole Organism: Picea abies (L.) H. Karst.	Implicit	PresenceOnly	Picea abies (L.) H. Karst. [Species]	LivingOrganism
+			Karhunpesäkivi Inari	68.83	27.25	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Uusijoki Inari Peuravuono	68.53	28	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Vuotso GSF	68.07	27.2	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kessi Inari	68.92	28.48	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Sodankylä Church	67.4	26.6	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Tutkimusasema	67.22	26.82	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Vytamoselka	67.08	27.02	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Sompio	68.13	27.45	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Riukuselka	68.45	28.07	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Morgammaras	68.67	25.87	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Suojanpera	69.32	28.13	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Jurmarova	68.87	26.88	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Pyhatunturi	67	27.25	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Pallasmaja	68	24.2	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kesänkijärvi	67.56	24.3	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Luosu PI	67.5	24.15	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Luosu PS	67.5	24.15	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Ketomella PK	68.22	24.05	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Ketomella PT	68.22	24.05	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Ketomella PW	68.22	24.05	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Ailijärvi Inari	69.52	28.57	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Ailijärvi Inari	69.52	28.57	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Juomusjärvi	69.26	27.4	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Juomusjärvi	69.26	27.4	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kuusipää	68.45	27.36	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kuusipää	68.45	27.36	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Karhunpesäkivi	68.83	27.31	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Karhunpesäkivi	68.83	27.31	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kutujärvi	68.77	27.15	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kutujärvi	68.77	27.15	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Lofoten Loedingen	68.48	16.03	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Narvik	68.48	17.73	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Skibotn	69.25	20.58	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Skjerstad Botn. Soldatenf.	67.07	15.45	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Karasjok	69.42	25.63	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Vikran	69.53	18.73	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Stonglandseidet	69.08	17.22	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Forfjorddalen 2	68.8	15.73	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Rorstaddalen	67.6	15.33	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Borealoa River	67.62	15.73	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Dividalur	68.86	19.59	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Dividalur	68.86	19.59	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Fisktjörna	69.06	19.34	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Fisktjörna	69.06	19.34	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Nikkavatnet	69.36	18.73	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Nikkavatnet	69.36	18.73	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Nedre Karingsvatnet	68.57	16.06	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Nedre Karingsvatnet	68.57	16.06	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Skibotn 2	69.35	20.32	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Skibotn 2	69.35	20.32	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Alta	69.92	23.11	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Alta	69.92	23.11	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Polar Urals Upper Timberline Near Spring Site	66.83	65.75	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Subpolar Urals Upper Timberline Near Spring Site	64.67	60	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Forest-Tundra Zone Intermediate Moisture Site	66.5	66.42	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Yamal Hadyta River Polar Timberline Near Spring	66.92	69.17	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Yamal Hadyta River Intermediate Moisture Site	66.92	69.17	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Forest-Tundra Zone Intermediate Moisture Site B	66.6	82.33	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Forest-Tundra Zone Mangazeya Near Spring Site	66.6	82.33	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Forest-Tundra Zone Mangazeya Dry Site	66.6	82.33	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Forest-Tundra Zone Mangazeya Swampy Site	66.6	82.33	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Esso Village Kamchatka	55.9	158.8	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Tolbachek Volcano Kamchatka	55.82	160.17	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Lukunska River	72.5	105.17	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Polar Ural (historisch)	66.87	65.63	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Polar Ural (rezent)	66.87	65.63	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Sidorovsk	66.67	82.33	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Kotuykan River B	70.6	104.25	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Olenok River	69.78	119.12	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Solenoya-River	68.12	85.05	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Indikyakha-River	68.25	80.18	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Kulyumbe River	67.97	88.92	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Ikon River	70.52	89.5	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Kulyumbe River	67.97	88.92	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Ozera Lama	69.58	90.5	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Nadim River B	66.13	71.67	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Yevoyakha River	66.08	77.68	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Shchuchye River	66.82	69.28	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Khadyta River	67.2	69.83	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Pinega	64.92	42.5	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kheygiyakha River	65.5	72.65	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Kotuy River	70.27	103.52	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Pinega	64.92	42.5	Contemporaneous Whole Organism: Picea abies (L.) H. Karst.	Implicit	PresenceOnly	Picea abies (L.) H. Karst. [Species]	LivingOrganism
+			Nonburg	65.6	50.63	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Nonburg	65.6	50.63	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Shchely Bozh	66.22	56.33	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Voroney	63.43	43.55	Contemporaneous Whole Organism: Picea abies (L.) H. Karst.	Implicit	PresenceOnly	Picea abies (L.) H. Karst. [Species]	LivingOrganism
+			Voroney	63.43	43.55	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Voroney	63.43	43.55	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Shchely Bozh	66.22	56.33	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kedvaran	64.25	53.57	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Olenjok	68.6	112.25	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Zhigansk	66.52	122.33	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Zhaschiviersk	67.45	142.62	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Moma River	65.88	145.3	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Khotugn-Uladan-Tukulan	63.38	125.8	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Charijaga	66.88	51.95	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Khandiga River	62.47	137.75	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Charijaga	66.88	51.95	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Uel-Siktjach river	69.28	125.33	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Leshukonskoe	64.92	42.5	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Kedvaran	64.25	53.57	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Kedvaran	64.25	53.57	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Ayandina River	68.42	143.17	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Shchely Bozh	66.22	56.33	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Kuonamka River (trocken)	69.77	112.82	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Khandiga River	62.47	137.75	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Mangazeja (hist. + rez.)	66.68	82.3	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Mangazeja (historisch)	66.68	82.3	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Kuonamka River (feucht)	69.77	112.82	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Seimchan-river	63.52	151.72	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Sidorovsk	66.67	82.33	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Zolotica	65.33	41.12	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Popigay	71.9	111.03	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Ary-Ongorbynf-River A	71.7	118.58	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Kheta River	69.12	84.5	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Kheta River junge Bäume	69.12	84.5	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Novoja Rieka	72.45	101.75	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Yevoyakha River	66.08	77.68	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Kheygiyakha River B	65.38	72.87	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Alagea River	68.45	147.58	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Balshoia Anui	66.22	165.42	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Bulun river	65.1	154.93	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Ust Nera	64.53	143.12	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Rossocha River	65.15	149.43	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Khadutte River	67.47	76.77	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Murmashi	68.77	32.8	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Ayakli River A	69.53	97.53	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Ukyu	62.6	58.8	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Murmashi	68.77	32.8	Contemporaneous Whole Organism: Picea abies (L.) H. Karst.	Implicit	PresenceOnly	Picea abies (L.) H. Karst. [Species]	LivingOrganism
+			Polui River Head B	65.35	69.52	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Pinega, Belomop-kuloi pla	64.92	42.5	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Polui River Head	65.3	69.68	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Nadim River	66.22	71.67	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Srednie-Kolymsk	67.25	153.7	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Sartan river	64.93	132.93	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Bryungjade river	63.62	141.35	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Batagay,Chandon-river	70.25	138.17	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Cherskij	68.8	163.05	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Baraii River	63.65	133.78	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Baraii River	63.65	133.78	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Verchoyansk,Cakker river	67.83	130.83	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Shaguchan river	63.58	148.28	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Tirekhtjakh river	67.62	137.47	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Omoloya River	70.95	132.98	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Nonburg	65.6	50.63	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Malchoyakha River	66.08	77.68	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Kozhim	65.45	60.58	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Balschaya Kamenka River	71.33	93.83	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Alakurtti	66.98	30.25	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Bilibina, Mali Anuj River	67.47	167.67	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Nuleger river	71.22	127.43	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Andryuschkine	69.28	154.77	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Majakit River/village	61.28	151.95	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Julietta north	61.17	153.97	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Kubaka upper near timber	63.67	159.95	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Tschokurdach, Ochotingna	70.28	148.05	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Kubaka right bank middle	63.67	159.95	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Julietta south	61.17	153.97	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Adycha river (slope)	65.8	137.25	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Adycha river (bog)	65.8	137.25	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Balygichan Ebene	62.13	155.03	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Balygichan River	62.13	154.58	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Takhojama	60.35	154.12	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Jama river	59.78	154	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Jama river	59.78	154	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Under Vangapur River A	62.93	76.38	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Under Vangapur River B	63.07	76.32	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Kotuy River B	70.27	103.52	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Olenok River	69.78	119.12	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Ayakli River B	69.53	97.53	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Ary-Ongorbynf-River B	71.7	118.58	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Kotuykan River	70.6	104.25	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Popigay B	71.9	111.03	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Polar Urals, upper timber	66.87	65.63	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Nojabrsk west	63.13	75.33	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Markovo	64.83	169	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Muzhy-Settlement	65.32	64.65	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			Verhnutulomskij Ylä-Tuuloma	68.65	31.67	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Indigirka	70.53	148.15	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Lakeside south of Chokurdak	70.5	148.13	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Berelekh	70.47	144.27	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Kirlach	70.43	143.93	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Allayka	70.05	146.45	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Nanjan	69.45	150.25	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Argaa	69.12	150.27	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Northern Yakutia	69.5	147	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Kola Peninsula	68.42	35.28	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Lower Lena	70.67	125.87	Contemporaneous Whole Organism: Larix decidua Mill.	Implicit	PresenceOnly	Larix decidua Mill. [Species]	LivingOrganism
+			Cherskii	68.75	161.4167	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Dvanieyar	68.6667	159.0833	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Grass Lake	68.75	161.3833	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Parshina	68.5333	160.2	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Rodenka Hill	68.7333	161.55	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Tree Line	69.2	161.4333	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Cemetary Valley Zhigansk	66.7573	123.3551	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Lena River Bluff	66.7507	123.4165	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Indylyun River	66.2758	123.9168	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Indylyun River	66.2758	123.9168	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Sylakh	66.2104	123.0049	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Zhigansk floodplain	66.7618	123.3498	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			Ari Mas	72.45	101.9	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Kotuikan River	70.3667	103.2667	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			River View	70.65	109.4667	Contemporaneous Whole Organism: Larix gmelinii (Rupr.) Kuzen.	Implicit	PresenceOnly	Larix gmelinii (Rupr.) Kuzen. [Species]	LivingOrganism
+			Polar Urals LDEO	66.9	65.6	Contemporaneous Whole Organism: Larix sibirica Ledeb.	Implicit	PresenceOnly	Larix sibirica Ledeb. [Species]	LivingOrganism
+			More Ju	67.8167	60.0167	Contemporaneous Whole Organism: Picea obovata Ledeb.	Implicit	PresenceOnly	Picea obovata Ledeb. [Species]	LivingOrganism
+			W Norilsk	69.0167	83.6667	Contemporaneous Whole Organism: Larix sp.	Implicit	PresenceOnly	Larix [Genus]	LivingOrganism
+			Putorana	70.5167	92.95	Contemporaneous Whole Organism: Larix sp.	Implicit	PresenceOnly	Larix [Genus]	LivingOrganism
+			Muddas 2 (Recollection of Muddas Site A)	66.85	20.37	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Muddas National Park A	66.85	20.37	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Muddas National Park B	66.78	20.13	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Arjeplog (Plot 4011) Lapland	66.33	18.45	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Arosjak	67.87	19.42	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Arjeplog	66.07	17.98	Contemporaneous Whole Organism: Picea abies (L.) H. Karst.	Implicit	PresenceOnly	Picea abies (L.) H. Karst. [Species]	LivingOrganism
+			Kaaresuvanto Enontekiö	68.48	22.15	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Torneträsk r+f., Bartoli	68.23	19.67	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Torneträsk rez., Bartoli	68.23	19.67	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Torneträsk fos., Bartoli	68.23	19.67	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Muddas South	66.78	20.13	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Angerusjärvi	67.63	21.77	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Abisko Valley	68.33	18.8	Contemporaneous Whole Organism: Betula pubescens Ehrh.	Implicit	PresenceOnly	Betula pubescens Ehrh. [Species]	LivingOrganism
+			Kiruna	67.9	20.1	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kiruna KW	67.9	20.1	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Torneträsk TR	68.2	19.8	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Torneträsk TW	68.2	19.8	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Jokkmokk	66.65	20.11	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Jokkmokk	66.65	20.11	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kiruna 2	67.9	20.1	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
+			Kiruna 2	67.9	20.1	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
 sourcenode_pub_aalto_astpfhiosps1atntif_2009	A summer temperature proxy from height increment of Scots pine since 1561 at the northern timberline in Fennoscandia	2009	Laanila	68.49194444	27.33361111	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
 sourcenode_pub_aalto_throsteotlmif_2011	The height-increment record of summer temperature extended over the last millennium in Fennoscandia	2011	Laanila	68.49166699999999	27.3333335	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
-sourcenode_pub_arseneault_a2tcosbsmgfrtlcc_noyear	A 2233-year tree-ring chronology of subarctic black spruce (Picea mariana): growth forms response to long-term climate change		Rivière Boniface / Lac Bush	57.73333334	-76.16666667	Contemporaneous Whole Organism: Picea mariana (Mill.) B.S.P.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	"OtherOrigin (ShortText ""Livng Organism and Subfossil"")"
+sourcenode_pub_arseneault_a2tcosbsmgfrtlcc_noyear	A 2233-year tree-ring chronology of subarctic black spruce (Picea mariana): growth forms response to long-term climate change		Rivière Boniface / Lac Bush	57.73333334	-76.16666667	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	"OtherOrigin (ShortText ""Livng Organism and Subfossil"")"
 sourcenode_pub_babst_ltpatbaospotamainf_2010	Landsat TM/ETM plus and tree-ring based assessment of spatiotemporal patterns of the autumnal moth (Epirrita autumnata) in northernmost Fennoscandia	2010	T2_top	68.48	18.74	Contemporaneous Whole Organism: Betula pubescens	Implicit	PresenceAbsence	Epirrita autumnata Borkhausen [Species]	LivingOrganism
 sourcenode_pub_babst_ltpatbaospotamainf_2010	Landsat TM/ETM plus and tree-ring based assessment of spatiotemporal patterns of the autumnal moth (Epirrita autumnata) in northernmost Fennoscandia	2010	T2_top	68.48	18.74	Contemporaneous Whole Organism: Betula pubescens	Implicit	PresenceOnly	Betula pubescens subsp. tortuosa (Ledeb.) Nyman [Subspecies]	LivingOrganism
 sourcenode_pub_babst_ltpatbaospotamainf_2010	Landsat TM/ETM plus and tree-ring based assessment of spatiotemporal patterns of the autumnal moth (Epirrita autumnata) in northernmost Fennoscandia	2010	T2_mid	68.47	18.72	Contemporaneous Whole Organism: Betula pubescens	Implicit	PresenceAbsence	Epirrita autumnata Borkhausen [Species]	LivingOrganism
@@ -16,9 +411,10 @@ sourcenode_pub_babst_ltpatbaospotamainf_2010	Landsat TM/ETM plus and tree-ring b
 sourcenode_pub_babst_ltpatbaospotamainf_2010	Landsat TM/ETM plus and tree-ring based assessment of spatiotemporal patterns of the autumnal moth (Epirrita autumnata) in northernmost Fennoscandia	2010	T1_low 	68.36	18.78	Contemporaneous Whole Organism: Betula pubescens	Implicit	PresenceOnly	Betula pubescens subsp. tortuosa (Ledeb.) Nyman [Subspecies]	LivingOrganism
 sourcenode_pub_buras_waojcappfprita_2017	Wood anatomy of Juniperus communis: a promising proxy for palaeoclimate reconstructions in the Arctic	2017	Kobbefjord 	64.16911045070853	-51.39636686906844	Contemporaneous Whole Organism: Juniperus communis L.	Implicit	PresenceOnly	Juniperus communis L. [Species]	LivingOrganism
 sourcenode_pub_case_a5rocatdftllrronsr_1998	A 538-year record of climate and treeline dynamics from the lower Lena River region of Northern Siberia, Russia	1998	Lena River	70.66667	125.86667	Contemporaneous Whole Organism: Larix dahurica Turcz. ex Trautv.	Implicit	PresenceOnly	Larix dahurica Turcz. ex Trautv. [Species]	LivingOrganism
-sourcenode_pub_enright_pcaotriwsgfsc_1984	Principal components analysis of tree-ring/climate relationships in white spruce (Picea glauca) from Schefferville, Canada	1984	Ironarm	54.915437	-66.637529	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_enright_pcaotriwsgfsc_1984	Principal components analysis of tree-ring/climate relationships in white spruce (Picea glauca) from Schefferville, Canada	1984	Menihek	54.747078	-66.95837	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_enright_pcaotriwsgfsc_1984	Principal components analysis of tree-ring/climate relationships in white spruce (Picea glauca) from Schefferville, Canada	1984	Annabel	54.978545	-67.020914	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_enright_pcaotriwsgfsc_1984	Principal components analysis of tree-ring/climate relationships in white spruce (Picea glauca) from Schefferville, Canada	1984	Ironarm	54.915437	-66.637529	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_enright_pcaotriwsgfsc_1984	Principal components analysis of tree-ring/climate relationships in white spruce (Picea glauca) from Schefferville, Canada	1984	Menihek	54.747078	-66.95837	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_enright_pcaotriwsgfsc_1984	Principal components analysis of tree-ring/climate relationships in white spruce (Picea glauca) from Schefferville, Canada	1984	Annabel	54.978545	-67.020914	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_fauria_rawaactbtsw_2010	Russian Arctic warming and 'greening' are closely tracked by tundra shrub willows	2010	Varandei	68.65	58.3667	Contemporaneous Whole Organism: Salix lanata L.	Implicit	PresenceOnly	Salix lanata L. [Species]	LivingOrganism
 sourcenode_pub_gorlanova_ptsisjsbatufrece_2000	Pathological tree-ring structures in Siberian juniper (Juniperus sibirica Burgsd.) and their use for reconstructing extreme climatic events	2000	Rai-Iz Massif, Mount Chernaya	66.89877331850863	65.78245826252028	Contemporaneous Whole Organism: Juniperus sibirica Burgsd.	Implicit	PresenceOnly	Juniperus sibirica Burgsd. [Species]	LivingOrganism
 sourcenode_pub_helle_csitwdadcflies_2008	Climate signals in tree-ring width, density and delta C-13 from larches in Eastern Siberia (Russia)	2008	Suntar Khayata mountain ridge	63.1	139.08	Contemporaneous Whole Organism: Larix cajanderi Mayr	Implicit	PresenceOnly	Larix cajanderi Mayr [Species]	LivingOrganism
 sourcenode_pub_jalkanen_a2hcfpsatnctantfrpst_2005	A 250-year-long height-increment chronology for Pinus sylvestris at the northern coniferous timberline: A novel tool for reconstructing past summer temperatures?	2005	Tornetrösk	68.21694444	19.73361111	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
@@ -61,29 +457,29 @@ sourcenode_pub_mikkola_hofdimkarabotr_1996	History of forest damage in Monchegor
 sourcenode_pub_mikkola_hofdimkarabotr_1996	History of forest damage in Monchegorsk, Kola: A retrospective analysis based on tree rings	1996	B	67.88	32.85	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
 sourcenode_pub_mikkola_hofdimkarabotr_1996	History of forest damage in Monchegorsk, Kola: A retrospective analysis based on tree rings	1996	A	67.91	32.85	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism
 sourcenode_pub_molau_agaridlaacp_1997	Age-related growth and reproduction in Diapensia lapponica, an arctic-alpine cushion plant	1997	Latnjajaure valley	68.36667	18.48333	Contemporaneous Whole Organism: Diapensia lapponica L.	Implicit	PresenceOnly	Diapensia lapponica L. [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	TM2	68.17	-139.78	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	TM1	68.34	-139.72	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	TH1	68.33	-140.75	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	SC1	67.76	-140.52	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	PC18	67.53	-139.32	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	PC17	67.55	-139.41	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC54	68.22	-140.09	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC53	67.86	-139.79	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC52	68.05	-139.59	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC51	68.07	-139.78	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC50	68.13	-139.93	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC10	67.72	-139.82	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC9	67.7	-139.81	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC2	67.59	-139.75	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	JC1	67.95	-139.14	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP31	67.48	-140.26	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP30	67.48	-140.33	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP27	67.5	-140.06	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP26	67.52	-140.02	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP25	67.52	-139.99	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP24	67.51	-139.6	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP23	67.5	-139.96	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
-sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP21	67.53	-139.93	Contemporaneous Whole Organism: Picea glauca [Moench] Vos	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	TM2	68.17	-139.78	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	TM1	68.34	-139.72	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	TH1	68.33	-140.75	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	SC1	67.76	-140.52	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	PC18	67.53	-139.32	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	PC17	67.55	-139.41	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC54	68.22	-140.09	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC53	67.86	-139.79	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC52	68.05	-139.59	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC51	68.07	-139.78	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC50	68.13	-139.93	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC10	67.72	-139.82	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC9	67.7	-139.81	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	OC2	67.59	-139.75	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	JC1	67.95	-139.14	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP31	67.48	-140.26	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP30	67.48	-140.33	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP27	67.5	-140.06	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP26	67.52	-140.02	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP25	67.52	-139.99	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP24	67.51	-139.6	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP23	67.5	-139.96	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
+sourcenode_pub_pisaric_tdiwsfoocfytaaronna_2011	Temperature-growth divergence in white spruce forests of Old Crow Flats, Yukon Territory, and adjacent regions of northwestern North America	2011	DP21	67.53	-139.93	Contemporaneous Whole Organism: Picea glauca (Moench) Voss	Implicit	PresenceOnly	Picea glauca (Moench) Voss [Species]	LivingOrganism
 sourcenode_pub_rundgren_evonipapmeftsp_1998	Early-Holocene vegetation of northern Iceland: pollen and plant macrofossil evidence from the Skagi peninsula	1998	Lake Geitakarlsvötn	66.083333	-20.266667	Morphotype: Plant Macrofossil - Armeria maritima	Implicit	PresenceAbsence	Armeria maritima (Mill.) Willd. [Species]	LakeSediment
 sourcenode_pub_rundgren_evonipapmeftsp_1998	Early-Holocene vegetation of northern Iceland: pollen and plant macrofossil evidence from the Skagi peninsula	1998	Lake Geitakarlsvötn	66.083333	-20.266667	Morphotype: Plant Macrofossil - Caltha palustris	Implicit	PresenceAbsence	Caltha palustris L. [Species]	LakeSediment
 sourcenode_pub_rundgren_evonipapmeftsp_1998	Early-Holocene vegetation of northern Iceland: pollen and plant macrofossil evidence from the Skagi peninsula	1998	Lake Geitakarlsvötn	66.083333	-20.266667	Morphotype: Plant Macrofossil - Dryas octopetala	Implicit	PresenceAbsence	Dryas octopetala L. [Species]	LakeSediment
