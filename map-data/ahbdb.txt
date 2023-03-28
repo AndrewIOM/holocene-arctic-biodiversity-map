@@ -3781,59 +3781,6 @@ source_id	source_title	source_year	site_name	LatDD	LonDD	inferred_from	inferred_
 			Pur-Taz Peatland	66.7	79.73333	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	PeatCore	9227	9227
 			Pur-Taz Peatland	66.7	79.73333	Morphotype: Pollen - Poaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	PeatCore	9227	9227
 			Pur-Taz Peatland	66.7	79.73333	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	PeatCore	9227	9227
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Palynomorph - Cosmarium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Sphagnum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Actinopeltis	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Polemonium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Lycopodium clavatum-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Lycopodium undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Selaginella rupestris	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Unknown (pre-Quaternary)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Scrophulariaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Riccia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Sanguisorba officinalis	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Gelasinospora	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Lycopodium annotinum-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Podospora	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Sporormiella	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Microthyrium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Rubus chamaemorus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Valeriana	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Indeterminable	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Cichorioideae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Larix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Rosaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Liliaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Abies	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Glomus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Sordaria-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Equisetum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Pinaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Bistorta officinalis-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Picea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Colony - Pediastrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Polypodiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Huperzia selago	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Pinus subg. Pinus-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Saxifraga	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Brassicaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Poaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Cyperaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Betula sect. Apterocaryon	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Ranunculaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Botryococcus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Alnus viridis subsp. fruticosa-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Betula sect. Betula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Ericales	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Pinus subg. Strobus-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Asteraceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Salix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Encalypta	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Onagraceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Thalictrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Mamontovy Klyk	73.60722	117.125	Morphotype: Pollen - Caryophyllaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
 			Mamontovy Khayata	71.78944	129.39917	Morphotype: Pollen - Polypodiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
 			Mamontovy Khayata	71.78944	129.39917	Morphotype: Pollen - Indeterminable undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
 			Mamontovy Khayata	71.78944	129.39917	Morphotype: Pollen - Rubus chamaemorus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
@@ -5645,58 +5592,6 @@ source_id	source_title	source_year	site_name	LatDD	LonDD	inferred_from	inferred_
 			Angal Lake	67.13333	-153.9	Morphotype: Pollen - Ericales	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
 			Angal Lake	67.13333	-153.9	Morphotype: Pollen - Rumex/Oxyria digyna	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
 			Angal Lake	67.13333	-153.9	Morphotype: Pollen - Populus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Lycopodium clavatum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Cichorioideae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Galium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Bupleurum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Liliaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Fabaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Saxifraga tricuspidata-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Brassicaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Apiaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Alnus undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Shepherdia canadensis	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Valeriana	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Lycopodiaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Rhododendron subsect. Ledum-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Rubus chamaemorus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Typha latifolia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Cornus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Lycopodium annotinum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Rumex/Oxyria digyna	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Caryophyllaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Nuphar	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Urticaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Unknown	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Colony - Botryococcus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Potentilla	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Rosaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Unknown (trilete) undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Juniperus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Asteroideae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Picea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Betula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Alnus viridis	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Poaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Cyperaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Salix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Colony - Pediastrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Indeterminable	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Typha/Sparganium undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Myrica	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Myriophyllum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Sphagnum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Equisetum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Alnus incana	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Unknown (monolete) undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Potamogetonaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Ericaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Plantago	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Populus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Pinus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
-			Ped Pond	67.2	-142.06667	Morphotype: Pollen - Ranunculaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	11700	11700
 			Screaming Yellowlegs Pond	67.58333	-151.41667	Morphotype: Pollen - Apiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
 			Screaming Yellowlegs Pond	67.58333	-151.41667	Morphotype: Pollen - Diphasiastrum complanatum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
 			Screaming Yellowlegs Pond	67.58333	-151.41667	Morphotype: Pollen - Alnus incana	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
@@ -11129,58 +11024,6 @@ source_id	source_title	source_year	site_name	LatDD	LonDD	inferred_from	inferred_
 			Baie du Diana	60.78278	-69.83278	Morphotype: Pollen - Asteroideae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	7500	7500
 			Baie du Diana	60.78278	-69.83278	Morphotype: Pollen - Caryophyllaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	7500	7500
 			Baie du Diana	60.78278	-69.83278	Morphotype: Pollen - Alnus incana-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	7500	7500
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Acer spicatum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Pyrola	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Thalictrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - cf. Oxyria digyna	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Typha/Sparganium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Ranunculaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Menyanthes trifoliata	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Cichorioideae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Colony - Pediastrum undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Ulmus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Colony - Pseudopediastrum boryanum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Dryas	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Isoëtes	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Vaccinium oxycoccos	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Brassicaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Equisetum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Lycopodium clavatum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Juniperus communis/Thuja occidentalis-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Asteroideae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Quercus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Ambrosia-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Cyperaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Betula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Picea mariana-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Alnus viridis-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Ericaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Picea undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Huperzia selago-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Pinus undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Vaccinium uliginosum-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Alnus incana-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Rosaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Unknown (monolete)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Sphagnum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Pinus banksiana-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Unknown (trilete)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Corylus cornuta	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Salix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Populus tremuloides-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Pinus strobus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Myrica gale	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Poaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Chamaedaphne calyculata	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Lycopodium annotinum-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Lycopodiella inundata	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Rubus chamaemorus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Acer saccharum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Juniperus-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Larix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Fagus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
-			Tourbière de la Rivière-aux-Feuilles	58.23278	-72.06694	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	4947	4947
 			Rivière-aux-Feuilles 2	58.21694	-71.95	Morphotype: Pollen - Acer spicatum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	5532	5532
 			Rivière-aux-Feuilles 2	58.21694	-71.95	Morphotype: Pollen - cf. Oxyria digyna	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	5532	5532
 			Rivière-aux-Feuilles 2	58.21694	-71.95	Morphotype: Pollen - Ranunculaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	5532	5532
@@ -11534,56 +11377,6 @@ source_id	source_title	source_year	site_name	LatDD	LonDD	inferred_from	inferred_
 			Diana 375	60.9875	-69.95833	Morphotype: Pollen - Juniperus-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	6982	6982
 			Diana 375	60.9875	-69.95833	Morphotype: Pollen - Ulmus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	6982	6982
 			Diana 375	60.9875	-69.95833	Morphotype: Pollen - Cichorioideae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	6982	6982
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Populus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Menyanthes trifoliata	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Bistorta vivipara	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Hippuris vulgaris	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Cichorieae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Filipendula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Potamogeton	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Sordariaceae/Sordaria (type 55B, HdV)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Ambrosia-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Caltha-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Polygonum aviculare-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Montia fontana	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Saxifragaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Ribes	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Aster-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Polemonium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Scrophulariaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Rubiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Sporormiella (type 113, HdV)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Gentianaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Rumex acetosa/R. acetosella	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Fabaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Equisetum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Rubus chamaemorus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Botrychium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Achillea-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Myrica gale	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Picea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Rosaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Potentilla-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Lycopodium annotinum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Ranunculus-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Brassicaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Sordaria-type (type 55A, HdV)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Epilobium-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Betula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Poaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Alnus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Indeterminable	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Cyperaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Unknown (monolete)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Sphagnum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Rumex-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Ericaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Salix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Pinus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Urtica-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Apiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
-			Nunalleq	59.71547400000001	-161.852972	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	524	524
 			Smorodinovoye Lake	64.76667	141.11667	Morphotype: Pollen - Primula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
 			Smorodinovoye Lake	64.76667	141.11667	Morphotype: Pollen - Polygonaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
 			Smorodinovoye Lake	64.76667	141.11667	Morphotype: Pollen - Boraginaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
@@ -12577,117 +12370,6 @@ source_id	source_title	source_year	site_name	LatDD	LonDD	inferred_from	inferred_
 			East Siberian Sea Coast 11	71.06667	156.25	Morphotype: Pollen - Ericaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	8451	8451
 			East Siberian Sea Coast 11	71.06667	156.25	Morphotype: Pollen - Polypodiophyta	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	8451	8451
 			East Siberian Sea Coast 11	71.06667	156.25	Morphotype: Pollen - Equisetum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	8451	8451
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Marchantiophyta	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Myriophyllum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Dryopteridaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Draba	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Caprifoliaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Sanguisorba	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Lycopodium juniperoideum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Diphasiastrum complanatum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Menyanthes trifoliata	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Polypodium vulgare	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Rubiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Botrychium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Lycopodium clavatum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Apiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Equisetum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Pinus subg. Pinus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Myrica	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Bryales	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Diphasiastrum alpinum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Koenigia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Claytonia acutifolia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Circaea alpina	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Athyrium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Nymphaeaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Selaginella rupestris	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Rubus chamaemorus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Brassicaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Lycopodium annotinum subsp. alpestre	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Lycopodiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Valeriana	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Rosaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Polemoniaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Polygonum aviculare	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Scrophulariaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Unknown	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Rumex	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Saxifragaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Polygonaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Polygonum sensu lato undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Thalictrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Sphagnum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Salix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Poaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Betula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Cyperaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Huperzia selago	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Pinus subg. Strobus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Polypodiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Ericales	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Alnus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Picea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Caryophyllaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Picea sect. Eupicea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Plantaginaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Asteraceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Ranunculaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Liliaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Aghnaghak	63.652288	-171.565578	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Huperzia selago subsp. arctica-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Diphasiastrum alpinum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Rubiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Colony - Pediastrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Caprifoliaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Plantaginaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Equisetum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Potentilla	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Menyanthes trifoliata	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Potamogetonaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Polypodium vulgare	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Koenigia islandica	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Pinaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Persicaria amphibia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Lycopodiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Juglandaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Thalictrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Lycopodium annotinum subsp. alpestre	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Rumex	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Huperzia selago	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Selaginella sanguinolenta	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Diphasiastrum complanatum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Claytonia acutifolia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Circaea alpina	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Rubus chamaemorus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Polygonum aviculare	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Polypodiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Bryales	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Valeriana	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Apiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Rosaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Polemoniaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Picea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Unknown	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Liliaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Pinus subg. Strobus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Cyperaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Saxifragaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Scrophulariaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Poaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Polygonaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Ranunculaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Salix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Sphagnum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Alnus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Caryophyllaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Betula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Ericales	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Polygonum sensu lato undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
-			Naskak	63.637546	-171.46224999999998	Morphotype: Pollen - Asteraceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	7807	7807
 			Vechernii River	63.28333	147.75	Morphotype: Pollen - Thalictrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	4956	4956
 			Vechernii River	63.28333	147.75	Morphotype: Pollen - Diphasiastrum complanatum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	4956	4956
 			Vechernii River	63.28333	147.75	Morphotype: Pollen - Potentilla	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	4956	4956
@@ -14625,125 +14307,6 @@ source_id	source_title	source_year	site_name	LatDD	LonDD	inferred_from	inferred_
 			Lake Billyakh	65.287106	126.765276	Morphotype: Pollen - Salix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
 			Lake Billyakh	65.287106	126.765276	Morphotype: Pollen - Ranunculaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
 			Lake Billyakh	65.287106	126.765276	Morphotype: Pollen - Pinus subg. Strobus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Violaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Sanguisorba	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Pinguicula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Galium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Androsace	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Geum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Phlox	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Viola biflora-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Armeria maritima	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Ambrosia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Polemonium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Pedicularis capitata	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Gentiana	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Menyanthes trifoliata-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Persicaria maculosa-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Juncaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Populus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Tanacetum-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Epilobium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Fagus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Ostrya/Carpinus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Primulaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Thalictrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Quercus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Selaginella selaginoides	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Huperzia selago	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Castilleja	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Lagotis	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Papaveraceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Potamogeton	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Myriophyllum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Botrychium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Pedicularis lanata-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Plantago	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Liliaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Colony - Pediastrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Selaginella undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Rumex	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Sparganium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Ranunculaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Osmunda-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Lamiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Valeriana	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Cyperaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Poaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Betula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Alnus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Salix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Sphagnum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Ericaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Brassicaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Unknown	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Unknown (monolete)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Asteroideae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Indeterminable	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Picea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Lycopodium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Dryas	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Cichorioideae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Caryophyllaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Unknown (trilete)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Selaginella sibirica	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Scrophulariaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Saussurea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Bistorta officinalis-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Pinus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Fabaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Shepherdia canadensis	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Saxifragaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 2	69.71098	-155.21153	Morphotype: Pollen - Hippuris vulgaris	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Botrychium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Campanula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Pedicularis lanata-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Populus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Bistorta officinalis-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Papaveraceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Phlox	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Saussurea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Ephedra	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Colony - Pediastrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Pinus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Unknown (monolete)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Plantago	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Lagotis	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Fabaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Claytonia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Ambrosia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Apiaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Juncaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Cyperaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Poaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Brassicaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Salix	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Betula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Sphagnum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Asteroideae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Alnus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Indeterminable	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Cichorioideae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Lycopodium	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Dryas	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Unknown	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Saxifragaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Caryophyllaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Selaginella sibirica	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Unknown (trilete)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Huperzia selago	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Potamogeton	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Picea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Ericaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Liliaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Valeriana	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Thalictrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Sanguisorba	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
-			Titaluk River Exposure 1	69.71098	-155.21153	Morphotype: Pollen - Ranunculaceae undiff.	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Excavation"")"	11700	11700
 			Ennadai Lake	61.16667	-100.91667	Morphotype: Pollen - Angiospermae undiff. (herbs)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	PeatCore	6188	6188
 			Ennadai Lake	61.16667	-100.91667	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	PeatCore	6188	6188
 			Ennadai Lake	61.16667	-100.91667	Morphotype: Pollen - Ericaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	PeatCore	6188	6188
@@ -17819,43 +17382,6 @@ source_id	source_title	source_year	site_name	LatDD	LonDD	inferred_from	inferred_
 			Grunnlinesletta	77.5833	21	Morphotype: Pollen - Asteroideae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	507	507
 			Grunnlinesletta	77.5833	21	Morphotype: Pollen - Oxyria digyna	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	507	507
 			Grunnlinesletta	77.5833	21	Morphotype: Pollen - Betula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	507	507
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Selaginella helvetica-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Plantago lanceolata-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Urtica	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Corylus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Picea	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Sagina	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Dryas octopetala	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Koenigia islandica	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Potentilla	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Sphagnum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Sparganium-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Ranunculus hyperboreus-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Alnus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Oxyria digyna	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Silene uralensis-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Pinus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Polypodiales (monolete)	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Tilletia sphagni	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Pedicularis hirsuta	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Papaver radicatum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Amaranthaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Ambrosia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Ulmus	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Brassicaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Equisetum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Silene	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Salix polaris-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Cyperaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Saxifraga oppositifolia-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Cerastium-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Ranunculus sulphureus-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Saxifraga cespitosa-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Micranthes nivalis-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Bistorta vivipara	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Poaceae	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
-			Anderssonbukta	78.3083	20.6083	Morphotype: Pollen - Betula	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	"OtherOrigin (ShortText ""Composite"")"	1826	1826
 			Dolerittneset	78.075	20.9225	Morphotype: Pollen - Chrysosplenium tetrandrum	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	655	655
 			Dolerittneset	78.075	20.9225	Morphotype: Pollen - Plantago maritima-type	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	655	655
 			Dolerittneset	78.075	20.9225	Morphotype: Pollen - Potentilla	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	LakeSediment	655	655
@@ -18394,7 +17920,6 @@ source_id	source_title	source_year	site_name	LatDD	LonDD	inferred_from	inferred_
 			Semmeldalen	77.92761	15.42529	Morphotype: Pollen - Artemisia	Implicit	Abundance	Placeholder from NeotomaDB Import [Kingdom]	PeatCore	3361	3361
 sourcenode_pub_aalto_astpfhiosps1atntif_2009	A summer temperature proxy from height increment of Scots pine since 1561 at the northern timberline in Fennoscandia	2009	Laanila	68.49194444	27.33361111	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism	389	389
 sourcenode_pub_aalto_throsteotlmif_2011	The height-increment record of summer temperature extended over the last millennium in Fennoscandia	2011	Laanila	68.49166699999999	27.3333335	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism	1205	1205
-sourcenode_pub_arseneault_a2tcosbsmgfrtlcc_noyear	A 2233-year tree-ring chronology of subarctic black spruce (Picea mariana): growth forms response to long-term climate change		Rivière Boniface / Lac Bush	57.73333334	-76.16666667	Contemporaneous Whole Organism: Picea mariana (Mill.) Britton, Sterns, & Poggenb.	Implicit	PresenceOnly	Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]	"OtherOrigin (ShortText ""Livng Organism and Subfossil"")"	2177	2177
 sourcenode_pub_babst_ltpatbaospotamainf_2010	Landsat TM/ETM plus and tree-ring based assessment of spatiotemporal patterns of the autumnal moth (Epirrita autumnata) in northernmost Fennoscandia	2010	T2_top	68.48	18.74	Contemporaneous Whole Organism: Betula pubescens	Implicit	PresenceAbsence	Epirrita autumnata Borkhausen [Species]	LivingOrganism	95	95
 sourcenode_pub_babst_ltpatbaospotamainf_2010	Landsat TM/ETM plus and tree-ring based assessment of spatiotemporal patterns of the autumnal moth (Epirrita autumnata) in northernmost Fennoscandia	2010	T2_top	68.48	18.74	Contemporaneous Whole Organism: Betula pubescens	Implicit	PresenceOnly	Betula pubescens subsp. tortuosa (Ledeb.) Nyman [Subspecies]	LivingOrganism	95	95
 sourcenode_pub_babst_ltpatbaospotamainf_2010	Landsat TM/ETM plus and tree-ring based assessment of spatiotemporal patterns of the autumnal moth (Epirrita autumnata) in northernmost Fennoscandia	2010	T2_mid	68.47	18.72	Contemporaneous Whole Organism: Betula pubescens	Implicit	PresenceAbsence	Epirrita autumnata Borkhausen [Species]	LivingOrganism	88	88
@@ -18419,12 +17944,6 @@ sourcenode_pub_jalkanen_a2hcfpsatnctantfrpst_2005	A 250-year-long height-increme
 sourcenode_pub_jalkanen_a2hcfpsatnctantfrpst_2005	A 250-year-long height-increment chronology for Pinus sylvestris at the northern coniferous timberline: A novel tool for reconstructing past summer temperatures?	2005	Mounio	68.13361111	23.35027778	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism	213	213
 sourcenode_pub_jalkanen_a2hcfpsatnctantfrpst_2005	A 250-year-long height-increment chronology for Pinus sylvestris at the northern coniferous timberline: A novel tool for reconstructing past summer temperatures?	2005	Kiruna	67.85027778	20.31694444	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism	213	213
 sourcenode_pub_jalkanen_a2hcfpsatnctantfrpst_2005	A 250-year-long height-increment chronology for Pinus sylvestris at the northern coniferous timberline: A novel tool for reconstructing past summer temperatures?	2005	Lannila	68.46694444	27.30027778	Contemporaneous Whole Organism: Pinus sylvestris L.	Implicit	PresenceOnly	Pinus sylvestris L. [Species]	LivingOrganism	185	185
-sourcenode_pub_lefevre_hdocasfaia_1991	Historical Diversity of Cormorants and Shags from Amchitka Island Alaska	1991	Site 31 and Site 36 (composite)	51.46	-179.05	Macrofossil: Aves (Bone)	Explicit: Atlas or Key - Siegel-Causey, D. 1988. Phylogeny of the Phalacrocoracidae. Condor 90:885-905. 	Abundance	Compsohalieus perspicillatus Pallas [Species]	"OtherOrigin (ShortText ""Midden"")"	2650	2650
-sourcenode_pub_lefevre_hdocasfaia_1991	Historical Diversity of Cormorants and Shags from Amchitka Island Alaska	1991	Site 31 and Site 36 (composite)	51.46	-179.05	Macrofossil: Aves (Bone)	Explicit: Atlas or Key - Siegel-Causey, D. 1988. Phylogeny of the Phalacrocoracidae. Condor 90:885-905. 	Abundance	Phalacrocorax capillatus Temminck & Schlegel [Species]	"OtherOrigin (ShortText ""Midden"")"	2650	2650
-sourcenode_pub_lefevre_hdocasfaia_1991	Historical Diversity of Cormorants and Shags from Amchitka Island Alaska	1991	Site 31 and Site 36 (composite)	51.46	-179.05	Macrofossil: Aves (Bone)	Explicit: Atlas or Key - Siegel-Causey, D. 1988. Phylogeny of the Phalacrocoracidae. Condor 90:885-905. 	Abundance	Hypoleucus auritus Lesson [Species]	"OtherOrigin (ShortText ""Midden"")"	2650	2650
-sourcenode_pub_lefevre_hdocasfaia_1991	Historical Diversity of Cormorants and Shags from Amchitka Island Alaska	1991	Site 31 and Site 36 (composite)	51.46	-179.05	Macrofossil: Aves (Bone)	Explicit: Atlas or Key - Siegel-Causey, D. 199 1. Systematics and biogeography of North Pacific shags, with a description of a new species. Oct. Pap. Univ. Kansas Mus. Nat. Hist. 140:1-17.	Abundance	Stictocarbo kenyoni Siegel-Causey [Species]	"OtherOrigin (ShortText ""Midden"")"	2650	2650
-sourcenode_pub_lefevre_hdocasfaia_1991	Historical Diversity of Cormorants and Shags from Amchitka Island Alaska	1991	Site 31 and Site 36 (composite)	51.46	-179.05	Macrofossil: Aves (Bone)	Explicit: Atlas or Key - Siegel-Causey, D. 199 1. Systematics and biogeography of North Pacific shags, with a description of a new species. Oct. Pap. Univ. Kansas Mus. Nat. Hist. 140:1-17.	Abundance	Stictocarbo urile Gmelin [Species]	"OtherOrigin (ShortText ""Midden"")"	2650	2650
-sourcenode_pub_lefevre_hdocasfaia_1991	Historical Diversity of Cormorants and Shags from Amchitka Island Alaska	1991	Site 31 and Site 36 (composite)	51.46	-179.05	Macrofossil: Aves (Bone)	Explicit: Atlas or Key - Siegel-Causey, D. 199 1. Systematics and biogeography of North Pacific shags, with a description of a new species. Oct. Pap. Univ. Kansas Mus. Nat. Hist. 140:1-17.	Abundance	Stictocarbo pelagicus Pallas [Species]	"OtherOrigin (ShortText ""Midden"")"	2650	2650
 sourcenode_pub_makela_bpmathobabnl_1998	Birch pollen measurements and the history of birch at Bruvatnet, Norwegian Lapland	1998	Bruvatnet	70.183333	28.416667	Morphotype: Pollen - Betula pendula	Explicit: Atlas or Key - Mäkelä (1998) Birch pollen measurements and the history of birch at Bruvatnet, Norwegian Lapland, Grana, 37:6, 358-3	Abundance	Betula pendula Roth [Species]	LakeSediment	10300	10300
 sourcenode_pub_makela_bpmathobabnl_1998	Birch pollen measurements and the history of birch at Bruvatnet, Norwegian Lapland	1998	Bruvatnet	70.183333	28.416667	Morphotype: Pollen - Betula pubescens	Explicit: Atlas or Key - Mäkelä (1998) Birch pollen measurements and the history of birch at Bruvatnet, Norwegian Lapland, Grana, 37:6, 358-3	Abundance	Betula pubescens Ehrh. [Species]	LakeSediment	10300	10300
 sourcenode_pub_makela_bpmathobabnl_1998	Birch pollen measurements and the history of birch at Bruvatnet, Norwegian Lapland	1998	Bruvatnet	70.183333	28.416667	Morphotype: Pollen - Betula pubescens ssp. tortuosa	Explicit: Atlas or Key - Mäkelä (1998) Birch pollen measurements and the history of birch at Bruvatnet, Norwegian Lapland, Grana, 37:6, 358-3	Abundance	Betula tortuosa Ledeb. [Species]	LakeSediment	10300	10300
