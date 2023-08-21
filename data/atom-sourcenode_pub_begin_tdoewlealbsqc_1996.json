@@ -27,5 +27,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_begin_tdoewlealbsqc_1996"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "107e6ce2-e1b9-4d46-93cf-d66bf0b2ab09"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
