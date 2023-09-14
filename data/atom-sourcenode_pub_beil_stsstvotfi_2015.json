@@ -22,10 +22,35 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_beil_stsstvotfi_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "22dca591-a5c5-417e-99e6-dd0ce61a0f3a"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
