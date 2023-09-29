@@ -26,5 +26,114 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1a21e9d1-5655-4626-8c05-783471e5621e"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "985e36fd-67f2-4653-9b35-16e32678d9c6"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "36dd5e3f-8f03-4917-bea8-e2a81ed0302a"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "49aa9bc8-425e-40ed-92be-2c383631b807"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "a3dff094-0626-4bed-8018-5bc61a90e5ed"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "5e3b5dac-7c68-4c9b-a689-9c8eb1254c3a"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
