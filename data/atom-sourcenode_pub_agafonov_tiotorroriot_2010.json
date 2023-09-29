@@ -21,12 +21,192 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          "CompletedAll"
         ]
       }
     }
   ],
   [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "5bf15c50-9dc8-4487-bba6-d2d7c7e0daf0"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2e82059e-4f5c-4b17-af0c-c5c594d91866"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "5a48c279-4ab9-49b1-b210-d85e6cf65cdc"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "b4a42b8e-06b0-41b8-81cd-665d7a39ca36"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "8c7a5f15-c30c-4e9d-8257-78041cc0f6e3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "8a0cfa26-400b-4d5b-87aa-d5d7035f6a88"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "15931ed8-d5f0-480f-91c3-8c94a47da198"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "88391372-eabc-433b-8af8-9ce831742a7d"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "8c167287-5dcd-4e10-a3ba-52b2b7634cde"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_agafonov_tiotorroriot_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "55fa5bda-8015-40c2-8791-b9fe883d2e0c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
     [
       {
         "FriendlyKey": [
