@@ -27,5 +27,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_arefyev_fowocircositnoyagp_2015"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_arefiev s.p._neoy_2000"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]
