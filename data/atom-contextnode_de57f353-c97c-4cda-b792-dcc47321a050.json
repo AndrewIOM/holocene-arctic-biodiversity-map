@@ -1,0 +1,22 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "de57f353-c97c-4cda-b792-dcc47321a050"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Komi Republic S3: Middle taiga"
+          },
+          "SamplingLocation": "Arctic",
+          "SampleOrigin": "LivingOrganism"
+        }
+      }
+    }
+  ],
+  []
+]
