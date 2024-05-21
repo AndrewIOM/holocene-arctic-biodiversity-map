@@ -4,16 +4,17 @@ open BiodiversityCoder.Core.GraphStructure
 open FSharp.Data
 
 type IndividualMeasureCsv = CsvProvider<
-    Sample = "source_id, source_title, source_year, source_authors, source_type, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, sample_origin, earliest_extent, latest_extent, proxy_category",
-    Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string)", HasHeaders = true>
+    Sample = "source_id, source_title, source_year, source_authors, source_type, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, taxon_kingdom, taxon_family, taxon_genus, taxon_species, sample_origin, earliest_extent, latest_extent, proxy_category",
+    Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), taxon_kingdom (string), taxon_family (string), taxon_genus (string), taxon_species (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string)", HasHeaders = true>
 
 type IndividualSiteCsv = CsvProvider<
-    Sample = "source_id, source_title, source_year, source_authors, source_type, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, sample_origin, earliest_extent, latest_extent, proxy_category, variability_temp, variability_precip, max_temp, max_precip, min_temp, min_precip, elevation_change, dist_to_land_ice_max, dist_to_land_ice_min",
-    Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string), variability_temp (float), variability_precip (float), max_temp (float), max_precip (float), min_temp (float), min_precip (float), elevation_change (int option), dist_to_land_ice_max (float), dist_to_land_ice_min (float)", HasHeaders = true>
+    Sample = "source_id, source_title, source_year, source_authors, source_type, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, taxon_kingdom, taxon_family, taxon_genus, taxon_species, sample_origin, earliest_extent, latest_extent, proxy_category, variability_temp, variability_precip, max_temp, max_precip, min_temp, min_precip, elevation_change, dist_to_land_ice_max, dist_to_land_ice_min, dating_methods, dating_levels, depth_min, depth_max",
+    Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), taxon_kingdom (string), taxon_family (string), taxon_genus (string), taxon_species (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string), variability_temp (float), variability_precip (float), max_temp (float), max_precip (float), min_temp (float), min_precip (float), elevation_change (int option), dist_to_land_ice_max (float), dist_to_land_ice_min (float), dating_methods (string), dating_levels (string), depth_min (float option), depth_max (float option)", HasHeaders = true>
 
 type CryosphereData = CsvProvider<"../../src/cryo-db/cryo_db.csv">
 
 let unwrap (f:float<_>) = float f
+let removeUnit (x:float<_>) = float x
 
 let origin = function
     | Population.Context.LakeSediment _ -> "Lake sediment core"
@@ -28,9 +29,16 @@ let proxyToGroup = function
     | Population.BioticProxies.AncientDNA _ -> "Ancient DNA"
     | Population.BioticProxies.Morphotype m ->
         match m with
-        | Population.BioticProxies.Macrofossil _-> "Marcofossil"
+        | Population.BioticProxies.Macrofossil _-> "Macrofossil"
         | Population.BioticProxies.Megafossil _ -> "Megafossil"
-        | Population.BioticProxies.Microfossil (g,_) -> g.ToString()
+        | Population.BioticProxies.Microfossil (g,_) ->
+            match g with
+            | Population.BioticProxies.MicrofossilGroup.Diatom -> "Microfossil: Diatom"
+            | Population.BioticProxies.MicrofossilGroup.Ostracod -> "Microfossil: Ostracod"
+            | Population.BioticProxies.MicrofossilGroup.OtherMicrofossilGroup g -> sprintf "Microfossil: %s" g.Value
+            | Population.BioticProxies.MicrofossilGroup.PlantMacrofossil -> "Microfossil: Plant Macrofossil"
+            | Population.BioticProxies.MicrofossilGroup.Pollen -> "Microfossil: Pollen"
+            
 
 let extractLatLon sampleLocation =
     match sampleLocation with
@@ -48,6 +56,75 @@ let extractLatLon sampleLocation =
         let lon = poly.Value |> List.map snd |> List.averageBy(fun v -> v.Value |> unwrap)
         lat, lon
     | _ -> nan, nan
+
+let atomToTaxon n =
+    match n |> fst |> snd with
+    | GraphStructure.Node.PopulationNode p ->
+        match p with
+        | PopulationNode.TaxonomyNode t -> Some ((n |> fst |> snd).DisplayName(), t)
+        | _ -> None
+    | _ -> None
+
+let crawlTaxonomicTree relations (graph:Storage.FileBasedGraph<'a,'b>) =
+    let rec crawl relations atoms =
+        let isA = relations |> List.tryFind(fun (_,_,_,r) ->
+            match r with
+            | Relation.Population p ->
+                match p with
+                | Population.PopulationRelation.IsA -> true
+                | _ -> false
+            | _ -> false)
+        match isA with
+        | Some (_,sink,_,_) ->
+                let atom = sink |> Storage.loadAtom graph.Directory (typeof<Population.Taxonomy.TaxonNode>.Name)
+                match atom with
+                | Ok atom ->
+                    match atomToTaxon atom with
+                    | Some t -> crawl (atom |> snd) (t :: atoms)
+                    | None -> Error "Expected a taxon node but got something else"
+                | Error e -> Error e
+        | None -> Ok atoms
+    crawl relations []
+
+module UnifiedTaxonomy =
+
+    type PlantNameCache = CsvProvider<
+        Sample = "taxon_id, family, genus, species, auth",
+        Schema = "taxon_id (string), family (string), genus (string), species (string), auth (string)">
+
+    let taxonRank t =
+        match t with
+        | Population.Taxonomy.Family _ -> "Family"
+        | Population.Taxonomy.Genus _ -> "Genus"
+        | Population.Taxonomy.Species _ -> "Species"
+        | _ -> "Not supported"
+
+    /// Attempts to lookup the current name using the taxonomic backbone directly, rather than
+    /// relations within the graph database. Uses a cache file to reduce http requests.
+    let tryLookupWithCache taxonId taxonNode family genus species auth =
+        let rank = taxonRank taxonNode
+        if rank = "Not supported" then None
+        else 
+            // 1. Use value from cache if it exists
+            let cache = PlantNameCache.Load "../../../plant-name-cache.csv"
+            match cache.Rows |> Seq.tryFind(fun r -> r.Taxon_id = taxonId) with
+            | Some cached -> Some (cached.Family, cached.Genus, sprintf "%s %s" cached.Species cached.Auth)
+            | None ->
+                let result = TaxonomicBackbone.GlobalPollenProject.lookup rank family genus species auth
+                match result with
+                | Error e -> 
+                    printfn "Taxonomic backbone returned an error: %s" e
+                    None
+                | Ok r ->
+                    let accepted = 
+                        if r.Length = 1 && r.[0].TaxonomicStatus = "accepted" 
+                        then Some r.[0]
+                        else if r.Length = 0 then None
+                        else r |> Seq.tryFind(fun r -> r.TaxonomicStatus = "accepted")
+                    accepted
+                    |> Option.bind(fun accepted ->
+                        cache.Append([PlantNameCache.Row(taxonId, accepted.Family, accepted.Genus, accepted.Species, accepted.NamedBy)]).Save("plant-name-cache.csv")
+                        Some (accepted.Family, accepted.Genus, sprintf "%s %s" accepted.Species accepted.NamedBy))
 
 
 let run () = 
@@ -83,7 +160,10 @@ let run () =
                             | Sources.CodingProgress.InProgress _
                             | Sources.CodingProgress.Stalled _
                             | Sources.CodingProgress.CompletedAll -> Some (s |> fst, i, s |> snd)
-                            | _ -> None
+                            | Sources.CodingProgress.CompletedNone -> Some (s |> fst, i, s |> snd)
+                        | Sources.SourceNode.Excluded (_,because,reason) ->
+                            printfn "%A" because
+                            None
                         | _ -> None
                     | _ -> 
                         printfn "Source is %A" (s |> fst |> fst)                        
@@ -125,6 +205,8 @@ let run () =
             temporalExtents
             |> List.collect id
             |> List.map(fun (sId, sourceName, year, authors, sourceType, extent) ->
+
+                printfn "[Debug] Constructing data for %A" sId
 
                 // Get temporal extent values. Based on links that are always present.
                 let earliestExtent = 
@@ -233,11 +315,47 @@ let run () =
                                     | _ -> false) |> List.map (fst >> Storage.loadAtom graph.Directory (typeof<Population.Taxonomy.TaxonNode>.Name))
                                     |> Result.ofList
 
+                            let addIfSome list st =
+                                match st with
+                                | Some s -> s :: list |> List.distinct
+                                | None -> list
+
+                            let optToStr s = 
+                                match s with
+                                | Some s -> s
+                                | None -> ""
+
+                            // Inferred as is any rank. Move up tree
+                            let kingdoms, families, genera, species = 
+                                inferredAs |> Result.bind(fun manyTaxa -> 
+                                    manyTaxa |> List.choose(fun (atom: Graph.Atom<GraphStructure.Node,GraphStructure.Relation>) ->
+                                        let taxon = atomToTaxon atom
+                                        taxon |> Option.map(fun (t: string * Population.Taxonomy.TaxonNode) ->
+                                            crawlTaxonomicTree (snd atom) graph |> Result.map(fun tree ->
+                                                let allTaxa = tree |> List.append [ t ]
+                                                let kingdom = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Kingdom k -> Some k.Value | _ -> None)
+                                                let family = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Family f -> Some f.Value | _ -> None)
+                                                let genus = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Genus g -> Some g.Value | _ -> None)
+                                                let speciesFull = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Species (g,s,a) -> Some (sprintf "%s %s %s" g.Value s.Value a.Value) | _ -> None)
+                                                let species = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Species (g,s,a) -> Some s.Value | _ -> None)
+                                                let auth = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Species (g,s,a) -> Some a.Value | _ -> None)
+                                                
+                                                // Run through backbone to harmonise taxon names
+                                                match UnifiedTaxonomy.tryLookupWithCache (atom |> fst |> fst).AsString (snd t) (optToStr family) (optToStr genus) (optToStr species) (optToStr auth) with
+                                                | Some (f,g,s) -> kingdom, Some f, Some g, Some s
+                                                | None -> kingdom, family, genus, speciesFull )
+                                        )
+                                    ) |> Result.ofList
+                                ) 
+                                |> Result.lower id (fun _ -> [])
+                                |> List.fold(fun (k,f,g,s) (k2,f2,g2,s2) ->
+                                    (addIfSome k k2,addIfSome f f2,addIfSome g g2,addIfSome s s2)) ([],[],[],[])
+
                             let from = inferredFrom |> Result.lift(fun (n: Graph.Atom<GraphStructure.Node,obj>) -> (n |> fst |> snd).DisplayName()) |> Result.toOption
                             let using = inferredUsing |> Result.lift(fun (n: Graph.Atom<GraphStructure.Node,obj>) -> (n |> fst |> snd).DisplayName()) |> Result.toOption
                             let by = outcomeMeasure |> Result.lift(fun (n: Graph.Atom<GraphStructure.Node,obj>) -> (n |> fst |> snd).DisplayName()) |> Result.toOption
-                            let asT = inferredAs |> Result.lift(fun n -> n |> List.map(fun (n: Graph.Atom<GraphStructure.Node,obj>) -> (n |> fst |> snd).DisplayName()))
-                            asT |> Result.lift(fun taxa -> (from, using, by, (taxa |> String.concat ";"), proxyGroups))
+                            let asT = inferredAs |> Result.lift(fun n -> n |> List.map(fun (n: Graph.Atom<GraphStructure.Node,Relation>) -> (n |> fst |> snd).DisplayName()))
+                            asT |> Result.lift(fun taxa -> (from, using, by, taxa, proxyGroups, kingdoms |> List.except [ "Placeholder from NeotomaDB Import"], families, genera, species))
                         ) |> Result.ofList
                     )
 
@@ -263,7 +381,7 @@ let run () =
 
                 let allProxyGroups =
                     biodiversityOutcomes
-                    |> Result.bind(fun l -> l |> List.map(fun (_,_,_,_,g) -> g) |> Result.ofList)
+                    |> Result.bind(fun l -> l |> List.map(fun (_,_,_,_,g,_,_,_,_) -> g) |> Result.ofList)
                     |> Result.lift(fun l -> match proxyGroups with | Ok p -> List.concat [l |> List.concat; p] | Error _ -> l |> List.concat)
                     |> Result.lift(fun l -> l |> List.distinct |> String.concat ";")
 
@@ -284,8 +402,8 @@ let run () =
                         // Multiply out for each biodiversity outcome record.
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
-                            ls |> List.map(fun (from, using, by, taxon, groups) ->
-                                sId, sourceName, year, authors, sourceType, context.Name.Value, lat, lon, from, using, by, taxon, origin context.SampleOrigin, earliestExtent, latestExtent, groups |> forceOk |> String.concat ";"))
+                            ls |> List.map(fun (from, using, by, taxon, groups: Result<string list,string>, kingdoms, families, genera, species) ->
+                                sId, sourceName, year, authors, sourceType, context.Name.Value, lat, lon, from, using, by, taxon |> Seq.distinct |> String.concat ";", kingdoms |> Seq.distinct |> String.concat ";", families |> Seq.distinct |> String.concat ";", genera |> Seq.distinct |> String.concat ";", species |> Seq.distinct |> String.concat ";", origin context.SampleOrigin, earliestExtent, latestExtent, groups |> forceOk |> String.concat ";"))
                     )
 
                 let includedSites =
@@ -324,15 +442,86 @@ let run () =
                                     (if elevChange > 1000 || elevChange < -1000 then None else Some elevChange), // Fix problem with -179 degree CHELSA data
                                     distLandIce |> Seq.max, distLandIce |> Seq.min
                             else nan, nan, nan, nan, nan, nan, None, nan, nan
-                        
+
+                        // Extract date information here
+                        let datingMethods, dateLevels =
+                            extent |> snd |> List.choose(fun (_,sinkId,_,r) ->
+                                match r with
+                                | GraphStructure.Relation.Exposure r ->
+                                    match r with
+                                    | Exposure.ExposureRelation.ConstructedWithDate -> Some sinkId
+                                    | _ -> None
+                                | _ -> None)
+                            |> Storage.loadAtoms graph.Directory (typeof<Exposure.StudyTimeline.IndividualDateNode>.Name)
+                            |> Result.bind(fun atoms ->
+                                atoms |> List.map(fun atom ->
+                                    match atom |> fst |> snd with
+                                    | GraphStructure.Node.ExposureNode p ->
+                                        match p with
+                                        | Exposure.ExposureNode.DateNode c -> Ok c
+                                        | _ -> Error "not a date node"
+                                    | _ -> Error "not a date node" ) |> Result.ofList )
+                            |> Result.lift(fun individualDates ->
+                                
+                                let methodsUsed = 
+                                    individualDates |> List.map(fun d ->                        
+                                        match d.Date with
+                                        | FieldDataTypes.OldDate.RadiocarbonUncalibrated _ -> "Radiocarbon (Uncalibrated)"
+                                        | FieldDataTypes.OldDate.RadiocarbonCalibrated _ -> "Radiocarbon (Calibrated)"
+                                        | FieldDataTypes.OldDate.Tephra _ -> "Tephra layer"
+                                        | FieldDataTypes.OldDate.HistoricEvent _ -> "Historical event"
+                                        | FieldDataTypes.OldDate.Lead210 _ -> "Lead210"
+                                        | FieldDataTypes.OldDate.Radiocaesium _ -> "Radiocaesium"
+                                        | FieldDataTypes.OldDate.CollectionDate _ -> "Known collection date"
+                                        | FieldDataTypes.OldDate.DepositionalZone _ -> "Depositional zone"
+                                    ) |> List.distinct
+
+                                let datedLevels =
+                                    individualDates |> List.map(fun d ->                        
+                                        match d.SampleDepth with
+                                        | Some l ->
+                                            match l with
+                                            | FieldDataTypes.StratigraphicSequence.DepthInCore.DepthNotStated -> None
+                                            | FieldDataTypes.StratigraphicSequence.DepthInCore.DepthBand (l,u) -> Some l.Value
+                                            | FieldDataTypes.StratigraphicSequence.DepthInCore.DepthPoint d -> Some d.Value
+                                            | FieldDataTypes.StratigraphicSequence.DepthInCore.DepthQualitativeLevel _ -> None
+                                        | None -> None
+                                    ) |> List.choose id |> List.map(fun d -> (removeUnit d).ToString())
+                                
+                                methodsUsed, datedLevels
+                            ) |> Result.lower 
+                                (fun (methods, levels) -> methods |> String.concat ";", levels |> String.concat ";")
+                                (fun _ -> "", "")
+
+                        let depthMax, depthMin = 
+                            match context.SampleOrigin with
+                            | Population.Context.SampleOrigin.LakeSediment d
+                            | Population.Context.SampleOrigin.PeatCore d
+                            | Population.Context.SampleOrigin.Excavation d ->
+                                match d with
+                                | FieldDataTypes.StratigraphicSequence.DepthExtent.DepthRangeNotStated -> None, None
+                                | FieldDataTypes.StratigraphicSequence.DepthExtent.DepthRange (top, bottom) -> Some (removeUnit bottom.Value), Some (removeUnit top.Value)
+                            | Population.Context.SampleOrigin.OtherOrigin (_,d) ->
+                                match d with
+                                | Some d ->
+                                    match d with
+                                    | FieldDataTypes.StratigraphicSequence.DepthExtent.DepthRangeNotStated -> None, None
+                                    | FieldDataTypes.StratigraphicSequence.DepthExtent.DepthRange (top, bottom) -> Some (removeUnit bottom.Value), Some (removeUnit top.Value)
+                                | None -> None, None
+                            | _ -> None, None
+
                         // Multiply out for each biodiversity outcome record.
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
-                            let from = ls |> List.choose(fun (from, using, by, taxa, groups) -> from) |> List.distinct |> String.concat ";"
-                            let using = ls |> List.choose(fun (from, using, by, taxa, groups) -> using) |> List.distinct |> String.concat ";"
-                            let by = ls |> List.choose(fun (from, using, by, taxa, groups) -> by) |> List.distinct |> String.concat ";"
-                            let taxa = ls |> List.map(fun (from, using, by, taxa, groups) -> taxa) |> List.distinct |> String.concat ";"
-                            [ sId, sourceName, year, authors, sourceType, context.Name.Value, lat, lon, Some from, Some using, Some by, taxa, origin context.SampleOrigin , earliestExtent, latestExtent, allProxyGroups |> forceOk, varTemp, varPrecip, maxTemp, maxPrecip, minTemp, minPrecip, elevationChange, distIceMax / 1000., distIceMin / 1000. ]
+                            let from = ls |> List.choose(fun (from, using, by, taxa, groups,_,_,_,_) -> from) |> List.distinct |> String.concat ";"
+                            let using = ls |> List.choose(fun (from, using, by, taxa, groups,_,_,_,_) -> using) |> List.distinct |> String.concat ";"
+                            let by = ls |> List.choose(fun (from, using, by, taxa, groups,_,_,_,_) -> by) |> List.distinct |> String.concat ";"
+                            let taxa = ls |> List.map(fun (from, using, by, taxa, groups,_,_,_,_) -> taxa) |> List.distinct |> List.concat |> String.concat ";"
+                            let kingdom = ls |> List.map(fun (from, using, by, taxa, groups,k,_,_,_) -> k) |> List.distinct |> List.concat |> String.concat ";"
+                            let family = ls |> List.map(fun (from, using, by, taxa, groups,_,f,_,_) -> f) |> List.distinct |> List.concat |> String.concat ";"
+                            let genus = ls |> List.map(fun (from, using, by, taxa, groups,_,_,g,_) -> g) |> List.distinct |> List.concat |> String.concat ";"
+                            let species = ls |> List.map(fun (from, using, by, taxa, groups,_,_,_,s) -> s) |> List.distinct |> List.concat |> String.concat ";"
+                            [ sId, sourceName, year, authors, sourceType, context.Name.Value, lat, lon, Some from, Some using, Some by, taxa, kingdom, family, genus, species, origin context.SampleOrigin , earliestExtent, latestExtent, allProxyGroups |> forceOk, varTemp, varPrecip, maxTemp, maxPrecip, minTemp, minPrecip, elevationChange, distIceMax / 1000., distIceMin / 1000., datingMethods, dateLevels, depthMin, depthMax ]
                             )
                         )
 
