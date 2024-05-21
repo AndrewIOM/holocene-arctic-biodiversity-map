@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "36494e1e-1186-4e02-85c5-733f099e8d45"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              {
+                "OtherRegularFeature": {
+                  "item": "Annual snow deposition / shear model"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "36494e1e-1186-4e02-85c5-733f099e8d45"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_other_spore"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "36494e1e-1186-4e02-85c5-733f099e8d45"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "36494e1e-1186-4e02-85c5-733f099e8d45"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "b118aeaa-15f7-486c-a01d-923f541fb398"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "36494e1e-1186-4e02-85c5-733f099e8d45"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-47ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "36494e1e-1186-4e02-85c5-733f099e8d45"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "550ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

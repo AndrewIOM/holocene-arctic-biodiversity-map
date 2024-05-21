@@ -3,7 +3,7 @@
     {
       "UUID": [
         "individualtimelinenode",
-        "7cd7ceb6-ed51-4dbd-bc0a-d708bfdbc446"
+        "591d0ad0-2da1-4cd5-b344-8fa733a7e3ce"
       ]
     },
     {
@@ -12,11 +12,7 @@
           "Continuous": {
             "Regular": [
               1.0,
-              {
-                "OtherRegularFeature": {
-                  "item": "grte"
-                }
-              }
+              "WoodAnatomicalFeatures"
             ]
           }
         }
@@ -28,13 +24,13 @@
       {
         "UUID": [
           "individualtimelinenode",
-          "7cd7ceb6-ed51-4dbd-bc0a-d708bfdbc446"
+          "591d0ad0-2da1-4cd5-b344-8fa733a7e3ce"
         ]
       },
       {
         "UUID": [
           "contextnode",
-          "4bfd623e-7785-42f2-b011-05d49281869a"
+          "62d3c8e9-e98f-47d6-bec5-63c6202cac47"
         ]
       },
       1,
@@ -46,13 +42,31 @@
       {
         "UUID": [
           "individualtimelinenode",
-          "7cd7ceb6-ed51-4dbd-bc0a-d708bfdbc446"
+          "591d0ad0-2da1-4cd5-b344-8fa733a7e3ce"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "59f7abe4-d6d0-4471-8996-86051ed531de"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "591d0ad0-2da1-4cd5-b344-8fa733a7e3ce"
         ]
       },
       {
         "FriendlyKey": [
           "calyearnode",
-          "5745ybp"
+          "-24ybp"
         ]
       },
       1,
@@ -64,13 +78,13 @@
       {
         "UUID": [
           "individualtimelinenode",
-          "7cd7ceb6-ed51-4dbd-bc0a-d708bfdbc446"
+          "591d0ad0-2da1-4cd5-b344-8fa733a7e3ce"
         ]
       },
       {
         "FriendlyKey": [
           "calyearnode",
-          "345ybp"
+          "321ybp"
         ]
       },
       1,
