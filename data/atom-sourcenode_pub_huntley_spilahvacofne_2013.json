@@ -1,0 +1,35 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_huntley_spilahvacofne_2013"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "Bibliographic": {
+            "Author": {
+              "item": "Huntley, B.; Long, A. J.; Allen, J. R. M."
+            },
+            "Title": {
+              "item": "Spatio-temporal patterns in Lateglacial and Holocene vegetation and climate of Finnmark, northernmost Europe"
+            },
+            "Journal": {
+              "item": "Quaternary Science Reviews"
+            },
+            "Year": 2013,
+            "Volume": 70,
+            "Pages": [
+              158,
+              175
+            ],
+            "DataAvailability": "NotAttachedToSource"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -16,8 +16,15 @@
             "Title": {
               "item": "Responses of Fragilarioid-dominated diatom assemblages in a small Arctic lake to Holocene climatic changes, Russell Island, Nunavut, Canada"
             },
+            "Journal": {
+              "item": "Journal of Paleolimnology"
+            },
             "Year": 2008,
             "Volume": 40,
+            "Pages": [
+              1079,
+              1095
+            ],
             "DataAvailability": "NotAttachedToSource"
           }
         }

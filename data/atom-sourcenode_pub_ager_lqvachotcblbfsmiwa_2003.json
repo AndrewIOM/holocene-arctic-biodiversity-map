@@ -16,8 +16,15 @@
             "Title": {
               "item": "Late Quaternary vegetation and climate history of the central Bering land bridge from St. Michael Island, western Alaska"
             },
+            "Journal": {
+              "item": "Quaternary Research (Orlando)"
+            },
             "Year": 2003,
             "Volume": 60,
+            "Pages": [
+              19,
+              32
+            ],
             "DataAvailability": "NotAttachedToSource"
           }
         }

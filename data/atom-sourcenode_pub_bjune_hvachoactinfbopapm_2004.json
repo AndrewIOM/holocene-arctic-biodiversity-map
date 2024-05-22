@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_bjune_hvachoactinfbopapm_2004"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bjune, A.; Birks, H. J. B.; Seppa, H."
+              },
+              "Title": {
+                "item": "Holocene vegetation and climate history on a continental-oceanic transect in northern Fennoscandia based on pollen and plant macrofossils"
+              },
+              "Journal": {
+                "item": "Boreas"
+              },
+              "Year": 2004,
+              "Volume": 33,
+              "Pages": [
+                211,
+                223
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
+      }
+    }
+  ],
+  []
+]

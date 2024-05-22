@@ -1,0 +1,35 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_lozhkin_lqlprfsb_1993"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "Bibliographic": {
+            "Author": {
+              "item": "Lozhkin, A. V.; Anderson, P. M.; Eisner, W. R.; Ravako, L. G.; Hopkins, D. M.; Brubaker, L. B.; Colinvaux, P. A.; Miller, M. C."
+            },
+            "Title": {
+              "item": "Late Quaternary lacustrine pollen records from southwestern Beringia"
+            },
+            "Journal": {
+              "item": "Quaternary Research (Orlando)"
+            },
+            "Year": 1993,
+            "Volume": 39,
+            "Pages": [
+              314,
+              324
+            ],
+            "DataAvailability": "NotAttachedToSource"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

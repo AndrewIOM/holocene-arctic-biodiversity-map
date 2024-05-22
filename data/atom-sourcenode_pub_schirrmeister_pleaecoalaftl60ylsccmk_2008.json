@@ -11,16 +11,20 @@
         "Unscreened": {
           "Bibliographic": {
             "Author": {
-              "item": "Schirrmeister, L., Grosse, G., Andreev, A., Kunitsky, 1 V.V., Meyer, H., Derevyagin, A.Yu., Kuznetsova, T.V., Bobrov, A.A., Kienast, F. "
+              "item": "Schirrmeister, L.; Grosse, G.; Kunitsky, V.; Magens, D.; Meyer, H.; Dereviagin, A.; Kuznetsova, T.; Andreev, A.; Babiy, O.; Kienast, F.; Grigoriev, M.; Overduin, P. P.; Preusser, F."
             },
             "Title": {
               "item": "Periglacial landscape evolution and environmental changes of Arctic lowland areas for the last 60 000 years (western Laptev Sea coast, Cape Mamontov Klyk)"
             },
             "Journal": {
-              "item": "Polar Research "
+              "item": "Polar Research"
             },
             "Year": 2008,
             "Volume": 27,
+            "Pages": [
+              249,
+              272
+            ],
             "DataAvailability": "NotAttachedToSource"
           }
         }

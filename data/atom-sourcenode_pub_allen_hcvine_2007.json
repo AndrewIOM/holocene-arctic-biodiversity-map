@@ -11,13 +11,20 @@
         "Unscreened": {
           "Bibliographic": {
             "Author": {
-              "item": "Allen, J. R. M.; Graham Pearson, D.; Huntley, B.; Long, A. J.; Ottley, C. J."
+              "item": "Allen, J. R. M.; Long, A. J.; Ottley, C. J.; Graham Pearson, D.; Huntley, B."
             },
             "Title": {
               "item": "Holocene climate variability in northernmost Europe"
             },
+            "Journal": {
+              "item": "Quaternary Science Reviews"
+            },
             "Year": 2007,
             "Volume": 26,
+            "Pages": [
+              1432,
+              1453
+            ],
             "DataAvailability": "NotAttachedToSource"
           }
         }

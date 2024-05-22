@@ -1,0 +1,35 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_eisner_psoahlrftksrowg_1995"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "Bibliographic": {
+            "Author": {
+              "item": "Eisner, W. R.; Törnqvist, T. E.; Koster, E. A.; Bennike, O.; van Leeuwen, J. F. N."
+            },
+            "Title": {
+              "item": "Paleoecological studies of a holocene lacustrine record from the kangerlussuaq (søndre strømfjord) region of West Greenland"
+            },
+            "Journal": {
+              "item": "Quaternary Research"
+            },
+            "Year": 1995,
+            "Volume": 43,
+            "Pages": [
+              55,
+              66
+            ],
+            "DataAvailability": "NotAttachedToSource"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

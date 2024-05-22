@@ -11,13 +11,20 @@
         "Unscreened": {
           "Bibliographic": {
             "Author": {
-              "item": "Camill, P.; Dorale, J. A.; Edlund, M. B.; Geiss, C.; Hobbs, W. O.; Lynch, J.; Shinneman, A. C.; Umbanhowar, C. E., Jr."
+              "item": "Camill, P.; Umbanhowar, C. E., Jr.; Geiss, C.; Hobbs, W. O.; Edlund, M. B.; Shinneman, A. C.; Dorale, J. A.; Lynch, J."
             },
             "Title": {
               "item": "Holocene climate change and landscape development from a low-Arctic tundra lake in the western Hudson Bay region of Manitoba, Canada"
             },
+            "Journal": {
+              "item": "Journal of Paleolimnology"
+            },
             "Year": 2012,
             "Volume": 48,
+            "Pages": [
+              175,
+              192
+            ],
             "DataAvailability": "NotAttachedToSource"
           }
         }

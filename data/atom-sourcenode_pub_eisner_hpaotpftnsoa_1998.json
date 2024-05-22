@@ -16,8 +16,15 @@
             "Title": {
               "item": "High-resolution pollen analysis of tundra polygons from the North Slope of Alaska"
             },
+            "Journal": {
+              "item": "Journal of Geophysical Research-Atmospheres"
+            },
             "Year": 1998,
             "Volume": 103,
+            "Pages": [
+              28929,
+              28937
+            ],
             "DataAvailability": "NotAttachedToSource"
           }
         }

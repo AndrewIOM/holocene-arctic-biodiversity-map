@@ -1,0 +1,35 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_paus_lwahvaehotntrear_2003"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "Bibliographic": {
+            "Author": {
+              "item": "Paus, A.; Svendsen, J. I.; Matiouchkov, A."
+            },
+            "Title": {
+              "item": "Late Weichselian (Valdaian) and Holocene vegetation and environmental history of the northern Timan Ridge, European Arctic Russia"
+            },
+            "Journal": {
+              "item": "Quaternary Science Reviews"
+            },
+            "Year": 2003,
+            "Volume": 22,
+            "Pages": [
+              2285,
+              2302
+            ],
+            "DataAvailability": "NotAttachedToSource"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

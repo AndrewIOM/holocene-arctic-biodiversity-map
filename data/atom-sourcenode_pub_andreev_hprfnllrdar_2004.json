@@ -11,16 +11,20 @@
         "Unscreened": {
           "Bibliographic": {
             "Author": {
-              "item": "Andreev, A.; Bobrov, A.; Hubberten, H. W.; Ilyashuk, B.; Ilyashuk, E.; Klimanov, V.; Rachold, V.; Schwamborn, G.; Tarasov, P."
+              "item": "Andreev, A.; Tarasov, P.; Schwamborn, G.; Ilyashuk, B.; Ilyashuk, E.; Bobrov, A.; Klimanov, V.; Rachold, V.; Hubberten, H. W."
             },
             "Title": {
               "item": "Holocene paleoenvironmental records from Nikolay Lake, Lena River Delta, Arctic Russia"
             },
             "Journal": {
-              "item": "Palaeogeography, Palaeoclimatology, Palaeoecology"
+              "item": "Palaeogeography Palaeoclimatology Palaeoecology"
             },
             "Year": 2004,
             "Volume": 209,
+            "Pages": [
+              197,
+              217
+            ],
             "DataAvailability": "NotAttachedToSource"
           }
         }
