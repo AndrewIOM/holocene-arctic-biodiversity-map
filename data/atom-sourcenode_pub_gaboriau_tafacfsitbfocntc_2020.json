@@ -27,5 +27,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_gaboriau_tafacfsitbfocntc_2020"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "8dbadb34-efd7-4637-aff5-c9ad78aa25be"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -31,5 +31,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_glaser_rpadfpdithblnoc_2004"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "d4eb9015-230d-4636-816d-87d596d39e34"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

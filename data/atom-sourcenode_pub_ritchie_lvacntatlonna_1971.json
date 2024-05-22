@@ -31,5 +31,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ritchie_lvacntatlonna_1971"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "01e7d1ab-1801-4600-b457-6f546949233a"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

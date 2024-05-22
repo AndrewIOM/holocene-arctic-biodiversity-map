@@ -31,5 +31,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_camill_hccaldfaltlitwhbromc_2012"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "baa5f37e-03cf-46a5-964f-450c8b195e7a"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

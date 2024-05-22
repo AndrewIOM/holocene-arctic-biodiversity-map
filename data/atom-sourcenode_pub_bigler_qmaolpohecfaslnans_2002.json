@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bigler_qmaolpohecfaslnans_2002"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "a4fc8a20-6ba6-458d-bdd3-288f17352a68"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

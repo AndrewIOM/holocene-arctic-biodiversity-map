@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_zabenskie_pccobpnc_2007"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "3c532fd1-42da-448d-b136-b637f2af4805"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

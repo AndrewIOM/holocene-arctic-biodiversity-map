@@ -31,5 +31,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_eisner_paoapcfictnsa_1991"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "abfd54c2-ad08-40c3-adb3-a3cded1a288a"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

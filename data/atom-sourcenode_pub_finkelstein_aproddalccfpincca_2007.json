@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_finkelstein_aproddalccfpincca_2007"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0cc6855d-d4ec-4896-a56c-5b65779399ea"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

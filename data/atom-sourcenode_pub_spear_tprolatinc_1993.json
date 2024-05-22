@@ -31,5 +31,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_spear_tprolatinc_1993"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bdf6245f-4e75-45aa-80e0-27d950e4b6bb"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
