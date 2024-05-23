@@ -1,0 +1,6 @@
+Bag-Software-Agent: bagit.py <http://github.com/libraryofcongress/bagit-python>
+Bagging-Date: 2017-08-07
+DOI-Resolved: True
+Name: LiPD Project
+Payload-Oxum: 4819070.54
+Reference: www.lipds.net
