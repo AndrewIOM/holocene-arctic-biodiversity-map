@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bradshaw, R.; Mitchell, F. J. G."
-            },
-            "Title": {
-              "item": "The palaeoecological approach to reconstructing former grazing-vegetation interactions"
-            },
-            "Journal": {
-              "item": "Forest Ecology and Management"
-            },
-            "Year": 1999,
-            "Volume": 120,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bradshaw, R.; Mitchell, F. J. G."
+              },
+              "Title": {
+                "item": "The palaeoecological approach to reconstructing former grazing-vegetation interactions"
+              },
+              "Journal": {
+                "item": "Forest Ecology and Management"
+              },
+              "Year": 1999,
+              "Volume": 120,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Pollen analysis completed in Denmark - rest is not proxy"
           }
-        }
+        ]
       }
     }
   ],

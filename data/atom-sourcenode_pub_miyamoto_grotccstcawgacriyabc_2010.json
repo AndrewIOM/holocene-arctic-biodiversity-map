@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Miyamoto, Y.; Griesbauer, H. P.; Green, D. S."
-            },
-            "Title": {
-              "item": "Growth responses of three coexisting conifer species to climate across wide geographic and climate ranges in Yukon and British Columbia"
-            },
-            "Journal": {
-              "item": "Forest Ecology and Management"
-            },
-            "Year": 2010,
-            "Volume": 259,
-            "Pages": [
-              514,
-              523
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Miyamoto, Y.; Griesbauer, H. P.; Green, D. S."
+              },
+              "Title": {
+                "item": "Growth responses of three coexisting conifer species to climate across wide geographic and climate ranges in Yukon and British Columbia"
+              },
+              "Journal": {
+                "item": "Forest Ecology and Management"
+              },
+              "Year": 2010,
+              "Volume": 259,
+              "Pages": [
+                514,
+                523
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "63°37'00.0\"N 135°53'00.0\"W"
           }
-        }
+        ]
       }
     }
   ],
