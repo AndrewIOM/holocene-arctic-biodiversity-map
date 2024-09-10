@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Robert, L. E.; Kneeshaw, D.; Sturtevant, B. R."
-            },
-            "Title": {
-              "item": "Effects of forest management legacies on spruce budworm (Choristoneura fumiferana) outbreaks"
-            },
-            "Journal": {
-              "item": "Canadian Journal of Forest Research"
-            },
-            "Year": 2012,
-            "Volume": 42,
-            "Pages": [
-              463,
-              475
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Robert, L. E.; Kneeshaw, D.; Sturtevant, B. R."
+              },
+              "Title": {
+                "item": "Effects of forest management legacies on spruce budworm (Choristoneura fumiferana) outbreaks"
+              },
+              "Journal": {
+                "item": "Canadian Journal of Forest Research"
+              },
+              "Year": 2012,
+              "Volume": 42,
+              "Pages": [
+                463,
+                475
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Border of Minnesota and Ontario"
           }
-        }
+        ]
       }
     }
   ],

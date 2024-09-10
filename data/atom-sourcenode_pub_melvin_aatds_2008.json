@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Melvin, T. M.; Briffa, K. R."
-            },
-            "Title": {
-              "item": "A \"signal-free\" approach to dendroclimatic standardisation"
-            },
-            "Journal": {
-              "item": "Dendrochronologia"
-            },
-            "Year": 2008,
-            "Volume": 26,
-            "Pages": [
-              71,
-              86
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Melvin, T. M.; Briffa, K. R."
+              },
+              "Title": {
+                "item": "A \"signal-free\" approach to dendroclimatic standardisation"
+              },
+              "Journal": {
+                "item": "Dendrochronologia"
+              },
+              "Year": 2008,
+              "Volume": 26,
+              "Pages": [
+                71,
+                86
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

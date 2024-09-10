@@ -8,22 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nazarova, L.; Sachse, D.; Fuchs, H. G. E.; Dirksen, V.; Dirksen, O.; Syrykh, L.; Razjigaeva, N. G.; Rach, O.; Diekmann, B."
-            },
-            "Title": {
-              "item": "Holocene evolution of a proglacial lake in southern Kamchatka, Russian Far East"
-            },
-            "Journal": {
-              "item": "Boreas (Oslo)"
-            },
-            "Year": 2021,
-            "Volume": 50,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nazarova, L.; Sachse, D.; Fuchs, H. G. E.; Dirksen, V.; Dirksen, O.; Syrykh, L.; Razjigaeva, N. G.; Rach, O.; Diekmann, B."
+              },
+              "Title": {
+                "item": "Holocene evolution of a proglacial lake in southern Kamchatka, Russian Far East"
+              },
+              "Journal": {
+                "item": "Boreas (Oslo)"
+              },
+              "Year": 2021,
+              "Volume": 50,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

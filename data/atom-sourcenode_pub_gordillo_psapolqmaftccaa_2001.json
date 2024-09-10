@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gordillo, S.; Aitken, A. E."
-            },
-            "Title": {
-              "item": "Postglacial succession and palaeoecology of Late Quaternary macrofaunal assemblages from the central Canadian Arctic archipelago"
-            },
-            "Journal": {
-              "item": "Boreas (Oslo)"
-            },
-            "Year": 2001,
-            "Volume": 30,
-            "Pages": [
-              61,
-              72
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gordillo, S.; Aitken, A. E."
+              },
+              "Title": {
+                "item": "Postglacial succession and palaeoecology of Late Quaternary macrofaunal assemblages from the central Canadian Arctic archipelago"
+              },
+              "Journal": {
+                "item": "Boreas (Oslo)"
+              },
+              "Year": 2001,
+              "Volume": 30,
+              "Pages": [
+                61,
+                72
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

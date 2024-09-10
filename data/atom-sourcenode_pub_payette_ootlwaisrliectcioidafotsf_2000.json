@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Payette, S.; Bhiry, N.; Delwaide, A.; Simard, M."
-            },
-            "Title": {
-              "item": "Origin of the lichen woodland at its southern range limit in eastern Canada: The catastrophic impact of insect defoliators and fire on the spruce-moss forest"
-            },
-            "Journal": {
-              "item": "Canadian Journal of Forest Research"
-            },
-            "Year": 2000,
-            "Volume": 30,
-            "Pages": [
-              288,
-              305
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Payette, S.; Bhiry, N.; Delwaide, A.; Simard, M."
+              },
+              "Title": {
+                "item": "Origin of the lichen woodland at its southern range limit in eastern Canada: The catastrophic impact of insect defoliators and fire on the spruce-moss forest"
+              },
+              "Journal": {
+                "item": "Canadian Journal of Forest Research"
+              },
+              "Year": 2000,
+              "Volume": 30,
+              "Pages": [
+                288,
+                305
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "South Quebec"
           }
-        }
+        ]
       }
     }
   ],
