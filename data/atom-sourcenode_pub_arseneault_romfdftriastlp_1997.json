@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Arseneault, D.; Payette, S."
-            },
-            "Title": {
-              "item": "Reconstruction of millennial forest dynamics from tree remains in a subarctic tree line peatland"
-            },
-            "Journal": {
-              "item": "Ecology (Washington D C)"
-            },
-            "Year": 1997,
-            "Volume": 78,
-            "Pages": [
-              1873,
-              1883
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Arseneault, D.; Payette, S."
+              },
+              "Title": {
+                "item": "Reconstruction of millennial forest dynamics from tree remains in a subarctic tree line peatland"
+              },
+              "Journal": {
+                "item": "Ecology (Washington D C)"
+              },
+              "Year": 1997,
+              "Volume": 78,
+              "Pages": [
+                1873,
+                1883
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

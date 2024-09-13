@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bhiry, N.; Robert, E. C."
-            },
-            "Title": {
-              "item": "Reconstruction of changes in vegetation and trophic conditions of a palsa in a permafrost peatland, subarctic Quebec, Canada"
-            },
-            "Journal": {
-              "item": "Ecoscience"
-            },
-            "Year": 2006,
-            "Volume": 13,
-            "Pages": [
-              56,
-              65
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bhiry, N.; Robert, E. C."
+              },
+              "Title": {
+                "item": "Reconstruction of changes in vegetation and trophic conditions of a palsa in a permafrost peatland, subarctic Quebec, Canada"
+              },
+              "Journal": {
+                "item": "Ecoscience"
+              },
+              "Year": 2006,
+              "Volume": 13,
+              "Pages": [
+                56,
+                65
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

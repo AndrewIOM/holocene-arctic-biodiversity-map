@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bhiry, N.; Delwaide, A.; Allard, M.; Begin, Y.; Filion, L.; Lavoie, M.; Nozais, C.; Payette, S.; Pienitz, R.; Saulnier-Talbot, E.; Vincent, W. F."
-            },
-            "Title": {
-              "item": "Environmental change in the Great Whale River region, Hudson Bay: Five decades of multidisciplinary research by Centre d'etudes nordiques (CEN)"
-            },
-            "Journal": {
-              "item": "Ecoscience"
-            },
-            "Year": 2011,
-            "Volume": 18,
-            "Pages": [
-              182,
-              203
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bhiry, N.; Delwaide, A.; Allard, M.; Begin, Y.; Filion, L.; Lavoie, M.; Nozais, C.; Payette, S.; Pienitz, R.; Saulnier-Talbot, E.; Vincent, W. F."
+              },
+              "Title": {
+                "item": "Environmental change in the Great Whale River region, Hudson Bay: Five decades of multidisciplinary research by Centre d'etudes nordiques (CEN)"
+              },
+              "Journal": {
+                "item": "Ecoscience"
+              },
+              "Year": 2011,
+              "Volume": 18,
+              "Pages": [
+                182,
+                203
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
