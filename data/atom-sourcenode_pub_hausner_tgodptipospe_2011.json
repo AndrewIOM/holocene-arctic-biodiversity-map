@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hausner, V. H.; Fauchald, P.; Tveraa, T.; Pedersen, E.; Jernsletten, J. L.; Ulvevadet, B.; Ims, R. A.; Yoccoz, N. G.; Bråthen, K. A."
-            },
-            "Title": {
-              "item": "The ghost of development past: The impact policies on saami pastoral ecosystems"
-            },
-            "Journal": {
-              "item": "Ecology and Society"
-            },
-            "Year": 2011,
-            "Volume": 16,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hausner, V. H.; Fauchald, P.; Tveraa, T.; Pedersen, E.; Jernsletten, J. L.; Ulvevadet, B.; Ims, R. A.; Yoccoz, N. G.; Bråthen, K. A."
+              },
+              "Title": {
+                "item": "The ghost of development past: The impact policies on saami pastoral ecosystems"
+              },
+              "Journal": {
+                "item": "Ecology and Society"
+              },
+              "Year": 2011,
+              "Volume": 16,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "data post 1950"
           }
-        }
+        ]
       }
     }
   ],
