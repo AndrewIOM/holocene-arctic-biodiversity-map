@@ -8,25 +8,34 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bennike, O."
-            },
-            "Title": {
-              "item": "Plant macrofossil records | Greenland"
-            },
-            "Journal": {
-              "item": "Encyclopedia of Quaternary Science"
-            },
-            "Year": 2006,
-            "Pages": [
-              2450,
-              2458
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bennike, O."
+              },
+              "Title": {
+                "item": "Plant macrofossil records | Greenland"
+              },
+              "Journal": {
+                "item": "Encyclopedia of Quaternary Science"
+              },
+              "Year": 2006,
+              "Pages": [
+                2450,
+                2458
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

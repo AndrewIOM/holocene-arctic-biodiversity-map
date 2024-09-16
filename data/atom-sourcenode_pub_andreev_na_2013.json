@@ -8,18 +8,27 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andreev, A. A.; Tarasov, P. E."
-            },
-            "Title": {
-              "item": "Northern Asia"
-            },
-            "Year": 2013,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andreev, A. A.; Tarasov, P. E."
+              },
+              "Title": {
+                "item": "Northern Asia"
+              },
+              "Year": 2013,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

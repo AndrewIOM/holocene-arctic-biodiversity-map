@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Whitlock, C.; Brunelle, A."
-            },
-            "Title": {
-              "item": "Pollen records, postglacial | Northwestern north america"
-            },
-            "Journal": {
-              "item": "Encyclopedia of Quaternary Science"
-            },
-            "Year": 2006,
-            "Pages": [
-              2736,
-              2744
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Whitlock, C.; Brunelle, A."
+              },
+              "Title": {
+                "item": "Pollen records, postglacial | Northwestern north america"
+              },
+              "Journal": {
+                "item": "Encyclopedia of Quaternary Science"
+              },
+              "Year": 2006,
+              "Pages": [
+                2736,
+                2744
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "US/South coast of Alaska"
           }
-        }
+        ]
       }
     }
   ],

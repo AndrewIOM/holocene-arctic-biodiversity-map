@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Matthews, J. A."
-            },
-            "Title": {
-              "item": "GLACIATIONS | Neoglaciation in Europe"
-            },
-            "Journal": {
-              "item": "Encyclopedia of Quaternary Science"
-            },
-            "Year": 2006,
-            "Pages": [
-              1122,
-              1133
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Matthews, J. A."
+              },
+              "Title": {
+                "item": "GLACIATIONS | Neoglaciation in Europe"
+              },
+              "Journal": {
+                "item": "Encyclopedia of Quaternary Science"
+              },
+              "Year": 2006,
+              "Pages": [
+                1122,
+                1133
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "no data for arctic"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bradshaw, R. H. W."
-            },
-            "Title": {
-              "item": "Stand-Scale Palynology"
-            },
-            "Journal": {
-              "item": "Encyclopedia of Quaternary Science: Second Edition"
-            },
-            "Year": 2013,
-            "Pages": [
-              846,
-              853
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bradshaw, R. H. W."
+              },
+              "Title": {
+                "item": "Stand-Scale Palynology"
+              },
+              "Journal": {
+                "item": "Encyclopedia of Quaternary Science: Second Edition"
+              },
+              "Year": 2013,
+              "Pages": [
+                846,
+                853
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "no evidence/examples for arctic"
           }
-        }
+        ]
       }
     }
   ],
