@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Linderholm, H. W.; Gunnarson, B. E."
-            },
-            "Title": {
-              "item": "Summer temperature variability in central Scandinavia during the last 3600 years"
-            },
-            "Journal": {
-              "item": "Geografiska Annaler Series a-Physical Geography"
-            },
-            "Year": 2005,
-            "Pages": [
-              231,
-              241
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Linderholm, H. W.; Gunnarson, B. E."
+              },
+              "Title": {
+                "item": "Summer temperature variability in central Scandinavia during the last 3600 years"
+              },
+              "Journal": {
+                "item": "Geografiska Annaler Series a-Physical Geography"
+              },
+              "Year": 2005,
+              "Pages": [
+                231,
+                241
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "63.166667, 13.583333"
           }
-        }
+        ]
       }
     }
   ],
