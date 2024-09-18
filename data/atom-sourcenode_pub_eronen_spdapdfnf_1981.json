@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Eronen, M.; Hyvarinen, H."
-            },
-            "Title": {
-              "item": "Subfossil Pine Dates and Pollen Diagrams from Northern Fennoscandia"
-            },
-            "Journal": {
-              "item": "Geologiska Foreningens i Stockholm Forhandlingar"
-            },
-            "Year": 1981,
-            "Volume": 103,
-            "Pages": [
-              437,
-              445
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Eronen, M.; Hyvarinen, H."
+              },
+              "Title": {
+                "item": "Subfossil Pine Dates and Pollen Diagrams from Northern Fennoscandia"
+              },
+              "Journal": {
+                "item": "Geologiska Foreningens i Stockholm Forhandlingar"
+              },
+              "Year": 1981,
+              "Volume": 103,
+              "Pages": [
+                437,
+                445
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

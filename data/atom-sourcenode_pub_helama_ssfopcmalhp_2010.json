@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Helama, S.; Fauria, M. M.; Mielikainen, K.; Timonen, M.; Eronen, M."
-            },
-            "Title": {
-              "item": "Sub-Milankovitch solar forcing of past climates: Mid and late Holocene perspectives"
-            },
-            "Journal": {
-              "item": "Geological Society of America Bulletin"
-            },
-            "Year": 2010,
-            "Volume": 122,
-            "Pages": [
-              1981,
-              1988
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Helama, S.; Fauria, M. M.; Mielikainen, K.; Timonen, M.; Eronen, M."
+              },
+              "Title": {
+                "item": "Sub-Milankovitch solar forcing of past climates: Mid and late Holocene perspectives"
+              },
+              "Journal": {
+                "item": "Geological Society of America Bulletin"
+              },
+              "Year": 2010,
+              "Volume": 122,
+              "Pages": [
+                1981,
+                1988
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "No details on tree species"
           }
-        }
+        ]
       }
     }
   ],
