@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Quinlan, R.; Douglas, M. S. V.; Smol, J. P."
-            },
-            "Title": {
-              "item": "Food web changes in arctic ecosystems related to climate warming"
-            },
-            "Journal": {
-              "item": "Global Change Biology"
-            },
-            "Year": 2005,
-            "Volume": 11,
-            "Pages": [
-              1381,
-              1386
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Quinlan, R.; Douglas, M. S. V.; Smol, J. P."
+              },
+              "Title": {
+                "item": "Food web changes in arctic ecosystems related to climate warming"
+              },
+              "Journal": {
+                "item": "Global Change Biology"
+              },
+              "Year": 2005,
+              "Volume": 11,
+              "Pages": [
+                1381,
+                1386
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
