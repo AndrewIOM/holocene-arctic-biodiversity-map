@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kullman, L."
-            },
-            "Title": {
-              "item": "Norway spruce present in the Scandes Mountains, Sweden at 8000 BP: New light on Holocene tree spread"
-            },
-            "Journal": {
-              "item": "Global Ecology and Biogeography Letters"
-            },
-            "Year": 1996,
-            "Volume": 5,
-            "Pages": [
-              94,
-              101
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kullman, L."
+              },
+              "Title": {
+                "item": "Norway spruce present in the Scandes Mountains, Sweden at 8000 BP: New light on Holocene tree spread"
+              },
+              "Journal": {
+                "item": "Global Ecology and Biogeography Letters"
+              },
+              "Year": 1996,
+              "Volume": 5,
+              "Pages": [
+                94,
+                101
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "63.216667, 12.383333"
           }
-        }
+        ]
       }
     }
   ],

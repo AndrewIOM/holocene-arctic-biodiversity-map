@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hall, E. S. J."
-            },
-            "Title": {
-              "item": "Archaeological and Recent Evidence for Expansion of Moose Range in Northern Alaska"
-            },
-            "Journal": {
-              "item": "Journal of Mammalogy"
-            },
-            "Year": 1973,
-            "Volume": 54,
-            "Pages": [
-              294,
-              295
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hall, E. S. J."
+              },
+              "Title": {
+                "item": "Archaeological and Recent Evidence for Expansion of Moose Range in Northern Alaska"
+              },
+              "Journal": {
+                "item": "Journal of Mammalogy"
+              },
+              "Year": 1973,
+              "Volume": 54,
+              "Pages": [
+                294,
+                295
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoBiodiversityMeasure",
+          {
+            "item": "no data given"
           }
-        }
+        ]
       }
     }
   ],

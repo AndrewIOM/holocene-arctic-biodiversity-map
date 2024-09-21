@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Alm, T.; Vorren, K. D.; Mørkved, B."
-            },
-            "Title": {
-              "item": "Holocene tree-line fluctuations and climate in central Troms, Northern Norway"
-            },
-            "Journal": {
-              "item": "Historical Biology"
-            },
-            "Year": 1996,
-            "Volume": 12,
-            "Pages": [
-              25,
-              38
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Alm, T.; Vorren, K. D.; Mørkved, B."
+              },
+              "Title": {
+                "item": "Holocene tree-line fluctuations and climate in central Troms, Northern Norway"
+              },
+              "Journal": {
+                "item": "Historical Biology"
+              },
+              "Year": 1996,
+              "Volume": 12,
+              "Pages": [
+                25,
+                38
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

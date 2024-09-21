@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Panzacchi, M.; Van Moorter, B.; Jordhoy, P.; Strand, O."
-            },
-            "Title": {
-              "item": "Learning from the past to predict the future: using archaeological findings and GPS data to quantify reindeer sensitivity to anthropogenic disturbance in Norway"
-            },
-            "Journal": {
-              "item": "Landscape Ecology"
-            },
-            "Year": 2013,
-            "Volume": 28,
-            "Pages": [
-              847,
-              859
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Panzacchi, M.; Van Moorter, B.; Jordhoy, P.; Strand, O."
+              },
+              "Title": {
+                "item": "Learning from the past to predict the future: using archaeological findings and GPS data to quantify reindeer sensitivity to anthropogenic disturbance in Norway"
+              },
+              "Journal": {
+                "item": "Landscape Ecology"
+              },
+              "Year": 2013,
+              "Volume": 28,
+              "Pages": [
+                847,
+                859
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "63.000000, 12.000000"
           }
-        }
+        ]
       }
     }
   ],
