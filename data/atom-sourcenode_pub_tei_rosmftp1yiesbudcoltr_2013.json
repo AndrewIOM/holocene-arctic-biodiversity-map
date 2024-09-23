@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Tei, S.; Sugimoto, A.; Yonenobu, H.; Yamazaki, T.; Maximov, T. C."
-            },
-            "Title": {
-              "item": "Reconstruction of soil moisture for the past 100 years in eastern Siberia by using delta C-13 of larch tree rings"
-            },
-            "Journal": {
-              "item": "Journal of Geophysical Research-Biogeosciences"
-            },
-            "Year": 2013,
-            "Volume": 118,
-            "Pages": [
-              1256,
-              1265
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Tei, S.; Sugimoto, A.; Yonenobu, H.; Yamazaki, T.; Maximov, T. C."
+              },
+              "Title": {
+                "item": "Reconstruction of soil moisture for the past 100 years in eastern Siberia by using delta C-13 of larch tree rings"
+              },
+              "Journal": {
+                "item": "Journal of Geophysical Research-Biogeosciences"
+              },
+              "Year": 2013,
+              "Volume": 118,
+              "Pages": [
+                1256,
+                1265
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "62.233333, 129.616667"
           }
-        }
+        ]
       }
     }
   ],
