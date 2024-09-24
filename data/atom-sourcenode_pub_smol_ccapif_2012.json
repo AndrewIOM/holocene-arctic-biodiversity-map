@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Smol, J. P."
-            },
-            "Title": {
-              "item": "Climate Change: A planet in flux"
-            },
-            "Journal": {
-              "item": "Nature"
-            },
-            "Year": 2012,
-            "Volume": 483,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Smol, J. P."
+              },
+              "Title": {
+                "item": "Climate Change: A planet in flux"
+              },
+              "Journal": {
+                "item": "Nature"
+              },
+              "Year": 2012,
+              "Volume": 483,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no specific biota data"
           }
-        }
+        ]
       }
     }
   ],

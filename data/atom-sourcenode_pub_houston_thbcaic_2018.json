@@ -8,23 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Houston, C. S."
-            },
-            "Title": {
-              "item": "The Hudson's Bay Company and its Collectors"
-            },
-            "Year": 2018,
-            "Volume": 2,
-            "Pages": [
-              332,
-              364
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Houston, C. S."
+              },
+              "Title": {
+                "item": "The Hudson's Bay Company and its Collectors"
+              },
+              "Year": 2018,
+              "Volume": 2,
+              "Pages": [
+                332,
+                364
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "about historical observations"
           }
-        }
+        ]
       }
     }
   ],

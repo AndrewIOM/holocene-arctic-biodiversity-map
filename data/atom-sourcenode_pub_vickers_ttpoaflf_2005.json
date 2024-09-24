@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Vickers, K.; Bending, J.; Buckland, P. C.; Edwards, K. J.; Hansen, S. S.; Cook, G."
-            },
-            "Title": {
-              "item": "Toftanes: The paleoecology of a Faroese landnam farm"
-            },
-            "Journal": {
-              "item": "Human Ecology"
-            },
-            "Year": 2005,
-            "Volume": 33,
-            "Pages": [
-              685,
-              710
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Vickers, K.; Bending, J.; Buckland, P. C.; Edwards, K. J.; Hansen, S. S.; Cook, G."
+              },
+              "Title": {
+                "item": "Toftanes: The paleoecology of a Faroese landnam farm"
+              },
+              "Journal": {
+                "item": "Human Ecology"
+              },
+              "Year": 2005,
+              "Volume": 33,
+              "Pages": [
+                685,
+                710
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

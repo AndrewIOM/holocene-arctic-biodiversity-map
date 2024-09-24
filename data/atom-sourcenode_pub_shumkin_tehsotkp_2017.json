@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Shumkin, V. Y."
-            },
-            "Title": {
-              "item": "The Early Holocene (Mesolithic) sites on the Kola Peninsula"
-            },
-            "Journal": {
-              "item": "Human Colonization of the Arctic: The Interaction Between Early Migration and the Paleoenvironment"
-            },
-            "Year": 2017,
-            "Pages": [
-              33,
-              50
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Shumkin, V. Y."
+              },
+              "Title": {
+                "item": "The Early Holocene (Mesolithic) sites on the Kola Peninsula"
+              },
+              "Journal": {
+                "item": "Human Colonization of the Arctic: The Interaction Between Early Migration and the Paleoenvironment"
+              },
+              "Year": 2017,
+              "Pages": [
+                33,
+                50
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "specific species not mentioned"
           }
-        }
+        ]
       }
     }
   ],

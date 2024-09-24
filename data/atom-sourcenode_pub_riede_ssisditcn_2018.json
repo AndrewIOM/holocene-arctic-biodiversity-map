@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Riede, F.; Høye, T. T.; Tejsner, P.; Veldhuis, D.; Willerslev, R."
-            },
-            "Title": {
-              "item": "Special Section Introduction: Socioecological Disequilibrium in the Circumpolar North"
-            },
-            "Journal": {
-              "item": "Human Ecology"
-            },
-            "Year": 2018,
-            "Volume": 46,
-            "Pages": [
-              615,
-              620
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Riede, F.; Høye, T. T.; Tejsner, P.; Veldhuis, D.; Willerslev, R."
+              },
+              "Title": {
+                "item": "Special Section Introduction: Socioecological Disequilibrium in the Circumpolar North"
+              },
+              "Journal": {
+                "item": "Human Ecology"
+              },
+              "Year": 2018,
+              "Volume": 46,
+              "Pages": [
+                615,
+                620
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "no species specifically mentioned"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Monastersky, R.; Sousanis, N."
-            },
-            "Title": {
-              "item": "The fragile framework"
-            },
-            "Journal": {
-              "item": "Nature"
-            },
-            "Year": 2015,
-            "Volume": 527,
-            "Pages": [
-              427,
-              435
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Monastersky, R.; Sousanis, N."
+              },
+              "Title": {
+                "item": "The fragile framework"
+              },
+              "Journal": {
+                "item": "Nature"
+              },
+              "Year": 2015,
+              "Volume": 527,
+              "Pages": [
+                427,
+                435
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "no biodiversity measured"
           }
-        }
+        ]
       }
     }
   ],

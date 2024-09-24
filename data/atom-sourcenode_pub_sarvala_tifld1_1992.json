@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Sarvala, J."
-            },
-            "Title": {
-              "item": "Trends in Finnish Limnology during 1940-1989"
-            },
-            "Journal": {
-              "item": "Hydrobiologia"
-            },
-            "Year": 1992,
-            "Volume": 243,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Sarvala, J."
+              },
+              "Title": {
+                "item": "Trends in Finnish Limnology during 1940-1989"
+              },
+              "Journal": {
+                "item": "Hydrobiologia"
+              },
+              "Year": 1992,
+              "Volume": 243,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "review of field- lack of biod data"
           }
-        }
+        ]
       }
     }
   ],

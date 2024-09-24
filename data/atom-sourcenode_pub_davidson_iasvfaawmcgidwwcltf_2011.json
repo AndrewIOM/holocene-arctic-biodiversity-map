@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Davidson, T. A.; Amsinck, S. L.; Bennike, O.; Christoffersen, K. S.; Landkildehus, F.; Lauridsen, T. L.; Jeppesen, E."
-            },
-            "Title": {
-              "item": "Inferring a single variable from an assemblage with multiple controls: getting into deep water with cladoceran lake-depth transfer functions"
-            },
-            "Journal": {
-              "item": "Hydrobiologia"
-            },
-            "Year": 2011,
-            "Volume": 676,
-            "Pages": [
-              129,
-              142
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Davidson, T. A.; Amsinck, S. L.; Bennike, O.; Christoffersen, K. S.; Landkildehus, F.; Lauridsen, T. L.; Jeppesen, E."
+              },
+              "Title": {
+                "item": "Inferring a single variable from an assemblage with multiple controls: getting into deep water with cladoceran lake-depth transfer functions"
+              },
+              "Journal": {
+                "item": "Hydrobiologia"
+              },
+              "Year": 2011,
+              "Volume": 676,
+              "Pages": [
+                129,
+                142
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

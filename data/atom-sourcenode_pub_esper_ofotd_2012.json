@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Esper, J.; Frank, D. C.; Timonen, M.; Zorita, E.; Wilson, R. J. S.; Luterbacher, J.; Holzkamper, S.; Fischer, N.; Wagner, S.; Nievergelt, D.; Verstege, A.; Buntgen, U."
-            },
-            "Title": {
-              "item": "Orbital forcing of tree-ring data"
-            },
-            "Journal": {
-              "item": "Nature Climate Change"
-            },
-            "Year": 2012,
-            "Volume": 2,
-            "Pages": [
-              862,
-              866
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Esper, J.; Frank, D. C.; Timonen, M.; Zorita, E.; Wilson, R. J. S.; Luterbacher, J.; Holzkamper, S.; Fischer, N.; Wagner, S.; Nievergelt, D.; Verstege, A.; Buntgen, U."
+              },
+              "Title": {
+                "item": "Orbital forcing of tree-ring data"
+              },
+              "Journal": {
+                "item": "Nature Climate Change"
+              },
+              "Year": 2012,
+              "Volume": 2,
+              "Pages": [
+                862,
+                866
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
