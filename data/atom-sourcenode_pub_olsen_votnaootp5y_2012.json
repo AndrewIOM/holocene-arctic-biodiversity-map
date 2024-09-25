@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Olsen, J.; Anderson, N. J.; Knudsen, M. F."
-            },
-            "Title": {
-              "item": "Variability of the North Atlantic Oscillation over the past 5,200 years"
-            },
-            "Journal": {
-              "item": "Nature Geoscience"
-            },
-            "Year": 2012,
-            "Volume": 5,
-            "Pages": [
-              808,
-              812
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Olsen, J.; Anderson, N. J.; Knudsen, M. F."
+              },
+              "Title": {
+                "item": "Variability of the North Atlantic Oscillation over the past 5,200 years"
+              },
+              "Journal": {
+                "item": "Nature Geoscience"
+              },
+              "Year": 2012,
+              "Volume": 5,
+              "Pages": [
+                808,
+                812
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Doesn't mention species in proxies"
           }
-        }
+        ]
       }
     }
   ],

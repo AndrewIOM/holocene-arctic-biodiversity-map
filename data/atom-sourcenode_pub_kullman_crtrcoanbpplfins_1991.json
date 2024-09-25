@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kullman, L."
-            },
-            "Title": {
-              "item": "Cataclysmic Response to Recent Cooling of a Natural Boreal Pine Pinus-Sylvestris L. Forest in Northern Sweden"
-            },
-            "Journal": {
-              "item": "New Phytologist"
-            },
-            "Year": 1991,
-            "Volume": 117,
-            "Pages": [
-              351,
-              360
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kullman, L."
+              },
+              "Title": {
+                "item": "Cataclysmic Response to Recent Cooling of a Natural Boreal Pine Pinus-Sylvestris L. Forest in Northern Sweden"
+              },
+              "Journal": {
+                "item": "New Phytologist"
+              },
+              "Year": 1991,
+              "Volume": 117,
+              "Pages": [
+                351,
+                360
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "63.283333, 13.233333"
           }
-        }
+        ]
       }
     }
   ],

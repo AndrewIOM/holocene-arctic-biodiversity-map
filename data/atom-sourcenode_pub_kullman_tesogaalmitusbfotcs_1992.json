@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kullman, L."
-            },
-            "Title": {
-              "item": "The Ecological Status of Grey Alder Alnus-Incana L. Moench in the Upper Subalpine Birch Forest of the Central Scandes"
-            },
-            "Journal": {
-              "item": "New Phytologist"
-            },
-            "Year": 1992,
-            "Volume": 120,
-            "Pages": [
-              445,
-              451
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kullman, L."
+              },
+              "Title": {
+                "item": "The Ecological Status of Grey Alder Alnus-Incana L. Moench in the Upper Subalpine Birch Forest of the Central Scandes"
+              },
+              "Journal": {
+                "item": "New Phytologist"
+              },
+              "Year": 1992,
+              "Volume": 120,
+              "Pages": [
+                445,
+                451
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "62.750000, 13.000000"
           }
-        }
+        ]
       }
     }
   ],

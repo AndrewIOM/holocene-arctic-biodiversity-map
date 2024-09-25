@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Filion, L."
-            },
-            "Title": {
-              "item": "A relationship between dunes, fire and climate recorded in the Holocene deposits of Quebec"
-            },
-            "Journal": {
-              "item": "Nature, UK"
-            },
-            "Year": 1984,
-            "Volume": 309,
-            "Pages": [
-              543,
-              546
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Filion, L."
+              },
+              "Title": {
+                "item": "A relationship between dunes, fire and climate recorded in the Holocene deposits of Quebec"
+              },
+              "Journal": {
+                "item": "Nature, UK"
+              },
+              "Year": 1984,
+              "Volume": 309,
+              "Pages": [
+                543,
+                546
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "unspecified biota"
           }
-        }
+        ]
       }
     }
   ],
