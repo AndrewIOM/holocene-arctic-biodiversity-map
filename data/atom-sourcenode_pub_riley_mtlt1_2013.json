@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Riley, J. L.; Riley, J. L."
-            },
-            "Title": {
-              "item": "Manufacturing the Land: The 1800s"
-            },
-            "Journal": {
-              "item": "Once and Future Great Lakes Country: An Ecological History"
-            },
-            "Year": 2013,
-            "Volume": 2,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Riley, J. L.; Riley, J. L."
+              },
+              "Title": {
+                "item": "Manufacturing the Land: The 1800s"
+              },
+              "Journal": {
+                "item": "Once and Future Great Lakes Country: An Ecological History"
+              },
+              "Year": 2013,
+              "Volume": 2,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "lack of specific species"
           }
-        }
+        ]
       }
     }
   ],

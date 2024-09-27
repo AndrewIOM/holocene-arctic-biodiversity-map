@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Makenov, M."
-            },
-            "Title": {
-              "item": "Extinct or extant? A review of dhole (Cuon alpinus Pallas, 1811) distribution in the former USSR and modern Russia"
-            },
-            "Journal": {
-              "item": "Mammal Research"
-            },
-            "Year": 2018,
-            "Volume": 63,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Makenov, M."
+              },
+              "Title": {
+                "item": "Extinct or extant? A review of dhole (Cuon alpinus Pallas, 1811) distribution in the former USSR and modern Russia"
+              },
+              "Journal": {
+                "item": "Mammal Research"
+              },
+              "Year": 2018,
+              "Volume": 63,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "south russia"
           }
-        }
+        ]
       }
     }
   ],
