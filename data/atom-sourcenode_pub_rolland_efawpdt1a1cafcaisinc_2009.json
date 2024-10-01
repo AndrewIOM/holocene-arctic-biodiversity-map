@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rolland, N.; Larocque, I.; Francus, P.; Pienitz, R.; Laperriere, L."
-            },
-            "Title": {
-              "item": "Evidence for a warmer period during the 12th and 13th centuries AD from chironomid assemblages in Southampton Island, Nunavut, Canada"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2009,
-            "Volume": 72,
-            "Pages": [
-              27,
-              37
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rolland, N.; Larocque, I.; Francus, P.; Pienitz, R.; Laperriere, L."
+              },
+              "Title": {
+                "item": "Evidence for a warmer period during the 12th and 13th centuries AD from chironomid assemblages in Southampton Island, Nunavut, Canada"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2009,
+              "Volume": 72,
+              "Pages": [
+                27,
+                37
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

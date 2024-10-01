@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Calkin, P. E.; Wiles, G. C.; Barclay, D. J."
-            },
-            "Title": {
-              "item": "Holocene coastal glaciation of Alaska"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2001,
-            "Volume": 20,
-            "Pages": [
-              449,
-              461
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Calkin, P. E.; Wiles, G. C.; Barclay, D. J."
+              },
+              "Title": {
+                "item": "Holocene coastal glaciation of Alaska"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2001,
+              "Volume": 20,
+              "Pages": [
+                449,
+                461
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "No specific dendro"
           }
-        }
+        ]
       }
     }
   ],

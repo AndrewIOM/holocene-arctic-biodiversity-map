@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Abbott, M. B.; Edwards, M. E.; Finney, B. P."
-            },
-            "Title": {
-              "item": "A 40,000-yr record of environmental change from Burial Lake in Northwest Alaska"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2010,
-            "Volume": 74,
-            "Pages": [
-              156,
-              165
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Abbott, M. B.; Edwards, M. E.; Finney, B. P."
+              },
+              "Title": {
+                "item": "A 40,000-yr record of environmental change from Burial Lake in Northwest Alaska"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2010,
+              "Volume": 74,
+              "Pages": [
+                156,
+                165
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

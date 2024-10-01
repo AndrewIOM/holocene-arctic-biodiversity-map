@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Balk, M. A.; Betancourt, J. L.; Smith, F. A."
-            },
-            "Title": {
-              "item": "Investigating (a)symmetry in a small mammal's response to warming and cooling events across western North America over the late Quaternary"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2019,
-            "Volume": 92,
-            "Pages": [
-              408,
-              415
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Balk, M. A.; Betancourt, J. L.; Smith, F. A."
+              },
+              "Title": {
+                "item": "Investigating (a)symmetry in a small mammal's response to warming and cooling events across western North America over the late Quaternary"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2019,
+              "Volume": 92,
+              "Pages": [
+                408,
+                415
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Western US"
           }
-        }
+        ]
       }
     }
   ],

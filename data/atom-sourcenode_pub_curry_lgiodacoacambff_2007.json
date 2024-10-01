@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Curry, R. A."
-            },
-            "Title": {
-              "item": "Late glacial impacts on dispersal and colonization of Atlantic Canada and Maine by freshwater fishes"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2007,
-            "Volume": 67,
-            "Pages": [
-              225,
-              233
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Curry, R. A."
+              },
+              "Title": {
+                "item": "Late glacial impacts on dispersal and colonization of Atlantic Canada and Maine by freshwater fishes"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2007,
+              "Volume": 67,
+              "Pages": [
+                225,
+                233
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Nova Scotia"
           }
-        }
+        ]
       }
     }
   ],

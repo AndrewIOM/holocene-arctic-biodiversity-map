@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Anderson, P. M.; Brubaker, L. B."
-            },
-            "Title": {
-              "item": "Vegetation History of Northcentral Alaska - a Mapped Summary of Late-Quaternary Pollen Data"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 1994,
-            "Volume": 13,
-            "Pages": [
-              71,
-              92
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Anderson, P. M.; Brubaker, L. B."
+              },
+              "Title": {
+                "item": "Vegetation History of Northcentral Alaska - a Mapped Summary of Late-Quaternary Pollen Data"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 1994,
+              "Volume": 13,
+              "Pages": [
+                71,
+                92
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

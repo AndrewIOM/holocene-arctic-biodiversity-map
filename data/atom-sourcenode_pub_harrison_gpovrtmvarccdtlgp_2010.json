@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Harrison, S. P.; Sanchez Goñi, M. F."
-            },
-            "Title": {
-              "item": "Global patterns of vegetation response to millennial-scale variability and rapid climate change during the last glacial period"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2010,
-            "Volume": 29,
-            "Pages": [
-              2957,
-              2980
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Harrison, S. P.; Sanchez Goñi, M. F."
+              },
+              "Title": {
+                "item": "Global patterns of vegetation response to millennial-scale variability and rapid climate change during the last glacial period"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2010,
+              "Volume": 29,
+              "Pages": [
+                2957,
+                2980
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "species unmentioned"
           }
-        }
+        ]
       }
     }
   ],
