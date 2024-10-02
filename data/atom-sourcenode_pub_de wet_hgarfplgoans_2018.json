@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "de Wet, G. A.; Balascio, N. L.; D'Andrea, W. J.; Bakke, J.; Bradley, R. S.; Perren, B."
-            },
-            "Title": {
-              "item": "Holocene glacier activity reconstructed from proglacial lake Gjoavatnet on Amsterdamoya, NW Svalbard"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2018,
-            "Volume": 183,
-            "Pages": [
-              188,
-              203
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "de Wet, G. A.; Balascio, N. L.; D'Andrea, W. J.; Bakke, J.; Bradley, R. S.; Perren, B."
+              },
+              "Title": {
+                "item": "Holocene glacier activity reconstructed from proglacial lake Gjoavatnet on Amsterdamoya, NW Svalbard"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2018,
+              "Volume": 183,
+              "Pages": [
+                188,
+                203
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

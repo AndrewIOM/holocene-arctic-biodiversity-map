@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Muschitiello, F.; Zhang, Q.; Sundqvist, H. S.; Davies, F. J.; Renssen, H."
-            },
-            "Title": {
-              "item": "Arctic climate response to the termination of the African Humid Period"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2015,
-            "Volume": 125,
-            "Pages": [
-              91,
-              97
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Muschitiello, F.; Zhang, Q.; Sundqvist, H. S.; Davies, F. J.; Renssen, H."
+              },
+              "Title": {
+                "item": "Arctic climate response to the termination of the African Humid Period"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2015,
+              "Volume": 125,
+              "Pages": [
+                91,
+                97
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "species unmentioned"
           }
-        }
+        ]
       }
     }
   ],

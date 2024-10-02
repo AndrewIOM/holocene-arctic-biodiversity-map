@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Anderson, P. M.; Lozhkin, A. V."
-            },
-            "Title": {
-              "item": "Late Quaternary vegetation of Chukotka (Northeast Russia), implications for Glacial and Holocene environments of Beringia"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2015,
-            "Volume": 107,
-            "Pages": [
-              112,
-              128
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Anderson, P. M.; Lozhkin, A. V."
+              },
+              "Title": {
+                "item": "Late Quaternary vegetation of Chukotka (Northeast Russia), implications for Glacial and Holocene environments of Beringia"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2015,
+              "Volume": 107,
+              "Pages": [
+                112,
+                128
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
