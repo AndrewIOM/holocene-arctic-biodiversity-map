@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Haugen, R. K."
-            },
-            "Title": {
-              "item": "Tree ring indices: A circumpolar comparison"
-            },
-            "Journal": {
-              "item": "Science"
-            },
-            "Year": 1967,
-            "Volume": 158,
-            "Pages": [
-              773,
-              775
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Haugen, R. K."
+              },
+              "Title": {
+                "item": "Tree ring indices: A circumpolar comparison"
+              },
+              "Journal": {
+                "item": "Science"
+              },
+              "Year": 1967,
+              "Volume": 158,
+              "Pages": [
+                773,
+                775
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

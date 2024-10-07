@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lannenpaa, A.; Aakala, T.; Kauhanen, H.; Kuuluvainen, T."
-            },
-            "Title": {
-              "item": "Tree mortality agents in pristine Norway spruce forests in northern Fennoscandia"
-            },
-            "Journal": {
-              "item": "Silva Fennica"
-            },
-            "Year": 2008,
-            "Volume": 42,
-            "Pages": [
-              151,
-              163
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lannenpaa, A.; Aakala, T.; Kauhanen, H.; Kuuluvainen, T."
+              },
+              "Title": {
+                "item": "Tree mortality agents in pristine Norway spruce forests in northern Fennoscandia"
+              },
+              "Journal": {
+                "item": "Silva Fennica"
+              },
+              "Year": 2008,
+              "Volume": 42,
+              "Pages": [
+                151,
+                163
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "not dated"
           }
-        }
+        ]
       }
     }
   ],

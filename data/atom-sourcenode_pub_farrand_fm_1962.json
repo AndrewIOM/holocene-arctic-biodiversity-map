@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Farrand, W. R."
-            },
-            "Title": {
-              "item": "Frozen mammoths."
-            },
-            "Journal": {
-              "item": "Science"
-            },
-            "Year": 1962,
-            "Pages": [
-              450,
-              452
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Farrand, W. R."
+              },
+              "Title": {
+                "item": "Frozen mammoths."
+              },
+              "Journal": {
+                "item": "Science"
+              },
+              "Year": 1962,
+              "Pages": [
+                450,
+                452
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "no specific data"
           }
-        }
+        ]
       }
     }
   ],

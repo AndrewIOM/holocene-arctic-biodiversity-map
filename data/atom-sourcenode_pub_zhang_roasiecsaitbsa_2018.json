@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Zhang, Q.; Xiao, C.; Ding, M.; Dou, T."
-            },
-            "Title": {
-              "item": "Reconstruction of autumn sea ice extent changes since AD1289 in the Barents-Kara Sea, Arctic"
-            },
-            "Journal": {
-              "item": "Science China Earth Sciences"
-            },
-            "Year": 2018,
-            "Volume": 61,
-            "Pages": [
-              1279,
-              1291
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Zhang, Q.; Xiao, C.; Ding, M.; Dou, T."
+              },
+              "Title": {
+                "item": "Reconstruction of autumn sea ice extent changes since AD1289 in the Barents-Kara Sea, Arctic"
+              },
+              "Journal": {
+                "item": "Science China Earth Sciences"
+              },
+              "Year": 2018,
+              "Volume": 61,
+              "Pages": [
+                1279,
+                1291
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Tree ring data (Helama et al, 2010) not provided"
           }
-        }
+        ]
       }
     }
   ],

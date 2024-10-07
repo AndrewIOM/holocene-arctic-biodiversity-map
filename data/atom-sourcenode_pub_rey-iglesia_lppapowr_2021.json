@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rey-Iglesia, A.; Lister, A. M.; Stuart, A. J.; Bocherens, H.; Szpak, P.; Willerslev, E.; Lorenzen, E. D."
-            },
-            "Title": {
-              "item": "Late Pleistocene paleoecology and phylogeography of woolly rhinoceroses"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2021,
-            "Volume": 263,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rey-Iglesia, A.; Lister, A. M.; Stuart, A. J.; Bocherens, H.; Szpak, P.; Willerslev, E.; Lorenzen, E. D."
+              },
+              "Title": {
+                "item": "Late Pleistocene paleoecology and phylogeography of woolly rhinoceroses"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2021,
+              "Volume": 263,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "12,000 yr BP +"
           }
-        }
+        ]
       }
     }
   ],

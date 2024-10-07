@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Tedesco, P. A.; Beauchard, O.; Bigorne, R.; Blanchet, S.; Buisson, L.; Conti, L.; Cornu, J. F.; Dias, M. S.; Grenouillet, G.; Hugueny, B.; Jezequel, C.; Leprieur, F.; Brosse, S.; Oberdorff, T."
-            },
-            "Title": {
-              "item": "A global database on freshwater fish species occurrence in drainage basins"
-            },
-            "Journal": {
-              "item": "Scientific Data"
-            },
-            "Year": 2017,
-            "Volume": 4,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Tedesco, P. A.; Beauchard, O.; Bigorne, R.; Blanchet, S.; Buisson, L.; Conti, L.; Cornu, J. F.; Dias, M. S.; Grenouillet, G.; Hugueny, B.; Jezequel, C.; Leprieur, F.; Brosse, S.; Oberdorff, T."
+              },
+              "Title": {
+                "item": "A global database on freshwater fish species occurrence in drainage basins"
+              },
+              "Journal": {
+                "item": "Scientific Data"
+              },
+              "Year": 2017,
+              "Volume": 4,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "based on present day"
           }
-        }
+        ]
       }
     }
   ],

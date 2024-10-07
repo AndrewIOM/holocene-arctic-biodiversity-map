@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bird, J. B."
-            },
-            "Title": {
-              "item": "Littorina littorea: Occurrence in a northern newfoundland beach terrace, predating norse settlements"
-            },
-            "Journal": {
-              "item": "Science"
-            },
-            "Year": 1968,
-            "Volume": 159,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bird, J. B."
+              },
+              "Title": {
+                "item": "Littorina littorea: Occurrence in a northern newfoundland beach terrace, predating norse settlements"
+              },
+              "Journal": {
+                "item": "Science"
+              },
+              "Year": 1968,
+              "Volume": 159,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "not dated"
           }
-        }
+        ]
       }
     }
   ],

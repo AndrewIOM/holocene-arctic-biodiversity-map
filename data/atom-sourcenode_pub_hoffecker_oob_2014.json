@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hoffecker, J. F.; Elias, S. A.; O'Rourke, D. H."
-            },
-            "Title": {
-              "item": "Out of Beringia?"
-            },
-            "Journal": {
-              "item": "Science"
-            },
-            "Year": 2014,
-            "Volume": 343,
-            "Pages": [
-              979,
-              980
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hoffecker, J. F.; Elias, S. A.; O'Rourke, D. H."
+              },
+              "Title": {
+                "item": "Out of Beringia?"
+              },
+              "Journal": {
+                "item": "Science"
+              },
+              "Year": 2014,
+              "Volume": 343,
+              "Pages": [
+                979,
+                980
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "species unmentioned - only human"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Spjeldnaes, N.; Henningsmoen, K. E."
-            },
-            "Title": {
-              "item": "Littorina littorea: An indicator of Norse settlement in North America?"
-            },
-            "Journal": {
-              "item": "Science"
-            },
-            "Year": 3577,
-            "Volume": 141,
-            "Pages": [
-              275,
-              276
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Spjeldnaes, N.; Henningsmoen, K. E."
+              },
+              "Title": {
+                "item": "Littorina littorea: An indicator of Norse settlement in North America?"
+              },
+              "Journal": {
+                "item": "Science"
+              },
+              "Year": 3577,
+              "Volume": 141,
+              "Pages": [
+                275,
+                276
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Nova Scotia"
           }
-        }
+        ]
       }
     }
   ],
