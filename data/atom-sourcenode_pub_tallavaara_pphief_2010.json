@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Tallavaara, M.; Pesonen, P.; Oinonen, M."
-            },
-            "Title": {
-              "item": "Prehistoric population history in eastern Fennoscandia"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science"
-            },
-            "Year": 2010,
-            "Volume": 37,
-            "Pages": [
-              251,
-              260
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Tallavaara, M.; Pesonen, P.; Oinonen, M."
+              },
+              "Title": {
+                "item": "Prehistoric population history in eastern Fennoscandia"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science"
+              },
+              "Year": 2010,
+              "Volume": 37,
+              "Pages": [
+                251,
+                260
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "only properly discusses humans"
           }
-        }
+        ]
       }
     }
   ],

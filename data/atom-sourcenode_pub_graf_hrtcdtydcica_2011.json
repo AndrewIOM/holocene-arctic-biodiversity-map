@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Graf, K. E.; Bigelow, N. H."
-            },
-            "Title": {
-              "item": "Human response to climate during the Younger Dryas chronozone in central Alaska"
-            },
-            "Journal": {
-              "item": "Quaternary International"
-            },
-            "Year": 2011,
-            "Volume": 242,
-            "Pages": [
-              434,
-              451
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Graf, K. E.; Bigelow, N. H."
+              },
+              "Title": {
+                "item": "Human response to climate during the Younger Dryas chronozone in central Alaska"
+              },
+              "Journal": {
+                "item": "Quaternary International"
+              },
+              "Year": 2011,
+              "Volume": 242,
+              "Pages": [
+                434,
+                451
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "sites around Fairbanks, Alaska"
           }
-        }
+        ]
       }
     }
   ],

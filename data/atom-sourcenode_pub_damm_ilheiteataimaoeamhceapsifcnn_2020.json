@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Damm, C. B.; Skandfer, M.; Jorgensen, E. K.; Sjogren, P.; Vollan, K. W. B.; Jordan, P. D."
-            },
-            "Title": {
-              "item": "Investigating long-term human ecodynamics in the European Arctic: Towards an integrated multi-scalar analysis of early and mid Holocene cultural, environmental and palaeodemographic sequences in Finnmark County, Northern Norway"
-            },
-            "Journal": {
-              "item": "Quaternary International"
-            },
-            "Year": 2020,
-            "Volume": 549,
-            "Pages": [
-              52,
-              64
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Damm, C. B.; Skandfer, M.; Jorgensen, E. K.; Sjogren, P.; Vollan, K. W. B.; Jordan, P. D."
+              },
+              "Title": {
+                "item": "Investigating long-term human ecodynamics in the European Arctic: Towards an integrated multi-scalar analysis of early and mid Holocene cultural, environmental and palaeodemographic sequences in Finnmark County, Northern Norway"
+              },
+              "Journal": {
+                "item": "Quaternary International"
+              },
+              "Year": 2020,
+              "Volume": 549,
+              "Pages": [
+                52,
+                64
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Species not mentioned"
           }
-        }
+        ]
       }
     }
   ],
