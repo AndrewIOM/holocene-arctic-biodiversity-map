@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Roed, K. H.; Bjorklund, I.; Olsen, B. J."
-            },
-            "Title": {
-              "item": "From wild to domestic reindeer - Genetic evidence of a non-native origin of reindeer pastoralism in northern Fennoscandia"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science-Reports"
-            },
-            "Year": 2018,
-            "Volume": 19,
-            "Pages": [
-              279,
-              286
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Roed, K. H.; Bjorklund, I.; Olsen, B. J."
+              },
+              "Title": {
+                "item": "From wild to domestic reindeer - Genetic evidence of a non-native origin of reindeer pastoralism in northern Fennoscandia"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science-Reports"
+              },
+              "Year": 2018,
+              "Volume": 19,
+              "Pages": [
+                279,
+                286
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

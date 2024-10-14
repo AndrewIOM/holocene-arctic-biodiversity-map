@@ -8,25 +8,34 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kuzmin, Y. V.; Orlova, L. A.; Zolnikov, I. D."
-            },
-            "Title": {
-              "item": "Dynamics of the mammoth (Mammuthus primigenius) population in Northern Asia: Radiocarbon evidence"
-            },
-            "Journal": {
-              "item": "Deinsea (Rotterdam)"
-            },
-            "Year": 2003,
-            "Pages": [
-              221,
-              237
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kuzmin, Y. V.; Orlova, L. A.; Zolnikov, I. D."
+              },
+              "Title": {
+                "item": "Dynamics of the mammoth (Mammuthus primigenius) population in Northern Asia: Radiocarbon evidence"
+              },
+              "Journal": {
+                "item": "Deinsea (Rotterdam)"
+              },
+              "Year": 2003,
+              "Pages": [
+                221,
+                237
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

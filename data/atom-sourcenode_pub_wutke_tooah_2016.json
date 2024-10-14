@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Wutke, S.; Andersson, L.; Benecke, N.; Sandoval-Castellanos, E.; Gonzalez, J.; Hallsson, J. H.; Lõugas, L.; Magnell, O.; Morales-Muniz, A.; Orlando, L.; Pálsdóttir, A. H.; Reissmann, M.; Muñoz-Rodríguez, M. B.; Ruttkay, M.; Trinks, A.; Hofreiter, M.; Ludwig, A."
-            },
-            "Title": {
-              "item": "The origin of ambling horses"
-            },
-            "Journal": {
-              "item": "Current Biology"
-            },
-            "Year": 2016,
-            "Volume": 26,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Wutke, S.; Andersson, L.; Benecke, N.; Sandoval-Castellanos, E.; Gonzalez, J.; Hallsson, J. H.; Lõugas, L.; Magnell, O.; Morales-Muniz, A.; Orlando, L.; Pálsdóttir, A. H.; Reissmann, M.; Muñoz-Rodríguez, M. B.; Ruttkay, M.; Trinks, A.; Hofreiter, M.; Ludwig, A."
+              },
+              "Title": {
+                "item": "The origin of ambling horses"
+              },
+              "Journal": {
+                "item": "Current Biology"
+              },
+              "Year": 2016,
+              "Volume": 26,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "South/central europe"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Edvinger, B. W."
-            },
-            "Title": {
-              "item": "Reindeer herding and history in the mountains of Southern Sápmi"
-            },
-            "Journal": {
-              "item": "Current Swedish Archaeology"
-            },
-            "Year": 2002,
-            "Volume": 10,
-            "Pages": [
-              115,
-              136
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Edvinger, B. W."
+              },
+              "Title": {
+                "item": "Reindeer herding and history in the mountains of Southern Sápmi"
+              },
+              "Journal": {
+                "item": "Current Swedish Archaeology"
+              },
+              "Year": 2002,
+              "Volume": 10,
+              "Pages": [
+                115,
+                136
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Central norway and sweden"
           }
-        }
+        ]
       }
     }
   ],

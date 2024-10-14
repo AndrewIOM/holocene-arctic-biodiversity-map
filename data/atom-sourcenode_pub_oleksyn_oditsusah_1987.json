@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Oleksyn, J.; Przybyl, K."
-            },
-            "Title": {
-              "item": "Oak decline in the Soviet Union - scale and hypotheses"
-            },
-            "Journal": {
-              "item": "European Journal of Forest Pathology"
-            },
-            "Year": 1987,
-            "Volume": 17,
-            "Pages": [
-              321,
-              336
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Oleksyn, J.; Przybyl, K."
+              },
+              "Title": {
+                "item": "Oak decline in the Soviet Union - scale and hypotheses"
+              },
+              "Journal": {
+                "item": "European Journal of Forest Pathology"
+              },
+              "Year": 1987,
+              "Volume": 17,
+              "Pages": [
+                321,
+                336
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "South USSR"
           }
-        }
+        ]
       }
     }
   ],

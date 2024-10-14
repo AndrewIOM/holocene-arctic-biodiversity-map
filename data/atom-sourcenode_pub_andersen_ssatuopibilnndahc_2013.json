@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andersen, O.; Lorås, J.; Storaunet, K. O.; Hjortfors, L. M."
-            },
-            "Title": {
-              "item": "Sámi settlement and the use of pine inner bark in Lønsdal, Nordland, Norway. Dating and historical context"
-            },
-            "Journal": {
-              "item": "Fennoscandia Archaeologica"
-            },
-            "Year": 2013,
-            "Volume": 30,
-            "Pages": [
-              55,
-              66
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andersen, O.; Lorås, J.; Storaunet, K. O.; Hjortfors, L. M."
+              },
+              "Title": {
+                "item": "Sámi settlement and the use of pine inner bark in Lønsdal, Nordland, Norway. Dating and historical context"
+              },
+              "Journal": {
+                "item": "Fennoscandia Archaeologica"
+              },
+              "Year": 2013,
+              "Volume": 30,
+              "Pages": [
+                55,
+                66
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
