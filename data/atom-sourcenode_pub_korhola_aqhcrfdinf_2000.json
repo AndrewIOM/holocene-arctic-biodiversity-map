@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Korhola, A.; Weckstrom, J.; Holmstrom, L.; Erasto, P."
-            },
-            "Title": {
-              "item": "A quantitative Holocene climatic record from diatoms in Northern Fennoscandia"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2000,
-            "Volume": 54,
-            "Pages": [
-              284,
-              294
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Korhola, A.; Weckstrom, J.; Holmstrom, L.; Erasto, P."
+              },
+              "Title": {
+                "item": "A quantitative Holocene climatic record from diatoms in Northern Fennoscandia"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2000,
+              "Volume": 54,
+              "Pages": [
+                284,
+                294
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

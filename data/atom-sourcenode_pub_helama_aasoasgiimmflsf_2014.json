@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Helama, S.; Valovirta, I."
-            },
-            "Title": {
-              "item": "An Autoecological Study of Annual Shell Growth Increments in Margaritifera Margaritifera from Lapland, Subarctic Finland"
-            },
-            "Journal": {
-              "item": "Memoir of the Fukui Prefectural Dinosaur Museum"
-            },
-            "Year": 2014,
-            "Volume": 13,
-            "Pages": [
-              25,
-              35
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Helama, S.; Valovirta, I."
+              },
+              "Title": {
+                "item": "An Autoecological Study of Annual Shell Growth Increments in Margaritifera Margaritifera from Lapland, Subarctic Finland"
+              },
+              "Journal": {
+                "item": "Memoir of the Fukui Prefectural Dinosaur Museum"
+              },
+              "Year": 2014,
+              "Volume": 13,
+              "Pages": [
+                25,
+                35
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
