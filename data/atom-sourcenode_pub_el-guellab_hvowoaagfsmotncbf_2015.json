@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "El-Guellab, A.; Asselin, H.; Gauthier, S.; Bergeron, Y.; Ali, A. A."
-            },
-            "Title": {
-              "item": "Holocene variations of wildfire occurrence as a guide for sustainable management of the northeastern Canadian boreal forest"
-            },
-            "Journal": {
-              "item": "Forest Ecosystems"
-            },
-            "Year": 2015,
-            "Volume": 2,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "El-Guellab, A.; Asselin, H.; Gauthier, S.; Bergeron, Y.; Ali, A. A."
+              },
+              "Title": {
+                "item": "Holocene variations of wildfire occurrence as a guide for sustainable management of the northeastern Canadian boreal forest"
+              },
+              "Journal": {
+                "item": "Forest Ecosystems"
+              },
+              "Year": 2015,
+              "Volume": 2,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Chibougamau, Quebec"
           }
-        }
+        ]
       }
     }
   ],

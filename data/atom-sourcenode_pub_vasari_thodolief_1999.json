@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Vasari, Y."
-            },
-            "Title": {
-              "item": "The history of Dryas octopetala L. in eastern Fennoscandia"
-            },
-            "Journal": {
-              "item": "Grana"
-            },
-            "Year": 1999,
-            "Volume": 38,
-            "Pages": [
-              250,
-              254
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Vasari, Y."
+              },
+              "Title": {
+                "item": "The history of Dryas octopetala L. in eastern Fennoscandia"
+              },
+              "Journal": {
+                "item": "Grana"
+              },
+              "Year": 1999,
+              "Volume": 38,
+              "Pages": [
+                250,
+                254
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

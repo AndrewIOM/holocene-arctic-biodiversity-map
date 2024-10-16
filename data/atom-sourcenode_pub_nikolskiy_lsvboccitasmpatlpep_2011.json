@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nikolskiy, P. A.; Sulerzhitsky, L. D.; Pitulko, V. V."
-            },
-            "Title": {
-              "item": "Last straw versus Blitzkrieg overkill: Climate-driven changes in the Arctic Siberian mammoth population and the Late Pleistocene extinction problem"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2011,
-            "Volume": 30,
-            "Pages": [
-              2309,
-              2328
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nikolskiy, P. A.; Sulerzhitsky, L. D.; Pitulko, V. V."
+              },
+              "Title": {
+                "item": "Last straw versus Blitzkrieg overkill: Climate-driven changes in the Arctic Siberian mammoth population and the Late Pleistocene extinction problem"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2011,
+              "Volume": 30,
+              "Pages": [
+                2309,
+                2328
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

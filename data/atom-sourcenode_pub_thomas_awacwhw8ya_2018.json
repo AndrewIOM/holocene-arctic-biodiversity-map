@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Thomas, E. K.; Castaneda, I. S.; McKay, N. P.; Briner, J. P.; Salacup, J. M.; Nguyen, K. Q.; Schweinsberg, A. D."
-            },
-            "Title": {
-              "item": "A Wetter Arctic Coincident With Hemispheric Warming 8,000 Years Ago"
-            },
-            "Journal": {
-              "item": "Geophysical Research Letters"
-            },
-            "Year": 2018,
-            "Volume": 45,
-            "Pages": [
-              10637,
-              10647
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Thomas, E. K.; Castaneda, I. S.; McKay, N. P.; Briner, J. P.; Salacup, J. M.; Nguyen, K. Q.; Schweinsberg, A. D."
+              },
+              "Title": {
+                "item": "A Wetter Arctic Coincident With Hemispheric Warming 8,000 Years Ago"
+              },
+              "Journal": {
+                "item": "Geophysical Research Letters"
+              },
+              "Year": 2018,
+              "Volume": 45,
+              "Pages": [
+                10637,
+                10647
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "does not discuss relevant biota"
           }
-        }
+        ]
       }
     }
   ],

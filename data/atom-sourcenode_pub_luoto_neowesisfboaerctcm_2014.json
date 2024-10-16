@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Luoto, T. P.; Kaukolehto, M.; Weckstrom, J.; Korhola, A.; Valiranta, M."
-            },
-            "Title": {
-              "item": "New evidence of warm early-Holocene summers in subarctic Finland based on an enhanced regional chironomid-based temperature calibration model"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2014,
-            "Volume": 81,
-            "Pages": [
-              50,
-              62
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Luoto, T. P.; Kaukolehto, M.; Weckstrom, J.; Korhola, A.; Valiranta, M."
+              },
+              "Title": {
+                "item": "New evidence of warm early-Holocene summers in subarctic Finland based on an enhanced regional chironomid-based temperature calibration model"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2014,
+              "Volume": 81,
+              "Pages": [
+                50,
+                62
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

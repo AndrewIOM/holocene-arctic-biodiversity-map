@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lloyd, A. H.; Duffy, P. A.; Mann, D. H."
-            },
-            "Title": {
-              "item": "Nonlinear responses of white spruce growth to climate variability in interior Alaska"
-            },
-            "Journal": {
-              "item": "Canadian Journal of Forest Research"
-            },
-            "Year": 2013,
-            "Volume": 43,
-            "Pages": [
-              331,
-              343
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lloyd, A. H.; Duffy, P. A.; Mann, D. H."
+              },
+              "Title": {
+                "item": "Nonlinear responses of white spruce growth to climate variability in interior Alaska"
+              },
+              "Journal": {
+                "item": "Canadian Journal of Forest Research"
+              },
+              "Year": 2013,
+              "Volume": 43,
+              "Pages": [
+                331,
+                343
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "6 coordinates all interior Alaska"
           }
-        }
+        ]
       }
     }
   ],

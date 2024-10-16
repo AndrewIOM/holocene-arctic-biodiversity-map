@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Miszaniec, J. I.; Darwent, J.; Darwent, C. M."
-            },
-            "Title": {
-              "item": "Small game, estuaries, and nets: New perspectives on Norton culture coastal adaptations from a shell midden in Norton Sound, Alaska"
-            },
-            "Journal": {
-              "item": "Journal of Island & Coastal Archaeology"
-            },
-            "Year": 2021,
-            "Volume": 16,
-            "Pages": [
-              317,
-              341
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Miszaniec, J. I.; Darwent, J.; Darwent, C. M."
+              },
+              "Title": {
+                "item": "Small game, estuaries, and nets: New perspectives on Norton culture coastal adaptations from a shell midden in Norton Sound, Alaska"
+              },
+              "Journal": {
+                "item": "Journal of Island & Coastal Archaeology"
+              },
+              "Year": 2021,
+              "Volume": 16,
+              "Pages": [
+                317,
+                341
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no change in biod. discussed"
           }
-        }
+        ]
       }
     }
   ],

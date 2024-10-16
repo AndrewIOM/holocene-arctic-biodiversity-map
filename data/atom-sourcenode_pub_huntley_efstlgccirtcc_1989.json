@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Huntley, B."
-            },
-            "Title": {
-              "item": "European Forests since the Last Glacial Compositional Changes in Response to Climatic Change"
-            },
-            "Journal": {
-              "item": "Sjogren, E."
-            },
-            "Year": 1989,
-            "Pages": [
-              124,
-              126
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Huntley, B."
+              },
+              "Title": {
+                "item": "European Forests since the Last Glacial Compositional Changes in Response to Climatic Change"
+              },
+              "Journal": {
+                "item": "Sjogren, E."
+              },
+              "Year": 1989,
+              "Pages": [
+                124,
+                126
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "unclear data for arctic sites"
           }
-        }
+        ]
       }
     }
   ],

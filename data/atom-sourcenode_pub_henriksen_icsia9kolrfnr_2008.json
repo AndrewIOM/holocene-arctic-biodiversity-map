@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Henriksen, M.; Mangerud, J.; Matiouchkov, A.; Murray, A. S.; Paus, A.; Svendsen, J. I."
-            },
-            "Title": {
-              "item": "Intriguing climatic shifts in a 90 kyr old lake record from northern Russia"
-            },
-            "Journal": {
-              "item": "Boreas (Oslo)"
-            },
-            "Year": 2008,
-            "Volume": 37,
-            "Pages": [
-              20,
-              37
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Henriksen, M.; Mangerud, J.; Matiouchkov, A.; Murray, A. S.; Paus, A.; Svendsen, J. I."
+              },
+              "Title": {
+                "item": "Intriguing climatic shifts in a 90 kyr old lake record from northern Russia"
+              },
+              "Journal": {
+                "item": "Boreas (Oslo)"
+              },
+              "Year": 2008,
+              "Volume": 37,
+              "Pages": [
+                20,
+                37
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

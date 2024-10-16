@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Grayson, D. K.; Meltzer, D. J."
-            },
-            "Title": {
-              "item": "Revisiting Paleoindian exploitation of extinct North American mammals"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science"
-            },
-            "Year": 2015,
-            "Volume": 56,
-            "Pages": [
-              177,
-              193
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Grayson, D. K.; Meltzer, D. J."
+              },
+              "Title": {
+                "item": "Revisiting Paleoindian exploitation of extinct North American mammals"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science"
+              },
+              "Year": 2015,
+              "Volume": 56,
+              "Pages": [
+                177,
+                193
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Mainland USA"
           }
-        }
+        ]
       }
     }
   ],

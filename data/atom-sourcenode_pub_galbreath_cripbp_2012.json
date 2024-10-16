@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Galbreath, K. E.; Cook, J. A.; Hoberg, E. P."
-            },
-            "Title": {
-              "item": "Climate's Role in Polar Bear Past"
-            },
-            "Journal": {
-              "item": "Science (Washington D C)"
-            },
-            "Year": 2012,
-            "Volume": 336,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Galbreath, K. E.; Cook, J. A.; Hoberg, E. P."
+              },
+              "Title": {
+                "item": "Climate's Role in Polar Bear Past"
+              },
+              "Journal": {
+                "item": "Science (Washington D C)"
+              },
+              "Year": 2012,
+              "Volume": 336,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Pleistocene"
           }
-        }
+        ]
       }
     }
   ],

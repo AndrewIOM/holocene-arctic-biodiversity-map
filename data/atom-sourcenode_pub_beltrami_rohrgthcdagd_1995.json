@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Beltrami, H.; Chapman, D. S.; Archambault, S.; Bergeron, Y."
-            },
-            "Title": {
-              "item": "Reconstruction of high resolution ground temperature histories combining dendrochronological and geothermal data"
-            },
-            "Journal": {
-              "item": "Earth and Planetary Science Letters"
-            },
-            "Year": 1995,
-            "Volume": 136,
-            "Pages": [
-              437,
-              445
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Beltrami, H.; Chapman, D. S.; Archambault, S.; Bergeron, Y."
+              },
+              "Title": {
+                "item": "Reconstruction of high resolution ground temperature histories combining dendrochronological and geothermal data"
+              },
+              "Journal": {
+                "item": "Earth and Planetary Science Letters"
+              },
+              "Year": 1995,
+              "Volume": 136,
+              "Pages": [
+                437,
+                445
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Rouyn, Quebec"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Luckman, B. H."
-            },
-            "Title": {
-              "item": "Mountain areas and global change: a view from the Canadian Rockies"
-            },
-            "Journal": {
-              "item": "Mountain Research and Development"
-            },
-            "Year": 1990,
-            "Volume": 10,
-            "Pages": [
-              183,
-              195
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Luckman, B. H."
+              },
+              "Title": {
+                "item": "Mountain areas and global change: a view from the Canadian Rockies"
+              },
+              "Journal": {
+                "item": "Mountain Research and Development"
+              },
+              "Year": 1990,
+              "Volume": 10,
+              "Pages": [
+                183,
+                195
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Banff National Park"
           }
-        }
+        ]
       }
     }
   ],

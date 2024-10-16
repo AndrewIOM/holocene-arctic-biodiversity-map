@@ -8,22 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Uusitalo, J.; Arppe, L.; Hackman, T.; Helama, S.; Kovaltsov, G.; Mielikainen, K.; Makinen, H.; Nojd, P.; Palonen, V.; Usoskin, I.; Oinonen, M."
-            },
-            "Title": {
-              "item": "Solar superstorm of AD 774 recorded subannually by Arctic tree rings"
-            },
-            "Journal": {
-              "item": "Nature Communications"
-            },
-            "Year": 2018,
-            "Volume": 9,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Uusitalo, J.; Arppe, L.; Hackman, T.; Helama, S.; Kovaltsov, G.; Mielikainen, K.; Makinen, H.; Nojd, P.; Palonen, V.; Usoskin, I.; Oinonen, M."
+              },
+              "Title": {
+                "item": "Solar superstorm of AD 774 recorded subannually by Arctic tree rings"
+              },
+              "Journal": {
+                "item": "Nature Communications"
+              },
+              "Year": 2018,
+              "Volume": 9,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bartley, D. D."
-            },
-            "Title": {
-              "item": "The stratigraphy and pollen analysis of peat deposits at ytri baegisá near akureyri, Iceland"
-            },
-            "Journal": {
-              "item": "Gff"
-            },
-            "Year": 1973,
-            "Volume": 95,
-            "Pages": [
-              410,
-              414
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bartley, D. D."
+              },
+              "Title": {
+                "item": "The stratigraphy and pollen analysis of peat deposits at ytri baegisá near akureyri, Iceland"
+              },
+              "Journal": {
+                "item": "Gff"
+              },
+              "Year": 1973,
+              "Volume": 95,
+              "Pages": [
+                410,
+                414
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

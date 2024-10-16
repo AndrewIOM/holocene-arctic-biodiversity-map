@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Legeżyńska, J.; De Broyer, C.; Węsławski, J. M."
-            },
-            "Title": {
-              "item": "Invasion of the poles"
-            },
-            "Journal": {
-              "item": "Evolution and Biogeography: Volume 8"
-            },
-            "Year": 2021,
-            "Pages": [
-              216,
-              246
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Legeżyńska, J.; De Broyer, C.; Węsławski, J. M."
+              },
+              "Title": {
+                "item": "Invasion of the poles"
+              },
+              "Journal": {
+                "item": "Evolution and Biogeography: Volume 8"
+              },
+              "Year": 2021,
+              "Pages": [
+                216,
+                246
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Marine species"
           }
-        }
+        ]
       }
     }
   ],

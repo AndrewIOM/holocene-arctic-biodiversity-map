@@ -8,22 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gagen, M.; Zorita, E.; McCarroll, D.; Young, G. H. F.; Grudd, H.; Jalkanen, R.; Loader, N. J.; Robertson, I.; Kirchhefer, A."
-            },
-            "Title": {
-              "item": "Cloud response to summer temperatures in Fennoscandia over the last thousand years"
-            },
-            "Journal": {
-              "item": "Geophysical Research Letters"
-            },
-            "Year": 2011,
-            "Volume": 38,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gagen, M.; Zorita, E.; McCarroll, D.; Young, G. H. F.; Grudd, H.; Jalkanen, R.; Loader, N. J.; Robertson, I.; Kirchhefer, A."
+              },
+              "Title": {
+                "item": "Cloud response to summer temperatures in Fennoscandia over the last thousand years"
+              },
+              "Journal": {
+                "item": "Geophysical Research Letters"
+              },
+              "Year": 2011,
+              "Volume": 38,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

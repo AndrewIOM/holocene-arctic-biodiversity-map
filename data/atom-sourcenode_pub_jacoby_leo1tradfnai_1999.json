@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Jacoby, G. C.; Workman, K. W.; D'Arrigo, R. D."
-            },
-            "Title": {
-              "item": "Laki eruption of 1783, tree rings, and disaster for northwest Alaska Inuit"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 1999,
-            "Volume": 18,
-            "Pages": [
-              1365,
-              1371
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Jacoby, G. C.; Workman, K. W.; D'Arrigo, R. D."
+              },
+              "Title": {
+                "item": "Laki eruption of 1783, tree rings, and disaster for northwest Alaska Inuit"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 1999,
+              "Volume": 18,
+              "Pages": [
+                1365,
+                1371
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

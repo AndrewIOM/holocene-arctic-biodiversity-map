@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lindholm, M.; Jalkanen, R.; Salminen, H."
-            },
-            "Title": {
-              "item": "High-frequency reconstruction of mid-summer temperature from annual height increment of Scots pine at the northern timberline since 1846"
-            },
-            "Journal": {
-              "item": "Dendrochronologia"
-            },
-            "Year": 2009,
-            "Volume": 27,
-            "Pages": [
-              113,
-              119
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lindholm, M.; Jalkanen, R.; Salminen, H."
+              },
+              "Title": {
+                "item": "High-frequency reconstruction of mid-summer temperature from annual height increment of Scots pine at the northern timberline since 1846"
+              },
+              "Journal": {
+                "item": "Dendrochronologia"
+              },
+              "Year": 2009,
+              "Volume": 27,
+              "Pages": [
+                113,
+                119
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

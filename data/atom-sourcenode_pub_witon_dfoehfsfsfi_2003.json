@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Witon, E.; Witkowski, A."
-            },
-            "Title": {
-              "item": "Diatom (Bacillariophyceae) flora of early Holocene freshwater sediments from Skalarjord, Faeroe Islands"
-            },
-            "Journal": {
-              "item": "Journal of Micropalaeontology"
-            },
-            "Year": 2003,
-            "Volume": 22,
-            "Pages": [
-              183,
-              208
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Witon, E.; Witkowski, A."
+              },
+              "Title": {
+                "item": "Diatom (Bacillariophyceae) flora of early Holocene freshwater sediments from Skalarjord, Faeroe Islands"
+              },
+              "Journal": {
+                "item": "Journal of Micropalaeontology"
+              },
+              "Year": 2003,
+              "Volume": 22,
+              "Pages": [
+                183,
+                208
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

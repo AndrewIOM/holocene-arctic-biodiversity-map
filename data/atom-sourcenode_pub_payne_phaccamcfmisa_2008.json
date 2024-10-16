@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Payne, R. J.; Blackford, J. J."
-            },
-            "Title": {
-              "item": "Peat humification and climate change: a multi-site comparison from mires in south-east Alaska"
-            },
-            "Journal": {
-              "item": "Mires and Peat"
-            },
-            "Year": 2008,
-            "Volume": 3,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Payne, R. J.; Blackford, J. J."
+              },
+              "Title": {
+                "item": "Peat humification and climate change: a multi-site comparison from mires in south-east Alaska"
+              },
+              "Journal": {
+                "item": "Mires and Peat"
+              },
+              "Year": 2008,
+              "Volume": 3,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Alaska border with BC"
           }
-        }
+        ]
       }
     }
   ],

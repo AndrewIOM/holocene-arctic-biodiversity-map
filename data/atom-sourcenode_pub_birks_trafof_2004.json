@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Birks, H. J. B.; Birks, H. H."
-            },
-            "Title": {
-              "item": "The rise and fall of forests"
-            },
-            "Journal": {
-              "item": "Science"
-            },
-            "Year": 2004,
-            "Volume": 305,
-            "Pages": [
-              484,
-              485
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Birks, H. J. B.; Birks, H. H."
+              },
+              "Title": {
+                "item": "The rise and fall of forests"
+              },
+              "Journal": {
+                "item": "Science"
+              },
+              "Year": 2004,
+              "Volume": 305,
+              "Pages": [
+                484,
+                485
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsExperimentalDesign",
+          {
+            "item": "space-for-time"
           }
-        }
+        ]
       }
     }
   ],

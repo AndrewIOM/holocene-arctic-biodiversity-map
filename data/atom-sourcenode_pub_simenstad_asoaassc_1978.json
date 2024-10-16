@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Simenstad, C. A.; Estes, J. A.; Kenyon, K. W."
-            },
-            "Title": {
-              "item": "Aleuts Sea Otters and Alternate Stable State Communities"
-            },
-            "Journal": {
-              "item": "Science (Washington D C)"
-            },
-            "Year": 1978,
-            "Volume": 200,
-            "Pages": [
-              403,
-              411
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Simenstad, C. A.; Estes, J. A.; Kenyon, K. W."
+              },
+              "Title": {
+                "item": "Aleuts Sea Otters and Alternate Stable State Communities"
+              },
+              "Journal": {
+                "item": "Science (Washington D C)"
+              },
+              "Year": 1978,
+              "Volume": 200,
+              "Pages": [
+                403,
+                411
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

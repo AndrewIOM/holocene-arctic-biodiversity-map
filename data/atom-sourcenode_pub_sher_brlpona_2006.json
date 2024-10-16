@@ -8,25 +8,34 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Sher, A.; Kuzmina, S."
-            },
-            "Title": {
-              "item": "Beetle records | Late pleistocene of Northern Asia"
-            },
-            "Journal": {
-              "item": "Encyclopedia of Quaternary Science"
-            },
-            "Year": 2006,
-            "Pages": [
-              246,
-              267
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Sher, A.; Kuzmina, S."
+              },
+              "Title": {
+                "item": "Beetle records | Late pleistocene of Northern Asia"
+              },
+              "Journal": {
+                "item": "Encyclopedia of Quaternary Science"
+              },
+              "Year": 2006,
+              "Pages": [
+                246,
+                267
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

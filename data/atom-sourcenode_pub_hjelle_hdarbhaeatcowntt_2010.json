@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hjelle, K. L.; Halvorsen, L. S.; Overland, A."
-            },
-            "Title": {
-              "item": "Heathland development and relationship between humans and environment along the coast of western Norway through time"
-            },
-            "Journal": {
-              "item": "Quaternary International"
-            },
-            "Year": 2010,
-            "Volume": 220,
-            "Pages": [
-              133,
-              146
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hjelle, K. L.; Halvorsen, L. S.; Overland, A."
+              },
+              "Title": {
+                "item": "Heathland development and relationship between humans and environment along the coast of western Norway through time"
+              },
+              "Journal": {
+                "item": "Quaternary International"
+              },
+              "Year": 2010,
+              "Volume": 220,
+              "Pages": [
+                133,
+                146
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "south Norway"
           }
-        }
+        ]
       }
     }
   ],

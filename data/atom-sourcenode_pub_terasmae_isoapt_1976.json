@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Terasmae, J."
-            },
-            "Title": {
-              "item": "In search of a palynological tundra"
-            },
-            "Journal": {
-              "item": "Geoscience and Man"
-            },
-            "Year": 1976,
-            "Volume": 15,
-            "Pages": [
-              77,
-              82
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Terasmae, J."
+              },
+              "Title": {
+                "item": "In search of a palynological tundra"
+              },
+              "Journal": {
+                "item": "Geoscience and Man"
+              },
+              "Year": 1976,
+              "Volume": 15,
+              "Pages": [
+                77,
+                82
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "single data set- not multiple dates"
           }
-        }
+        ]
       }
     }
   ],

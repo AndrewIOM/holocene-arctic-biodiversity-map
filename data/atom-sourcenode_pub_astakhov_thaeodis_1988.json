@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Astakhov, V. I.; Isayeva, L. L."
-            },
-            "Title": {
-              "item": "The 'Ice Hill': An example of 'retarded deglaciation' in siberia"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 1988,
-            "Volume": 7,
-            "Pages": [
-              29,
-              40
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Astakhov, V. I.; Isayeva, L. L."
+              },
+              "Title": {
+                "item": "The 'Ice Hill': An example of 'retarded deglaciation' in siberia"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 1988,
+              "Volume": 7,
+              "Pages": [
+                29,
+                40
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "no specific species"
           }
-        }
+        ]
       }
     }
   ],

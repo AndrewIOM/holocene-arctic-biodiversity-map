@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Clackett, S. P.; Porter, T. J.; Lehnherr, I."
-            },
-            "Title": {
-              "item": "400-Year Record of Atmospheric Mercury from Tree-Rings in Northwestern Canada"
-            },
-            "Journal": {
-              "item": "Environmental Science & Technology"
-            },
-            "Year": 2018,
-            "Volume": 52,
-            "Pages": [
-              9625,
-              9633
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Clackett, S. P.; Porter, T. J.; Lehnherr, I."
+              },
+              "Title": {
+                "item": "400-Year Record of Atmospheric Mercury from Tree-Rings in Northwestern Canada"
+              },
+              "Journal": {
+                "item": "Environmental Science & Technology"
+              },
+              "Year": 2018,
+              "Volume": 52,
+              "Pages": [
+                9625,
+                9633
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

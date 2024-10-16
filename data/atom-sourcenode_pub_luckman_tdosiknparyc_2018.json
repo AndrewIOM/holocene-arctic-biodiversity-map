@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Luckman, B. H.; Dueck, L.; Reid, E.; Luckman, H. M."
-            },
-            "Title": {
-              "item": "Tree-ring dating of \"brush structures\" in Kluane National Park and Reserve, Yukon, Canada"
-            },
-            "Journal": {
-              "item": "Dendrochronologia"
-            },
-            "Year": 2018,
-            "Volume": 50,
-            "Pages": [
-              113,
-              125
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Luckman, B. H.; Dueck, L.; Reid, E.; Luckman, H. M."
+              },
+              "Title": {
+                "item": "Tree-ring dating of \"brush structures\" in Kluane National Park and Reserve, Yukon, Canada"
+              },
+              "Journal": {
+                "item": "Dendrochronologia"
+              },
+              "Year": 2018,
+              "Volume": 50,
+              "Pages": [
+                113,
+                125
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "South Yukon"
           }
-        }
+        ]
       }
     }
   ],

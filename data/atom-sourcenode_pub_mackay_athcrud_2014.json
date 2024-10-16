@@ -8,25 +8,34 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Mackay, A. W.; Jones, V. J.; Battarbee, R. W."
-            },
-            "Title": {
-              "item": "Approaches to holocene climate reconstruction using diatoms"
-            },
-            "Journal": {
-              "item": "Global Change in the Holocene"
-            },
-            "Year": 2014,
-            "Pages": [
-              294,
-              309
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Mackay, A. W.; Jones, V. J.; Battarbee, R. W."
+              },
+              "Title": {
+                "item": "Approaches to holocene climate reconstruction using diatoms"
+              },
+              "Journal": {
+                "item": "Global Change in the Holocene"
+              },
+              "Year": 2014,
+              "Pages": [
+                294,
+                309
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

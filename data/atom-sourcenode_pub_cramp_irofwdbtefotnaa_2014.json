@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Cramp, L. J. E.; Jones, J.; Sheridan, A.; Smyth, J.; Whelton, H.; Mulville, J.; Sharples, N.; Evershed, R. P."
-            },
-            "Title": {
-              "item": "Immediate replacement of fishing with dairying by the earliest farmers of the northeast Atlantic archipelagos"
-            },
-            "Journal": {
-              "item": "Proceedings of the Royal Society Biological Sciences Series B"
-            },
-            "Year": 2014,
-            "Volume": 281,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Cramp, L. J. E.; Jones, J.; Sheridan, A.; Smyth, J.; Whelton, H.; Mulville, J.; Sharples, N.; Evershed, R. P."
+              },
+              "Title": {
+                "item": "Immediate replacement of fishing with dairying by the earliest farmers of the northeast Atlantic archipelagos"
+              },
+              "Journal": {
+                "item": "Proceedings of the Royal Society Biological Sciences Series B"
+              },
+              "Year": 2014,
+              "Volume": 281,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "UK isles"
           }
-        }
+        ]
       }
     }
   ],

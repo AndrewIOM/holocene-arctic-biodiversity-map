@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Sommer, R. S.; Fahlke, J. M.; Schmoelcke, U.; Benecke, N.; Zachos, F. E."
-            },
-            "Title": {
-              "item": "Quaternary history of the European roe deer Capreolus capreolus"
-            },
-            "Journal": {
-              "item": "Mammal Review"
-            },
-            "Year": 2009,
-            "Volume": 39,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Sommer, R. S.; Fahlke, J. M.; Schmoelcke, U.; Benecke, N.; Zachos, F. E."
+              },
+              "Title": {
+                "item": "Quaternary history of the European roe deer Capreolus capreolus"
+              },
+              "Journal": {
+                "item": "Mammal Review"
+              },
+              "Year": 2009,
+              "Volume": 39,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "central Europe"
           }
-        }
+        ]
       }
     }
   ],

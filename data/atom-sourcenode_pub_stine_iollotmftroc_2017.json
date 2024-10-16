@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Stine, A. R.; Huybers, P."
-            },
-            "Title": {
-              "item": "Implications of Liebig's law of the minimum for tree-ring reconstructions of climate"
-            },
-            "Journal": {
-              "item": "Environmental Research Letters"
-            },
-            "Year": 2017,
-            "Volume": 12,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Stine, A. R.; Huybers, P."
+              },
+              "Title": {
+                "item": "Implications of Liebig's law of the minimum for tree-ring reconstructions of climate"
+              },
+              "Journal": {
+                "item": "Environmental Research Letters"
+              },
+              "Year": 2017,
+              "Volume": 12,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "No specific species mentioned"
           }
-        }
+        ]
       }
     }
   ],

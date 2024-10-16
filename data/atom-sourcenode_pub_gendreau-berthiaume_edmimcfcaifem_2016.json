@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gendreau-Berthiaume, B.; Macdonald, S. E.; Stadt, J. J."
-            },
-            "Title": {
-              "item": "Extended density-dependent mortality in mature conifer forests: causes and implications for ecosystem management"
-            },
-            "Journal": {
-              "item": "Ecological Applications"
-            },
-            "Year": 2016,
-            "Volume": 26,
-            "Pages": [
-              1486,
-              1502
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gendreau-Berthiaume, B.; Macdonald, S. E.; Stadt, J. J."
+              },
+              "Title": {
+                "item": "Extended density-dependent mortality in mature conifer forests: causes and implications for ecosystem management"
+              },
+              "Journal": {
+                "item": "Ecological Applications"
+              },
+              "Year": 2016,
+              "Volume": 26,
+              "Pages": [
+                1486,
+                1502
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "52.750000, -117.966667"
           }
-        }
+        ]
       }
     }
   ],

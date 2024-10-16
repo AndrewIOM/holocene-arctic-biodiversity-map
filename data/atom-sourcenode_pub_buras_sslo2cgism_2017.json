@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Buras, A.; Lehejcek, J.; Michalova, Z.; Morrissey, R. C.; Svoboda, M.; Wilmking, M."
-            },
-            "Title": {
-              "item": "Shrubs shed light on 20th century Greenland Ice Sheet melting"
-            },
-            "Journal": {
-              "item": "Boreas (Oslo)"
-            },
-            "Year": 2017,
-            "Volume": 46,
-            "Pages": [
-              667,
-              677
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Buras, A.; Lehejcek, J.; Michalova, Z.; Morrissey, R. C.; Svoboda, M.; Wilmking, M."
+              },
+              "Title": {
+                "item": "Shrubs shed light on 20th century Greenland Ice Sheet melting"
+              },
+              "Journal": {
+                "item": "Boreas (Oslo)"
+              },
+              "Year": 2017,
+              "Volume": 46,
+              "Pages": [
+                667,
+                677
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoBiodiversityMeasure",
+          {
+            "item": "About ring-widths rather than any measures of biod."
           }
-        }
+        ]
       }
     }
   ],

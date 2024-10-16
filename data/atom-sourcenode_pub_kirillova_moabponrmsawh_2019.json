@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kirillova, I. V.; Shidlovskiy, F. K.; Zinoviev, A. V."
-            },
-            "Title": {
-              "item": "Metapodials of ancient bison (Bison priscus) of northeast Russia: \"stress markers,\" sex and withers height"
-            },
-            "Journal": {
-              "item": "Integrative Zoology"
-            },
-            "Year": 2019,
-            "Volume": 14,
-            "Pages": [
-              270,
-              279
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kirillova, I. V.; Shidlovskiy, F. K.; Zinoviev, A. V."
+              },
+              "Title": {
+                "item": "Metapodials of ancient bison (Bison priscus) of northeast Russia: \"stress markers,\" sex and withers height"
+              },
+              "Journal": {
+                "item": "Integrative Zoology"
+              },
+              "Year": 2019,
+              "Volume": 14,
+              "Pages": [
+                270,
+                279
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "not aboud biodiversity over time"
           }
-        }
+        ]
       }
     }
   ],

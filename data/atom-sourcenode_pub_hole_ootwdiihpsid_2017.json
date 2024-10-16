@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hole, G. M.; Macias-Fauria, M."
-            },
-            "Title": {
-              "item": "Out of the woods: Driftwood insights into Holocene pan-Arctic sea ice dynamics"
-            },
-            "Journal": {
-              "item": "Journal of Geophysical Research-Oceans"
-            },
-            "Year": 2017,
-            "Volume": 122,
-            "Pages": [
-              7612,
-              7629
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hole, G. M.; Macias-Fauria, M."
+              },
+              "Title": {
+                "item": "Out of the woods: Driftwood insights into Holocene pan-Arctic sea ice dynamics"
+              },
+              "Journal": {
+                "item": "Journal of Geophysical Research-Oceans"
+              },
+              "Year": 2017,
+              "Volume": 122,
+              "Pages": [
+                7612,
+                7629
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

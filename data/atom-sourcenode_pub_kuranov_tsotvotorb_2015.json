@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kuranov, B. D.; Kuranova, V. N.; Nekhoroshev, O. G."
-            },
-            "Title": {
-              "item": "The study of terrestrial vertebrates of the Ob River basin"
-            },
-            "Journal": {
-              "item": "International Journal of Environmental Studies"
-            },
-            "Year": 2015,
-            "Volume": 72,
-            "Pages": [
-              536,
-              546
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kuranov, B. D.; Kuranova, V. N.; Nekhoroshev, O. G."
+              },
+              "Title": {
+                "item": "The study of terrestrial vertebrates of the Ob River basin"
+              },
+              "Journal": {
+                "item": "International Journal of Environmental Studies"
+              },
+              "Year": 2015,
+              "Volume": 72,
+              "Pages": [
+                536,
+                546
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoBiodiversityMeasure",
+          {
+            "item": "lack of data- review"
           }
-        }
+        ]
       }
     }
   ],

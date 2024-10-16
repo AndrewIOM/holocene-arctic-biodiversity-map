@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Alix, C."
-            },
-            "Title": {
-              "item": "Using wood on king Island, Alaska"
-            },
-            "Journal": {
-              "item": "Etudes Inuit Studies"
-            },
-            "Year": 2012,
-            "Volume": 36,
-            "Pages": [
-              89,
-              112
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Alix, C."
+              },
+              "Title": {
+                "item": "Using wood on king Island, Alaska"
+              },
+              "Journal": {
+                "item": "Etudes Inuit Studies"
+              },
+              "Year": 2012,
+              "Volume": 36,
+              "Pages": [
+                89,
+                112
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no dating"
           }
-        }
+        ]
       }
     }
   ],

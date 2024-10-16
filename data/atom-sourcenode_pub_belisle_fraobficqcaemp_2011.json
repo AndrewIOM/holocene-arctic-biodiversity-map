@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Belisle, A. C.; Gauthier, S.; Cyr, D.; Bergeron, Y.; Morin, H."
-            },
-            "Title": {
-              "item": "Fire Regime and Old-Growth Boreal Forests in Central Quebec, Canada: An Ecosystem Management Perspective"
-            },
-            "Journal": {
-              "item": "Silva Fennica"
-            },
-            "Year": 2011,
-            "Volume": 45,
-            "Pages": [
-              889,
-              908
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Belisle, A. C.; Gauthier, S.; Cyr, D.; Bergeron, Y.; Morin, H."
+              },
+              "Title": {
+                "item": "Fire Regime and Old-Growth Boreal Forests in Central Quebec, Canada: An Ecosystem Management Perspective"
+              },
+              "Journal": {
+                "item": "Silva Fennica"
+              },
+              "Year": 2011,
+              "Volume": 45,
+              "Pages": [
+                889,
+                908
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "50.983333, -71.250000"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Le Stum-Boivin, E.; Magnan, G.; Garneau, M.; Fenton, N. J.; Grondin, P.; Bergeron, Y."
-            },
-            "Title": {
-              "item": "Spatiotemporal evolution of paludification associated with autogenic and allogenic factors in the black spruce-moss boreal forest of Quebec, Canada"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2019,
-            "Volume": 91,
-            "Pages": [
-              650,
-              664
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Le Stum-Boivin, E.; Magnan, G.; Garneau, M.; Fenton, N. J.; Grondin, P.; Bergeron, Y."
+              },
+              "Title": {
+                "item": "Spatiotemporal evolution of paludification associated with autogenic and allogenic factors in the black spruce-moss boreal forest of Quebec, Canada"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2019,
+              "Volume": 91,
+              "Pages": [
+                650,
+                664
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "49.283333, -79.600000"
           }
-        }
+        ]
       }
     }
   ],

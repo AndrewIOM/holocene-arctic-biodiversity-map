@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Trahan, M. W.; Schubert, B. A."
-            },
-            "Title": {
-              "item": "Temperature-induced water stress in high-latitude forests in response to natural and anthropogenic warming"
-            },
-            "Journal": {
-              "item": "Global Change Biology"
-            },
-            "Year": 2016,
-            "Volume": 22,
-            "Pages": [
-              782,
-              791
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Trahan, M. W.; Schubert, B. A."
+              },
+              "Title": {
+                "item": "Temperature-induced water stress in high-latitude forests in response to natural and anthropogenic warming"
+              },
+              "Journal": {
+                "item": "Global Change Biology"
+              },
+              "Year": 2016,
+              "Volume": 22,
+              "Pages": [
+                782,
+                791
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

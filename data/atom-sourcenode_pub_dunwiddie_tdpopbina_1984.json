@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dunwiddie, P. W.; Edwards, M. E."
-            },
-            "Title": {
-              "item": "The dendrochronological potential of Populus balsamifera in northern Alaska"
-            },
-            "Journal": {
-              "item": "Tree Ring Bulletin"
-            },
-            "Year": 1984,
-            "Volume": 44,
-            "Pages": [
-              45,
-              52
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dunwiddie, P. W.; Edwards, M. E."
+              },
+              "Title": {
+                "item": "The dendrochronological potential of Populus balsamifera in northern Alaska"
+              },
+              "Journal": {
+                "item": "Tree Ring Bulletin"
+              },
+              "Year": 1984,
+              "Volume": 44,
+              "Pages": [
+                45,
+                52
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

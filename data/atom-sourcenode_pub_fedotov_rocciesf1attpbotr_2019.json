@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Fedotov, A. P.; Enushchenko, I. V.; Zheleznyakova, T. O."
-            },
-            "Title": {
-              "item": "Reconstruction of climate changes in East Siberia (Russia) from 1500 AD to the present based on tree-rings records"
-            },
-            "Journal": {
-              "item": "International Journal of Environmental Studies"
-            },
-            "Year": 2019,
-            "Volume": 76,
-            "Pages": [
-              266,
-              272
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Fedotov, A. P.; Enushchenko, I. V.; Zheleznyakova, T. O."
+              },
+              "Title": {
+                "item": "Reconstruction of climate changes in East Siberia (Russia) from 1500 AD to the present based on tree-rings records"
+              },
+              "Journal": {
+                "item": "International Journal of Environmental Studies"
+              },
+              "Year": 2019,
+              "Volume": 76,
+              "Pages": [
+                266,
+                272
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "56.187500, 117.589444"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pitman, G. T. K."
-            },
-            "Title": {
-              "item": "A Lichenometrical Study of Snow Patch Variation in the Frederikshab District Southwest Greenland and Its Implications for Studies of Climatic and Glacial Fluctuations"
-            },
-            "Journal": {
-              "item": "Meddelelser om Gronland"
-            },
-            "Year": 1973,
-            "Volume": 192,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pitman, G. T. K."
+              },
+              "Title": {
+                "item": "A Lichenometrical Study of Snow Patch Variation in the Frederikshab District Southwest Greenland and Its Implications for Studies of Climatic and Glacial Fluctuations"
+              },
+              "Journal": {
+                "item": "Meddelelser om Gronland"
+              },
+              "Year": 1973,
+              "Volume": 192,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsSpaceForTime",
+          {
+            "item": "lichenometry"
           }
-        }
+        ]
       }
     }
   ],

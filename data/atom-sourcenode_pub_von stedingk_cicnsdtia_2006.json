@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "von Stedingk, H.; Baudou, E."
-            },
-            "Title": {
-              "item": "Capitalism in central Norrland, Sweden, during the Iron Age"
-            },
-            "Journal": {
-              "item": "Current Swedish Archaeology"
-            },
-            "Year": 2006,
-            "Volume": 14,
-            "Pages": [
-              177,
-              198
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "von Stedingk, H.; Baudou, E."
+              },
+              "Title": {
+                "item": "Capitalism in central Norrland, Sweden, during the Iron Age"
+              },
+              "Journal": {
+                "item": "Current Swedish Archaeology"
+              },
+              "Year": 2006,
+              "Volume": 14,
+              "Pages": [
+                177,
+                198
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "64.1000° N, 16.2167° E"
           }
-        }
+        ]
       }
     }
   ],

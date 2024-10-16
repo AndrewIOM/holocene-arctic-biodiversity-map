@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Mannermaa, K.; Ukkonen, P.; Viranta, S."
-            },
-            "Title": {
-              "item": "Prehistory and early history of dogs in Finland"
-            },
-            "Journal": {
-              "item": "Fennoscandia Archaeologica"
-            },
-            "Year": 2014,
-            "Volume": 31,
-            "Pages": [
-              25,
-              44
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Mannermaa, K.; Ukkonen, P.; Viranta, S."
+              },
+              "Title": {
+                "item": "Prehistory and early history of dogs in Finland"
+              },
+              "Journal": {
+                "item": "Fennoscandia Archaeologica"
+              },
+              "Year": 2014,
+              "Volume": 31,
+              "Pages": [
+                25,
+                44
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "sites too far south"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,22 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Alsos, I. G.; Lammers, Y.; Kjellman, S. E.; Merkel, M. K. F.; Bender, E. M.; Rouillard, A.; Erlendsson, E.; Gudmundsdottir, E. R.; Benediktsson, I. O.; Farnsworth, W. R.; Brynjolfsson, S.; Gisladottir, G.; Eddudottir, S. D.; Schomacker, A."
-            },
-            "Title": {
-              "item": "Ancient sedimentary DNA shows rapid post-glacial colonisation of Iceland followed by relatively stable vegetation until the Norse settlement (Landnam) AD 870"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2021,
-            "Volume": 259,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Alsos, I. G.; Lammers, Y.; Kjellman, S. E.; Merkel, M. K. F.; Bender, E. M.; Rouillard, A.; Erlendsson, E.; Gudmundsdottir, E. R.; Benediktsson, I. O.; Farnsworth, W. R.; Brynjolfsson, S.; Gisladottir, G.; Eddudottir, S. D.; Schomacker, A."
+              },
+              "Title": {
+                "item": "Ancient sedimentary DNA shows rapid post-glacial colonisation of Iceland followed by relatively stable vegetation until the Norse settlement (Landnam) AD 870"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2021,
+              "Volume": 259,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

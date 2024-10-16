@@ -8,26 +8,35 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Mamet, S. D.; Kershaw, G. P."
-            },
-            "Title": {
-              "item": "Age-dependency, climate, and environmental controls of recent tree growth trends at subarctic and alpine treelines"
-            },
-            "Journal": {
-              "item": "Dendrochronologia"
-            },
-            "Year": 2013,
-            "Volume": 31,
-            "Pages": [
-              75,
-              87
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Mamet, S. D.; Kershaw, G. P."
+              },
+              "Title": {
+                "item": "Age-dependency, climate, and environmental controls of recent tree growth trends at subarctic and alpine treelines"
+              },
+              "Journal": {
+                "item": "Dendrochronologia"
+              },
+              "Year": 2013,
+              "Volume": 31,
+              "Pages": [
+                75,
+                87
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

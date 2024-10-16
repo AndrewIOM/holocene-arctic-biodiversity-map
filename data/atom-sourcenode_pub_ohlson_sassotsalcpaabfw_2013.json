@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ohlson, M.; Kasin, I.; Wist, A. N.; Bjune, A. E."
-            },
-            "Title": {
-              "item": "Size and spatial structure of the soil and lacustrine charcoal pool across a boreal forest watershed"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2013,
-            "Volume": 80,
-            "Pages": [
-              417,
-              424
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ohlson, M.; Kasin, I.; Wist, A. N.; Bjune, A. E."
+              },
+              "Title": {
+                "item": "Size and spatial structure of the soil and lacustrine charcoal pool across a boreal forest watershed"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2013,
+              "Volume": 80,
+              "Pages": [
+                417,
+                424
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "59.416667, 9.616667"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Grimm, E. C.; Keltner, J.; Cheddadi, R.; Hicks, S.; Lézine, A. M.; Berrio, J. C.; Williams, J. W."
-            },
-            "Title": {
-              "item": "Pollen methods and studies | Databases and their application"
-            },
-            "Journal": {
-              "item": "Encyclopedia of Quaternary Science"
-            },
-            "Year": 2006,
-            "Pages": [
-              2521,
-              2528
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Grimm, E. C.; Keltner, J.; Cheddadi, R.; Hicks, S.; Lézine, A. M.; Berrio, J. C.; Williams, J. W."
+              },
+              "Title": {
+                "item": "Pollen methods and studies | Databases and their application"
+              },
+              "Journal": {
+                "item": "Encyclopedia of Quaternary Science"
+              },
+              "Year": 2006,
+              "Pages": [
+                2521,
+                2528
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "evidence for US and continental Europe"
           }
-        }
+        ]
       }
     }
   ],

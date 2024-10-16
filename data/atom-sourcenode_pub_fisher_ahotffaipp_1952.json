@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Fisher, J."
-            },
-            "Title": {
-              "item": "A History of the Fulmar Fulmarus and Its Population Problems"
-            },
-            "Journal": {
-              "item": "Ibis"
-            },
-            "Year": 1952,
-            "Volume": 94,
-            "Pages": [
-              334,
-              354
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Fisher, J."
+              },
+              "Title": {
+                "item": "A History of the Fulmar Fulmarus and Its Population Problems"
+              },
+              "Journal": {
+                "item": "Ibis"
+              },
+              "Year": 1952,
+              "Volume": 94,
+              "Pages": [
+                334,
+                354
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "based on historical observations"
           }
-        }
+        ]
       }
     }
   ],
