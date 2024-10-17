@@ -8,28 +8,56 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Schofield, J. E.; Edwards, K. J.; Mighall, T. M.; Cortizas, A. M.; Rodriguez-Racedo, J.; Cook, G."
-            },
-            "Title": {
-              "item": "An integrated geochemical and palynological study of human impacts, soil erosion and storminess from southern Greenland since c. AD 1000"
-            },
-            "Journal": {
-              "item": "Palaeogeography Palaeoclimatology Palaeoecology"
-            },
-            "Year": 2010,
-            "Volume": 295,
-            "Pages": [
-              19,
-              30
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Schofield, J. E.; Edwards, K. J.; Mighall, T. M.; Cortizas, A. M.; Rodriguez-Racedo, J.; Cook, G."
+              },
+              "Title": {
+                "item": "An integrated geochemical and palynological study of human impacts, soil erosion and storminess from southern Greenland since c. AD 1000"
+              },
+              "Journal": {
+                "item": "Palaeogeography Palaeoclimatology Palaeoecology"
+              },
+              "Year": 2010,
+              "Volume": 295,
+              "Pages": [
+                19,
+                30
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_schofield_aigapsohiseasfsgsca1_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cee631e6-f875-41d5-b500-177f99aac1ea"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "16aaaea6-d8ff-44bc-8c6c-e003d9cec0ff"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": " Qinngua Kangilleq (Ø39)"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "61°14'17\"N,45°31'22\"W"
+            }
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 4.0
+                },
+                {
+                  "_depth": 52.0
+                }
+              ]
+            }
+          },
+          "SampleLocationDescription": {
+            "item": "Peat monolith taken 100m south of coordinate"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

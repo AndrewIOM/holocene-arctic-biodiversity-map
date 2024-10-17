@@ -1,0 +1,64 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_golding_nialcisgagpapi_2011"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "K",
+                  "A"
+                ],
+                "item2": "Golding"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "I",
+                    "A"
+                  ],
+                  "item2": "Simpson"
+                },
+                {
+                  "item1": [
+                    "J",
+                    "E"
+                  ],
+                  "item2": "Schofield"
+                },
+                {
+                  "item1": [
+                    "K",
+                    "J"
+                  ],
+                  "item2": "Edwards"
+                }
+              ],
+              "Title": {
+                "item": "Norse–Inuit interaction and landscape change in southern Greenland? A geochronological, Pedological, and Palynological investigation"
+              },
+              "Journal": {
+                "item": "Geoarchaeology"
+              },
+              "Year": 2011,
+              "Volume": 26,
+              "Number": 3,
+              "Month": "Apr",
+              "DOI": {
+                "item": "10.1002/gea.20351"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
