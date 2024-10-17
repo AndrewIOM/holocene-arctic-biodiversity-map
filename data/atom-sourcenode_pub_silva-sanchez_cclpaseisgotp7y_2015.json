@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_silva-sanchez_cclpaseisgotp7y_2015"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_golding_nialcisgagpapi_2011"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]
