@@ -8,28 +8,50 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Yoshikawa, K."
-            },
-            "Title": {
-              "item": "Age of growth of two pingos, Sarqaq Dalen, West Central Greenland"
-            },
-            "Journal": {
-              "item": "Permafrost and Periglacial Processes"
-            },
-            "Year": 1991,
-            "Volume": 2,
-            "Pages": [
-              245,
-              252
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Yoshikawa, K."
+              },
+              "Title": {
+                "item": "Age of growth of two pingos, Sarqaq Dalen, West Central Greenland"
+              },
+              "Journal": {
+                "item": "Permafrost and Periglacial Processes"
+              },
+              "Year": 1991,
+              "Volume": 2,
+              "Pages": [
+                245,
+                252
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_yoshikawa_aogotpsdwcg_1991"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0b8a61e5-b52f-46a1-ae23-b007c093ab47"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "527a96d9-3da5-40b4-8db2-40f4f6e8f3f7"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Central Nordvesto"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 76.72808333
+              },
+              {
+                "item": -73.18283333
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 60.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

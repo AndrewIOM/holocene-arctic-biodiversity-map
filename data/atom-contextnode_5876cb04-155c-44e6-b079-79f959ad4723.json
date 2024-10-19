@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "5876cb04-155c-44e6-b079-79f959ad4723"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake B1"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 72.737609
+              },
+              {
+                "item": -22.473795
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 4.0
+                },
+                {
+                  "_depth": 162.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -40,5 +40,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_davidson_iasvfaawmcgidwwcltf_2011"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4baaeff2-8149-4237-959a-71807b369285"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

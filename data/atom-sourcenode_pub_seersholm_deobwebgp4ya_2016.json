@@ -36,5 +36,114 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_seersholm_deobwebgp4ya_2016"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ebe0b748-ca8e-4d37-9254-2b05b006c5d1"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_seersholm_deobwebgp4ya_2016"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "a871e9d0-bbd5-41ce-8ec8-c4d819340ede"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_seersholm_deobwebgp4ya_2016"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4a343605-9dd2-4003-8b78-4b30065b57b3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_seersholm_deobwebgp4ya_2016"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2aea65a3-84f9-48a8-86ff-8c6b053febe0"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_seersholm_deobwebgp4ya_2016"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "5a962408-a5a0-4891-819b-530416cbde75"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_seersholm_deobwebgp4ya_2016"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "b68ae34e-ee8a-4064-a4db-3c23382a610f"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

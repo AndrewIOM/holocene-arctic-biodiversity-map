@@ -34,5 +34,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bennike_ehpaarfng_1999"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bjorck_rotehlsbcaesohfng_1994"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bennike_ehpaarfng_1999"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bjorck_lbepsatpijleg_1994"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

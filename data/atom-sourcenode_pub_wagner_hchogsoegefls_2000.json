@@ -34,5 +34,78 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wagner_hchogsoegefls_2000"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4247e108-4b35-4c66-92f2-87c4d68cabd8"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wagner_hchogsoegefls_2000"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1e2dd910-8057-4077-8f50-7e296f14590c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wagner_hchogsoegefls_2000"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "63c9fa9a-1dd8-4610-a733-403acce6a5df"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wagner_hchogsoegefls_2000"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4e43be25-677a-41f6-86c7-faededb89bb3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
