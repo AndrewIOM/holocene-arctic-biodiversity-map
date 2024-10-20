@@ -30,9 +30,17 @@
             }
           },
           {
-            "InProgress": [
+            "Stalled": [
+              [
+                {
+                  "item": "source-primary-or-secondary"
+                }
+              ],
               {
-                "item": "source-primary-or-secondary"
+                "item": "exposure"
+              },
+              {
+                "item": "Need to add pre-holocene dates"
               }
             ]
           }

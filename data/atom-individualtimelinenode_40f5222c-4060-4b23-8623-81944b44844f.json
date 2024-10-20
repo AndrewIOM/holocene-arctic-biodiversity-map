@@ -23,6 +23,510 @@
         ]
       },
       {
+        "UUID": [
+          "individualdatenode",
+          "557661ca-45a4-4f70-bfe8-b704e49b2516"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "dae5c5e2-d729-403d-b153-af2f976183e9"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "8de22ae1-745f-4736-a054-d2e392faa26f"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "digitiseddatasetnode",
+          "fb312c6a-212a-4fdd-936b-ddeaac758196"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasRawData"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "digitiseddatasetnode",
+          "52e3c4d4-0289-42e0-aa3a-6129832efac9"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasRawData"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "28c5e714-35c5-46bd-b721-036724012ad1"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b5579077-77f4-47ea-ba1d-cab34ce96f7e"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "8995bf74-ea4a-4ee9-a9e2-da23d3c9d7c5"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "ea2cb822-59fb-412e-8c2a-ac038bb98470"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "6ff2dfa5-7d13-4374-8269-a7d475f55d4f"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "305f6c29-2faf-4ede-9c86-f287f6de127c"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "23aafb46-3890-40a9-a13a-d4e294a2cdab"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "f5452902-d70a-4c45-af29-39e742c16603"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "1f5aab12-8603-4a92-844d-ed6d715429a2"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "e160704a-bfda-4843-9f56-170c80617c6c"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "5125189a-b1c1-466b-b02a-0d73d199d8b0"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "ef948f88-5472-4c60-8e14-c9422df987eb"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "487ccdcf-f1ee-43ba-afaf-892c66f3fc62"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "9c045a9c-81c9-441e-a972-df30df18055b"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "1a4a638e-f9aa-435d-9677-e45829c8e0cf"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "3d8b5d9f-ac40-4274-a930-d78012fb79a2"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "2bed1bf4-2607-44f6-855f-3153fd23345b"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "16a816c4-a358-4515-b805-917b91acebeb"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "3ee4ef12-2ad6-4fb3-afd3-c93e2e239043"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "e4095496-adcb-4122-bc29-2ff367a7d8f7"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "f15bb372-db3e-4026-8d7e-d7d4dae9655f"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c1ceeff9-5b26-405e-bb30-711eecd58718"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c1a8e58c-3f94-4199-8a1b-a7ab6947035b"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
         "FriendlyKey": [
           "bioticproxycategorynode",
           "fossilmicro_pollen"
