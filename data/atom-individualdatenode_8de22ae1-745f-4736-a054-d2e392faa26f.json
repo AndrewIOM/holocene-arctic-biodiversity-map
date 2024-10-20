@@ -1,0 +1,66 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "8de22ae1-745f-4736-a054-d2e392faa26f"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 7490.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 100.0
+          },
+          "MaterialDated": {
+            "item": "Bulk"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 162.5
+              },
+              {
+                "_depth": 160.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "Lu-3275"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "8de22ae1-745f-4736-a054-d2e392faa26f"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7490ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              7490.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

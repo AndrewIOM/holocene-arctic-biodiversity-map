@@ -1,0 +1,139 @@
+[
+  [
+    {
+      "UUID": [
+        "digitiseddatasetnode",
+        "fb312c6a-212a-4fdd-936b-ddeaac758196"
+      ]
+    },
+    {
+      "DatasetNode": {
+        "Digitised": {
+          "WhatWasDigitised": {
+            "FromFigure": 8
+          },
+          "SoftwareUsed": "PlotDigitizer",
+          "Metric": "Abundance",
+          "Units": {
+            "OtherUnit": {
+              "item": "Percent based on sum(A)+x, where A = totaI pollen sum (excl. Pinus)"
+            }
+          },
+          "DigitisedBy": {
+            "item1": [
+              "A",
+              "C"
+            ],
+            "item2": "Martin"
+          },
+          "DigitisedOn": {
+            "item": "2024-10-18"
+          },
+          "DataTable": {
+            "item": {
+              "Index": [
+                159.8418891,
+                164.8743057,
+                169.5696062,
+                173.7098034,
+                176.9691121,
+                180.0585632,
+                185.6378709,
+                191.8280001,
+                199.6562036,
+                205.0650301,
+                214.7409792,
+                234.5023438,
+                249.8294313,
+                255.38483
+              ],
+              "IndexUnit": "Depths",
+              "Morphotypes": [
+                "pediastrum",
+                "pinus"
+              ],
+              "Data": [
+                [
+                  92.53110664,
+                  0.0
+                ],
+                [
+                  89.92375986,
+                  0.0
+                ],
+                [
+                  92.5707119,
+                  0.0
+                ],
+                [
+                  26.01405987,
+                  0.0
+                ],
+                [
+                  93.94039407,
+                  0.0
+                ],
+                [
+                  36.84940097,
+                  0.0
+                ],
+                [
+                  80.76834219,
+                  0.0
+                ],
+                [
+                  53.40110235,
+                  0.0
+                ],
+                [
+                  76.53387901,
+                  0.0
+                ],
+                [
+                  66.45433843,
+                  0.0
+                ],
+                [
+                  79.29634641,
+                  0.414325656
+                ],
+                [
+                  85.28994356,
+                  5.110770869
+                ],
+                [
+                  15.55826925,
+                  1.452802556
+                ],
+                [
+                  35.71074953,
+                  7.673678605
+                ]
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "digitiseddatasetnode",
+          "fb312c6a-212a-4fdd-936b-ddeaac758196"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Dataset": "IsProxyGroup"
+      }
+    ]
+  ]
+]
