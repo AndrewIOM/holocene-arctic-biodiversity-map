@@ -1,4 +1,4 @@
-RESTRICTION: == net5.0
+
 GITHUB
   remote: AndrewIOM/biodiversity-graph-db
-    FULLPROJECT (c1079f6e5e82bfaa6cba2bb2bbafe87751b6c4f7)
+    FULLPROJECT (779a99b3c0579cd560516a9ee2169f5b27221377)

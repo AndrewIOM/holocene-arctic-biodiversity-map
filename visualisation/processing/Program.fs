@@ -161,9 +161,7 @@ let run () =
                             | Sources.CodingProgress.Stalled _
                             | Sources.CodingProgress.CompletedAll -> Some (s |> fst, i, s |> snd)
                             | Sources.CodingProgress.CompletedNone -> Some (s |> fst, i, s |> snd)
-                        | Sources.SourceNode.Excluded (_,because,reason) ->
-                            printfn "%A" because
-                            None
+                        | Sources.SourceNode.Excluded (_,because,reason) -> None
                         | _ -> None
                     | _ -> 
                         printfn "Source is %A" (s |> fst |> fst)                        
@@ -340,10 +338,14 @@ let run () =
                                                 let species = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Species (g,s,a) -> Some s.Value | _ -> None)
                                                 let auth = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Species (g,s,a) -> Some a.Value | _ -> None)
                                                 
-                                                // Run through backbone to harmonise taxon names
-                                                match UnifiedTaxonomy.tryLookupWithCache (atom |> fst |> fst).AsString (snd t) (optToStr family) (optToStr genus) (optToStr species) (optToStr auth) with
-                                                | Some (f,g,s) -> kingdom, Some f, Some g, Some s
-                                                | None -> kingdom, family, genus, speciesFull )
+                                                match kingdom with
+                                                | Some k when k = "Plantae" ->
+                                                    // Run through plant taxonomic backbone to harmonise taxon names
+                                                    match UnifiedTaxonomy.tryLookupWithCache (atom |> fst |> fst).AsString (snd t) (optToStr family) (optToStr genus) (optToStr species) (optToStr auth) with
+                                                    | Some (f,g,s) -> kingdom, Some f, Some g, Some s
+                                                    | None -> kingdom, family, genus, speciesFull
+                                                | _ -> kingdom, family, genus, speciesFull )
+
                                         )
                                     ) |> Result.ofList
                                 ) 
@@ -468,6 +470,7 @@ let run () =
                                         match d.Date with
                                         | FieldDataTypes.OldDate.RadiocarbonUncalibrated _ -> "Radiocarbon (Uncalibrated)"
                                         | FieldDataTypes.OldDate.RadiocarbonCalibrated _ -> "Radiocarbon (Calibrated)"
+                                        | FieldDataTypes.OldDate.RadiocarbonUncalibratedConventional _ -> "Radiocarbon (Conventional - Uncalibrated)"
                                         | FieldDataTypes.OldDate.Tephra _ -> "Tephra layer"
                                         | FieldDataTypes.OldDate.HistoricEvent _ -> "Historical event"
                                         | FieldDataTypes.OldDate.Lead210 _ -> "Lead210"
