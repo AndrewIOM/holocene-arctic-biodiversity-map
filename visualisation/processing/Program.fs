@@ -24,21 +24,31 @@ let origin = function
     | Population.Context.LivingOrganism -> "Living organism"
     | Population.Context.OtherOrigin (a,_) -> "Other"
 
+let microfossilToGroup g =
+    match g with
+    | Population.BioticProxies.MicrofossilGroup.Diatom -> "Microfossil - Diatom"
+    | Population.BioticProxies.MicrofossilGroup.Ostracod -> "Microfossil - Ostracod"
+    | Population.BioticProxies.MicrofossilGroup.OtherMicrofossilGroup g -> sprintf "Other microfossil - %s" g.Value
+    | Population.BioticProxies.MicrofossilGroup.PlantMacrofossil -> "Microfossil - Plant Macrofossil"
+    | Population.BioticProxies.MicrofossilGroup.Pollen -> "Microfossil - Pollen"
+
 let proxyToGroup = function
     | Population.BioticProxies.ContemporaneousWholeOrganism _ -> "Contemporaneous Whole Organism"
     | Population.BioticProxies.AncientDNA _ -> "Ancient DNA"
     | Population.BioticProxies.Morphotype m ->
         match m with
         | Population.BioticProxies.Macrofossil _-> "Macrofossil"
-        | Population.BioticProxies.Megafossil _ -> "Megafossil"
-        | Population.BioticProxies.Microfossil (g,_) ->
-            match g with
-            | Population.BioticProxies.MicrofossilGroup.Diatom -> "Microfossil: Diatom"
-            | Population.BioticProxies.MicrofossilGroup.Ostracod -> "Microfossil: Ostracod"
-            | Population.BioticProxies.MicrofossilGroup.OtherMicrofossilGroup g -> sprintf "Microfossil: %s" g.Value
-            | Population.BioticProxies.MicrofossilGroup.PlantMacrofossil -> "Microfossil: Plant Macrofossil"
-            | Population.BioticProxies.MicrofossilGroup.Pollen -> "Microfossil: Pollen"
+        | Population.BioticProxies.Megafossil _ -> "Macrofossil"
+        | Population.BioticProxies.Microfossil (g,_) -> microfossilToGroup g
             
+let proxyCategoryToName (node:Population.BioticProxies.BioticProxyCategoryNode) =
+    match node with
+    | Population.BioticProxies.BioticProxyCategoryNode.AncientDNA _ -> "Ancient DNA"
+    | Population.BioticProxies.BioticProxyCategoryNode.Contemporary t -> sprintf "Contemporaneous Whole Organism (%A)" t
+    | Population.BioticProxies.BioticProxyCategoryNode.Fossil _ -> "Macrofossil"
+    | Population.BioticProxies.BioticProxyCategoryNode.OtherProxy p -> sprintf "Other - %s" p.Value
+    | Population.BioticProxies.BioticProxyCategoryNode.Microfossil m -> microfossilToGroup m
+
 
 let extractLatLon sampleLocation =
     match sampleLocation with
@@ -127,6 +137,12 @@ module UnifiedTaxonomy =
                         Some (accepted.Family, accepted.Genus, sprintf "%s %s" accepted.Species accepted.NamedBy))
 
 
+let toAuthorList (authorOne:FieldDataTypes.Author.Author) (additional: FieldDataTypes.Author.Author list) =
+    if additional.IsEmpty then authorOne.Display
+    else additional |> List.map(fun a -> a.Display) |> List.append [ authorOne.Display ] |> String.concat "; "
+
+let authList (a:FieldDataTypes.Author.Author list) = a |> List.map(fun p -> p.Display) |> String.concat ";" |> Some
+
 let run () = 
     result {
 
@@ -188,11 +204,20 @@ let run () =
                 let sourceId, sourceName, year, authors, sourceType =
                     match source with
                     | Sources.Bibliographic meta ->
-                        (Some (fst node).AsString), (meta.Title |> Option.map(fun v -> v.Value)), meta.Year, meta.Author |> Option.map (fun o -> o.Value), "Bibliographic"
+                        (Some (fst node).AsString), (meta.Title |> Option.map(fun v -> v.Value)), meta.Year, meta.Author |> Option.map (fun o -> o.Value), "Published (unspecified type)"
                     | Sources.GreyLiterature g -> None, Some g.Title.Value, None, Some <| sprintf "%s., %s" g.Contact.LastName.Value g.Contact.FirstName.Value, "Grey literature"
                     | Sources.DatabaseEntry d -> Some <| sprintf "%s - %s" d.DatabaseAbbreviation.Value d.UniqueIdentifierInDatabase.Value, d.Title |> Option.map(fun v -> v.Value), None, (d.Investigators |> List.map(fun p -> sprintf "%s., %s" p.LastName.Value p.FirstName.Value) |> String.concat ";" |> Some), "Database entry"
-                    | Sources.DarkData d -> None, Some d.Details.Value, None, Some <| sprintf "%s., %s" d.Contact.LastName.Value d.Contact.FirstName.Value, "Dark data"
-                    | _ -> None, None, None, None, "None"
+                    | Sources.DarkData d -> None, Some d.Details.Value, None, Some <| sprintf "%s., %s" d.Contact.LastName.Value d.Contact.FirstName.Value, "Unpublished dataset"
+                    | Sources.PublishedSource s ->
+                        match s with
+                        | Sources.Book b -> b.ISBN |> Option.map(fun t -> t.Value), Some b.BookTitle.Value, Some b.BookCopyrightYear, Some (toAuthorList b.BookFirstAuthor b.BookAdditionalAuthors), "Published - book"
+                        | Sources.BookChapter b ->  None, Some b.ChapterTitle.Value, None, Some (toAuthorList b.ChapterFirstAuthor b.ChapterAdditionalAuthors), "Published - book chapter"
+                        | Sources.IndividualDataset b ->  b.DOI |> Option.map(fun t -> t.Value), Some b.Title.Value, b.YearPublished, authList b.Contributors, "Published - individual dataset"
+                        | Sources.Dissertation b ->  b.DOI |> Option.map(fun t -> t.Value), Some b.Title.Value, Some b.CompletionYear, authList [b.Author], "Published - dissertation"
+                        | Sources.JournalArticle b ->  b.DOI |> Option.map(fun t -> t.Value), Some b.Title.Value, Some b.Year, Some (toAuthorList b.FirstAuthor b.AdditionalAuthors), "Published - journal article"
+                    | Sources.GreyLiteratureSource s -> (Some (fst node).AsString), Some s.Title.Value, s.PostedYear, (s.Contributors |> List.map(fun a -> a.Display) |> String.concat "; " |> Some), "Grey literature"
+                    | Sources.DarkDataSource s -> None, Some s.Details.Value, s.CompilationYear, Some (toAuthorList s.Investigator s.AdditionalInvestigators), "Unpublished dataset"
+                    | Sources.Database s -> (Some (fst node).AsString), Some s.FullName.Value, None, None, "Database"
                 temporalExtentIds
                 |> Storage.loadAtoms graph.Directory (typeof<Exposure.StudyTimeline.IndividualTimelineNode>.Name)
                 |> Result.lift(fun extents -> extents |> List.map(fun e -> sourceId, sourceName, year, authors, sourceType, e))
@@ -372,14 +397,14 @@ let run () =
                         | _ -> None)
                     |> Storage.loadAtoms graph.Directory (typeof<Population.BioticProxies.BioticProxyCategoryNode>.Name)
                     |> Result.lift(fun l ->
-                        l |> List.where(fun l2 ->
+                        l |> List.choose(fun l2 ->
                             match l2 |> fst |> snd with
                             | GraphStructure.Node.PopulationNode p ->
                                 match p with
-                                | PopulationNode.BioticProxyCategoryNode _ -> true
-                                | _ -> false
-                            | _ -> false)
-                        |> List.map(fun (category: Graph.Atom<Node,obj>) -> (category |> fst |> snd).DisplayName()))
+                                | PopulationNode.BioticProxyCategoryNode n -> proxyCategoryToName n |> Some
+                                | _ -> None
+                            | _ -> None))
+                        // |> List.map(fun (category: Graph.Atom<Node,obj>) -> categoryToName (category |> fst |> snd)))
 
                 let allProxyGroups =
                     biodiversityOutcomes
