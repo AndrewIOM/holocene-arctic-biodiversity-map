@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "8d95b09d-28ff-422d-be66-f5443e9279de"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Moreju Lake"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.883333
+              },
+              {
+                "item": 59.66666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 9.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

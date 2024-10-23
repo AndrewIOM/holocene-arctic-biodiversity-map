@@ -34,5 +34,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_buckland_pahefmaiagnesg_2009"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "af7f7341-7e39-40e8-a386-f7b31a29c2ca"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_buckland_pahefmaiagnesg_2009"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ee149aec-2a77-4cbe-8049-fd6d38232a82"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

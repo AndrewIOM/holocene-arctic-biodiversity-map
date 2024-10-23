@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "2880309e-4fa8-40f7-bdee-c1e02184fb30"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Boreso"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 74.5
+              },
+              {
+                "item": -20.633333
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 15.0
+                },
+                {
+                  "_depth": 130.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

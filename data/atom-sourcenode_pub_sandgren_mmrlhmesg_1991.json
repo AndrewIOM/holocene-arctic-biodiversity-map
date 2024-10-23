@@ -34,5 +34,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_sandgren_mmrlhmesg_1991"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bb34c050-b07b-4d98-86ee-f196a9d8f08c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_sandgren_mmrlhmesg_1991"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_fredskild_sitvhogpioshlabd_1973"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

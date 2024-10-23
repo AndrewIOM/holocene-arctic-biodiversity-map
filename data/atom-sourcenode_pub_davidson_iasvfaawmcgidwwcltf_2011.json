@@ -51,6 +51,24 @@
       {
         "UUID": [
           "individualtimelinenode",
+          "b31c2e96-e842-4d3e-ba8c-ed0eb0df8bfb"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_davidson_iasvfaawmcgidwwcltf_2011"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
           "4baaeff2-8149-4237-959a-71807b369285"
         ]
       },

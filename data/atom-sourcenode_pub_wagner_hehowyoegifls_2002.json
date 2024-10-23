@@ -8,28 +8,50 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Wagner, B.; Melles, M."
-            },
-            "Title": {
-              "item": "Holocene environmental history of western Ymer O, East Greenland, inferred from lake sediments"
-            },
-            "Journal": {
-              "item": "Quaternary International"
-            },
-            "Year": 2002,
-            "Volume": 89,
-            "Pages": [
-              165,
-              176
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Wagner, B.; Melles, M."
+              },
+              "Title": {
+                "item": "Holocene environmental history of western Ymer O, East Greenland, inferred from lake sediments"
+              },
+              "Journal": {
+                "item": "Quaternary International"
+              },
+              "Year": 2002,
+              "Volume": 89,
+              "Pages": [
+                165,
+                176
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wagner_hehowyoegifls_2002"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "645301f3-b0cb-4a6a-b321-ac358c1322df"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -40,5 +40,60 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_jakobsen_hcicavitaaegrilsasp_2008"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9eefc1e0-5d8f-463e-b5d0-30b2b5872487"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_jakobsen_hcicavitaaegrilsasp_2008"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c7e0813f-f28b-4605-a33c-e31547993627"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_jakobsen_hcicavitaaegrilsasp_2008"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "8f662a9f-f205-47cf-8cb8-51dab8f4324c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

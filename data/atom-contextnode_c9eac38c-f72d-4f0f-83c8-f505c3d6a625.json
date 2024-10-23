@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "c9eac38c-f72d-4f0f-83c8-f505c3d6a625"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Yarnyshnoe-3"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 69.06666
+              },
+              {
+                "item": 36.066666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 300.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_brugger_piigcioavfapricgi_2019"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "86578f12-7443-4851-806b-fcfaf03d18c6"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

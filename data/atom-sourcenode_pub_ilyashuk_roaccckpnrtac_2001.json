@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ilyashuk_roaccckpnrtac_2001"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "a2eda1a6-f03b-478e-929c-b3bd9b929953"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

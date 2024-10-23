@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_wagner_fiostdfeg_2006"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "B"
+                ],
+                "item2": "Wagner"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "O"
+                  ],
+                  "item2": "Bennike"
+                },
+                {
+                  "item1": [
+                    "M"
+                  ],
+                  "item2": "Klug"
+                },
+                {
+                  "item1": [
+                    "H"
+                  ],
+                  "item2": "Cremer"
+                }
+              ],
+              "Title": {
+                "item": "First indication of Storegga tsunami deposits from East Greenland"
+              },
+              "Journal": {
+                "item": "Journal of Quaternary Science"
+              },
+              "Year": 2006,
+              "Volume": 22,
+              "Number": 4,
+              "Month": "Dec",
+              "DOI": {
+                "item": "10.1002/jqs.1064"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

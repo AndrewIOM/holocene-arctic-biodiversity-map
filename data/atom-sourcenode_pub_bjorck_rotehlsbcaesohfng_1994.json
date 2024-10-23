@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bjorck_rotehlsbcaesohfng_1994"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "18d098d8-91d4-4c26-acf1-6587345958e2"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
