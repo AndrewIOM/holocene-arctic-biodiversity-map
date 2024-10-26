@@ -8,26 +8,38 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rayback, S. A.; Andrea, L.; Henry, G. R."
-            },
-            "Title": {
-              "item": "Spatial variability of the dominant climate signal in cassiope tetragona from sites in arctic canada"
-            },
-            "Journal": {
-              "item": "Arctic"
-            },
-            "Year": 2011,
-            "Volume": 64,
-            "Pages": [
-              98,
-              114
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rayback, S. A.; Andrea, L.; Henry, G. R."
+              },
+              "Title": {
+                "item": "Spatial variability of the dominant climate signal in cassiope tetragona from sites in arctic canada"
+              },
+              "Journal": {
+                "item": "Arctic"
+              },
+              "Year": 2011,
+              "Volume": 64,
+              "Pages": [
+                98,
+                114
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "outcome"
+              },
+              {
+                "item": "exposure"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

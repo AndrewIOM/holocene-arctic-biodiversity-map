@@ -1,0 +1,81 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_dahl-jensen_ptdftgis_1998"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "D"
+                ],
+                "item2": "Dahl-Jensen"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "K"
+                  ],
+                  "item2": "Mosegaard"
+                },
+                {
+                  "item1": [
+                    "N"
+                  ],
+                  "item2": "Gundestrup"
+                },
+                {
+                  "item1": [
+                    "G",
+                    "D"
+                  ],
+                  "item2": "Clow"
+                },
+                {
+                  "item1": [
+                    "S",
+                    "J"
+                  ],
+                  "item2": "Johnsen"
+                },
+                {
+                  "item1": [
+                    "A",
+                    "W"
+                  ],
+                  "item2": "Hansen"
+                },
+                {
+                  "item1": [
+                    "N"
+                  ],
+                  "item2": "Balling"
+                }
+              ],
+              "Title": {
+                "item": "Past Temperatures Directly from the Greenland Ice Sheet"
+              },
+              "Journal": {
+                "item": "Science"
+              },
+              "Year": 1998,
+              "Volume": 282,
+              "Number": 5387,
+              "Month": "Oct",
+              "DOI": {
+                "item": "10.1126/science.282.5387.268"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

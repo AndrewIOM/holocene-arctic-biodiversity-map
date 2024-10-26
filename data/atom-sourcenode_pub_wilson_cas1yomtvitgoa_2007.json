@@ -8,26 +8,38 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Wilson, R.; Wiles, G.; D'Arrigo, R.; Zweck, C."
-            },
-            "Title": {
-              "item": "Cycles and shifts: 1,300 years of multi-decadal temperature variability in the Gulf of Alaska"
-            },
-            "Journal": {
-              "item": "Climate Dynamics"
-            },
-            "Year": 2007,
-            "Volume": 28,
-            "Pages": [
-              425,
-              440
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Wilson, R.; Wiles, G.; D'Arrigo, R.; Zweck, C."
+              },
+              "Title": {
+                "item": "Cycles and shifts: 1,300 years of multi-decadal temperature variability in the Gulf of Alaska"
+              },
+              "Journal": {
+                "item": "Climate Dynamics"
+              },
+              "Year": 2007,
+              "Volume": 28,
+              "Pages": [
+                425,
+                440
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "outcome"
+              },
+              {
+                "item": "exposure"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],

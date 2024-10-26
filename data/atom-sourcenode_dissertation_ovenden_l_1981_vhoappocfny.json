@@ -1,0 +1,34 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "dissertation_ovenden_l_1981_vhoappocfny"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "Dissertation": {
+              "Author": {
+                "item1": [
+                  "L"
+                ],
+                "item2": "Ovenden"
+              },
+              "Title": {
+                "item": "Vegetation history of a polygonal peatland, Old Crow Flats, northern Yukon"
+              },
+              "Institution": {
+                "item": "University of Toronto"
+              },
+              "CompletionYear": 1981
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
