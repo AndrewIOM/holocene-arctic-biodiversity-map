@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "8defa820-0f3e-466e-829f-425cc4a76b01"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Norway - Lake NOR1"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 69.1981333
+              },
+              {
+                "item": -20.71188
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 435.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

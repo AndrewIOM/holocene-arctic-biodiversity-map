@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "3b57c09e-e021-414b-92fc-3e065407e4ed"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Deltaso"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 76.75952
+              },
+              {
+                "item": -67.61005
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 140.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

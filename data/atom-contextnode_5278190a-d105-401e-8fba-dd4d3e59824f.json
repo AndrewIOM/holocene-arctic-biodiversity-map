@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "5278190a-d105-401e-8fba-dd4d3e59824f"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Coastal lake SS49"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 66.86
+              },
+              {
+                "item": -52.66
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 7.0
+                },
+                {
+                  "_depth": 32.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

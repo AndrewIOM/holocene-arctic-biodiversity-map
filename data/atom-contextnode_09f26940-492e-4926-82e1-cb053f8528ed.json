@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "09f26940-492e-4926-82e1-cb053f8528ed"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Mountain Farm"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 60.8460333
+              },
+              {
+                "item": -45.2913
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 61.0
+                },
+                {
+                  "_depth": 108.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

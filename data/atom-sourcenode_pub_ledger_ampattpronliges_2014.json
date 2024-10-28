@@ -8,28 +8,104 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ledger, P. M.; Edwards, K. J.; Schofield, J. E."
-            },
-            "Title": {
-              "item": "A multiple profile approach to the palynological reconstruction of Norse landscapes in Greenland's Eastern Settlement"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2014,
-            "Volume": 82,
-            "Pages": [
-              22,
-              37
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ledger, P. M.; Edwards, K. J.; Schofield, J. E."
+              },
+              "Title": {
+                "item": "A multiple profile approach to the palynological reconstruction of Norse landscapes in Greenland's Eastern Settlement"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2014,
+              "Volume": 82,
+              "Pages": [
+                22,
+                37
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ledger_ampattpronliges_2014"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f185d795-68c1-40dc-9085-8d89090c6621"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ledger_ampattpronliges_2014"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "6385d5d0-54fd-4933-942e-77c4e859c393"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ledger_ampattpronliges_2014"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "fd4ab53d-1a8d-46cb-ba45-dc36eaeee839"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ledger_ampattpronliges_2014"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "caec16de-736b-49a6-851e-2fd04d057c0b"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b0fe242b-4a15-4dc5-a7bb-d4331cbcb6b7"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Isakovskoe"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 65.095
+              },
+              {
+                "item": 35.598333
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 200.0
+                },
+                {
+                  "_depth": 244.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
