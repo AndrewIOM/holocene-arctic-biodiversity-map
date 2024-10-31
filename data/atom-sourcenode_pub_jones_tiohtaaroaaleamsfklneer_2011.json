@@ -40,5 +40,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_jones_tiohtaaroaaleamsfklneer_2011"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e2000ac9-ff76-4a3a-bb7e-d13a3a5414cb"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

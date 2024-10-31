@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "7a87843d-d68e-4129-9fd1-1b3219e02bf7"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7a87843d-d68e-4129-9fd1-1b3219e02bf7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_other_cladocera"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7a87843d-d68e-4129-9fd1-1b3219e02bf7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7a87843d-d68e-4129-9fd1-1b3219e02bf7"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "6da3ccf8-717f-4534-b776-65db2cf5d577"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7a87843d-d68e-4129-9fd1-1b3219e02bf7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "0ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7a87843d-d68e-4129-9fd1-1b3219e02bf7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "CalYrBP": [
+              13000.0,
+              {
+                "item": "IntCal13"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

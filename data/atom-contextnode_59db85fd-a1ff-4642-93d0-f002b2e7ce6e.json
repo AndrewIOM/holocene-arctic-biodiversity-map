@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "59db85fd-a1ff-4642-93d0-f002b2e7ce6e"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Lyadhej-To "
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.25
+              },
+              {
+                "item": -65.783333
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 1020.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

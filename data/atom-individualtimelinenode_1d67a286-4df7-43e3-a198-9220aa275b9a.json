@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "1d67a286-4df7-43e3-a198-9220aa275b9a"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1d67a286-4df7-43e3-a198-9220aa275b9a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1d67a286-4df7-43e3-a198-9220aa275b9a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_plantmacrofossil"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1d67a286-4df7-43e3-a198-9220aa275b9a"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "93531e48-dc2f-48f8-bc14-80f0cdbeb248"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1d67a286-4df7-43e3-a198-9220aa275b9a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "0ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1d67a286-4df7-43e3-a198-9220aa275b9a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "CalYrBP": [
+              13800.0,
+              {
+                "item": "Stuiver and Reimer (1993)"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

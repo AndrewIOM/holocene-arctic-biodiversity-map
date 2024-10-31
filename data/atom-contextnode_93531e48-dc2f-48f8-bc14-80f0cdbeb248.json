@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "93531e48-dc2f-48f8-bc14-80f0cdbeb248"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Llet-ti"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 65.516666
+              },
+              {
+                "item": 59.31666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 500.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

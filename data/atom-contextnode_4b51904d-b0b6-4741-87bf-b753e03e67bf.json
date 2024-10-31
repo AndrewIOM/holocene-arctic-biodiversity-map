@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "4b51904d-b0b6-4741-87bf-b753e03e67bf"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Kharinei Lake"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.36280555
+              },
+              {
+                "item": 62.75072222
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 320.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

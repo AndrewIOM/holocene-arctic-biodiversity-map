@@ -1,0 +1,33 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "1dab2588-053d-4c7a-9f71-cc147bcb7f04"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Nipaitsoq"
+          },
+          "SamplingLocation": {
+            "Region": [
+              {
+                "item": "Qeqqata"
+              },
+              {
+                "item": "Greenland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": "DepthRangeNotStated"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_valiranta_vddtydtitentzner_2006"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1d67a286-4df7-43e3-a198-9220aa275b9a"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

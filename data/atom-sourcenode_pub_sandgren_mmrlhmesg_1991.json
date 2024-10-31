@@ -45,6 +45,24 @@
       {
         "UUID": [
           "individualtimelinenode",
+          "2560a95b-66fd-44b4-800c-a85c6961b88f"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_sandgren_mmrlhmesg_1991"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
           "bb34c050-b07b-4d98-86ee-f196a9d8f08c"
         ]
       },

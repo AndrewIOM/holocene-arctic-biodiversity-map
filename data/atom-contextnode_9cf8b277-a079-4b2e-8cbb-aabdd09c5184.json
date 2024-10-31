@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "9cf8b277-a079-4b2e-8cbb-aabdd09c5184"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Galium Koer"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 61.16666
+              },
+              {
+                "item": 45.516666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 20.0
+                },
+                {
+                  "_depth": 197.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
