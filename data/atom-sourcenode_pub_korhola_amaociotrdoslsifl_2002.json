@@ -34,5 +34,78 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_korhola_amaociotrdoslsifl_2002"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "5e77f3c8-e66e-4873-ad91-5bcbca015701"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_korhola_amaociotrdoslsifl_2002"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "fb1e7c39-d9eb-41f9-a18d-14fce52469a8"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_korhola_amaociotrdoslsifl_2002"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "839aba48-b1de-4686-bb3e-58c86c283273"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_korhola_amaociotrdoslsifl_2002"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "a24d487f-8cfd-46eb-a620-03120d151f82"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

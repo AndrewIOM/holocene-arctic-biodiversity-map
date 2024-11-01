@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "36632a5a-b083-4429-80b4-8bb930261c10"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Masehjavri"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 69.08333
+              },
+              {
+                "item": 21.0
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 6.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

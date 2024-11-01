@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "849e2bb2-4902-4ac7-91dc-1949e1eb284c"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Ylikyla, Rovaniemi"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 66.5287
+              },
+              {
+                "item": 25.6866
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 13.0
+                },
+                {
+                  "_depth": 25.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
