@@ -1,0 +1,9 @@
+source https://api.nuget.org/v3/index.json
+
+framework: net5.0
+
+github AndrewIOM/biodiversity-graph-db:779a99b3c0579cd560516a9ee2169f5b27221377
+
+nuget FSharp.Data
+nuget Microsoft.FSharpLu.Json
+nuget RProvider
