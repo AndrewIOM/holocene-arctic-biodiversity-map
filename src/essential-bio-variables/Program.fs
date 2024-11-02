@@ -56,9 +56,30 @@ let queryGraphForDates (graph:Storage.FileBasedGraph<GraphStructure.Node,GraphSt
                         match r with
                         | Exposure.ExposureRelation.ConstructedWithDate -> Some sinkId
                         | _ -> None
-                    | _ -> None ))
-            |> List.filter(fun (_,l) -> l.Length > 1)
-            |> List.map(fun (node, dates) ->
+                    | _ -> None ),
+                timelineRelations
+                |> List.tryPick(fun (_,sinkId,_,conn) ->
+                    match conn with
+                    | Relation.Exposure r ->
+                        match r with
+                        | Exposure.ExposureRelation.IsLocatedAt -> Some sinkId
+                        | _ -> None
+                    | _ -> None )
+                )
+            |> List.filter(fun (_,l,_) -> l.Length > 1)
+            |> List.map(fun (node, dates, contextId) ->
+
+                let context =
+                    contextId
+                    |> Option.map (fun c -> c |> Storage.loadAtom graph.Directory (typeof<Population.Context.ContextNode>.Name) |> Result.toOption)
+                    |> Option.bind id
+                    |> Option.bind(fun node ->
+                        match node |> fst |> snd with
+                        | GraphStructure.Node.PopulationNode p ->
+                            match p with
+                            | PopulationNode.ContextNode c -> Some c
+                            | _ -> None
+                        | _ -> None )
 
                 dates
                 |> Storage.loadAtoms graph.Directory (typeof<Exposure.StudyTimeline.IndividualDateNode>.Name)
@@ -73,7 +94,7 @@ let queryGraphForDates (graph:Storage.FileBasedGraph<GraphStructure.Node,GraphSt
                         | _ -> None
                     )
                 )
-                |> Result.lift(fun dates -> node |> fst, dates)
+                |> Result.lift(fun dates -> node |> fst, context, dates)
             )
             |> Result.ofList
 
@@ -87,72 +108,281 @@ let measurementError measureError =
     | FieldDataTypes.OldDate.MeasurementError.DatingErrorRangeSigma (_,low,hi) -> Seq.average [ low; hi ]
     | FieldDataTypes.OldDate.MeasurementError.NoDatingErrorSpecified -> defaultSdWhenUnspecified
 
+/// Converts AD dates to cal yr BP dates
+let adToBp (date:float<OldDate.AD>) =
+    let newDate = 1950.<OldDate.AD> - date
+    if newDate <= 0.<OldDate.AD>
+    then newDate + 1.<OldDate.AD> |> float |> (*) 1.<OldDate.calYearBP>
+    else newDate |> float |> (*) 1.<OldDate.calYearBP>
+
 
 module OxCal =
 
     open BiodiversityCoder.Core.Exposure.Reanalysis
+    open FieldDataTypes.OldDate.Harmonised
+    open RDotNet
 
     type OxCalInputDate =
-        | RadiocarbonWithDepth of r:float<OldDate.uncalYearBP> * sd:float<OldDate.calYearBP> * depth:float<StratigraphicSequence.cm>
-        | RadiocarbonNoDepth of r:float<OldDate.uncalYearBP> * sd:float<OldDate.calYearBP>
+        | Radiocarbon of identifier: string * r:float<OldDate.uncalYearBP> * sd:float<OldDate.calYearBP>
         | DateAD of ad:float<OldDate.AD>
         | DateBC of ad:float<OldDate.BC>
-        | Tephra of ad:float * depth:float<StratigraphicSequence.cm>
+        | UndatedDepth of identifier: string
 
-    let adDate adDate depth = sprintf "Date(AD(%i)) { z=%f; };" adDate depth
-    let radiocarbonDate year sd depth = sprintf """R_Date("",%i,%i){ z=%f; };""" year sd depth
-    let radiocarbonDateNoDepth year sd = sprintf """R_Date("",%i,%i);""" year sd
-    
+    let adDate (adDate:float<OldDate.AD>) depth = sprintf "Date(AD(%i)) { z=%f; };" (int adDate) depth
+    let bcDate (bcDate:float<OldDate.BC>) depth = sprintf "Date(BC(%i)) { z=%f; };" (int bcDate) depth
+    let radiocarbonDate identifier year sd depth = sprintf """R_Date("%s",%i,%i){ z=%f; };""" identifier year sd depth
+    let radiocarbonDateNoDepth identifier year sd = sprintf """R_Date("%s",%i,%i);""" identifier year sd
+    let undatedDepth identifier depth = sprintf """Date("%s"){ z=%f; };""" identifier depth
+
     /// Set k0 as 1 when using cm or 100 when using metres.
     let oxCalSedimendarySequenceScript (dates:string seq) =
         let k0 = 1
-        sprintf """ Plot() { P_Sequence("variable",%i,2,U(-2,2)) { { Boundary("Bottom"){}; %s; Boundary("Top") {}; };};""" k0 (dates |> String.concat ";\n")
+        sprintf """ Plot() { P_Sequence("variable",%i,2,U(-2,2)) { Boundary("Bottom"); %s Boundary("Top"); }; };""" k0 (dates |> String.concat "\n")
 
-    let calibrateDatesFromSequence dates =
+    /// Get date ranges for a particular date 
+    let getSigmaLevel sigmaLevel d =
+        let nRanges = d?sigma_ranges.Member(sigmaLevel)?probability.AsList().Length
+        if nRanges = 1
+        then
+            [{
+                Probability = d?sigma_ranges.Member(sigmaLevel)?probability.GetValue<float> () / 100. |> Percent.create |> Result.forceOk
+                LaterBound = d?sigma_ranges.Member(sigmaLevel)?``end``.GetValue<float> () * 1.<OldDate.AD> |> adToBp
+                EarlierBound = d?sigma_ranges.Member(sigmaLevel)?start.GetValue<float> () * 1.<OldDate.AD> |> adToBp
+            }]
+        else
+            [ 1 .. d?sigma_ranges.Member(sigmaLevel)?probability.AsList().Length ] |> List.map(fun r ->
+                {
+                    Probability = d?sigma_ranges.Member(sigmaLevel)?probability.AsList().[r - 1].GetValue<float> () / 100. |> Percent.create |> Result.forceOk
+                    LaterBound = d?sigma_ranges.Member(sigmaLevel)?``end``.AsList().[r - 1].GetValue<float> () * 1.<OldDate.AD> |> adToBp
+                    EarlierBound = d?sigma_ranges.Member(sigmaLevel)?start.AsList().[r - 1].GetValue<float> () * 1.<OldDate.AD> |> adToBp
+                }
+            )
+
+    let calibrateDatesFromSequence (dates:(float<StratigraphicSequence.cm> * OxCalInputDate) list) =
         
         let oxCalScript : string =
-
-            // Dates should be ordered bottom to top (depth-basis)...
-
             dates
-            |> Seq.map(fun d ->
+            |> Seq.map(fun (depth,d) ->
                 match d with
-                | RadiocarbonWithDepth (r,sd,depth) -> radiocarbonDate (int r) (int sd) depth
-                | RadiocarbonNoDepth (r, sd) ->
-                    printfn "Warning: mixed radiocarbon dates with and without depths"
-                    radiocarbonDateNoDepth (int r) (int sd)
-                    )
+                | Radiocarbon (identifier,r,sd) -> radiocarbonDate identifier (int r) (int sd) depth
+                | DateAD(ad) -> adDate ad depth
+                | DateBC(bc) -> bcDate bc depth
+                | UndatedDepth identifier -> undatedDepth identifier depth )
             |> oxCalSedimendarySequenceScript
 
+        printfn "OXCAL SCRIPT: %s" oxCalScript
+
         let my_result_file = R.executeOxcalScript(oxcal__script = oxCalScript)
+
+        printfn "Finished OxCal. Press any key to continue..."
+        System.Console.ReadLine() |> ignore
+
         let my_result_text = R.readOxcalOutput(my_result_file)
         let my_result_data = R.parseOxcalOutput(my_result_text)
 
         // Age-depth model:
         let fullModel = R.parseFullOxcalOutput(my_result_text)
         let depths = fullModel?model?``element[1]``?age_depth_z.GetValue<float list>() |> List.map(fun f -> f * 1.<StratigraphicSequence.cm>)
-        let ages = fullModel?model?``element[1]``?age_depth_mean.GetValue<float list>() |> List.map(fun f -> f * 1.<OldDate.calYearBP>)
+        let ages = fullModel?model?``element[1]``?age_depth_mean.GetValue<float list>() |> List.map(fun f -> f * 1.<OldDate.AD>)
         let agesSd = fullModel?model?``element[1]``?age_depth_sd.GetValue<float list>() |> List.map(fun f -> f * 1.<OldDate.calYearBP>)
         let calibrationCurve = fullModel?``calib[0]``?ref.GetValue<string> ()
 
         let ageDepthModel : Map<float<StratigraphicSequence.cm>, float<OldDate.calYearBP> * float<OldDate.calYearBP>> = 
             List.zip3 depths ages agesSd
-            |> List.map(fun (d,a,sd) -> d, (a, sd))            
+            |> List.map(fun (d,a,sd) -> d, (adToBp a, sd))            
             |> Map.ofList
 
         (fun curve modelCode softwareName softwareVersion ->
+
+            // Find individual date calibrations.
+            let individualDates =
+                my_result_data.AsList()
+                |> Seq.map(fun d ->
+                    d?name.GetValue<string> (),
+                    
+                    {
+                        CalibrationCurve = curve
+                        InputDate = float (d?bp.GetValue<int> ()) * 1.<OldDate.uncalYearBP>
+                        InputStandardDeviation = float (d?std.GetValue<int> ()) * 1.<OldDate.uncalYearBP> |> Some
+                        DateRanges = ([
+                            OldDate.OneSigma, getSigmaLevel "one_sigma" d
+                            OldDate.TwoSigma, getSigmaLevel "two_sigma" d
+                            OldDate.ThreeSigma, getSigmaLevel "three_sigma" d ] |> Map.ofList)
+                        SoftwareUsed = softwareName
+                        Origin = PartOfReanalysis(analysisPerson, analysisDate)
+                    }
+                )
+                |> Map.ofSeq
+
             {
                 CalibrationCurve = curve
                 ModelApplied = OxCalModel modelCode
                 SoftwareName = softwareName
                 SoftwareVersion = softwareVersion
-                Origin = OldDate.Harmonised.DateCalibrationOrigin.PartOfReanalysis(analysisPerson, analysisDate)
+                Origin = PartOfReanalysis(analysisPerson, analysisDate)
                 AgeDepthModel = Some ageDepthModel
-            })
+            }, individualDates)
         <!> (Text.createShort calibrationCurve)
         <*> (Text.create oxCalScript)
         <*> ("OxCal" |> Text.createShort)
         <*> ("4.4.4" |> Text.createShort)
+
+
+/// For sedimentary records, applies a sequence model in OxCal
+/// to calibrate ages and a fresh age-depth model using IntCal20.
+/// If data falls into depth range outside of given dates, sets the
+/// depths in the OxCal model to cause ages to be generated to the
+/// stated depth bounds (e.g. when extrapolation occurs at the top or
+/// bottom of a core).
+/// - TODO What about surface age?
+/// - TODO Find existing link to calibration and skip if found.
+/// - TODO If there are dates not from depths, do not use a sequence model.
+let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.IndividualDateNode>) (context:option<Population.Context.ContextNode>) graph =
+
+    let preparedDates =
+        timeline
+        |> List.filter(fun (_,date) -> not date.Discarded)
+        |> List.map(fun (indDateKey,date) ->
+
+            let depth =
+                match date.SampleDepth with
+                | Some d ->
+                    match d with
+                    | StratigraphicSequence.DepthInCore.DepthBand (low,up) -> Some <| Seq.average [ low.Value; up.Value ]
+                    | StratigraphicSequence.DepthInCore.DepthNotStated -> None
+                    | StratigraphicSequence.DepthInCore.DepthPoint p -> Some p.Value
+                    | StratigraphicSequence.DepthInCore.DepthQualitativeLevel _ -> None
+                | None -> None
+
+            let handleUncalDate name (uncal:OldDate.UncalDate) =
+                Some <| OxCal.Radiocarbon(name, uncal.Date, measurementError uncal.UncalibratedDateError)
+
+            let handleCalDate name (cal:OldDate.CalibratedRadiocarbonDate) =
+                match cal.UncalibratedDate with
+                | Some uncal -> handleUncalDate name uncal
+                | None ->
+                    printfn "Ignoring calibrated radiocarbon date that has no uncalibrated value."
+                    None
+
+            let handleOldDate name d =
+                match d with
+                | OldDate.OldDate.CalYrBP cal -> handleCalDate name cal
+                | OldDate.OldDate.BP bp -> Some <| OxCal.Radiocarbon(name, bp, measurementError date.MeasurementError)
+                | OldDate.OldDate.HistoryYearAD ad -> Some <| OxCal.DateAD ad
+                | OldDate.OldDate.HistoryYearBC bc -> Some <| OxCal.DateBC bc                    
+
+            let name = indDateKey.AsString
+
+            indDateKey,
+            depth,
+            match date.Date with
+            | OldDate.OldDatingMethod.RadiocarbonCalibrated cal -> handleCalDate name cal
+            | OldDate.OldDatingMethod.RadiocarbonCalibratedRanges ranges ->
+                ranges.UncalibratedDate |> Option.bind (fun u -> handleUncalDate name u)
+            | OldDate.OldDatingMethod.RadiocarbonUncalibrated bp
+            | OldDate.OldDatingMethod.RadiocarbonUncalibratedConventional bp -> 
+                Some <| OxCal.Radiocarbon(name, bp, measurementError date.MeasurementError)
+            | OldDate.OldDatingMethod.CollectionDate y -> Some <| OxCal.DateAD y
+            | OldDate.OldDatingMethod.HistoricEvent (_, d)
+            | OldDate.OldDatingMethod.Tephra (_,d) -> handleOldDate name d
+            | OldDate.OldDatingMethod.Lead210 _
+            | OldDate.OldDatingMethod.DepositionalZone _
+            | OldDate.OldDatingMethod.Radiocaesium _ -> None )
+
+    printfn "%A" preparedDates
+
+    let totalDates = preparedDates |> Seq.where (fun (_,_,d) -> d.IsSome) |> Seq.length
+    if totalDates = 0
+    then
+        printfn "Skipping time series as there were no dates left after pre-processing."
+        graph
+    else
+
+        let isDepthSequence = preparedDates |> List.map(fun (_,d,_) -> d) |> List.contains None |> not
+        if isDepthSequence then
+
+            // Add in the depths above and below given dates.
+            let bottomDepth, topDepth =
+                match context with
+                | None -> None, None
+                | Some c ->
+                    printfn "Sample origin is %A." c.SampleOrigin
+                    match c.SampleOrigin with
+                    | Population.Context.SampleOrigin.LakeSediment depths
+                    | Population.Context.SampleOrigin.PeatCore depths
+                    | Population.Context.SampleOrigin.Excavation depths ->
+                        match depths with
+                        | StratigraphicSequence.DepthExtent.DepthRange (top, bottom) -> (Some bottom), (Some top)
+                        | StratigraphicSequence.DepthExtent.DepthRangeNotStated -> None, None
+                    | Population.Context.SampleOrigin.OtherOrigin (_, depths) ->
+                        match depths with
+                        | None -> None, None
+                        | Some depths ->
+                            match depths with
+                            | StratigraphicSequence.DepthExtent.DepthRange (top, bottom) -> (Some bottom), (Some top)
+                            | StratigraphicSequence.DepthExtent.DepthRangeNotStated -> None, None
+                    | Population.Context.SampleOrigin.LivingOrganism
+                    | Population.Context.SampleOrigin.Subfossil -> None, None
+
+            let usedDateKeys, orderedDates =
+                preparedDates
+                |> fun dates ->
+                    if topDepth.IsSome then
+                        if dates |> List.forall (fun (_,d,_) -> d.Value > topDepth.Value.Value)
+                        then (Graph.UniqueKey.FriendlyKey ("depthextent", "top"), topDepth |> Option.map(fun v -> v.Value), Some <| OxCal.UndatedDepth "top") :: dates
+                        else dates
+                    else dates
+                |> fun dates ->
+                    if bottomDepth.IsSome then
+                        if dates |> List.forall (fun (_,d,_) -> d.Value < bottomDepth.Value.Value)
+                        then (Graph.UniqueKey.FriendlyKey ("depthextent", "bottom"), bottomDepth |> Option.map(fun v -> v.Value), Some <| OxCal.UndatedDepth "bottom") :: dates
+                        else dates
+                    else dates
+                |> List.sortByDescending(fun (_,d,_) -> d.Value)
+                |> List.filter(fun (_,_,d) -> d.IsSome)
+                |> List.map(fun (k,depth,d) -> k, Option.map2(fun a b -> (a,b)) depth d)
+                |> List.unzip
+
+            result {
+                let! calibrated, individualCalDates = OxCal.calibrateDatesFromSequence (orderedDates |> List.choose id)
+                printfn "Calibrated is %A" calibrated
+
+                let! (g,addedNodes) = Storage.addNodes graph [ calibrated |> Exposure.ExposureNode.DateCalibrationInstanceNode |> Node.ExposureNode ]
+                let newCalNode = addedNodes.Head
+
+                let linkDateToCalNode g indDateKey =
+                    g |> Result.bind(fun g ->
+                        Storage.addRelationByKey g indDateKey (newCalNode |> fst |> fst) (ProposedRelation.Exposure Exposure.ExposureRelation.UsedInCalibration)
+                    )
+
+                let! graphWithInboundLinks = 
+                    usedDateKeys
+                    |> List.fold linkDateToCalNode (Ok g)
+
+                // Link cal node back to dates with their sigma ranges:
+                let linkCalNodeToDates g (key:string) (calibratedDate:OldDate.Harmonised.DateCalibration) =
+                    g |> Result.bind(fun g ->
+                        match preparedDates |> Seq.tryFind(fun (x,_,_) -> x.AsString = key) with
+                        | None -> Ok g
+                        | Some (indDateNodeKey,_,_) ->
+                            Storage.addRelationByKey g (newCalNode |> fst |> fst) indDateNodeKey
+                                (ProposedRelation.Exposure(Exposure.ExposureRelation.Calibrated calibratedDate))
+                    )
+
+                let! graphWithOutboundLinks = 
+                    individualCalDates
+                    |> Map.fold linkCalNodeToDates (Ok graphWithInboundLinks)
+                
+                printfn "Waiting for key..."
+                System.Console.ReadLine() |> ignore
+
+                return graphWithOutboundLinks
+            } |> Result.forceOk
+        else
+            printfn "Is not a depth sequence. Skipping..."
+            graph
+
+
 
 
 // Script starts here
@@ -176,114 +406,13 @@ match timelines with
 | Ok timelines ->
     printfn "Query identified %i timelines with individual dates." timelines.Length
 
-    for t in timelines do
+    let updatedGraph =
+        timelines
+        |> List.fold(fun g (_,context,dates) ->
+            processTimeline dates context g
+            ) graph
 
-        // Find existing link to calibration and skip if found.
-
-        // If there are dates not from depths, do not use a sequence model.
-        // If all dates are depth-related, use a sequence model.
-
-        // NB What about surface age?
-
-        let preparedDates =
-            (snd t) 
-            |> List.filter(fun (_,date) -> not date.Discarded)
-            |> List.map(fun (indDateKey,date) ->
-
-                let depth =
-                    match date.SampleDepth with
-                    | Some d ->
-                        match d with
-                        | StratigraphicSequence.DepthInCore.DepthBand (low,up) -> Some <| Seq.average [ low.Value; up.Value ]
-                        | StratigraphicSequence.DepthInCore.DepthNotStated -> None
-                        | StratigraphicSequence.DepthInCore.DepthPoint p -> Some p.Value
-                        | StratigraphicSequence.DepthInCore.DepthQualitativeLevel _ -> None
-                    | None -> None
-
-                let handleUncalDate (uncal:OldDate.UncalDate) depth =
-                    match depth with
-                    | Some d ->  Some <| OxCal.RadiocarbonWithDepth(uncal.Date, measurementError uncal.UncalibratedDateError, d)
-                    | None -> Some <| OxCal.RadiocarbonNoDepth(uncal.Date, measurementError uncal.UncalibratedDateError)
-
-                let handleCalDate (cal:OldDate.CalibratedRadiocarbonDate) depth =
-                    match cal.UncalibratedDate with
-                    | Some uncal -> handleUncalDate uncal depth
-                    | None ->
-                        printfn "Ignoring calibrated radiocarbon date that has no uncalibrated value."
-                        None
-
-                let handleOldDate d depth =
-                    match d with
-                    | OldDate.OldDate.CalYrBP cal -> handleCalDate cal depth
-                    | OldDate.OldDate.BP bp ->
-                        match depth with
-                        | Some d ->  Some <| OxCal.RadiocarbonWithDepth(bp, measurementError date.MeasurementError, d)
-                        | None -> Some <| OxCal.RadiocarbonNoDepth(bp, measurementError date.MeasurementError)
-                    | OldDate.OldDate.HistoryYearAD ad -> Some <| OxCal.DateAD ad
-                    | OldDate.OldDate.HistoryYearBC bc -> Some <| OxCal.DateBC bc
-
-
-                indDateKey,
-                depth,
-                match date.Date with
-                | OldDate.OldDatingMethod.RadiocarbonCalibrated cal -> handleCalDate cal depth
-                | OldDate.OldDatingMethod.RadiocarbonCalibratedRanges ranges ->
-                    ranges.UncalibratedDate |> Option.bind (fun u -> handleUncalDate u depth)
-                | OldDate.OldDatingMethod.RadiocarbonUncalibrated bp
-                | OldDate.OldDatingMethod.RadiocarbonUncalibratedConventional bp -> 
-                    match depth with
-                    | Some d ->  Some <| OxCal.RadiocarbonWithDepth(bp, measurementError date.MeasurementError, d)
-                    | None -> Some <| OxCal.RadiocarbonNoDepth(bp, measurementError date.MeasurementError)
-                | OldDate.OldDatingMethod.CollectionDate y -> Some <| OxCal.DateAD y
-                | OldDate.OldDatingMethod.HistoricEvent (_, d)
-                | OldDate.OldDatingMethod.Tephra (_,d) -> handleOldDate d depth
-                | OldDate.OldDatingMethod.Lead210 _
-                | OldDate.OldDatingMethod.DepositionalZone _
-                | OldDate.OldDatingMethod.Radiocaesium _ -> None )
-
-        let totalDates = preparedDates |> Seq.where (fun (_,_,d) -> d.IsSome) |> Seq.length
-        if totalDates = 0
-        then
-            printfn "Skipping timeseries as there were no dates left after pre-processing."
-            ()
-        else
-
-            let isDepthSequence = preparedDates |> List.map(fun (_,d,_) -> d) |> List.contains None |> not
-            if isDepthSequence then
-
-                let usedDateKeys, orderedDates =
-                    preparedDates
-                    |> List.sortByDescending(fun (_,d,_) -> d.Value)
-                    |> List.filter(fun (_,_,d) -> d.IsSome)
-                    |> List.map(fun (k,_,d) -> k,d)
-                    |> List.unzip
-
-                result {
-                    let! calibrated = OxCal.calibrateDatesFromSequence (orderedDates |> List.choose id)
-
-                    let! (g,addedNodes) = Storage.addNodes graph [ calibrated |> Exposure.ExposureNode.RecalibratedDateNode |> Node.ExposureNode ]
-                    let newCalNode = addedNodes.Head
-
-                    let linkDateToCalNode g indDateKey =
-                        g |> Result.bind(fun g ->
-                            Storage.addRelationByKey g indDateKey (newCalNode |> fst |> fst) (ProposedRelation.Exposure Exposure.ExposureRelation.UsedInCalibration)
-                        )
-
-                    let! graphWithInboundLinks = 
-                        usedDateKeys
-                        |> List.fold linkDateToCalNode (Ok g)
-
-                    // TODO Link cal node back to dates with their sigma ranges:
-                    // let linkCalNodeToDates g indDateKey =
-                    //     g |> Result.bind(fun g ->
-                    //         Storage.addRelationByKey g indDateKey (newCalNode |> fst |> fst) (ProposedRelation.Exposure Exposure.ExposureRelation.UsedInCalibration)
-                    //     )
-
-
-                    return ()
-                } |> Result.forceOk
-            else
-                ()
+    ()
 
 /////////////////////////////////////////////////
 // Part 2: Temporal extent (simple calibrations)
