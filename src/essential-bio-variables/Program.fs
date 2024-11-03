@@ -141,15 +141,19 @@ module OxCal =
 
     /// Get date ranges for a particular date 
     let getSigmaLevel sigmaLevel d =
-        let nRanges = d?sigma_ranges.Member(sigmaLevel)?probability.AsList().Length
-        if nRanges = 1
-        then
+        let nRanges =
+            if d?sigma_ranges.Member(sigmaLevel).IsDataFrame()
+            then d?sigma_ranges.Member(sigmaLevel)?probability.AsList().Length
+            else 0
+        match nRanges with
+        | 1 ->
             [{
                 Probability = d?sigma_ranges.Member(sigmaLevel)?probability.GetValue<float> () / 100. |> Percent.create |> Result.forceOk
                 LaterBound = d?sigma_ranges.Member(sigmaLevel)?``end``.GetValue<float> () * 1.<OldDate.AD> |> adToBp
                 EarlierBound = d?sigma_ranges.Member(sigmaLevel)?start.GetValue<float> () * 1.<OldDate.AD> |> adToBp
             }]
-        else
+        | 0 -> []
+        | _ ->
             [ 1 .. d?sigma_ranges.Member(sigmaLevel)?probability.AsList().Length ] |> List.map(fun r ->
                 {
                     Probability = d?sigma_ranges.Member(sigmaLevel)?probability.AsList().[r - 1].GetValue<float> () / 100. |> Percent.create |> Result.forceOk
@@ -157,6 +161,31 @@ module OxCal =
                     EarlierBound = d?sigma_ranges.Member(sigmaLevel)?start.AsList().[r - 1].GetValue<float> () * 1.<OldDate.AD> |> adToBp
                 }
             )
+
+    let warningsByName (fullModel:RDotNet.SymbolicExpression) =
+        R.names(fullModel).GetValue<string list> ()
+        |> List.filter(fun n -> n.StartsWith "ocd")
+        |> List.choose(fun ocd ->
+            let l = fullModel.Member(ocd)?likelihood
+            let name =
+                match fullModel.Member(ocd)?name with
+                | RDotNet.ActivePatterns.Null -> ""
+                | _ -> fullModel.Member(ocd)?name.GetValue<string>()
+            if l.AsList().Length > 1
+            then
+                let warnings =
+                    R.names(l).GetValue<string list> ()
+                    |> List.filter(fun s -> s.StartsWith "warning")
+                if warnings.Length > 0
+                then
+                    warnings
+                    |> List.map(fun warning ->
+                        l.Member(warning).AsList().[0].AsCharacter().GetValue<string list>() |> List.tryHead)
+                    |> List.choose id
+                    |> fun w -> Some (name, w)
+                else None
+            else None
+        ) |> Map.ofList
 
     let calibrateDatesFromSequence (dates:(float<StratigraphicSequence.cm> * OxCalInputDate) list) =
         
@@ -175,7 +204,7 @@ module OxCal =
         let my_result_file = R.executeOxcalScript(oxcal__script = oxCalScript)
 
         printfn "Finished OxCal. Press any key to continue..."
-        System.Console.ReadLine() |> ignore
+        // System.Console.ReadLine() |> ignore
 
         let my_result_text = R.readOxcalOutput(my_result_file)
         let my_result_data = R.parseOxcalOutput(my_result_text)
@@ -186,6 +215,8 @@ module OxCal =
         let ages = fullModel?model?``element[1]``?age_depth_mean.GetValue<float list>() |> List.map(fun f -> f * 1.<OldDate.AD>)
         let agesSd = fullModel?model?``element[1]``?age_depth_sd.GetValue<float list>() |> List.map(fun f -> f * 1.<OldDate.calYearBP>)
         let calibrationCurve = fullModel?``calib[0]``?ref.GetValue<string> ()
+
+        let warnings = warningsByName fullModel
 
         let ageDepthModel : Map<float<StratigraphicSequence.cm>, float<OldDate.calYearBP> * float<OldDate.calYearBP>> = 
             List.zip3 depths ages agesSd
@@ -210,6 +241,13 @@ module OxCal =
                             OldDate.ThreeSigma, getSigmaLevel "three_sigma" d ] |> Map.ofList)
                         SoftwareUsed = softwareName
                         Origin = PartOfReanalysis(analysisPerson, analysisDate)
+                        HasWarnings = (
+                            warnings
+                            |> Map.tryFind (d?name.GetValue<string> ())
+                            |> Option.bind(fun l ->
+                                let warn = l |> List.map (Text.create >> Result.toOption) |> List.choose id
+                                if warn.Length = 0 then None else Some warn )
+                        )
                     }
                 )
                 |> Map.ofSeq
@@ -374,7 +412,7 @@ let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.Indi
                     |> Map.fold linkCalNodeToDates (Ok graphWithInboundLinks)
                 
                 printfn "Waiting for key..."
-                System.Console.ReadLine() |> ignore
+                // System.Console.ReadLine() |> ignore
 
                 return graphWithOutboundLinks
             } |> Result.forceOk
