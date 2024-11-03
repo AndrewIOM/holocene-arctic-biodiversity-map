@@ -83,13 +83,26 @@ let queryGraphForDates (graph:Storage.FileBasedGraph<GraphStructure.Node,GraphSt
 
                 dates
                 |> Storage.loadAtoms graph.Directory (typeof<Exposure.StudyTimeline.IndividualDateNode>.Name)
-                |> Result.map(fun (nodes: Graph.Atom<GraphStructure.Node,obj> list) ->
+                |> Result.map(fun (nodes: Graph.Atom<GraphStructure.Node,GraphStructure.Relation> list) ->
                     nodes
-                    |> List.choose(fun ((k,n),_) ->
+                    |> List.choose(fun ((k,n),dateRels) ->
                         match n with
                         | GraphStructure.Node.ExposureNode p ->
                             match p with
-                            | Exposure.ExposureNode.DateNode d -> Some (k,d)
+                            | Exposure.ExposureNode.DateNode d ->
+                                
+                                // Has date been used before to calibrate?
+                                let usedInCalibration =
+                                    dateRels
+                                    |> List.tryPick(fun (_,sinkId,_,conn) ->
+                                        match conn with
+                                        | Relation.Exposure r ->
+                                            match r with
+                                            | Exposure.ExposureRelation.UsedInCalibration -> Some sinkId
+                                            | _ -> None
+                                        | _ -> None )
+                                
+                                Some (k,d,usedInCalibration)
                             | _ -> None
                         | _ -> None
                     )
@@ -327,8 +340,6 @@ let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.Indi
             | OldDate.OldDatingMethod.DepositionalZone _
             | OldDate.OldDatingMethod.Radiocaesium _ -> None )
 
-    printfn "%A" preparedDates
-
     let totalDates = preparedDates |> Seq.where (fun (_,_,d) -> d.IsSome) |> Seq.length
     if totalDates = 0
     then
@@ -337,7 +348,7 @@ let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.Indi
     else
 
         let isDepthSequence = preparedDates |> List.map(fun (_,d,_) -> d) |> List.contains None |> not
-        if isDepthSequence then
+        if isDepthSequence && totalDates < 4 then
 
             // Add in the depths above and below given dates.
             let bottomDepth, topDepth =
@@ -400,11 +411,15 @@ let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.Indi
                 // Link cal node back to dates with their sigma ranges:
                 let linkCalNodeToDates g (key:string) (calibratedDate:OldDate.Harmonised.DateCalibration) =
                     g |> Result.bind(fun g ->
-                        match preparedDates |> Seq.tryFind(fun (x,_,_) -> x.AsString = key) with
-                        | None -> Ok g
-                        | Some (indDateNodeKey,_,_) ->
-                            Storage.addRelationByKey g (newCalNode |> fst |> fst) indDateNodeKey
-                                (ProposedRelation.Exposure(Exposure.ExposureRelation.Calibrated calibratedDate))
+                        match key with
+                        | "bottom"
+                        | "top" -> Ok g
+                        | _ ->
+                            match preparedDates |> Seq.tryFind(fun (x,_,_) -> x.AsString = key) with
+                            | None -> Ok g
+                            | Some (indDateNodeKey,_,_) ->
+                                Storage.addRelationByKey g (newCalNode |> fst |> fst) indDateNodeKey
+                                    (ProposedRelation.Exposure(Exposure.ExposureRelation.Calibrated calibratedDate))
                     )
 
                 let! graphWithOutboundLinks = 
@@ -437,7 +452,7 @@ let timelines = queryGraphForDates graph
 
 ////////////////////////////////////////
 // Part 1: Individual dates / age-depth models
-//////////////////////////////////////?/
+////////////////////////////////////////
 
 match timelines with
 | Error e -> printfn "Failed to read graph: %s." e
@@ -447,7 +462,11 @@ match timelines with
     let updatedGraph =
         timelines
         |> List.fold(fun g (_,context,dates) ->
-            processTimeline dates context g
+            match dates |> List.choose(fun (_,_,used) -> used) |> List.isEmpty with
+            | true -> processTimeline (dates |> List.map(fun (a,b,c) -> (a,b))) context g
+            | false ->
+                printfn "Skipping a timeline as dates have already been used"
+                graph
             ) graph
 
     ()
