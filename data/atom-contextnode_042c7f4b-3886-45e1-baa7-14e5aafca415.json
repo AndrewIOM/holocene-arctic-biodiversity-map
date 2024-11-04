@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "042c7f4b-3886-45e1-baa7-14e5aafca415"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Last Chance Lake"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 70.90645
+              },
+              {
+                "item": -25.56945
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 75.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

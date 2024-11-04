@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "62f3880c-a670-4ac4-8491-7157ca1fc40f"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Summit Eurocore '89"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 72.5833333
+              },
+              {
+                "item": -37.63333333
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Ice core"
+              },
+              {
+                "DepthRange": [
+                  {
+                    "_depth": 2.5
+                  },
+                  {
+                    "_depth": 80.0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

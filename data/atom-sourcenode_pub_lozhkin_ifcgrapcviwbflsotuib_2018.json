@@ -40,5 +40,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lozhkin_ifcgrapcviwbflsotuib_2018"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "6eba9263-ac3f-46bc-9502-1398aefb00c0"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

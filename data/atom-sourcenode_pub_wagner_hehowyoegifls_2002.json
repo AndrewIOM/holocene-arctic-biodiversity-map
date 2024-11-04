@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wagner_hehowyoegifls_2002"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "645301f3-b0cb-4a6a-b321-ac358c1322df"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

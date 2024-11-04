@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "974389d9-3f08-44d8-a38c-a19c38cefb56"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Ridge-margin (h16)"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 70.6227777
+              },
+              {
+                "item": -147.91
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 10.0
+                },
+                {
+                  "_depth": 23.5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

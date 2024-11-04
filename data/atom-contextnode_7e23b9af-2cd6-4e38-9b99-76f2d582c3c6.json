@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "7e23b9af-2cd6-4e38-9b99-76f2d582c3c6"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Avelambi"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 64.44101666
+              },
+              {
+                "item": 34.13152777
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 200.0
+                },
+                {
+                  "_depth": 240.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

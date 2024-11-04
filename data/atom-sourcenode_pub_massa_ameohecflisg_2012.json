@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_massa_ameohecflisg_2012"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0ce19c9f-73c2-4651-9b07-159d959135b8"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

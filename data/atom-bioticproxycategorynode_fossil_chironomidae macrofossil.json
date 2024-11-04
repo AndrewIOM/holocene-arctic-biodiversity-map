@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxycategorynode",
+        "fossil_chironomidae macrofossil"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyCategoryNode": {
+          "OtherProxy": {
+            "item": "chironomidae macrofossil"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "995d406d-c32b-43bd-b129-6b02f4f6a64b"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lz1116 - Lake Loon"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 72.897061
+              },
+              {
+                "item": -22.098169
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 780.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

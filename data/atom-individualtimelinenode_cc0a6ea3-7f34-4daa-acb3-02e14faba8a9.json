@@ -1,0 +1,91 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "cc0a6ea3-7f34-4daa-acb3-02e14faba8a9"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cc0a6ea3-7f34-4daa-acb3-02e14faba8a9"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_diatom"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cc0a6ea3-7f34-4daa-acb3-02e14faba8a9"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "91880427-c9ec-4f3c-8b89-d8a78ffb260f"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cc0a6ea3-7f34-4daa-acb3-02e14faba8a9"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-51ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cc0a6ea3-7f34-4daa-acb3-02e14faba8a9"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "139ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

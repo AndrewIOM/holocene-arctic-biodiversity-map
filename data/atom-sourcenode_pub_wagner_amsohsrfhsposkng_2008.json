@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wagner_amsohsrfhsposkng_2008"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ced5b4c1-ee0e-420e-b1fd-78b79d1edc83"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

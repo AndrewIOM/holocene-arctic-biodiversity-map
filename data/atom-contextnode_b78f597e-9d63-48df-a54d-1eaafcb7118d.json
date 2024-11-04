@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b78f597e-9d63-48df-a54d-1eaafcb7118d"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Bol'shoe Korzino"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 65.0416666
+              },
+              {
+                "item": 35.6416666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 275.0
+                },
+                {
+                  "_depth": 530.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

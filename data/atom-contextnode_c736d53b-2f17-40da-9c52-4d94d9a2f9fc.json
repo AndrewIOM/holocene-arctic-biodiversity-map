@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "c736d53b-2f17-40da-9c52-4d94d9a2f9fc"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Basaltso - PG1205"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 72.752149
+              },
+              {
+                "item": -22.447832
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 250.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

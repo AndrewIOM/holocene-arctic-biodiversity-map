@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "2a12730b-1d1e-4b4b-8406-46f5238e768b"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Bol'shoe Zelynoe"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 65.113333
+              },
+              {
+                "item": 35.7716666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 818.0
+                },
+                {
+                  "_depth": 886.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

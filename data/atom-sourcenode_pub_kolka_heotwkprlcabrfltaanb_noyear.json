@@ -25,5 +25,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kolka_heotwkprlcabrfltaanb_noyear"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "b4af93ab-c68f-405f-af0e-115fd8809180"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kolka_heotwkprlcabrfltaanb_noyear"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "af325fd6-ad7c-4ce0-a34f-fb1284b878ab"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

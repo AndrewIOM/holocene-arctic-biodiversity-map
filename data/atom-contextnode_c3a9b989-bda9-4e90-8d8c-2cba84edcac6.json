@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "c3a9b989-bda9-4e90-8d8c-2cba84edcac6"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Sarqaq Dalen"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 70.05
+              },
+              {
+                "item": -52.05
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 35.0
+                },
+                {
+                  "_depth": 115.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

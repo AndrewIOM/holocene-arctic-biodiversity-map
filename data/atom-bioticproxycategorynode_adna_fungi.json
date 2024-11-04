@@ -1,0 +1,18 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxycategorynode",
+        "adna_fungi"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyCategoryNode": {
+          "AncientDNA": "Fungi"
+        }
+      }
+    }
+  ],
+  []
+]

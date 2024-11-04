@@ -40,5 +40,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_pedersen_acsoaedtpamflsrtoaapt_2013"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "23c4f451-8b96-43ba-be4c-71781eb30f0e"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

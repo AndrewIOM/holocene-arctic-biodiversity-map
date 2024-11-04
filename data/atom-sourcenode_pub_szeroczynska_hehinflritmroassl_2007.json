@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_szeroczynska_hehinflritmroassl_2007"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "b533f70c-41b4-4715-8444-66cbb61040d9"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

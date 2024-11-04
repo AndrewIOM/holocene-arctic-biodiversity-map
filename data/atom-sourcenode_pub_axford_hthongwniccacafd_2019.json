@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_axford_hthongwniccacafd_2019"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "450796ff-dac2-4e92-a46e-c6eec11337cb"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

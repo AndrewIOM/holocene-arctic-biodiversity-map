@@ -1,0 +1,91 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "ebe0b748-ca8e-4d37-9254-2b05b006c5d1"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ebe0b748-ca8e-4d37-9254-2b05b006c5d1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "adna_fungi"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ebe0b748-ca8e-4d37-9254-2b05b006c5d1"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "e3bac239-4010-4eb7-a17d-b7f946ac25d7"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ebe0b748-ca8e-4d37-9254-2b05b006c5d1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-60ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ebe0b748-ca8e-4d37-9254-2b05b006c5d1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2140ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

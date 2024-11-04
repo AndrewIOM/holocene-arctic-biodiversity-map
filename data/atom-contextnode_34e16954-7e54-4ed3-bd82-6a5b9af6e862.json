@@ -1,0 +1,33 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "34e16954-7e54-4ed3-bd82-6a5b9af6e862"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Pousujarvi"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 68.85
+              },
+              {
+                "item": 21.16666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": "DepthRangeNotStated"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -34,5 +34,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_cremer_proheacfllumnr_2004"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ce115463-6501-434c-b217-3bb7c05aeb81"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_cremer_proheacfllumnr_2004"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "74132427-6382-4a17-b4c7-8507d332b704"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

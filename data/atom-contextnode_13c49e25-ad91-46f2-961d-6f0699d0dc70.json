@@ -1,0 +1,33 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "13c49e25-ad91-46f2-961d-6f0699d0dc70"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Niaqussat "
+          },
+          "SamplingLocation": {
+            "Region": [
+              {
+                "item": "Qeqqata"
+              },
+              {
+                "item": "Greenland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "Excavation": "DepthRangeNotStated"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

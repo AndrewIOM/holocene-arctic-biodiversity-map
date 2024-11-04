@@ -36,5 +36,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_clarke_a2adaprftpurtdoaabpc_2020"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "17823e0a-279a-46df-84f5-784736247762"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

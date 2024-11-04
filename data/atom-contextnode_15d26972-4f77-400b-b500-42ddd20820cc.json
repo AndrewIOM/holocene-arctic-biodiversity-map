@@ -1,0 +1,45 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "15d26972-4f77-400b-b500-42ddd20820cc"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Hraunsvatn"
+          },
+          "SamplingLocation": {
+            "District": [
+              {
+                "item": "Skagahreppur"
+              },
+              {
+                "item": "Norduland vestra"
+              },
+              {
+                "item": "Iceland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 232.0
+                },
+                {
+                  "_depth": 267.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

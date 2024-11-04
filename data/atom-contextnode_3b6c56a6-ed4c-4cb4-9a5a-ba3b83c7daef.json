@@ -1,0 +1,45 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "3b6c56a6-ed4c-4cb4-9a5a-ba3b83c7daef"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Well no.2001-1-2"
+          },
+          "SamplingLocation": {
+            "District": [
+              {
+                "item": "Kirovsk gorsovet"
+              },
+              {
+                "item": "Murmansk"
+              },
+              {
+                "item": "Russia"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 145.0
+                },
+                {
+                  "_depth": 220.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

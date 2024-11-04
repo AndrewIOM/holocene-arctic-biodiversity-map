@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_klug_lpahehongsoegifllsr_2008"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "M"
+                ],
+                "item2": "Klug"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "B"
+                  ],
+                  "item2": "Wagner"
+                }
+              ],
+              "Title": {
+                "item": "Late Pleistocene and Holocene environmental history of northeastern Geography Society O, East Greenland, inferred from Loon Lake's sediment record"
+              },
+              "Journal": {
+                "item": "Leipziger Geowissenschaften"
+              },
+              "Year": 2008,
+              "Volume": 15,
+              "PageRange": {
+                "item1": 1,
+                "item2": 22
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

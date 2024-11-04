@@ -8,28 +8,68 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "McGovern, T. H.; Buckland, P. C.; Savory, D.; Sveinbjarnardottir, G.; Andreason, C.; Skidmore, P."
-            },
-            "Title": {
-              "item": "A Study of the Faunal and Floral Remains from 2 Norse Farms in the Western Settlement Greenland"
-            },
-            "Journal": {
-              "item": "Arctic Anthropology"
-            },
-            "Year": 1983,
-            "Volume": 20,
-            "Pages": [
-              93,
-              120
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "McGovern, T. H.; Buckland, P. C.; Savory, D.; Sveinbjarnardottir, G.; Andreason, C.; Skidmore, P."
+              },
+              "Title": {
+                "item": "A Study of the Faunal and Floral Remains from 2 Norse Farms in the Western Settlement Greenland"
+              },
+              "Journal": {
+                "item": "Arctic Anthropology"
+              },
+              "Year": 1983,
+              "Volume": 20,
+              "Pages": [
+                93,
+                120
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mcgovern_asotfafrf2nfitwsg_1983"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bf16f816-b0dd-49fa-ba0c-b1f097a20f1e"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mcgovern_asotfafrf2nfitwsg_1983"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "54af91f1-70f0-4d2b-9784-2facdaa9cbb4"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

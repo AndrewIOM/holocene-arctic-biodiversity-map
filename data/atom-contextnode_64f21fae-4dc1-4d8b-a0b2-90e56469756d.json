@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "64f21fae-4dc1-4d8b-a0b2-90e56469756d"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Hjort So - Lz1104-5"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 75.9166666
+              },
+              {
+                "item": -18.45
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 2.0
+                },
+                {
+                  "_depth": 250.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

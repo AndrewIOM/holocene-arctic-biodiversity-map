@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "7dd01781-ee91-4451-811c-dab1a2ec3346"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Toskaljarvi"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 69.08333
+              },
+              {
+                "item": 21.0
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 6.5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

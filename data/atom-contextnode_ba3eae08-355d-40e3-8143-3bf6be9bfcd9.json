@@ -1,0 +1,45 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "ba3eae08-355d-40e3-8143-3bf6be9bfcd9"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Torfadalsvatn"
+          },
+          "SamplingLocation": {
+            "District": [
+              {
+                "item": "Skagahreppur"
+              },
+              {
+                "item": "Nordurland vestra"
+              },
+              {
+                "item": "Iceland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 700.0
+                },
+                {
+                  "_depth": 725.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

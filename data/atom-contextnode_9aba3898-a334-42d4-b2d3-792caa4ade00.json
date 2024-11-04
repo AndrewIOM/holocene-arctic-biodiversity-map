@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "9aba3898-a334-42d4-b2d3-792caa4ade00"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Berkut"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 66.3448333
+              },
+              {
+                "item": 36.6628333
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 555.0
+                },
+                {
+                  "_depth": 715.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

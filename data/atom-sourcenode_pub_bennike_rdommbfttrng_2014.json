@@ -8,28 +8,56 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bennike, O."
-            },
-            "Title": {
-              "item": "Radiocarbon dating of musk-ox (Ovibos moschatus) bones from the Thule region, northwest Greenland"
-            },
-            "Journal": {
-              "item": "Polar Record"
-            },
-            "Year": 2014,
-            "Volume": 50,
-            "Pages": [
-              113,
-              118
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bennike, O."
+              },
+              "Title": {
+                "item": "Radiocarbon dating of musk-ox (Ovibos moschatus) bones from the Thule region, northwest Greenland"
+              },
+              "Journal": {
+                "item": "Polar Record"
+              },
+              "Year": 2014,
+              "Volume": 50,
+              "Pages": [
+                113,
+                118
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bennike_rdommbfttrng_2014"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4eaf03b2-f230-4adf-9d3f-9de6533fca1b"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

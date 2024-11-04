@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "c89f4c0c-89e8-4370-8357-f118775a7dfd"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Trifna So core Co1211"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 79.98968333
+              },
+              {
+                "item": 22.8533666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 15.0
+                },
+                {
+                  "_depth": 82.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

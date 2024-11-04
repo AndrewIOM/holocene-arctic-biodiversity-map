@@ -30,5 +30,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_nazarova_rsibcacsfteerat_2021"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "34363ea6-8203-47eb-a5d2-b1e3b86d8cff"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_nazarova_rsibcacsfteerat_2021"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "51b57414-601d-442a-b74b-cf830ae761cc"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -8,28 +8,68 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andersson, R. A.; Meyers, P.; Hornibrook, E.; Kuhry, P.; Morth, C. M."
-            },
-            "Title": {
-              "item": "Elemental and isotopic carbon and nitrogen records of organic matter accumulation in a Holocene permafrost peat sequence in the East European Russian Arctic"
-            },
-            "Journal": {
-              "item": "Journal of Quaternary Science"
-            },
-            "Year": 2012,
-            "Volume": 27,
-            "Pages": [
-              545,
-              552
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andersson, R. A.; Meyers, P.; Hornibrook, E.; Kuhry, P.; Morth, C. M."
+              },
+              "Title": {
+                "item": "Elemental and isotopic carbon and nitrogen records of organic matter accumulation in a Holocene permafrost peat sequence in the East European Russian Arctic"
+              },
+              "Journal": {
+                "item": "Journal of Quaternary Science"
+              },
+              "Year": 2012,
+              "Volume": 27,
+              "Pages": [
+                545,
+                552
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andersson_eaicanroomaiahppsiteera_2012"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1c9a2f5d-0e8b-4851-8b36-b226323b12bf"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andersson_eaicanroomaiahppsiteera_2012"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andersson_iopconbcoahpsiteera_2011"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

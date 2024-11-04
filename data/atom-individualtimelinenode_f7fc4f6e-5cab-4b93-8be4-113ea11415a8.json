@@ -1,0 +1,91 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "f7fc4f6e-5cab-4b93-8be4-113ea11415a8"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f7fc4f6e-5cab-4b93-8be4-113ea11415a8"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossil_chironomid macrofossils"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f7fc4f6e-5cab-4b93-8be4-113ea11415a8"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "64f7b890-9dd3-4a2e-9a9f-b9c247323a17"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f7fc4f6e-5cab-4b93-8be4-113ea11415a8"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-60ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f7fc4f6e-5cab-4b93-8be4-113ea11415a8"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "100ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

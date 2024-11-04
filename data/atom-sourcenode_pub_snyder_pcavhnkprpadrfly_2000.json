@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_snyder_pcavhnkprpadrfly_2000"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "382a64b9-8e15-42b7-9bc7-9391b7688453"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

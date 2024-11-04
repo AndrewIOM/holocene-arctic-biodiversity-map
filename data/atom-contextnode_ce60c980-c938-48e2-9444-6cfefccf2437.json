@@ -1,0 +1,45 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "ce60c980-c938-48e2-9444-6cfefccf2437"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Balso"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 79.550341
+              },
+              {
+                "item": -22.589014
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 20.0
+                },
+                {
+                  "_depth": 118.0
+                }
+              ]
+            }
+          },
+          "SampleLocationDescription": {
+            "item": "Sampling was near Blaso- specific location not given"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

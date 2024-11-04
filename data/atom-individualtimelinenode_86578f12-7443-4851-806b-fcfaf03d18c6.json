@@ -1,0 +1,101 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "86578f12-7443-4851-806b-fcfaf03d18c6"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Discontinuous": [
+            "Irregular",
+            [
+              {
+                "Hiatus": [
+                  1804.0,
+                  1825.0
+                ]
+              }
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "86578f12-7443-4851-806b-fcfaf03d18c6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "86578f12-7443-4851-806b-fcfaf03d18c6"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "62f3880c-a670-4ac4-8491-7157ca1fc40f"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "86578f12-7443-4851-806b-fcfaf03d18c6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-35ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "86578f12-7443-4851-806b-fcfaf03d18c6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "215ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

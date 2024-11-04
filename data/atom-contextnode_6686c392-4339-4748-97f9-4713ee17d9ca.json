@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "6686c392-4339-4748-97f9-4713ee17d9ca"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Bolshoy Kharbey"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.5561111
+              },
+              {
+                "item": 62.88972222
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 25.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

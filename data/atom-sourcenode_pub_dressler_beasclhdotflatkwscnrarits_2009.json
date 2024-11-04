@@ -40,5 +40,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_dressler_beasclhdotflatkwscnrarits_2009"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "be40f39e-1745-48ce-a42c-6dc648b4c36c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_dressler_beasclhdotflatkwscnrarits_2009"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f79eb820-8c43-4755-bd99-f1c12ed993c3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

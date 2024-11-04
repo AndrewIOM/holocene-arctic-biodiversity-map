@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "26db90b8-6139-4679-9e24-d17b814db9ac"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Point A1400 Luvuoma"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 68.4
+              },
+              {
+                "item": 23.55
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 18.0
+                },
+                {
+                  "_depth": 180.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ilyashuk_hcaecifmrcccalbskpr_2005"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "840fb022-490b-4538-801d-4a782f249f9e"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

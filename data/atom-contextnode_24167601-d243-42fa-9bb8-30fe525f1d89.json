@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "24167601-d243-42fa-9bb8-30fe525f1d89"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Vankavad Lake"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 65.983333
+              },
+              {
+                "item": 60.01666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 6.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

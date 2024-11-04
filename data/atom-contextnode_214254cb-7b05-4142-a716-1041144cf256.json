@@ -1,0 +1,48 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "214254cb-7b05-4142-a716-1041144cf256"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "PG1204 N1"
+          },
+          "SamplingLocation": {
+            "Locality": [
+              {
+                "item": "Noa So"
+              },
+              {
+                "item": "Northeast Greenland national Park"
+              },
+              {
+                "item": "Northeast Greenland national Park"
+              },
+              {
+                "item": "Greenland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 50.0
+                },
+                {
+                  "_depth": 245.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

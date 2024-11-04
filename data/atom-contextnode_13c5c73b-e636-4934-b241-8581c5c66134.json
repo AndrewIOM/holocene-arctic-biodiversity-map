@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "13c5c73b-e636-4934-b241-8581c5c66134"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Comarum"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 61.14
+              },
+              {
+                "item": -45.534722
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 370.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

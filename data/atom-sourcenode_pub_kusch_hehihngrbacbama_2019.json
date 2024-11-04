@@ -40,5 +40,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kusch_hehihngrbacbama_2019"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "694df1f1-63de-4708-a97b-3f8d14c7caba"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

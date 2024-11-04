@@ -40,5 +40,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bay_papvithaengatrttnwp_1997"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "04da72ce-213a-4992-b3ec-f21ec7d1d625"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

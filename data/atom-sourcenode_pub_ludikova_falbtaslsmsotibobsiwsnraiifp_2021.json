@@ -35,5 +35,60 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ludikova_falbtaslsmsotibobsiwsnraiifp_2021"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "3676016d-f100-42cf-a0ac-c462a815db8c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ludikova_falbtaslsmsotibobsiwsnraiifp_2021"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "53148b2c-8b5e-4734-bc3f-374a7f032dd4"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ludikova_falbtaslsmsotibobsiwsnraiifp_2021"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "645f181e-f8fb-4e7d-a5e0-76924f536b3b"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

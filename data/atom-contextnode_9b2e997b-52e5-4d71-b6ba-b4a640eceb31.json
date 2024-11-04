@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "9b2e997b-52e5-4d71-b6ba-b4a640eceb31"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Saanajarvi"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 69.083333
+              },
+              {
+                "item": 21.0
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 5.8
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

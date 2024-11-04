@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "e51545c6-99a9-4258-8514-0eb597e37042"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Qajaa Profile B"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 69.127602
+              },
+              {
+                "item": -50.702076
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Midden"
+              },
+              {
+                "DepthRange": [
+                  {
+                    "_depth": 25.0
+                  },
+                  {
+                    "_depth": 100.0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

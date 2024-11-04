@@ -1,0 +1,33 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b0697e91-709d-4357-8e81-7486beced900"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake AT4"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 66.954646
+              },
+              {
+                "item": -53.609099
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": "DepthRangeNotStated"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

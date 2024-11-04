@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_hicks_papprolf_1994"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e7c897fe-b6ed-4b7d-b184-488cee2578f7"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

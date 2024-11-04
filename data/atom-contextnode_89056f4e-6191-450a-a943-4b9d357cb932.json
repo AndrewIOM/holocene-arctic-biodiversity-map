@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "89056f4e-6191-450a-a943-4b9d357cb932"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lille Sneha So"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 80.0161333
+              },
+              {
+                "item": -22.6502333
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 100.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
