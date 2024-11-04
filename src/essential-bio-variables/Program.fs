@@ -153,7 +153,7 @@ module OxCal =
         sprintf """ Plot() { P_Sequence("variable",%i,2,U(-2,2)) { Boundary("Bottom"); %s Boundary("Top"); }; };""" k0 (dates |> String.concat "\n")
 
     /// Get date ranges for a particular date 
-    let getSigmaLevel sigmaLevel d =
+    let getSigmaLevel sigmaLevel sigma d =
         let nRanges =
             if d?sigma_ranges.Member(sigmaLevel).IsDataFrame()
             then d?sigma_ranges.Member(sigmaLevel)?probability.AsList().Length
@@ -161,6 +161,7 @@ module OxCal =
         match nRanges with
         | 1 ->
             [{
+                Sigma = sigma
                 Probability = d?sigma_ranges.Member(sigmaLevel)?probability.GetValue<float> () / 100. |> Percent.create |> Result.forceOk
                 LaterBound = d?sigma_ranges.Member(sigmaLevel)?``end``.GetValue<float> () * 1.<OldDate.AD> |> adToBp
                 EarlierBound = d?sigma_ranges.Member(sigmaLevel)?start.GetValue<float> () * 1.<OldDate.AD> |> adToBp
@@ -169,6 +170,7 @@ module OxCal =
         | _ ->
             [ 1 .. d?sigma_ranges.Member(sigmaLevel)?probability.AsList().Length ] |> List.map(fun r ->
                 {
+                    Sigma = sigma
                     Probability = d?sigma_ranges.Member(sigmaLevel)?probability.AsList().[r - 1].GetValue<float> () / 100. |> Percent.create |> Result.forceOk
                     LaterBound = d?sigma_ranges.Member(sigmaLevel)?``end``.AsList().[r - 1].GetValue<float> () * 1.<OldDate.AD> |> adToBp
                     EarlierBound = d?sigma_ranges.Member(sigmaLevel)?start.AsList().[r - 1].GetValue<float> () * 1.<OldDate.AD> |> adToBp
@@ -231,10 +233,14 @@ module OxCal =
 
         let warnings = warningsByName fullModel
 
-        let ageDepthModel : Map<float<StratigraphicSequence.cm>, float<OldDate.calYearBP> * float<OldDate.calYearBP>> = 
+        let ageDepthModel : AgeDepthModelDepth list = 
             List.zip3 depths ages agesSd
-            |> List.map(fun (d,a,sd) -> d, (adToBp a, sd))            
-            |> Map.ofList
+            |> List.map(fun (d,a,sd) ->
+                {
+                    Depth = d
+                    Date = adToBp a
+                    StandardDeviation = Some sd
+                })
 
         (fun curve modelCode softwareName softwareVersion ->
 
@@ -249,9 +255,9 @@ module OxCal =
                         InputDate = float (d?bp.GetValue<int> ()) * 1.<OldDate.uncalYearBP>
                         InputStandardDeviation = float (d?std.GetValue<int> ()) * 1.<OldDate.uncalYearBP> |> Some
                         DateRanges = ([
-                            OldDate.OneSigma, getSigmaLevel "one_sigma" d
-                            OldDate.TwoSigma, getSigmaLevel "two_sigma" d
-                            OldDate.ThreeSigma, getSigmaLevel "three_sigma" d ] |> Map.ofList)
+                            getSigmaLevel "one_sigma" OldDate.OneSigma d
+                            getSigmaLevel "two_sigma" OldDate.TwoSigma d
+                            getSigmaLevel "three_sigma" OldDate.ThreeSigma d ] |> List.concat)
                         SoftwareUsed = softwareName
                         Origin = PartOfReanalysis(analysisPerson, analysisDate)
                         HasWarnings = (
@@ -286,7 +292,6 @@ module OxCal =
 /// stated depth bounds (e.g. when extrapolation occurs at the top or
 /// bottom of a core).
 /// - TODO What about surface age?
-/// - TODO Find existing link to calibration and skip if found.
 /// - TODO If there are dates not from depths, do not use a sequence model.
 let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.IndividualDateNode>) (context:option<Population.Context.ContextNode>) graph =
 
@@ -348,7 +353,7 @@ let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.Indi
     else
 
         let isDepthSequence = preparedDates |> List.map(fun (_,d,_) -> d) |> List.contains None |> not
-        if isDepthSequence && totalDates < 4 then
+        if isDepthSequence then
 
             // Add in the depths above and below given dates.
             let bottomDepth, topDepth =
@@ -412,14 +417,13 @@ let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.Indi
                 let linkCalNodeToDates g (key:string) (calibratedDate:OldDate.Harmonised.DateCalibration) =
                     g |> Result.bind(fun g ->
                         match key with
-                        | "bottom"
-                        | "top" -> Ok g
-                        | _ ->
+                        | s when s.StartsWith("individualdatenode") ->
                             match preparedDates |> Seq.tryFind(fun (x,_,_) -> x.AsString = key) with
                             | None -> Ok g
                             | Some (indDateNodeKey,_,_) ->
                                 Storage.addRelationByKey g (newCalNode |> fst |> fst) indDateNodeKey
                                     (ProposedRelation.Exposure(Exposure.ExposureRelation.Calibrated calibratedDate))
+                        | _ -> Ok g
                     )
 
                 let! graphWithOutboundLinks = 
