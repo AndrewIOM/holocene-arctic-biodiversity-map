@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Benardout, G.; Patterson Timothy, R."
-            },
-            "Title": {
-              "item": "Palaeoclimate reconstructions of the last 4000 years in the southern northwest territories using ostracods, and implications for the longterm viability of the Tibbitt to Contwoyto winter road"
-            },
-            "Journal": {
-              "item": "Joannea - Geologie und Palaontologie"
-            },
-            "Year": 2011,
-            "Pages": [
-              21,
-              24
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Benardout, G.; Patterson Timothy, R."
+              },
+              "Title": {
+                "item": "Palaeoclimate reconstructions of the last 4000 years in the southern northwest territories using ostracods, and implications for the longterm viability of the Tibbitt to Contwoyto winter road"
+              },
+              "Journal": {
+                "item": "Joannea - Geologie und Palaontologie"
+              },
+              "Year": 2011,
+              "Pages": [
+                21,
+                24
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "preliminary report; no time series"
           }
-        }
+        ]
       }
     }
   ],

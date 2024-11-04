@@ -29,7 +29,16 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "outcome"
+              },
+              {
+                "item": "exposure"
+              }
+            ]
+          }
         ]
       }
     }

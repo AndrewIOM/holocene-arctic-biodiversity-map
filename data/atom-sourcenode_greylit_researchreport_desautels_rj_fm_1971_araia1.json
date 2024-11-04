@@ -1,0 +1,54 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "greylit_researchreport_desautels_rj_fm_1971_araia1"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "GreyLiteratureSource": {
+            "Format": "ResearchReport",
+            "Contributors": [
+              {
+                "item1": [
+                  "R",
+                  "J"
+                ],
+                "item2": "Desautels"
+              },
+              {
+                "item1": [
+                  "J",
+                  "D"
+                ],
+                "item2": "Flynn"
+              },
+              {
+                "item1": [
+                  "A",
+                  "J"
+                ],
+                "item2": "McCurdy"
+              }
+            ],
+            "Title": {
+              "item": "Archaeological Report, Amchitka Island, Alaska, 1969–1970"
+            },
+            "Institution": {
+              "item": "Archaeological Research Inc."
+            },
+            "License": "No license specified",
+            "PostedYear": 1971,
+            "Description": {
+              "item": "Avifaunal data of test excavations on prehistoric archaeological site in Rat Islands, Alaska"
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

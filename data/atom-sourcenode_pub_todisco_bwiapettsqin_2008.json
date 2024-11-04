@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Todisco, D.; Monchot, H."
-            },
-            "Title": {
-              "item": "Bone weathering in a periglacial environment: The Tayara site (KbFk-7), Qikirtaq island, Nunavik (Canada)"
-            },
-            "Journal": {
-              "item": "Arctic"
-            },
-            "Year": 2008,
-            "Volume": 61,
-            "Pages": [
-              87,
-              101
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Todisco, D.; Monchot, H."
+              },
+              "Title": {
+                "item": "Bone weathering in a periglacial environment: The Tayara site (KbFk-7), Qikirtaq island, Nunavik (Canada)"
+              },
+              "Journal": {
+                "item": "Arctic"
+              },
+              "Year": 2008,
+              "Volume": 61,
+              "Pages": [
+                87,
+                101
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No time series in the Holocene"
           }
-        }
+        ]
       }
     }
   ],
