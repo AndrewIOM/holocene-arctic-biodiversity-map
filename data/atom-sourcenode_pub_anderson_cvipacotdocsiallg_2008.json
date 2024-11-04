@@ -40,5 +40,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_anderson_cvipacotdocsiallg_2008"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_dahl-jensen_ptdftgis_1998"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_anderson_cvipacotdocsiallg_2008"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7cc6ca49-61a6-4838-857c-f2b670996930"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
