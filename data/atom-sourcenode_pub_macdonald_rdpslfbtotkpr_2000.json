@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_macdonald_rdpslfbtotkpr_2000"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "6773cf49-d866-4c3a-8c27-1a9b311f6c46"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

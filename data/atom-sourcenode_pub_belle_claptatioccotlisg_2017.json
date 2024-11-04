@@ -40,5 +40,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_belle_claptatioccotlisg_2017"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "b501fe26-e36a-489d-9bbe-205d52095a9d"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_belle_claptatioccotlisg_2017"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f7fc4f6e-5cab-4b93-8be4-113ea11415a8"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

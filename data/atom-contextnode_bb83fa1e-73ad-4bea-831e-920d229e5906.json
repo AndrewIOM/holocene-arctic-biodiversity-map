@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "bb83fa1e-73ad-4bea-831e-920d229e5906"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Oligosaline lake SS1371"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.06
+              },
+              {
+                "item": -51.13
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 1.0
+                },
+                {
+                  "_depth": 18.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

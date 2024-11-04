@@ -1,0 +1,127 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "0b8a61e5-b52f-46a1-ae23-b007c093ab47"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0b8a61e5-b52f-46a1-ae23-b007c093ab47"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0b8a61e5-b52f-46a1-ae23-b007c093ab47"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "c3a9b989-bda9-4e90-8d8c-2cba84edcac6"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0b8a61e5-b52f-46a1-ae23-b007c093ab47"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5500ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0b8a61e5-b52f-46a1-ae23-b007c093ab47"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "6000ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0b8a61e5-b52f-46a1-ae23-b007c093ab47"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "800ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0b8a61e5-b52f-46a1-ae23-b007c093ab47"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5750ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

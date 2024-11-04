@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "e49903a0-0423-4ecc-97f1-46e3bc90f6e5"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Igaliku"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 61.0
+              },
+              {
+                "item": 45.43333
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 13.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

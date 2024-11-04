@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "5a3ecc67-4a6a-4131-9997-9444b177e5d6"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Qeqertasussuk"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 68.5927333
+              },
+              {
+                "item": -51.0719972
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Midden"
+              },
+              {
+                "DepthRange": [
+                  {
+                    "_depth": 40.0
+                  },
+                  {
+                    "_depth": 92.0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "980f58d2-8ed9-401d-9f80-ea209694b5fc"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Galium Kaer "
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 61.16666
+              },
+              {
+                "item": -45.516666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 20.0
+                },
+                {
+                  "_depth": 197.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

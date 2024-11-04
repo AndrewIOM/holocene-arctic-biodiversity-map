@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "24022087-9dc2-4e34-b4d6-b3659ee6cf82"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Plot SPRUCE"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 62.0
+              },
+              {
+                "item": 57.0
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 40.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

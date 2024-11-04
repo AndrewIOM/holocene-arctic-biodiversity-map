@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "542a9204-7e5d-40a6-bf48-2fbe2c9e2fba"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Sisi 14"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 66.979767
+              },
+              {
+                "item": -53.71675
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 350.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

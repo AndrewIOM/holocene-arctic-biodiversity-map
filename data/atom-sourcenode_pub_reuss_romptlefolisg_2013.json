@@ -40,5 +40,60 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_reuss_romptlefolisg_2013"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ae339b07-dab5-4c01-83ca-0105fcce4385"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_reuss_romptlefolisg_2013"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "248a2165-f269-4e72-8116-14ca35c9704c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_reuss_romptlefolisg_2013"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "3edeca76-6339-4a4d-b9a6-aa2e1cb24e78"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "8b20ce87-85d6-40fb-a6e1-ae321f1583fd"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Shargilambi "
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 64.59720555
+              },
+              {
+                "item": 34.17176722
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 320.0
+                },
+                {
+                  "_depth": 365.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

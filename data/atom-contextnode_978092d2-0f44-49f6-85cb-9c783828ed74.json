@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "978092d2-0f44-49f6-85cb-9c783828ed74"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Bolshoye Schuchye"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.89
+              },
+              {
+                "item": 66.31
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 2350.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

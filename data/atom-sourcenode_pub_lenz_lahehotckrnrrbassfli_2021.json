@@ -36,5 +36,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lenz_lahehotckrnrrbassfli_2021"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7a87843d-d68e-4129-9fd1-1b3219e02bf7"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -8,24 +8,88 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bocher, J.; Bennike, O.; Wagner, B."
-            },
-            "Title": {
-              "item": "Holocene insect remains from south-western Greenland"
-            },
-            "Journal": {
-              "item": "Polar Research"
-            },
-            "Year": 2012,
-            "Volume": 31,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bocher, J.; Bennike, O.; Wagner, B."
+              },
+              "Title": {
+                "item": "Holocene insect remains from south-western Greenland"
+              },
+              "Journal": {
+                "item": "Polar Research"
+              },
+              "Year": 2012,
+              "Volume": 31,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bocher_hirfsg_2012"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "87823748-01d2-42e0-8e21-617a41262295"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bocher_hirfsg_2012"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bccad20a-e6d3-4644-85b5-e735a904489d"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bocher_hirfsg_2012"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "aec6a398-38ab-4111-b4f2-e01e6ac26119"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

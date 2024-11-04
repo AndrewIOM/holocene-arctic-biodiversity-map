@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "419d392b-8ade-4cad-8812-45a056033a96"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Fladstrand"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 74.09865
+              },
+              {
+                "item": -21.18725
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Midden"
+              },
+              {
+                "DepthRange": [
+                  {
+                    "_depth": 5.0
+                  },
+                  {
+                    "_depth": 20.0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

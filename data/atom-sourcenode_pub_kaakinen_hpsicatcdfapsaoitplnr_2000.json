@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kaakinen_hpsicatcdfapsaoitplnr_2000"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "fc2eeb76-6223-41b6-bbc4-aee6881f72ca"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

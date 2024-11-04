@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "a957d4ce-d74d-425f-8dab-c696fed7822a"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Degraded ridge section (q9)"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 70.6227777
+              },
+              {
+                "item": -147.91
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 6.5
+                },
+                {
+                  "_depth": 24.5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -40,5 +40,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_olyunina_rotpcitckpihotbodaolabd_2005"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "6025bc51-ed19-40a0-9933-ff33fef6de61"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

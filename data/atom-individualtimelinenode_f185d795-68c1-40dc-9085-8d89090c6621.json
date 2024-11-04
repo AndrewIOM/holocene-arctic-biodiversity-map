@@ -1,0 +1,145 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "f185d795-68c1-40dc-9085-8d89090c6621"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f185d795-68c1-40dc-9085-8d89090c6621"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f185d795-68c1-40dc-9085-8d89090c6621"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "09f26940-492e-4926-82e1-cb053f8528ed"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f185d795-68c1-40dc-9085-8d89090c6621"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "1ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f185d795-68c1-40dc-9085-8d89090c6621"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2210ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f185d795-68c1-40dc-9085-8d89090c6621"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2270ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f185d795-68c1-40dc-9085-8d89090c6621"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "1ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f185d795-68c1-40dc-9085-8d89090c6621"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2240ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

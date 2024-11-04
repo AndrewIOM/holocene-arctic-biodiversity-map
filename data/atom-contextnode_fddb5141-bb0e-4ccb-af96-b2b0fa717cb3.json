@@ -1,0 +1,45 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "fddb5141-bb0e-4ccb-af96-b2b0fa717cb3"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Vatnahverfi"
+          },
+          "SamplingLocation": {
+            "District": [
+              {
+                "item": "Vatnahverfi"
+              },
+              {
+                "item": "Kujalleq"
+              },
+              {
+                "item": "Greenland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 41.0
+                },
+                {
+                  "_depth": 81.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

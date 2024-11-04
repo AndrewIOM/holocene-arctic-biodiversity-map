@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_yoshikawa_aogotpsdwcg_1991"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0b8a61e5-b52f-46a1-ae23-b007c093ab47"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

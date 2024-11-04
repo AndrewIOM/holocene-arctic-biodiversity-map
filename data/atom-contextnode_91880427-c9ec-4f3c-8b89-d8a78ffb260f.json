@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "91880427-c9ec-4f3c-8b89-d8a78ffb260f"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Mitrofanovskoe Lake"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.85
+              },
+              {
+                "item": 58.983333
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 20.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

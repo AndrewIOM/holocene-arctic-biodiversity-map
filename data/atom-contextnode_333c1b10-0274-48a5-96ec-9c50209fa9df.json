@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "333c1b10-0274-48a5-96ec-9c50209fa9df"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Ridge centre section (E16)"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 70.6227777
+              },
+              {
+                "item": -147.91
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 10.7
+                },
+                {
+                  "_depth": 14.5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

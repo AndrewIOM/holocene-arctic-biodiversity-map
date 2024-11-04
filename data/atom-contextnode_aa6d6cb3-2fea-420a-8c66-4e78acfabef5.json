@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "aa6d6cb3-2fea-420a-8c66-4e78acfabef5"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Sandnes"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 64.242822
+              },
+              {
+                "item": -50.177522
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Midden"
+              },
+              {
+                "DepthRange": [
+                  {
+                    "_depth": 19.0
+                  },
+                  {
+                    "_depth": 80.0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

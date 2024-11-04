@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "3e9a3bac-417d-4b75-ae68-f115620dc5cb"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Northern Tundra Lakes"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 68.71666
+              },
+              {
+                "item": 35.31666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Tree stumps"
+              },
+              null
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

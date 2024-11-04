@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "c376e94a-e82a-4d81-af83-03b1e3d8df6b"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Tschuch'ye Lake"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 63.35065
+              },
+              {
+                "item": 140.9916666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 100.0
+                },
+                {
+                  "_depth": 330.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

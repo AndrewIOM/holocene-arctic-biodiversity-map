@@ -1,0 +1,45 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "ec8a5fd1-ba25-4692-b0d7-4f26650badc9"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Saqqaata Tasia"
+          },
+          "SamplingLocation": {
+            "District": [
+              {
+                "item": "Vatnahverfi"
+              },
+              {
+                "item": "Kujalleq"
+              },
+              {
+                "item": "Greenland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 43.0
+                },
+                {
+                  "_depth": 57.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

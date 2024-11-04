@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "4e40af08-86ba-4559-bc29-cef1dbd22013"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Qinngua"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 61.2380333
+              },
+              {
+                "item": 41.5228166
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 51.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

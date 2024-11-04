@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "878b7ce0-9d30-4355-ad35-f16d34fb216d"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Sylvilampi"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 69.08333
+              },
+              {
+                "item": 27.5
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 12.5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

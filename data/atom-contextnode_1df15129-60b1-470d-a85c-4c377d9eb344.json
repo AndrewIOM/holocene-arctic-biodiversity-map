@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "1df15129-60b1-470d-a85c-4c377d9eb344"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Nunatak Lake SS86"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 66.96
+              },
+              {
+                "item": -49.81
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 3.0
+                },
+                {
+                  "_depth": 28.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -30,5 +30,78 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_law_satvoloisg_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "230da18e-c77c-46f2-8be1-2f149c8572ed"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_law_satvoloisg_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4740c882-8dda-4bde-b987-eeecb75dfeff"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_law_satvoloisg_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "36104257-cea0-4e01-897e-d8eee5a6b4e2"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_law_satvoloisg_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f7753031-ff34-43aa-b8b1-abedbb6fdc82"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

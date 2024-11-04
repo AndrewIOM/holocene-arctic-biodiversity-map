@@ -40,5 +40,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lunkka_sditbanrdtyds_2012"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e9632521-5e85-4692-8237-53b7c7ea257c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lunkka_sditbanrdtyds_2012"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1ceba9dc-7619-4d77-b03f-7a82ade9b76c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

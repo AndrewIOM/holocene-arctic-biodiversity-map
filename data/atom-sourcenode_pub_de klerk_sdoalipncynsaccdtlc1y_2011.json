@@ -8,28 +8,86 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "de Klerk, P.; Donner, N.; Karpov, N. S.; Minke, M.; Joosten, H."
-            },
-            "Title": {
-              "item": "Short-term dynamics of a low-centred ice-wedge polygon near Chokurdakh (NE Yakutia, NE Siberia) and climate change during the last ca 1250 years"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2011,
-            "Volume": 30,
-            "Pages": [
-              3013,
-              3031
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "de Klerk, P.; Donner, N.; Karpov, N. S.; Minke, M.; Joosten, H."
+              },
+              "Title": {
+                "item": "Short-term dynamics of a low-centred ice-wedge polygon near Chokurdakh (NE Yakutia, NE Siberia) and climate change during the last ca 1250 years"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2011,
+              "Volume": 30,
+              "Pages": [
+                3013,
+                3031
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_de klerk_sdoalipncynsaccdtlc1y_2011"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "666fda42-e3ac-4c7e-af88-7efbcdb327dd"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_de klerk_sdoalipncynsaccdtlc1y_2011"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ac911f92-5239-410f-b3df-ef1161071eed"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_de klerk_sdoalipncynsaccdtlc1y_2011"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2a1305bc-011d-4fa3-9dd3-2daf2707b790"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

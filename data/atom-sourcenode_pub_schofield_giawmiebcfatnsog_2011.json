@@ -40,5 +40,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_schofield_giawmiebcfatnsog_2011"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9c10048b-ed16-42e3-82cf-6d2fdc6236f8"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

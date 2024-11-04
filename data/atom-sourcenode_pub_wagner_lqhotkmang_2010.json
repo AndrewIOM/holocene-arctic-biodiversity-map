@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wagner_lqhotkmang_2010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1ba0a1c7-c89f-41c9-b5a7-ac8785be02c1"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

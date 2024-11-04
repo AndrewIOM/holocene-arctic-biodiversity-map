@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b94624bb-de54-4dd2-a606-57e2747c03e6"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Poteryanny Zub Lake"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 68.8
+              },
+              {
+                "item": 35.325555
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 250.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

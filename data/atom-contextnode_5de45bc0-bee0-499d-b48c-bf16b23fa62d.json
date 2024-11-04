@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "5de45bc0-bee0-499d-b48c-bf16b23fa62d"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Stuoramohkki"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 69.08333
+              },
+              {
+                "item": 21.0
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 1.7
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -1,0 +1,45 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "15852ee1-66d3-4a8f-a6c6-5705ba6e2262"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Geitakarlsvotn"
+          },
+          "SamplingLocation": {
+            "District": [
+              {
+                "item": "Skagahreppur"
+              },
+              {
+                "item": "Norduland vestra"
+              },
+              {
+                "item": "Iceland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 422.0
+                },
+                {
+                  "_depth": 510.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

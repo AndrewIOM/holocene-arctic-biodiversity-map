@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "f53a8e56-226f-4966-857d-1d915051fa12"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Vanuk-ty Lake"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 68.0
+              },
+              {
+                "item": 62.75
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 19.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

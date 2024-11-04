@@ -1,0 +1,109 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "e766a2dc-8fe1-407a-9779-42f197870faa"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e766a2dc-8fe1-407a-9779-42f197870faa"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossil_chironomidae macrofossil"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e766a2dc-8fe1-407a-9779-42f197870faa"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_plantmacrofossil"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e766a2dc-8fe1-407a-9779-42f197870faa"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "ce60c980-c938-48e2-9444-6cfefccf2437"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e766a2dc-8fe1-407a-9779-42f197870faa"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "805ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e766a2dc-8fe1-407a-9779-42f197870faa"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7495ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

@@ -40,5 +40,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_panagiotakopulu_lhecisgfiaft_2013"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c7b773b8-da47-4c23-8c5f-5ae50e578891"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

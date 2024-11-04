@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "17bbc796-7844-4492-95c3-c5ecfb3e0e99"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Noa So PG1200"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 73.32348
+              },
+              {
+                "item": -25.16711
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 200.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
