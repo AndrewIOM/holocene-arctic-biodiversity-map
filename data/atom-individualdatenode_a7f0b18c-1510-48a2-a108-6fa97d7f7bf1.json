@@ -42,6 +42,24 @@
         ]
       },
       {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "cedb0c95-1a18-4d50-8690-bb2d87456d4c"
+        ]
+      },
+      1,
+      {
+        "Exposure": "UsedInCalibration"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "a7f0b18c-1510-48a2-a108-6fa97d7f7bf1"
+        ]
+      },
+      {
         "FriendlyKey": [
           "calyearnode",
           "8950ybp"

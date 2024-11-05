@@ -1,0 +1,605 @@
+[
+  [
+    {
+      "UUID": [
+        "datecalibrationinstancenode",
+        "92ad4335-2136-4d45-88be-814a157745fc"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateCalibrationInstanceNode": {
+          "CalibrationCurve": {
+            "item": "Atmospheric data from Reimer et al (2020)"
+          },
+          "ModelApplied": {
+            "OxCalModel": {
+              "item": " Plot() { P_Sequence(\"variable\",1,2,U(-2,2)) { Boundary(\"Bottom\"); R_Date(\"individualdatenode_ac301638-9ab0-4ee1-8dd8-960dda8fde48\",8270,70){ z=0.000000; };\nR_Date(\"individualdatenode_cc39d5c9-5f85-4463-8017-263be85c43be\",8240,60){ z=0.000000; };\nR_Date(\"individualdatenode_7186b05c-68c3-450a-ab6e-01ca1707ce3d\",8190,90){ z=0.000000; };\nR_Date(\"individualdatenode_c48bbdbf-6937-4162-817d-0ffe686ed5f6\",7550,60){ z=0.000000; };\nR_Date(\"individualdatenode_a1f0773e-9f27-4237-8954-239b5dcb1c1b\",7410,90){ z=0.000000; };\nR_Date(\"individualdatenode_6b71bbc7-09bf-488e-94f4-36fad49d0ecb\",4750,70){ z=0.000000; }; Boundary(\"Top\"); }; };"
+            }
+          },
+          "SoftwareName": {
+            "item": "OxCal"
+          },
+          "SoftwareVersion": {
+            "item": "4.4.4"
+          },
+          "Origin": {
+            "PartOfReanalysis": [
+              {
+                "item1": [
+                  "A",
+                  "C"
+                ],
+                "item2": "Martin"
+              },
+              {
+                "item": "2024-11-04"
+              }
+            ]
+          },
+          "AgeDepthModel": []
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "92ad4335-2136-4d45-88be-814a157745fc"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "cc39d5c9-5f85-4463-8017-263be85c43be"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "Calibrated": {
+            "CalibrationCurve": {
+              "item": "Atmospheric data from Reimer et al (2020)"
+            },
+            "InputDate": 8240.0,
+            "InputStandardDeviation": 60.0,
+            "DateRanges": [
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 2.640955
+                },
+                "EarlierBound": 9395.5,
+                "LaterBound": 9385.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 59.74357
+                },
+                "EarlierBound": 9296.5,
+                "LaterBound": 9122.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 2.605212
+                },
+                "EarlierBound": 9104.5,
+                "LaterBound": 9094.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 3.2792130000000004
+                },
+                "EarlierBound": 9046.5,
+                "LaterBound": 9034.0
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 12.609130999999998
+                },
+                "EarlierBound": 9413.5,
+                "LaterBound": 9344.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 82.840843
+                },
+                "EarlierBound": 9328.0,
+                "LaterBound": 9023.5
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 99.73002
+                },
+                "EarlierBound": 9459.0,
+                "LaterBound": 9005.5
+              }
+            ],
+            "SoftwareUsed": {
+              "item": "OxCal"
+            },
+            "Origin": {
+              "PartOfReanalysis": [
+                {
+                  "item1": [
+                    "A",
+                    "C"
+                  ],
+                  "item2": "Martin"
+                },
+                {
+                  "item": "2024-11-04"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "92ad4335-2136-4d45-88be-814a157745fc"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "c48bbdbf-6937-4162-817d-0ffe686ed5f6"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "Calibrated": {
+            "CalibrationCurve": {
+              "item": "Atmospheric data from Reimer et al (2020)"
+            },
+            "InputDate": 7550.0,
+            "InputStandardDeviation": 60.0,
+            "DateRanges": [
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 61.637350000000005
+                },
+                "EarlierBound": 8414.0,
+                "LaterBound": 8322.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 6.631599
+                },
+                "EarlierBound": 8239.0,
+                "LaterBound": 8220.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 0.803914
+                },
+                "EarlierBound": 8445.5,
+                "LaterBound": 8437.0
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 94.646059
+                },
+                "EarlierBound": 8431.0,
+                "LaterBound": 8191.5
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 99.73002
+                },
+                "EarlierBound": 8539.5,
+                "LaterBound": 8179.5
+              }
+            ],
+            "SoftwareUsed": {
+              "item": "OxCal"
+            },
+            "Origin": {
+              "PartOfReanalysis": [
+                {
+                  "item1": [
+                    "A",
+                    "C"
+                  ],
+                  "item2": "Martin"
+                },
+                {
+                  "item": "2024-11-04"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "92ad4335-2136-4d45-88be-814a157745fc"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "ac301638-9ab0-4ee1-8dd8-960dda8fde48"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "Calibrated": {
+            "CalibrationCurve": {
+              "item": "Atmospheric data from Reimer et al (2020)"
+            },
+            "InputDate": 8270.0,
+            "InputStandardDeviation": 70.0,
+            "DateRanges": [
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 14.889737
+                },
+                "EarlierBound": 9405.5,
+                "LaterBound": 9354.5
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 37.532865
+                },
+                "EarlierBound": 9319.5,
+                "LaterBound": 9191.5
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 15.846347
+                },
+                "EarlierBound": 9184.0,
+                "LaterBound": 9132.0
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 90.730644
+                },
+                "EarlierBound": 9444.5,
+                "LaterBound": 9079.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 4.719329
+                },
+                "EarlierBound": 9059.5,
+                "LaterBound": 9026.0
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 99.73002
+                },
+                "EarlierBound": 9487.0,
+                "LaterBound": 9003.5
+              }
+            ],
+            "SoftwareUsed": {
+              "item": "OxCal"
+            },
+            "Origin": {
+              "PartOfReanalysis": [
+                {
+                  "item1": [
+                    "A",
+                    "C"
+                  ],
+                  "item2": "Martin"
+                },
+                {
+                  "item": "2024-11-04"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "92ad4335-2136-4d45-88be-814a157745fc"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "a1f0773e-9f27-4237-8954-239b5dcb1c1b"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "Calibrated": {
+            "CalibrationCurve": {
+              "item": "Atmospheric data from Reimer et al (2020)"
+            },
+            "InputDate": 7410.0,
+            "InputStandardDeviation": 90.0,
+            "DateRanges": [
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 62.842471
+                },
+                "EarlierBound": 8345.0,
+                "LaterBound": 8169.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 5.426478
+                },
+                "EarlierBound": 8074.5,
+                "LaterBound": 8052.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 95.449974
+                },
+                "EarlierBound": 8374.5,
+                "LaterBound": 8029.5
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 99.73002
+                },
+                "EarlierBound": 8449.5,
+                "LaterBound": 7960.0
+              }
+            ],
+            "SoftwareUsed": {
+              "item": "OxCal"
+            },
+            "Origin": {
+              "PartOfReanalysis": [
+                {
+                  "item1": [
+                    "A",
+                    "C"
+                  ],
+                  "item2": "Martin"
+                },
+                {
+                  "item": "2024-11-04"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "92ad4335-2136-4d45-88be-814a157745fc"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "7186b05c-68c3-450a-ab6e-01ca1707ce3d"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "Calibrated": {
+            "CalibrationCurve": {
+              "item": "Atmospheric data from Reimer et al (2020)"
+            },
+            "InputDate": 8190.0,
+            "InputStandardDeviation": 90.0,
+            "DateRanges": [
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 29.815977
+                },
+                "EarlierBound": 9274.0,
+                "LaterBound": 9163.5
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 38.452972
+                },
+                "EarlierBound": 9154.0,
+                "LaterBound": 9018.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 94.578426
+                },
+                "EarlierBound": 9448.5,
+                "LaterBound": 8982.0
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 0.315868
+                },
+                "EarlierBound": 8910.0,
+                "LaterBound": 8899.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 0.145674
+                },
+                "EarlierBound": 8873.5,
+                "LaterBound": 8868.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 0.410005
+                },
+                "EarlierBound": 8824.5,
+                "LaterBound": 8811.5
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 99.73002
+                },
+                "EarlierBound": 9485.5,
+                "LaterBound": 8716.5
+              }
+            ],
+            "SoftwareUsed": {
+              "item": "OxCal"
+            },
+            "Origin": {
+              "PartOfReanalysis": [
+                {
+                  "item1": [
+                    "A",
+                    "C"
+                  ],
+                  "item2": "Martin"
+                },
+                {
+                  "item": "2024-11-04"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "92ad4335-2136-4d45-88be-814a157745fc"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "6b71bbc7-09bf-488e-94f4-36fad49d0ecb"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "Calibrated": {
+            "CalibrationCurve": {
+              "item": "Atmospheric data from Reimer et al (2020)"
+            },
+            "InputDate": 4750.0,
+            "InputStandardDeviation": 70.0,
+            "DateRanges": [
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 54.311812
+                },
+                "EarlierBound": 5581.5,
+                "LaterBound": 5460.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 7.831876
+                },
+                "EarlierBound": 5375.5,
+                "LaterBound": 5355.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 6.125261
+                },
+                "EarlierBound": 5347.0,
+                "LaterBound": 5331.0
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 64.301941
+                },
+                "EarlierBound": 5592.0,
+                "LaterBound": 5432.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 31.148032000000004
+                },
+                "EarlierBound": 5423.0,
+                "LaterBound": 5320.0
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 0.190463
+                },
+                "EarlierBound": 5716.0,
+                "LaterBound": 5670.5
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 99.539557
+                },
+                "EarlierBound": 5664.0,
+                "LaterBound": 5287.0
+              }
+            ],
+            "SoftwareUsed": {
+              "item": "OxCal"
+            },
+            "Origin": {
+              "PartOfReanalysis": [
+                {
+                  "item1": [
+                    "A",
+                    "C"
+                  ],
+                  "item2": "Martin"
+                },
+                {
+                  "item": "2024-11-04"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  ]
+]
