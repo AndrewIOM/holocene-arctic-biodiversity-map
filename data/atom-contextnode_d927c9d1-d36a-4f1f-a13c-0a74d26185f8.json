@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "d927c9d1-d36a-4f1f-a13c-0a74d26185f8"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Kobbefjord, Greenland"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 64.136578
+              },
+              {
+                "item": -51.380204
+              }
+            ]
+          },
+          "SampleOrigin": "LivingOrganism"
+        }
+      }
+    }
+  ],
+  []
+]

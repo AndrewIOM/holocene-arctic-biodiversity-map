@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "direct_salix glauca l subsp allicarpaea trautv b246cher"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyNode": {
+          "ContemporaneousWholeOrganism": {
+            "item": "Salix glauca L. subsp. allicarpaea (Trautv.) Böcher"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

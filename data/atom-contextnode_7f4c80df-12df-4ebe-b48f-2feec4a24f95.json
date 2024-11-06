@@ -1,0 +1,67 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "7f4c80df-12df-4ebe-b48f-2feec4a24f95"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Southern Greenland"
+          },
+          "SamplingLocation": {
+            "Area": {
+              "item": [
+                [
+                  {
+                    "item": 60.75916
+                  },
+                  {
+                    "item": -48.251953
+                  }
+                ],
+                [
+                  {
+                    "item": 61.48076
+                  },
+                  {
+                    "item": -48.251953
+                  }
+                ],
+                [
+                  {
+                    "item": 61.48076
+                  },
+                  {
+                    "item": -47.285156
+                  }
+                ],
+                [
+                  {
+                    "item": 60.75916
+                  },
+                  {
+                    "item": -47.285156
+                  }
+                ],
+                [
+                  {
+                    "item": 60.75916
+                  },
+                  {
+                    "item": -48.251953
+                  }
+                ]
+              ]
+            }
+          },
+          "SampleOrigin": "LivingOrganism"
+        }
+      }
+    }
+  ],
+  []
+]
