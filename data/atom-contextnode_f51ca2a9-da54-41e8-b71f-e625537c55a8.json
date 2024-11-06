@@ -1,0 +1,77 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "f51ca2a9-da54-41e8-b71f-e625537c55a8"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Thule nest sites"
+          },
+          "SamplingLocation": {
+            "Area": {
+              "item": [
+                [
+                  {
+                    "item": 76.25
+                  },
+                  {
+                    "item": -72
+                  }
+                ],
+                [
+                  {
+                    "item": 77.17
+                  },
+                  {
+                    "item": -72
+                  }
+                ],
+                [
+                  {
+                    "item": 77.17
+                  },
+                  {
+                    "item": -68
+                  }
+                ],
+                [
+                  {
+                    "item": 68
+                  },
+                  {
+                    "item": -76.25
+                  }
+                ],
+                [
+                  {
+                    "item": 76.25
+                  },
+                  {
+                    "item": -72
+                  }
+                ]
+              ]
+            }
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Guano"
+              },
+              null
+            ]
+          },
+          "SampleLocationDescription": {
+            "item": "Multiple nests, each with own sample depth in the nest deposits"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

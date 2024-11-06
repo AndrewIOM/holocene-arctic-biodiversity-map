@@ -8,7 +8,7 @@
     },
     {
       "SourceNode": {
-        "Included": [
+        "Excluded": [
           {
             "Bibliographic": {
               "Author": {
@@ -29,7 +29,10 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedAll"
+          "NotTimeSeries",
+          {
+            "item": "Only single dated layer to 600AD"
+          }
         ]
       }
     }

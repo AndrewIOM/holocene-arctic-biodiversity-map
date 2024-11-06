@@ -1,0 +1,27 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_macrofossil_gyrfalcon_feather"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyNode": {
+          "Morphotype": {
+            "Macrofossil": [
+              {
+                "item": "Feather"
+              },
+              {
+                "item": "Gyrfalcon"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]
