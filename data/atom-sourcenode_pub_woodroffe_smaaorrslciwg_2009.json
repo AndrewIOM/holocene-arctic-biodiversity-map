@@ -29,10 +29,38 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "exposure"
+              },
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_woodroffe_smaaorrslciwg_2009"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7c570610-71cc-4303-ad44-fb6124c002d6"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

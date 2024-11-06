@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "fafbb940-b846-40fa-ba6d-fba44b2d3eeb"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Marsh A-3"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 66.492293
+              },
+              {
+                "item": -53.60696
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Salt Marsh"
+              },
+              {
+                "DepthRange": [
+                  {
+                    "_depth": 0.0
+                  },
+                  {
+                    "_depth": 11.0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]
