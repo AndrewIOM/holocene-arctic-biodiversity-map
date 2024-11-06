@@ -14,12 +14,8 @@ let analysisDate = Time.SimpleDateOnly.TryCreate(Text (System.DateOnly.FromDateT
 let analysisPerson = "Martin, A.C." |> Author.create |> Result.forceOk
 
 
-/// Queries the graph database to obtain timelines for which
-/// we have at leaat two individual dates. Returns the timeline
-/// ID * a list of individual dates.
-let queryGraphForDates (graph:Storage.FileBasedGraph<GraphStructure.Node,GraphStructure.Relation>) =
+let readAllTimelineAtoms (graph:Storage.FileBasedGraph<GraphStructure.Node,GraphStructure.Relation>) =
     result {
-
         let! sourceIds = 
             graph.Nodes<Sources.SourceNode> ()
             |> Result.ofOption "Could not load sources"
@@ -45,6 +41,17 @@ let queryGraphForDates (graph:Storage.FileBasedGraph<GraphStructure.Node,GraphSt
             )
             |> Storage.loadAtoms graph.Directory (typeof<Exposure.ExposureNode>.Name)
 
+        return allTimelines
+}
+
+/// Queries the graph database to obtain timelines for which
+/// we have at leaat two individual dates. Returns the timeline
+/// ID * a list of individual dates.
+let queryGraphForDates (graph:Storage.FileBasedGraph<GraphStructure.Node,GraphStructure.Relation>) =
+    result {
+
+        let! allTimelines = readAllTimelineAtoms graph
+
         let! datesByTimelineId =
             allTimelines
             |> List.map(fun (timelineNode,timelineRelations) ->
@@ -64,10 +71,23 @@ let queryGraphForDates (graph:Storage.FileBasedGraph<GraphStructure.Node,GraphSt
                         match r with
                         | Exposure.ExposureRelation.IsLocatedAt -> Some sinkId
                         | _ -> None
+                    | _ -> None ),
+                timelineRelations
+                |> List.tryPick(fun (_,sinkId,_,conn) ->
+                    match conn with
+                    | Relation.Exposure r ->
+                        match r with
+                        | Exposure.ExposureRelation.ExtentLatest -> Some sinkId
+                        | _ -> None
                     | _ -> None )
+
                 )
-            |> List.filter(fun (_,l,_) -> l.Length > 1)
-            |> List.map(fun (node, dates, contextId) ->
+            |> List.filter(fun (_,l,_,_) -> l.Length > 1)
+            |> List.map(fun (node, dates, contextId, extentLatestId) ->
+
+                let latestExtentTime = 
+                    extentLatestId
+                    |> Option.map(fun k -> ((System.Text.RegularExpressions.Regex.Match(k.AsString, "calyearnode_(.*)ybp").Groups.[1].Value |> int) * 1<OldDate.calYearBP>))
 
                 let context =
                     contextId
@@ -107,7 +127,7 @@ let queryGraphForDates (graph:Storage.FileBasedGraph<GraphStructure.Node,GraphSt
                         | _ -> None
                     )
                 )
-                |> Result.lift(fun dates -> node |> fst, context, dates)
+                |> Result.lift(fun dates -> node |> fst, context, latestExtentTime, dates)
             )
             |> Result.ofList
 
@@ -128,7 +148,6 @@ let adToBp (date:float<OldDate.AD>) =
     then newDate + 1.<OldDate.AD> |> float |> (*) 1.<OldDate.calYearBP>
     else newDate |> float |> (*) 1.<OldDate.calYearBP>
 
-
 module OxCal =
 
     open BiodiversityCoder.Core.Exposure.Reanalysis
@@ -146,6 +165,14 @@ module OxCal =
     let radiocarbonDate identifier year sd depth = sprintf """R_Date("%s",%i,%i){ z=%f; };""" identifier year sd depth
     let radiocarbonDateNoDepth identifier year sd = sprintf """R_Date("%s",%i,%i);""" identifier year sd
     let undatedDepth identifier depth = sprintf """Date("%s"){ z=%f; };""" identifier depth
+
+    let bpToAd (oldDate:int<OldDate.calYearBP>) =
+        match oldDate with
+        | o when o = 1950<OldDate.calYearBP> -> DateBC 1.<OldDate.BC>
+        | o when o <= 1949<OldDate.calYearBP> ->
+            (1950<OldDate.calYearBP> - o) |> float |> (*) 1.<OldDate.AD> |> DateAD
+        | o ->
+            (o - 1950<OldDate.calYearBP> + 1<OldDate.calYearBP>) |> float |> (*) 1.<OldDate.BC> |> DateBC
 
     /// Set k0 as 1 when using cm or 100 when using metres.
     let oxCalSedimendarySequenceScript (dates:string seq) =
@@ -284,6 +311,28 @@ module OxCal =
         <*> ("OxCal" |> Text.createShort)
         <*> ("4.4.4" |> Text.createShort)
 
+/// Gets an exposure relation and parses the cal yr BP date
+/// from the node key.
+let exposureDateByRelationType thingToMatch (atom:Graph.Atom<GraphStructure.Node, GraphStructure.Relation>) =
+    atom
+    |> snd
+    |> List.choose(fun (_,sinkId,_,conn) ->
+        match conn with
+        | Relation.Exposure r ->
+            match r with
+            | s when s = thingToMatch -> Some ((System.Text.RegularExpressions.Regex.Match(sinkId.AsString, "calyearnode_(.*)ybp").Groups.[1].Value |> int) * 1<OldDate.calYearBP>)
+            | _ -> None
+        | _ -> None )
+
+
+let calibrateExtent (timelineAtom:Graph.Atom<GraphStructure.Node,GraphStructure.Relation>) graph =
+    // TODO
+    // - Read in extents for all timelines
+    // - Where radiocarbon, recalibrate using OxCal (single date mode)
+    // - Link early and latest extent with relations into calyr nodes.
+    let extentEarly = exposureDateByRelationType Exposure.ExposureRelation.ExtentEarliest timelineAtom
+    let extentEarlyUncertainty = exposureDateByRelationType Exposure.ExposureRelation.ExtentEarliestUncertainty timelineAtom
+    graph
 
 /// For sedimentary records, applies a sequence model in OxCal
 /// to calibrate ages and a fresh age-depth model using IntCal20.
@@ -293,7 +342,9 @@ module OxCal =
 /// bottom of a core).
 /// - TODO What about surface age?
 /// - TODO If there are dates not from depths, do not use a sequence model.
-let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.IndividualDateNode>) (context:option<Population.Context.ContextNode>) graph =
+let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.IndividualDateNode>) (context:option<Population.Context.ContextNode>) (latestExtent: option<int<OldDate.calYearBP>>) graph =
+
+    printfn "Latest extent is %A" latestExtent
 
     let preparedDates =
         timeline
@@ -345,10 +396,10 @@ let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.Indi
             | OldDate.OldDatingMethod.DepositionalZone _
             | OldDate.OldDatingMethod.Radiocaesium _ -> None )
 
-    let totalDates = preparedDates |> Seq.where (fun (_,_,d) -> d.IsSome) |> Seq.length
+    let totalDates = preparedDates |> Seq.choose (fun (_,_,d) -> d) |> Seq.filter(fun d -> match d with | OxCal.Radiocarbon _ -> true | _ -> false) |> Seq.length
     if totalDates = 0
     then
-        printfn "Skipping time series as there were no dates left after pre-processing."
+        printfn "Skipping time series as there were no radiocarbon dates left after pre-processing."
         graph
     else
 
@@ -383,7 +434,16 @@ let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.Indi
                 |> fun dates ->
                     if topDepth.IsSome then
                         if dates |> List.forall (fun (_,d,_) -> d.Value > topDepth.Value.Value)
-                        then (Graph.UniqueKey.FriendlyKey ("depthextent", "top"), topDepth |> Option.map(fun v -> v.Value), Some <| OxCal.UndatedDepth "top") :: dates
+                        then
+                            // There is a top depth that is higher than the dates;
+                            // determine if constrained at the top by latest extent date.
+                            if topDepth.Value.Value <= 3.<StratigraphicSequence.cm> && latestExtent.IsSome
+                            then
+                                if latestExtent.Value <= 10<OldDate.calYearBP> && not (preparedDates |> Seq.exists(fun (_,_,d) -> d = Some(OxCal.bpToAd latestExtent.Value))) then
+                                    printfn "Use the latest extent as a 'pin' for top depth, as it is close to modern-day. Pinning as %A (%A)" latestExtent.Value (OxCal.bpToAd latestExtent.Value)
+                                    (Graph.UniqueKey.FriendlyKey ("depthextent", "top"), topDepth |> Option.map(fun v -> v.Value), Some <| OxCal.bpToAd latestExtent.Value) :: dates
+                                else (Graph.UniqueKey.FriendlyKey ("depthextent", "top"), topDepth |> Option.map(fun v -> v.Value), Some <| OxCal.UndatedDepth "top") :: dates
+                            else (Graph.UniqueKey.FriendlyKey ("depthextent", "top"), topDepth |> Option.map(fun v -> v.Value), Some <| OxCal.UndatedDepth "top") :: dates
                         else dates
                     else dates
                 |> fun dates ->
@@ -404,9 +464,12 @@ let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.Indi
                 let! (g,addedNodes) = Storage.addNodes graph [ calibrated |> Exposure.ExposureNode.DateCalibrationInstanceNode |> Node.ExposureNode ]
                 let newCalNode = addedNodes.Head
 
-                let linkDateToCalNode g indDateKey =
+                let linkDateToCalNode g (indDateKey:Graph.UniqueKey) =
                     g |> Result.bind(fun g ->
-                        Storage.addRelationByKey g indDateKey (newCalNode |> fst |> fst) (ProposedRelation.Exposure Exposure.ExposureRelation.UsedInCalibration)
+                        match indDateKey.AsString with
+                        | s when s.StartsWith("individualdatenode") ->
+                            Storage.addRelationByKey g indDateKey (newCalNode |> fst |> fst) (ProposedRelation.Exposure Exposure.ExposureRelation.UsedInCalibration)
+                        | _ -> Ok g
                     )
 
                 let! graphWithInboundLinks = 
@@ -441,7 +504,6 @@ let processTimeline (timeline:list<Graph.UniqueKey * Exposure.StudyTimeline.Indi
 
 
 
-
 // Script starts here
 
 printfn "Setting up OxCal..."
@@ -463,23 +525,28 @@ match timelines with
 | Ok timelines ->
     printfn "Query identified %i timelines with individual dates." timelines.Length
 
+    // let timelines = 
+    //     timelines |> List.sortBy(fun (_,_,_,d) -> d.Length) 
+    //     |> List.splitInto 8 |> List.skip 7 |> List.head |> List.rev
+
     let updatedGraph =
         timelines
-        |> List.fold(fun g (_,context,dates) ->
+        |> List.fold(fun g (_,context,latestExtent,dates) ->
             match dates |> List.choose(fun (_,_,used) -> used) |> List.isEmpty with
-            | true -> processTimeline (dates |> List.map(fun (a,b,c) -> (a,b))) context g
+            | true -> processTimeline (dates |> List.map(fun (a,b,c) -> (a,b))) context latestExtent g
             | false ->
                 printfn "Skipping a timeline as dates have already been used"
                 graph
             ) graph
 
-    ()
+    /////////////////////////////////////////////////
+    // Part 2: Temporal extent (simple calibrations)
+    /////////////////////////////////////////////////
 
-/////////////////////////////////////////////////
-// Part 2: Temporal extent (simple calibrations)
-/////////////////////////////////////////////////
-
-// TODO
-// - Read in extents for all timelines
-// - Where radiocarbon, recalibrate using OxCal (single date mode)
-// - Link early and latest extent with relations into calyr nodes.
+    match readAllTimelineAtoms updatedGraph with
+    | Error _ ->
+        printfn "Could not read all timelines for stage 2 analysis."
+    | Ok timelines ->
+        timelines 
+        |> List.fold(fun g timelineAtom -> calibrateExtent timelineAtom g) updatedGraph
+        |> ignore
