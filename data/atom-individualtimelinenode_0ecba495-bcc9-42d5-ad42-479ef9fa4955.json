@@ -23,6 +23,78 @@
         ]
       },
       {
+        "UUID": [
+          "individualdatenode",
+          "139c0ac6-be57-425b-a046-0d8aad829409"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0ecba495-bcc9-42d5-ad42-479ef9fa4955"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "96460bfa-8964-4bc2-9e05-40b15dd274f4"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0ecba495-bcc9-42d5-ad42-479ef9fa4955"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "68ccdaf4-9d3c-4844-8178-56176c611a91"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0ecba495-bcc9-42d5-ad42-479ef9fa4955"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "26e34cac-2ba3-44bb-ada4-8177f40a7d14"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0ecba495-bcc9-42d5-ad42-479ef9fa4955"
+        ]
+      },
+      {
         "FriendlyKey": [
           "bioticproxycategorynode",
           "fossilmicro_plantmacrofossil"

@@ -1,0 +1,83 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "d8216036-09c7-4364-9d1e-d6e6b11bd7ae"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibratedRanges": {
+              "CalibratedDate": [
+                {
+                  "Sigma": "TwoSigma",
+                  "EarlierBound": 497.0,
+                  "LaterBound": 315.0
+                }
+              ],
+              "CalibrationCurve": {
+                "item": "OxCal 4"
+              },
+              "UncalibratedDate": {
+                "Date": 335.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 35.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Seeds and leaves of Empetrum nigrum and Cyperaceae"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 7.0
+              },
+              {
+                "_depth": 6.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "SUERC 17097"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "d8216036-09c7-4364-9d1e-d6e6b11bd7ae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "406ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              406.0,
+              {
+                "item": "OxCal 4"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

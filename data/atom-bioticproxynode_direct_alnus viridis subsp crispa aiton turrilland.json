@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "direct_alnus viridis subsp crispa aiton turrilland"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyNode": {
+          "ContemporaneousWholeOrganism": {
+            "item": "Alnus viridis subsp. crispa (Aiton) Turrilland"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

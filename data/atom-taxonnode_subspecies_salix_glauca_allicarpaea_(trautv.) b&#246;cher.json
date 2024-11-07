@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "subspecies_salix_glauca_allicarpaea_(trautv.) b&#246;cher"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Subspecies": [
+            {
+              "item": "Salix"
+            },
+            {
+              "item": "glauca"
+            },
+            {
+              "item": "allicarpaea"
+            },
+            {
+              "item": "(Trautv.) Böcher"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subspecies_salix_glauca_allicarpaea_(trautv.) b&#246;cher"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_salix_glauca_l"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

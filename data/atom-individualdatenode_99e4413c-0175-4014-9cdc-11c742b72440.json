@@ -1,0 +1,48 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "99e4413c-0175-4014-9cdc-11c742b72440"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "CollectionDate": 2010.0
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "wood increment"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "99e4413c-0175-4014-9cdc-11c742b72440"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-60ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "HistoryYearAD": 2010.0
+          }
+        }
+      }
+    ]
+  ]
+]

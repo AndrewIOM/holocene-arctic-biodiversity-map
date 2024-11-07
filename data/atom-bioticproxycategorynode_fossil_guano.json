@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxycategorynode",
+        "fossil_guano"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyCategoryNode": {
+          "OtherProxy": {
+            "item": "Guano"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

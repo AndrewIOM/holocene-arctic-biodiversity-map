@@ -1,0 +1,69 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "c6e1d69b-f4fb-4f27-902c-51395126d834"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Kangerlussuaq nest sites"
+          },
+          "SamplingLocation": {
+            "Area": {
+              "item": [
+                [
+                  {
+                    "item": 67
+                  },
+                  {
+                    "item": -54
+                  }
+                ],
+                [
+                  {
+                    "item": 66.5
+                  },
+                  {
+                    "item": -53
+                  }
+                ],
+                [
+                  {
+                    "item": 66.5
+                  },
+                  {
+                    "item": -54
+                  }
+                ],
+                [
+                  {
+                    "item": 67
+                  },
+                  {
+                    "item": -53
+                  }
+                ]
+              ]
+            }
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Guano"
+              },
+              null
+            ]
+          },
+          "SampleLocationDescription": {
+            "item": "Multiple nests, each with own sample depth in the nest deposits"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

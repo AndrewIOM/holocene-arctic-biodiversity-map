@@ -1,0 +1,122 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "9d30c819-342a-4bf4-8de4-a88218ddb76c"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              "WoodAnatomicalFeatures"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9d30c819-342a-4bf4-8de4-a88218ddb76c"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "16b06e34-ab1f-4bda-aa35-2dc5c8fa9faa"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9d30c819-342a-4bf4-8de4-a88218ddb76c"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "7f4c80df-12df-4ebe-b48f-2feec4a24f95"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9d30c819-342a-4bf4-8de4-a88218ddb76c"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "385e04bb-35f8-45fb-92f9-46e696f95e79"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9d30c819-342a-4bf4-8de4-a88218ddb76c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-58ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentLatestSpecified": {
+            "HistoryYearAD": 2008.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9d30c819-342a-4bf4-8de4-a88218ddb76c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "6ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestSpecified": {
+            "HistoryYearAD": 1944.0
+          }
+        }
+      }
+    ]
+  ]
+]

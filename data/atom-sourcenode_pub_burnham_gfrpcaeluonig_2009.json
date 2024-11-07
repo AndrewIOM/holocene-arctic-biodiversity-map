@@ -32,6 +32,9 @@
           {
             "InProgress": [
               {
+                "item": "outcome"
+              },
+              {
                 "item": "source-primary-or-secondary"
               }
             ]
@@ -40,5 +43,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_burnham_gfrpcaeluonig_2009"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "a637660c-0020-470e-9088-e7f47b2f1f69"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_burnham_gfrpcaeluonig_2009"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

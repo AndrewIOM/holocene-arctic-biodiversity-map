@@ -29,10 +29,29 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          "CompletedAll"
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wilmking_iolootcrpoaas_2018"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "39109964-4e60-4b09-b486-4df9fbf81dd3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

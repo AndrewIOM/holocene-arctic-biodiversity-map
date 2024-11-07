@@ -1,0 +1,18 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxycategorynode",
+        "fossil_birds"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyCategoryNode": {
+          "Fossil": "Birds"
+        }
+      }
+    }
+  ],
+  []
+]

@@ -1,0 +1,194 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c0d9ec7d-9985-4f26-8208-ff06afb0b953"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "aee46994-d626-42a9-b173-1620a68c5312"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossil_guano"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossil_birds"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "c6e1d69b-f4fb-4f27-902c-51395126d834"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2360ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2740ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-54ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentLatestSpecified": {
+            "HistoryYearAD": 2004.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7b240f3e-f910-4dd8-9d77-7b1d62848d21"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2550ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestSpecified": {
+            "CalYrBP": [
+              2550.0,
+              {
+                "item": "Stuiver et al. (1998)"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

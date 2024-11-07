@@ -1,0 +1,67 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "3d236dee-396d-4dee-b023-4cf11e310865"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Disko region"
+          },
+          "SamplingLocation": {
+            "Area": {
+              "item": [
+                [
+                  {
+                    "item": 68.752315
+                  },
+                  {
+                    "item": -54.316406
+                  }
+                ],
+                [
+                  {
+                    "item": 70.035597
+                  },
+                  {
+                    "item": -54.316406
+                  }
+                ],
+                [
+                  {
+                    "item": 70.035597
+                  },
+                  {
+                    "item": -50.273438
+                  }
+                ],
+                [
+                  {
+                    "item": 68.752315
+                  },
+                  {
+                    "item": -50.273438
+                  }
+                ],
+                [
+                  {
+                    "item": 68.752315
+                  },
+                  {
+                    "item": -54.316406
+                  }
+                ]
+              ]
+            }
+          },
+          "SampleOrigin": "LivingOrganism"
+        }
+      }
+    }
+  ],
+  []
+]

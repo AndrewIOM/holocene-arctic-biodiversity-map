@@ -1,0 +1,83 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "68ccdaf4-9d3c-4844-8178-56176c611a91"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibratedRanges": {
+              "CalibratedDate": [
+                {
+                  "Sigma": "OneSigma",
+                  "EarlierBound": 9139.0,
+                  "LaterBound": 8729.0
+                }
+              ],
+              "CalibrationCurve": {
+                "item": "Stuiver & Reimer (1993)"
+              },
+              "UncalibratedDate": {
+                "Date": 8070.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 90.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Scorpidium scorpioides"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 13.5
+              },
+              {
+                "_depth": 10.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "AAR- 1694"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "68ccdaf4-9d3c-4844-8178-56176c611a91"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8980ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              8980.0,
+              {
+                "item": "Stuiver & Reimer (1993)"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

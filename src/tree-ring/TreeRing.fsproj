@@ -1,32 +1,24 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="ImportNeotoma.fs" />
     <Compile Include="ImportITRDB.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="paket-files\AndrewIOM\biodiversity-graph-db\src\BiodiversityCoder.Core\BiodiversityCoder.Core.fsproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="FSharp.Data" Version="5.0.2" />
-    <PackageReference Include="Microsoft.FSharpLu.Json" Version="0.11.7" />
-  </ItemGroup>
-
   <ItemGroup>
     <Content Include="input-list.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>  
+    </Content>
     <Content Include="data/*">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>  
+    </Content>
   </ItemGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="paket-files\AndrewIOM\biodiversity-graph-db\src\BiodiversityCoder.Core\BiodiversityCoder.Core.fsproj" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

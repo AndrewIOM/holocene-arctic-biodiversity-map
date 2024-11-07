@@ -1,0 +1,45 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_kuivinen_daobisg_1982"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "K",
+                  "C"
+                ],
+                "item2": "Kuivinen"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "M",
+                    "P"
+                  ],
+                  "item2": "Lawson"
+                }
+              ],
+              "Title": {
+                "item": "Dendroclimatic analysis of birch in Southwest Greenland"
+              },
+              "Journal": {
+                "item": "Arctic and Alpine Research"
+              },
+              "Year": 1982,
+              "Volume": 14
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

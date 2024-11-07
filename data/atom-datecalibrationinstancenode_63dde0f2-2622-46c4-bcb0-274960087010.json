@@ -1,0 +1,3018 @@
+[
+  [
+    {
+      "UUID": [
+        "datecalibrationinstancenode",
+        "63dde0f2-2622-46c4-bcb0-274960087010"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateCalibrationInstanceNode": {
+          "CalibrationCurve": {
+            "item": "Atmospheric data from Reimer et al (2020)"
+          },
+          "ModelApplied": {
+            "OxCalModel": {
+              "item": " Plot() { P_Sequence(\"variable\",1,2,U(-2,2)) { Boundary(\"Bottom\"); Date(\"bottom\"){ z=193.000000; };\nR_Date(\"individualdatenode_4eb3370c-5075-4f93-8815-845e718ff17d\",8400,80){ z=150.000000; };\nR_Date(\"individualdatenode_ddcf419f-f719-40b2-a5d8-fced482c9a1f\",6210,340){ z=130.000000; };\nR_Date(\"individualdatenode_02d22971-de20-4242-a67b-96a32a3ecd0a\",1200,70){ z=34.000000; };\nR_Date(\"individualdatenode_dd58d591-8f05-4bda-833b-c588bc3097f7\",1,50){ z=2.000000; };\nDate(AD(1949)) { z=0.000000; }; Boundary(\"Top\"); }; };"
+            }
+          },
+          "SoftwareName": {
+            "item": "OxCal"
+          },
+          "SoftwareVersion": {
+            "item": "4.4.4"
+          },
+          "Origin": {
+            "PartOfReanalysis": [
+              {
+                "item1": [
+                  "A",
+                  "C"
+                ],
+                "item2": "Martin"
+              },
+              {
+                "item": "2024-11-05"
+              }
+            ]
+          },
+          "AgeDepthModel": [
+            {
+              "Depth": 193.0,
+              "Date": 12461.9,
+              "StandardDeviation": 1910.43
+            },
+            {
+              "Depth": 192.664,
+              "Date": 12437.5,
+              "StandardDeviation": 1900.31
+            },
+            {
+              "Depth": 192.328,
+              "Date": 12413.6,
+              "StandardDeviation": 1891.18
+            },
+            {
+              "Depth": 191.992,
+              "Date": 12390.3,
+              "StandardDeviation": 1882.2
+            },
+            {
+              "Depth": 191.656,
+              "Date": 12366.6,
+              "StandardDeviation": 1873.95
+            },
+            {
+              "Depth": 191.32,
+              "Date": 12342.5,
+              "StandardDeviation": 1864.35
+            },
+            {
+              "Depth": 190.984,
+              "Date": 12318.4,
+              "StandardDeviation": 1855.76
+            },
+            {
+              "Depth": 190.648,
+              "Date": 12294.5,
+              "StandardDeviation": 1847.11
+            },
+            {
+              "Depth": 190.312,
+              "Date": 12270.2,
+              "StandardDeviation": 1839.26
+            },
+            {
+              "Depth": 189.977,
+              "Date": 12245.7,
+              "StandardDeviation": 1829.48
+            },
+            {
+              "Depth": 189.641,
+              "Date": 12221.5,
+              "StandardDeviation": 1820.64
+            },
+            {
+              "Depth": 189.305,
+              "Date": 12196.9,
+              "StandardDeviation": 1811.65
+            },
+            {
+              "Depth": 188.969,
+              "Date": 12172.7,
+              "StandardDeviation": 1803.68
+            },
+            {
+              "Depth": 188.633,
+              "Date": 12148.6,
+              "StandardDeviation": 1794.73
+            },
+            {
+              "Depth": 188.297,
+              "Date": 12124.8,
+              "StandardDeviation": 1786.78
+            },
+            {
+              "Depth": 187.961,
+              "Date": 12100.5,
+              "StandardDeviation": 1778.43
+            },
+            {
+              "Depth": 187.625,
+              "Date": 12076.1,
+              "StandardDeviation": 1770.82
+            },
+            {
+              "Depth": 187.289,
+              "Date": 12051.9,
+              "StandardDeviation": 1760.76
+            },
+            {
+              "Depth": 186.953,
+              "Date": 12027.8,
+              "StandardDeviation": 1751.87
+            },
+            {
+              "Depth": 186.617,
+              "Date": 12003.0,
+              "StandardDeviation": 1742.33
+            },
+            {
+              "Depth": 186.281,
+              "Date": 11978.5,
+              "StandardDeviation": 1733.88
+            },
+            {
+              "Depth": 185.945,
+              "Date": 11954.5,
+              "StandardDeviation": 1724.61
+            },
+            {
+              "Depth": 185.609,
+              "Date": 11930.87,
+              "StandardDeviation": 1716.31
+            },
+            {
+              "Depth": 185.273,
+              "Date": 11907.02,
+              "StandardDeviation": 1707.91
+            },
+            {
+              "Depth": 184.938,
+              "Date": 11882.93,
+              "StandardDeviation": 1700.36
+            },
+            {
+              "Depth": 184.602,
+              "Date": 11858.77,
+              "StandardDeviation": 1690.95
+            },
+            {
+              "Depth": 184.266,
+              "Date": 11834.48,
+              "StandardDeviation": 1682.54
+            },
+            {
+              "Depth": 183.93,
+              "Date": 11810.59,
+              "StandardDeviation": 1674.04
+            },
+            {
+              "Depth": 183.594,
+              "Date": 11786.1,
+              "StandardDeviation": 1666.1
+            },
+            {
+              "Depth": 183.258,
+              "Date": 11762.24,
+              "StandardDeviation": 1657.4
+            },
+            {
+              "Depth": 182.922,
+              "Date": 11738.82,
+              "StandardDeviation": 1649.85
+            },
+            {
+              "Depth": 182.586,
+              "Date": 11714.57,
+              "StandardDeviation": 1641.81
+            },
+            {
+              "Depth": 182.25,
+              "Date": 11690.58,
+              "StandardDeviation": 1634.99
+            },
+            {
+              "Depth": 181.914,
+              "Date": 11666.66,
+              "StandardDeviation": 1624.13
+            },
+            {
+              "Depth": 181.578,
+              "Date": 11642.81,
+              "StandardDeviation": 1614.18
+            },
+            {
+              "Depth": 181.242,
+              "Date": 11618.69,
+              "StandardDeviation": 1603.95
+            },
+            {
+              "Depth": 180.906,
+              "Date": 11594.51,
+              "StandardDeviation": 1594.83
+            },
+            {
+              "Depth": 180.57,
+              "Date": 11570.41,
+              "StandardDeviation": 1584.41
+            },
+            {
+              "Depth": 180.234,
+              "Date": 11546.43,
+              "StandardDeviation": 1575.17
+            },
+            {
+              "Depth": 179.898,
+              "Date": 11522.24,
+              "StandardDeviation": 1565.49
+            },
+            {
+              "Depth": 179.562,
+              "Date": 11498.44,
+              "StandardDeviation": 1557.11
+            },
+            {
+              "Depth": 179.227,
+              "Date": 11474.8,
+              "StandardDeviation": 1546.77
+            },
+            {
+              "Depth": 178.891,
+              "Date": 11450.58,
+              "StandardDeviation": 1537.15
+            },
+            {
+              "Depth": 178.555,
+              "Date": 11426.05,
+              "StandardDeviation": 1527.28
+            },
+            {
+              "Depth": 178.219,
+              "Date": 11401.93,
+              "StandardDeviation": 1518.57
+            },
+            {
+              "Depth": 177.883,
+              "Date": 11377.5,
+              "StandardDeviation": 1508.49
+            },
+            {
+              "Depth": 177.547,
+              "Date": 11353.07,
+              "StandardDeviation": 1499.6
+            },
+            {
+              "Depth": 177.211,
+              "Date": 11329.31,
+              "StandardDeviation": 1490.8
+            },
+            {
+              "Depth": 176.875,
+              "Date": 11305.34,
+              "StandardDeviation": 1482.94
+            },
+            {
+              "Depth": 176.539,
+              "Date": 11280.94,
+              "StandardDeviation": 1471.76
+            },
+            {
+              "Depth": 176.203,
+              "Date": 11257.04,
+              "StandardDeviation": 1461.92
+            },
+            {
+              "Depth": 175.867,
+              "Date": 11233.46,
+              "StandardDeviation": 1452.11
+            },
+            {
+              "Depth": 175.531,
+              "Date": 11209.42,
+              "StandardDeviation": 1443.0
+            },
+            {
+              "Depth": 175.195,
+              "Date": 11184.68,
+              "StandardDeviation": 1432.29
+            },
+            {
+              "Depth": 174.859,
+              "Date": 11160.44,
+              "StandardDeviation": 1423.07
+            },
+            {
+              "Depth": 174.523,
+              "Date": 11136.33,
+              "StandardDeviation": 1413.67
+            },
+            {
+              "Depth": 174.188,
+              "Date": 11112.43,
+              "StandardDeviation": 1405.31
+            },
+            {
+              "Depth": 173.852,
+              "Date": 11087.73,
+              "StandardDeviation": 1394.38
+            },
+            {
+              "Depth": 173.516,
+              "Date": 11063.26,
+              "StandardDeviation": 1384.66
+            },
+            {
+              "Depth": 173.18,
+              "Date": 11039.38,
+              "StandardDeviation": 1375.09
+            },
+            {
+              "Depth": 172.844,
+              "Date": 11015.15,
+              "StandardDeviation": 1366.64
+            },
+            {
+              "Depth": 172.508,
+              "Date": 10990.75,
+              "StandardDeviation": 1356.62
+            },
+            {
+              "Depth": 172.172,
+              "Date": 10966.89,
+              "StandardDeviation": 1347.97
+            },
+            {
+              "Depth": 171.836,
+              "Date": 10943.01,
+              "StandardDeviation": 1339.23
+            },
+            {
+              "Depth": 171.5,
+              "Date": 10919.14,
+              "StandardDeviation": 1331.71
+            },
+            {
+              "Depth": 171.164,
+              "Date": 10894.78,
+              "StandardDeviation": 1317.78
+            },
+            {
+              "Depth": 170.828,
+              "Date": 10870.54,
+              "StandardDeviation": 1305.01
+            },
+            {
+              "Depth": 170.492,
+              "Date": 10846.76,
+              "StandardDeviation": 1292.36
+            },
+            {
+              "Depth": 170.156,
+              "Date": 10822.88,
+              "StandardDeviation": 1280.79
+            },
+            {
+              "Depth": 169.82,
+              "Date": 10798.51,
+              "StandardDeviation": 1267.32
+            },
+            {
+              "Depth": 169.484,
+              "Date": 10774.1,
+              "StandardDeviation": 1255.16
+            },
+            {
+              "Depth": 169.148,
+              "Date": 10750.47,
+              "StandardDeviation": 1242.92
+            },
+            {
+              "Depth": 168.812,
+              "Date": 10726.37,
+              "StandardDeviation": 1231.82
+            },
+            {
+              "Depth": 168.477,
+              "Date": 10702.68,
+              "StandardDeviation": 1218.65
+            },
+            {
+              "Depth": 168.141,
+              "Date": 10679.01,
+              "StandardDeviation": 1206.48
+            },
+            {
+              "Depth": 167.805,
+              "Date": 10654.25,
+              "StandardDeviation": 1193.33
+            },
+            {
+              "Depth": 167.469,
+              "Date": 10629.87,
+              "StandardDeviation": 1181.97
+            },
+            {
+              "Depth": 167.133,
+              "Date": 10605.87,
+              "StandardDeviation": 1168.85
+            },
+            {
+              "Depth": 166.797,
+              "Date": 10581.74,
+              "StandardDeviation": 1157.08
+            },
+            {
+              "Depth": 166.461,
+              "Date": 10557.31,
+              "StandardDeviation": 1144.84
+            },
+            {
+              "Depth": 166.125,
+              "Date": 10533.5,
+              "StandardDeviation": 1134.26
+            },
+            {
+              "Depth": 165.789,
+              "Date": 10509.46,
+              "StandardDeviation": 1119.61
+            },
+            {
+              "Depth": 165.453,
+              "Date": 10485.59,
+              "StandardDeviation": 1106.41
+            },
+            {
+              "Depth": 165.117,
+              "Date": 10461.54,
+              "StandardDeviation": 1092.62
+            },
+            {
+              "Depth": 164.781,
+              "Date": 10437.46,
+              "StandardDeviation": 1080.24
+            },
+            {
+              "Depth": 164.445,
+              "Date": 10413.41,
+              "StandardDeviation": 1066.17
+            },
+            {
+              "Depth": 164.109,
+              "Date": 10389.05,
+              "StandardDeviation": 1053.21
+            },
+            {
+              "Depth": 163.773,
+              "Date": 10364.81,
+              "StandardDeviation": 1039.86
+            },
+            {
+              "Depth": 163.438,
+              "Date": 10340.92,
+              "StandardDeviation": 1028.42
+            },
+            {
+              "Depth": 163.102,
+              "Date": 10316.67,
+              "StandardDeviation": 1013.5
+            },
+            {
+              "Depth": 162.766,
+              "Date": 10292.24,
+              "StandardDeviation": 1000.03
+            },
+            {
+              "Depth": 162.43,
+              "Date": 10268.43,
+              "StandardDeviation": 986.317
+            },
+            {
+              "Depth": 162.094,
+              "Date": 10244.46,
+              "StandardDeviation": 974.123
+            },
+            {
+              "Depth": 161.758,
+              "Date": 10220.04,
+              "StandardDeviation": 959.876
+            },
+            {
+              "Depth": 161.422,
+              "Date": 10195.98,
+              "StandardDeviation": 947.222
+            },
+            {
+              "Depth": 161.086,
+              "Date": 10171.79,
+              "StandardDeviation": 934.015
+            },
+            {
+              "Depth": 160.75,
+              "Date": 10147.93,
+              "StandardDeviation": 922.725
+            },
+            {
+              "Depth": 160.414,
+              "Date": 10123.99,
+              "StandardDeviation": 904.287
+            },
+            {
+              "Depth": 160.078,
+              "Date": 10099.779999999999,
+              "StandardDeviation": 886.882
+            },
+            {
+              "Depth": 159.742,
+              "Date": 10075.869999999999,
+              "StandardDeviation": 869.431
+            },
+            {
+              "Depth": 159.406,
+              "Date": 10051.6,
+              "StandardDeviation": 853.167
+            },
+            {
+              "Depth": 159.07,
+              "Date": 10027.8,
+              "StandardDeviation": 834.712
+            },
+            {
+              "Depth": 158.734,
+              "Date": 10003.65,
+              "StandardDeviation": 817.654
+            },
+            {
+              "Depth": 158.398,
+              "Date": 9978.630000000001,
+              "StandardDeviation": 799.455
+            },
+            {
+              "Depth": 158.062,
+              "Date": 9954.35,
+              "StandardDeviation": 783.622
+            },
+            {
+              "Depth": 157.727,
+              "Date": 9930.09,
+              "StandardDeviation": 763.558
+            },
+            {
+              "Depth": 157.391,
+              "Date": 9905.470000000001,
+              "StandardDeviation": 744.929
+            },
+            {
+              "Depth": 157.055,
+              "Date": 9881.2,
+              "StandardDeviation": 726.081
+            },
+            {
+              "Depth": 156.719,
+              "Date": 9857.52,
+              "StandardDeviation": 709.39
+            },
+            {
+              "Depth": 156.383,
+              "Date": 9833.68,
+              "StandardDeviation": 689.85
+            },
+            {
+              "Depth": 156.047,
+              "Date": 9809.4,
+              "StandardDeviation": 671.167
+            },
+            {
+              "Depth": 155.711,
+              "Date": 9785.58,
+              "StandardDeviation": 652.324
+            },
+            {
+              "Depth": 155.375,
+              "Date": 9761.39,
+              "StandardDeviation": 635.442
+            },
+            {
+              "Depth": 155.039,
+              "Date": 9738.21,
+              "StandardDeviation": 611.705
+            },
+            {
+              "Depth": 154.703,
+              "Date": 9714.52,
+              "StandardDeviation": 589.527
+            },
+            {
+              "Depth": 154.367,
+              "Date": 9690.619999999999,
+              "StandardDeviation": 565.676
+            },
+            {
+              "Depth": 154.031,
+              "Date": 9666.720000000001,
+              "StandardDeviation": 543.902
+            },
+            {
+              "Depth": 153.695,
+              "Date": 9642.45,
+              "StandardDeviation": 517.075
+            },
+            {
+              "Depth": 153.359,
+              "Date": 9617.96,
+              "StandardDeviation": 492.102
+            },
+            {
+              "Depth": 153.023,
+              "Date": 9593.95,
+              "StandardDeviation": 466.204
+            },
+            {
+              "Depth": 152.688,
+              "Date": 9569.59,
+              "StandardDeviation": 441.835
+            },
+            {
+              "Depth": 152.352,
+              "Date": 9545.95,
+              "StandardDeviation": 410.338
+            },
+            {
+              "Depth": 152.016,
+              "Date": 9522.14,
+              "StandardDeviation": 380.304
+            },
+            {
+              "Depth": 151.68,
+              "Date": 9497.810000000001,
+              "StandardDeviation": 345.811
+            },
+            {
+              "Depth": 151.344,
+              "Date": 9473.49,
+              "StandardDeviation": 312.622
+            },
+            {
+              "Depth": 151.008,
+              "Date": 9449.49,
+              "StandardDeviation": 270.254
+            },
+            {
+              "Depth": 150.672,
+              "Date": 9425.41,
+              "StandardDeviation": 227.308
+            },
+            {
+              "Depth": 150.336,
+              "Date": 9400.89,
+              "StandardDeviation": 171.045
+            },
+            {
+              "Depth": 150.0,
+              "Date": 9376.6,
+              "StandardDeviation": 102.063
+            },
+            {
+              "Depth": 149.688,
+              "Date": 9342.83,
+              "StandardDeviation": 178.162
+            },
+            {
+              "Depth": 149.375,
+              "Date": 9308.42,
+              "StandardDeviation": 237.187
+            },
+            {
+              "Depth": 149.062,
+              "Date": 9274.0,
+              "StandardDeviation": 281.338
+            },
+            {
+              "Depth": 148.75,
+              "Date": 9239.11,
+              "StandardDeviation": 324.429
+            },
+            {
+              "Depth": 148.438,
+              "Date": 9204.060000000001,
+              "StandardDeviation": 355.906
+            },
+            {
+              "Depth": 148.125,
+              "Date": 9169.970000000001,
+              "StandardDeviation": 387.841
+            },
+            {
+              "Depth": 147.812,
+              "Date": 9134.98,
+              "StandardDeviation": 415.753
+            },
+            {
+              "Depth": 147.5,
+              "Date": 9099.58,
+              "StandardDeviation": 445.491
+            },
+            {
+              "Depth": 147.188,
+              "Date": 9065.529999999999,
+              "StandardDeviation": 464.282
+            },
+            {
+              "Depth": 146.875,
+              "Date": 9031.380000000001,
+              "StandardDeviation": 485.227
+            },
+            {
+              "Depth": 146.562,
+              "Date": 8996.34,
+              "StandardDeviation": 504.293
+            },
+            {
+              "Depth": 146.25,
+              "Date": 8962.84,
+              "StandardDeviation": 524.45
+            },
+            {
+              "Depth": 145.938,
+              "Date": 8928.73,
+              "StandardDeviation": 539.748
+            },
+            {
+              "Depth": 145.625,
+              "Date": 8894.05,
+              "StandardDeviation": 557.561
+            },
+            {
+              "Depth": 145.312,
+              "Date": 8859.75,
+              "StandardDeviation": 573.159
+            },
+            {
+              "Depth": 145.0,
+              "Date": 8826.119999999999,
+              "StandardDeviation": 590.599
+            },
+            {
+              "Depth": 144.688,
+              "Date": 8791.27,
+              "StandardDeviation": 599.285
+            },
+            {
+              "Depth": 144.375,
+              "Date": 8756.33,
+              "StandardDeviation": 610.235
+            },
+            {
+              "Depth": 144.062,
+              "Date": 8722.060000000001,
+              "StandardDeviation": 619.464
+            },
+            {
+              "Depth": 143.75,
+              "Date": 8688.11,
+              "StandardDeviation": 630.637
+            },
+            {
+              "Depth": 143.438,
+              "Date": 8653.59,
+              "StandardDeviation": 637.944
+            },
+            {
+              "Depth": 143.125,
+              "Date": 8620.119999999999,
+              "StandardDeviation": 646.934
+            },
+            {
+              "Depth": 142.812,
+              "Date": 8585.810000000001,
+              "StandardDeviation": 655.067
+            },
+            {
+              "Depth": 142.5,
+              "Date": 8551.25,
+              "StandardDeviation": 665.203
+            },
+            {
+              "Depth": 142.188,
+              "Date": 8518.1,
+              "StandardDeviation": 669.247
+            },
+            {
+              "Depth": 141.875,
+              "Date": 8485.21,
+              "StandardDeviation": 675.287
+            },
+            {
+              "Depth": 141.562,
+              "Date": 8451.05,
+              "StandardDeviation": 680.542
+            },
+            {
+              "Depth": 141.25,
+              "Date": 8415.99,
+              "StandardDeviation": 687.885
+            },
+            {
+              "Depth": 140.938,
+              "Date": 8381.25,
+              "StandardDeviation": 691.513
+            },
+            {
+              "Depth": 140.625,
+              "Date": 8346.05,
+              "StandardDeviation": 697.304
+            },
+            {
+              "Depth": 140.312,
+              "Date": 8311.4,
+              "StandardDeviation": 701.733
+            },
+            {
+              "Depth": 140.0,
+              "Date": 8276.79,
+              "StandardDeviation": 708.156
+            },
+            {
+              "Depth": 139.688,
+              "Date": 8241.73,
+              "StandardDeviation": 704.083
+            },
+            {
+              "Depth": 139.375,
+              "Date": 8206.220000000001,
+              "StandardDeviation": 702.038
+            },
+            {
+              "Depth": 139.062,
+              "Date": 8172.16,
+              "StandardDeviation": 699.043
+            },
+            {
+              "Depth": 138.75,
+              "Date": 8137.61,
+              "StandardDeviation": 698.003
+            },
+            {
+              "Depth": 138.438,
+              "Date": 8103.81,
+              "StandardDeviation": 693.349
+            },
+            {
+              "Depth": 138.125,
+              "Date": 8070.26,
+              "StandardDeviation": 690.727
+            },
+            {
+              "Depth": 137.812,
+              "Date": 8036.34,
+              "StandardDeviation": 686.99
+            },
+            {
+              "Depth": 137.5,
+              "Date": 8002.7,
+              "StandardDeviation": 685.21
+            },
+            {
+              "Depth": 137.188,
+              "Date": 7969.2,
+              "StandardDeviation": 677.995
+            },
+            {
+              "Depth": 136.875,
+              "Date": 7935.22,
+              "StandardDeviation": 672.848
+            },
+            {
+              "Depth": 136.562,
+              "Date": 7900.54,
+              "StandardDeviation": 666.261
+            },
+            {
+              "Depth": 136.25,
+              "Date": 7865.8,
+              "StandardDeviation": 661.763
+            },
+            {
+              "Depth": 135.938,
+              "Date": 7831.36,
+              "StandardDeviation": 653.339
+            },
+            {
+              "Depth": 135.625,
+              "Date": 7796.04,
+              "StandardDeviation": 646.954
+            },
+            {
+              "Depth": 135.312,
+              "Date": 7761.26,
+              "StandardDeviation": 639.425
+            },
+            {
+              "Depth": 135.0,
+              "Date": 7726.91,
+              "StandardDeviation": 634.254
+            },
+            {
+              "Depth": 134.688,
+              "Date": 7692.19,
+              "StandardDeviation": 620.347
+            },
+            {
+              "Depth": 134.375,
+              "Date": 7656.91,
+              "StandardDeviation": 608.362
+            },
+            {
+              "Depth": 134.062,
+              "Date": 7622.63,
+              "StandardDeviation": 595.147
+            },
+            {
+              "Depth": 133.75,
+              "Date": 7588.12,
+              "StandardDeviation": 583.909
+            },
+            {
+              "Depth": 133.438,
+              "Date": 7553.81,
+              "StandardDeviation": 568.181
+            },
+            {
+              "Depth": 133.125,
+              "Date": 7518.98,
+              "StandardDeviation": 554.216
+            },
+            {
+              "Depth": 132.812,
+              "Date": 7484.84,
+              "StandardDeviation": 538.872
+            },
+            {
+              "Depth": 132.5,
+              "Date": 7451.09,
+              "StandardDeviation": 525.8
+            },
+            {
+              "Depth": 132.188,
+              "Date": 7416.9,
+              "StandardDeviation": 505.018
+            },
+            {
+              "Depth": 131.875,
+              "Date": 7383.09,
+              "StandardDeviation": 486.53
+            },
+            {
+              "Depth": 131.562,
+              "Date": 7350.19,
+              "StandardDeviation": 466.357
+            },
+            {
+              "Depth": 131.25,
+              "Date": 7317.48,
+              "StandardDeviation": 448.433
+            },
+            {
+              "Depth": 130.938,
+              "Date": 7281.93,
+              "StandardDeviation": 421.921
+            },
+            {
+              "Depth": 130.625,
+              "Date": 7246.92,
+              "StandardDeviation": 397.507
+            },
+            {
+              "Depth": 130.312,
+              "Date": 7212.64,
+              "StandardDeviation": 370.05
+            },
+            {
+              "Depth": 130.0,
+              "Date": 7177.01,
+              "StandardDeviation": 343.364
+            },
+            {
+              "Depth": 129.625,
+              "Date": 7152.8,
+              "StandardDeviation": 361.159
+            },
+            {
+              "Depth": 129.25,
+              "Date": 7128.72,
+              "StandardDeviation": 380.906
+            },
+            {
+              "Depth": 128.875,
+              "Date": 7105.6,
+              "StandardDeviation": 398.052
+            },
+            {
+              "Depth": 128.5,
+              "Date": 7082.13,
+              "StandardDeviation": 417.6
+            },
+            {
+              "Depth": 128.125,
+              "Date": 7058.19,
+              "StandardDeviation": 433.671
+            },
+            {
+              "Depth": 127.75,
+              "Date": 7035.09,
+              "StandardDeviation": 450.791
+            },
+            {
+              "Depth": 127.375,
+              "Date": 7011.35,
+              "StandardDeviation": 467.208
+            },
+            {
+              "Depth": 127.0,
+              "Date": 6987.84,
+              "StandardDeviation": 485.1
+            },
+            {
+              "Depth": 126.625,
+              "Date": 6963.79,
+              "StandardDeviation": 498.627
+            },
+            {
+              "Depth": 126.25,
+              "Date": 6939.72,
+              "StandardDeviation": 513.822
+            },
+            {
+              "Depth": 125.875,
+              "Date": 6915.68,
+              "StandardDeviation": 528.276
+            },
+            {
+              "Depth": 125.5,
+              "Date": 6891.56,
+              "StandardDeviation": 544.121
+            },
+            {
+              "Depth": 125.125,
+              "Date": 6868.1,
+              "StandardDeviation": 556.913
+            },
+            {
+              "Depth": 124.75,
+              "Date": 6844.58,
+              "StandardDeviation": 571.236
+            },
+            {
+              "Depth": 124.375,
+              "Date": 6821.11,
+              "StandardDeviation": 584.699
+            },
+            {
+              "Depth": 124.0,
+              "Date": 6798.31,
+              "StandardDeviation": 599.339
+            },
+            {
+              "Depth": 123.625,
+              "Date": 6774.75,
+              "StandardDeviation": 609.088
+            },
+            {
+              "Depth": 123.25,
+              "Date": 6751.52,
+              "StandardDeviation": 620.073
+            },
+            {
+              "Depth": 122.875,
+              "Date": 6728.38,
+              "StandardDeviation": 630.429
+            },
+            {
+              "Depth": 122.5,
+              "Date": 6705.12,
+              "StandardDeviation": 642.429
+            },
+            {
+              "Depth": 122.125,
+              "Date": 6681.71,
+              "StandardDeviation": 652.534
+            },
+            {
+              "Depth": 121.75,
+              "Date": 6657.86,
+              "StandardDeviation": 664.022
+            },
+            {
+              "Depth": 121.375,
+              "Date": 6634.49,
+              "StandardDeviation": 674.647
+            },
+            {
+              "Depth": 121.0,
+              "Date": 6610.6,
+              "StandardDeviation": 686.988
+            },
+            {
+              "Depth": 120.625,
+              "Date": 6587.19,
+              "StandardDeviation": 695.986
+            },
+            {
+              "Depth": 120.25,
+              "Date": 6563.05,
+              "StandardDeviation": 706.626
+            },
+            {
+              "Depth": 119.875,
+              "Date": 6539.4,
+              "StandardDeviation": 716.594
+            },
+            {
+              "Depth": 119.5,
+              "Date": 6514.95,
+              "StandardDeviation": 728.287
+            },
+            {
+              "Depth": 119.125,
+              "Date": 6491.13,
+              "StandardDeviation": 737.763
+            },
+            {
+              "Depth": 118.75,
+              "Date": 6467.17,
+              "StandardDeviation": 748.613
+            },
+            {
+              "Depth": 118.375,
+              "Date": 6444.0,
+              "StandardDeviation": 758.586
+            },
+            {
+              "Depth": 118.0,
+              "Date": 6420.64,
+              "StandardDeviation": 769.8
+            },
+            {
+              "Depth": 117.625,
+              "Date": 6396.42,
+              "StandardDeviation": 775.667
+            },
+            {
+              "Depth": 117.25,
+              "Date": 6372.2,
+              "StandardDeviation": 782.9
+            },
+            {
+              "Depth": 116.875,
+              "Date": 6348.39,
+              "StandardDeviation": 789.545
+            },
+            {
+              "Depth": 116.5,
+              "Date": 6325.34,
+              "StandardDeviation": 797.245
+            },
+            {
+              "Depth": 116.125,
+              "Date": 6301.86,
+              "StandardDeviation": 803.437
+            },
+            {
+              "Depth": 115.75,
+              "Date": 6278.6,
+              "StandardDeviation": 810.843
+            },
+            {
+              "Depth": 115.375,
+              "Date": 6254.61,
+              "StandardDeviation": 818.1
+            },
+            {
+              "Depth": 115.0,
+              "Date": 6231.31,
+              "StandardDeviation": 826.247
+            },
+            {
+              "Depth": 114.625,
+              "Date": 6207.76,
+              "StandardDeviation": 832.119
+            },
+            {
+              "Depth": 114.25,
+              "Date": 6184.05,
+              "StandardDeviation": 839.11
+            },
+            {
+              "Depth": 113.875,
+              "Date": 6159.97,
+              "StandardDeviation": 845.864
+            },
+            {
+              "Depth": 113.5,
+              "Date": 6135.95,
+              "StandardDeviation": 853.775
+            },
+            {
+              "Depth": 113.125,
+              "Date": 6112.14,
+              "StandardDeviation": 860.153
+            },
+            {
+              "Depth": 112.75,
+              "Date": 6088.77,
+              "StandardDeviation": 867.524
+            },
+            {
+              "Depth": 112.375,
+              "Date": 6064.66,
+              "StandardDeviation": 874.765
+            },
+            {
+              "Depth": 112.0,
+              "Date": 6041.33,
+              "StandardDeviation": 882.883
+            },
+            {
+              "Depth": 111.625,
+              "Date": 6017.9,
+              "StandardDeviation": 887.592
+            },
+            {
+              "Depth": 111.25,
+              "Date": 5994.45,
+              "StandardDeviation": 893.385
+            },
+            {
+              "Depth": 110.875,
+              "Date": 5970.57,
+              "StandardDeviation": 898.99
+            },
+            {
+              "Depth": 110.5,
+              "Date": 5947.3099999999995,
+              "StandardDeviation": 905.539
+            },
+            {
+              "Depth": 110.125,
+              "Date": 5923.74,
+              "StandardDeviation": 910.699
+            },
+            {
+              "Depth": 109.75,
+              "Date": 5900.5599999999995,
+              "StandardDeviation": 916.956
+            },
+            {
+              "Depth": 109.375,
+              "Date": 5877.45,
+              "StandardDeviation": 922.946
+            },
+            {
+              "Depth": 109.0,
+              "Date": 5854.51,
+              "StandardDeviation": 929.873
+            },
+            {
+              "Depth": 108.625,
+              "Date": 5830.67,
+              "StandardDeviation": 934.894
+            },
+            {
+              "Depth": 108.25,
+              "Date": 5807.85,
+              "StandardDeviation": 940.647
+            },
+            {
+              "Depth": 107.875,
+              "Date": 5783.51,
+              "StandardDeviation": 946.576
+            },
+            {
+              "Depth": 107.5,
+              "Date": 5759.07,
+              "StandardDeviation": 953.478
+            },
+            {
+              "Depth": 107.125,
+              "Date": 5735.04,
+              "StandardDeviation": 959.047
+            },
+            {
+              "Depth": 106.75,
+              "Date": 5711.3099999999995,
+              "StandardDeviation": 965.479
+            },
+            {
+              "Depth": 106.375,
+              "Date": 5687.52,
+              "StandardDeviation": 971.714
+            },
+            {
+              "Depth": 106.0,
+              "Date": 5663.77,
+              "StandardDeviation": 978.819
+            },
+            {
+              "Depth": 105.625,
+              "Date": 5639.780000000001,
+              "StandardDeviation": 980.571
+            },
+            {
+              "Depth": 105.25,
+              "Date": 5615.639999999999,
+              "StandardDeviation": 983.406
+            },
+            {
+              "Depth": 104.875,
+              "Date": 5591.99,
+              "StandardDeviation": 985.886
+            },
+            {
+              "Depth": 104.5,
+              "Date": 5568.3,
+              "StandardDeviation": 989.504
+            },
+            {
+              "Depth": 104.125,
+              "Date": 5544.389999999999,
+              "StandardDeviation": 991.894
+            },
+            {
+              "Depth": 103.75,
+              "Date": 5521.08,
+              "StandardDeviation": 995.137
+            },
+            {
+              "Depth": 103.375,
+              "Date": 5497.82,
+              "StandardDeviation": 998.22
+            },
+            {
+              "Depth": 103.0,
+              "Date": 5474.280000000001,
+              "StandardDeviation": 1002.29
+            },
+            {
+              "Depth": 102.625,
+              "Date": 5450.46,
+              "StandardDeviation": 1004.35
+            },
+            {
+              "Depth": 102.25,
+              "Date": 5426.5,
+              "StandardDeviation": 1007.55
+            },
+            {
+              "Depth": 101.875,
+              "Date": 5403.23,
+              "StandardDeviation": 1010.35
+            },
+            {
+              "Depth": 101.5,
+              "Date": 5379.85,
+              "StandardDeviation": 1014.11
+            },
+            {
+              "Depth": 101.125,
+              "Date": 5356.43,
+              "StandardDeviation": 1016.81
+            },
+            {
+              "Depth": 100.75,
+              "Date": 5332.860000000001,
+              "StandardDeviation": 1020.39
+            },
+            {
+              "Depth": 100.375,
+              "Date": 5309.01,
+              "StandardDeviation": 1023.8
+            },
+            {
+              "Depth": 100.0,
+              "Date": 5285.530000000001,
+              "StandardDeviation": 1028.1
+            },
+            {
+              "Depth": 99.625,
+              "Date": 5262.38,
+              "StandardDeviation": 1029.47
+            },
+            {
+              "Depth": 99.25,
+              "Date": 5239.110000000001,
+              "StandardDeviation": 1031.86
+            },
+            {
+              "Depth": 98.875,
+              "Date": 5215.3,
+              "StandardDeviation": 1034.15
+            },
+            {
+              "Depth": 98.5,
+              "Date": 5191.110000000001,
+              "StandardDeviation": 1037.37
+            },
+            {
+              "Depth": 98.125,
+              "Date": 5167.58,
+              "StandardDeviation": 1039.4
+            },
+            {
+              "Depth": 97.75,
+              "Date": 5144.15,
+              "StandardDeviation": 1042.33
+            },
+            {
+              "Depth": 97.375,
+              "Date": 5120.33,
+              "StandardDeviation": 1045.01
+            },
+            {
+              "Depth": 97.0,
+              "Date": 5096.110000000001,
+              "StandardDeviation": 1048.74
+            },
+            {
+              "Depth": 96.625,
+              "Date": 5072.84,
+              "StandardDeviation": 1050.53
+            },
+            {
+              "Depth": 96.25,
+              "Date": 5049.5599999999995,
+              "StandardDeviation": 1053.19
+            },
+            {
+              "Depth": 95.875,
+              "Date": 5025.860000000001,
+              "StandardDeviation": 1055.69
+            },
+            {
+              "Depth": 95.5,
+              "Date": 5002.4,
+              "StandardDeviation": 1059.08
+            },
+            {
+              "Depth": 95.125,
+              "Date": 4978.5599999999995,
+              "StandardDeviation": 1061.48
+            },
+            {
+              "Depth": 94.75,
+              "Date": 4955.04,
+              "StandardDeviation": 1064.85
+            },
+            {
+              "Depth": 94.375,
+              "Date": 4931.02,
+              "StandardDeviation": 1067.98
+            },
+            {
+              "Depth": 94.0,
+              "Date": 4907.27,
+              "StandardDeviation": 1072.07
+            },
+            {
+              "Depth": 93.625,
+              "Date": 4883.79,
+              "StandardDeviation": 1072.11
+            },
+            {
+              "Depth": 93.25,
+              "Date": 4860.04,
+              "StandardDeviation": 1073.14
+            },
+            {
+              "Depth": 92.875,
+              "Date": 4836.34,
+              "StandardDeviation": 1073.91
+            },
+            {
+              "Depth": 92.5,
+              "Date": 4812.62,
+              "StandardDeviation": 1075.58
+            },
+            {
+              "Depth": 92.125,
+              "Date": 4788.860000000001,
+              "StandardDeviation": 1076.09
+            },
+            {
+              "Depth": 91.75,
+              "Date": 4764.95,
+              "StandardDeviation": 1077.58
+            },
+            {
+              "Depth": 91.375,
+              "Date": 4741.13,
+              "StandardDeviation": 1078.81
+            },
+            {
+              "Depth": 91.0,
+              "Date": 4717.02,
+              "StandardDeviation": 1081.11
+            },
+            {
+              "Depth": 90.625,
+              "Date": 4693.110000000001,
+              "StandardDeviation": 1081.49
+            },
+            {
+              "Depth": 90.25,
+              "Date": 4669.4,
+              "StandardDeviation": 1082.74
+            },
+            {
+              "Depth": 89.875,
+              "Date": 4645.9,
+              "StandardDeviation": 1083.75
+            },
+            {
+              "Depth": 89.5,
+              "Date": 4622.54,
+              "StandardDeviation": 1085.85
+            },
+            {
+              "Depth": 89.125,
+              "Date": 4599.04,
+              "StandardDeviation": 1086.73
+            },
+            {
+              "Depth": 88.75,
+              "Date": 4575.5599999999995,
+              "StandardDeviation": 1088.52
+            },
+            {
+              "Depth": 88.375,
+              "Date": 4552.3,
+              "StandardDeviation": 1090.07
+            },
+            {
+              "Depth": 88.0,
+              "Date": 4528.49,
+              "StandardDeviation": 1092.55
+            },
+            {
+              "Depth": 87.625,
+              "Date": 4504.93,
+              "StandardDeviation": 1092.33
+            },
+            {
+              "Depth": 87.25,
+              "Date": 4481.33,
+              "StandardDeviation": 1093.04
+            },
+            {
+              "Depth": 86.875,
+              "Date": 4458.1900000000005,
+              "StandardDeviation": 1093.49
+            },
+            {
+              "Depth": 86.5,
+              "Date": 4434.29,
+              "StandardDeviation": 1094.86
+            },
+            {
+              "Depth": 86.125,
+              "Date": 4410.24,
+              "StandardDeviation": 1095.27
+            },
+            {
+              "Depth": 85.75,
+              "Date": 4386.530000000001,
+              "StandardDeviation": 1096.57
+            },
+            {
+              "Depth": 85.375,
+              "Date": 4362.9400000000005,
+              "StandardDeviation": 1097.58
+            },
+            {
+              "Depth": 85.0,
+              "Date": 4339.6,
+              "StandardDeviation": 1099.52
+            },
+            {
+              "Depth": 84.625,
+              "Date": 4316.04,
+              "StandardDeviation": 1099.64
+            },
+            {
+              "Depth": 84.25,
+              "Date": 4292.79,
+              "StandardDeviation": 1100.72
+            },
+            {
+              "Depth": 83.875,
+              "Date": 4269.34,
+              "StandardDeviation": 1101.59
+            },
+            {
+              "Depth": 83.5,
+              "Date": 4246.0599999999995,
+              "StandardDeviation": 1103.38
+            },
+            {
+              "Depth": 83.125,
+              "Date": 4222.43,
+              "StandardDeviation": 1104.04
+            },
+            {
+              "Depth": 82.75,
+              "Date": 4198.29,
+              "StandardDeviation": 1105.7
+            },
+            {
+              "Depth": 82.375,
+              "Date": 4174.48,
+              "StandardDeviation": 1107.15
+            },
+            {
+              "Depth": 82.0,
+              "Date": 4150.55,
+              "StandardDeviation": 1109.48
+            },
+            {
+              "Depth": 81.625,
+              "Date": 4126.16,
+              "StandardDeviation": 1106.72
+            },
+            {
+              "Depth": 81.25,
+              "Date": 4102.34,
+              "StandardDeviation": 1105.01
+            },
+            {
+              "Depth": 80.875,
+              "Date": 4078.94,
+              "StandardDeviation": 1103.11
+            },
+            {
+              "Depth": 80.5,
+              "Date": 4055.16,
+              "StandardDeviation": 1102.11
+            },
+            {
+              "Depth": 80.125,
+              "Date": 4031.93,
+              "StandardDeviation": 1099.92
+            },
+            {
+              "Depth": 79.75,
+              "Date": 4008.41,
+              "StandardDeviation": 1098.68
+            },
+            {
+              "Depth": 79.375,
+              "Date": 3984.12,
+              "StandardDeviation": 1097.18
+            },
+            {
+              "Depth": 79.0,
+              "Date": 3960.5,
+              "StandardDeviation": 1096.63
+            },
+            {
+              "Depth": 78.625,
+              "Date": 3936.98,
+              "StandardDeviation": 1094.25
+            },
+            {
+              "Depth": 78.25,
+              "Date": 3913.2799999999997,
+              "StandardDeviation": 1092.84
+            },
+            {
+              "Depth": 77.875,
+              "Date": 3889.54,
+              "StandardDeviation": 1091.16
+            },
+            {
+              "Depth": 77.5,
+              "Date": 3866.38,
+              "StandardDeviation": 1090.47
+            },
+            {
+              "Depth": 77.125,
+              "Date": 3843.37,
+              "StandardDeviation": 1088.68
+            },
+            {
+              "Depth": 76.75,
+              "Date": 3820.01,
+              "StandardDeviation": 1087.79
+            },
+            {
+              "Depth": 76.375,
+              "Date": 3796.42,
+              "StandardDeviation": 1086.73
+            },
+            {
+              "Depth": 76.0,
+              "Date": 3772.65,
+              "StandardDeviation": 1086.53
+            },
+            {
+              "Depth": 75.625,
+              "Date": 3749.25,
+              "StandardDeviation": 1083.7
+            },
+            {
+              "Depth": 75.25,
+              "Date": 3726.1099999999997,
+              "StandardDeviation": 1081.8
+            },
+            {
+              "Depth": 74.875,
+              "Date": 3702.3,
+              "StandardDeviation": 1079.59
+            },
+            {
+              "Depth": 74.5,
+              "Date": 3678.5299999999997,
+              "StandardDeviation": 1078.25
+            },
+            {
+              "Depth": 74.125,
+              "Date": 3655.09,
+              "StandardDeviation": 1075.94
+            },
+            {
+              "Depth": 73.75,
+              "Date": 3631.67,
+              "StandardDeviation": 1074.39
+            },
+            {
+              "Depth": 73.375,
+              "Date": 3607.3599999999997,
+              "StandardDeviation": 1072.55
+            },
+            {
+              "Depth": 73.0,
+              "Date": 3583.1400000000003,
+              "StandardDeviation": 1071.71
+            },
+            {
+              "Depth": 72.625,
+              "Date": 3559.38,
+              "StandardDeviation": 1069.06
+            },
+            {
+              "Depth": 72.25,
+              "Date": 3535.46,
+              "StandardDeviation": 1067.5
+            },
+            {
+              "Depth": 71.875,
+              "Date": 3511.5299999999997,
+              "StandardDeviation": 1065.56
+            },
+            {
+              "Depth": 71.5,
+              "Date": 3487.63,
+              "StandardDeviation": 1064.61
+            },
+            {
+              "Depth": 71.125,
+              "Date": 3464.49,
+              "StandardDeviation": 1062.56
+            },
+            {
+              "Depth": 70.75,
+              "Date": 3440.85,
+              "StandardDeviation": 1061.46
+            },
+            {
+              "Depth": 70.375,
+              "Date": 3417.55,
+              "StandardDeviation": 1060.15
+            },
+            {
+              "Depth": 70.0,
+              "Date": 3394.19,
+              "StandardDeviation": 1059.79
+            },
+            {
+              "Depth": 69.625,
+              "Date": 3370.79,
+              "StandardDeviation": 1055.38
+            },
+            {
+              "Depth": 69.25,
+              "Date": 3347.01,
+              "StandardDeviation": 1051.81
+            },
+            {
+              "Depth": 68.875,
+              "Date": 3323.84,
+              "StandardDeviation": 1048.18
+            },
+            {
+              "Depth": 68.5,
+              "Date": 3300.05,
+              "StandardDeviation": 1045.38
+            },
+            {
+              "Depth": 68.125,
+              "Date": 3276.56,
+              "StandardDeviation": 1041.42
+            },
+            {
+              "Depth": 67.75,
+              "Date": 3253.27,
+              "StandardDeviation": 1038.45
+            },
+            {
+              "Depth": 67.375,
+              "Date": 3229.19,
+              "StandardDeviation": 1035.09
+            },
+            {
+              "Depth": 67.0,
+              "Date": 3205.66,
+              "StandardDeviation": 1032.78
+            },
+            {
+              "Depth": 66.625,
+              "Date": 3181.2799999999997,
+              "StandardDeviation": 1028.63
+            },
+            {
+              "Depth": 66.25,
+              "Date": 3157.19,
+              "StandardDeviation": 1025.44
+            },
+            {
+              "Depth": 65.875,
+              "Date": 3133.77,
+              "StandardDeviation": 1022.02
+            },
+            {
+              "Depth": 65.5,
+              "Date": 3110.59,
+              "StandardDeviation": 1019.63
+            },
+            {
+              "Depth": 65.125,
+              "Date": 3086.34,
+              "StandardDeviation": 1015.9
+            },
+            {
+              "Depth": 64.75,
+              "Date": 3062.56,
+              "StandardDeviation": 1013.12
+            },
+            {
+              "Depth": 64.375,
+              "Date": 3039.35,
+              "StandardDeviation": 1010.25
+            },
+            {
+              "Depth": 64.0,
+              "Date": 3015.92,
+              "StandardDeviation": 1008.36
+            },
+            {
+              "Depth": 63.625,
+              "Date": 2991.8599999999997,
+              "StandardDeviation": 1003.32
+            },
+            {
+              "Depth": 63.25,
+              "Date": 2967.93,
+              "StandardDeviation": 999.302
+            },
+            {
+              "Depth": 62.875,
+              "Date": 2944.629,
+              "StandardDeviation": 995.147
+            },
+            {
+              "Depth": 62.5,
+              "Date": 2920.938,
+              "StandardDeviation": 991.976
+            },
+            {
+              "Depth": 62.125,
+              "Date": 2897.5460000000003,
+              "StandardDeviation": 987.702
+            },
+            {
+              "Depth": 61.75,
+              "Date": 2873.918,
+              "StandardDeviation": 984.321
+            },
+            {
+              "Depth": 61.375,
+              "Date": 2850.857,
+              "StandardDeviation": 980.798
+            },
+            {
+              "Depth": 61.0,
+              "Date": 2827.049,
+              "StandardDeviation": 978.164
+            },
+            {
+              "Depth": 60.625,
+              "Date": 2803.487,
+              "StandardDeviation": 973.595
+            },
+            {
+              "Depth": 60.25,
+              "Date": 2779.66,
+              "StandardDeviation": 969.949
+            },
+            {
+              "Depth": 59.875,
+              "Date": 2756.089,
+              "StandardDeviation": 966.171
+            },
+            {
+              "Depth": 59.5,
+              "Date": 2732.732,
+              "StandardDeviation": 963.386
+            },
+            {
+              "Depth": 59.125,
+              "Date": 2709.19,
+              "StandardDeviation": 959.32
+            },
+            {
+              "Depth": 58.75,
+              "Date": 2685.801,
+              "StandardDeviation": 956.276
+            },
+            {
+              "Depth": 58.375,
+              "Date": 2662.168,
+              "StandardDeviation": 953.024
+            },
+            {
+              "Depth": 58.0,
+              "Date": 2637.809,
+              "StandardDeviation": 950.643
+            },
+            {
+              "Depth": 57.625,
+              "Date": 2614.77,
+              "StandardDeviation": 942.958
+            },
+            {
+              "Depth": 57.25,
+              "Date": 2591.07,
+              "StandardDeviation": 936.09
+            },
+            {
+              "Depth": 56.875,
+              "Date": 2566.844,
+              "StandardDeviation": 928.782
+            },
+            {
+              "Depth": 56.5,
+              "Date": 2543.639,
+              "StandardDeviation": 922.783
+            },
+            {
+              "Depth": 56.125,
+              "Date": 2520.145,
+              "StandardDeviation": 915.409
+            },
+            {
+              "Depth": 55.75,
+              "Date": 2496.428,
+              "StandardDeviation": 909.016
+            },
+            {
+              "Depth": 55.375,
+              "Date": 2472.459,
+              "StandardDeviation": 902.208
+            },
+            {
+              "Depth": 55.0,
+              "Date": 2448.614,
+              "StandardDeviation": 896.429
+            },
+            {
+              "Depth": 54.625,
+              "Date": 2425.177,
+              "StandardDeviation": 888.661
+            },
+            {
+              "Depth": 54.25,
+              "Date": 2401.708,
+              "StandardDeviation": 881.879
+            },
+            {
+              "Depth": 53.875,
+              "Date": 2377.632,
+              "StandardDeviation": 874.709
+            },
+            {
+              "Depth": 53.5,
+              "Date": 2353.791,
+              "StandardDeviation": 868.617
+            },
+            {
+              "Depth": 53.125,
+              "Date": 2330.319,
+              "StandardDeviation": 861.318
+            },
+            {
+              "Depth": 52.75,
+              "Date": 2306.36,
+              "StandardDeviation": 854.931
+            },
+            {
+              "Depth": 52.375,
+              "Date": 2283.083,
+              "StandardDeviation": 848.44
+            },
+            {
+              "Depth": 52.0,
+              "Date": 2259.42,
+              "StandardDeviation": 842.862
+            },
+            {
+              "Depth": 51.625,
+              "Date": 2236.267,
+              "StandardDeviation": 833.903
+            },
+            {
+              "Depth": 51.25,
+              "Date": 2212.399,
+              "StandardDeviation": 825.96
+            },
+            {
+              "Depth": 50.875,
+              "Date": 2188.383,
+              "StandardDeviation": 817.484
+            },
+            {
+              "Depth": 50.5,
+              "Date": 2164.779,
+              "StandardDeviation": 810.368
+            },
+            {
+              "Depth": 50.125,
+              "Date": 2141.555,
+              "StandardDeviation": 801.825
+            },
+            {
+              "Depth": 49.75,
+              "Date": 2117.815,
+              "StandardDeviation": 794.087
+            },
+            {
+              "Depth": 49.375,
+              "Date": 2094.255,
+              "StandardDeviation": 786.196
+            },
+            {
+              "Depth": 49.0,
+              "Date": 2070.265,
+              "StandardDeviation": 779.318
+            },
+            {
+              "Depth": 48.625,
+              "Date": 2046.0614,
+              "StandardDeviation": 769.817
+            },
+            {
+              "Depth": 48.25,
+              "Date": 2022.5141,
+              "StandardDeviation": 761.871
+            },
+            {
+              "Depth": 47.875,
+              "Date": 1999.2223,
+              "StandardDeviation": 753.405
+            },
+            {
+              "Depth": 47.5,
+              "Date": 1975.3351,
+              "StandardDeviation": 745.939
+            },
+            {
+              "Depth": 47.125,
+              "Date": 1951.52504,
+              "StandardDeviation": 737.02
+            },
+            {
+              "Depth": 46.75,
+              "Date": 1928.1163999999999,
+              "StandardDeviation": 729.467
+            },
+            {
+              "Depth": 46.375,
+              "Date": 1904.4052,
+              "StandardDeviation": 721.327
+            },
+            {
+              "Depth": 46.0,
+              "Date": 1881.4133,
+              "StandardDeviation": 714.583
+            },
+            {
+              "Depth": 45.625,
+              "Date": 1857.2122,
+              "StandardDeviation": 701.388
+            },
+            {
+              "Depth": 45.25,
+              "Date": 1832.881,
+              "StandardDeviation": 689.283
+            },
+            {
+              "Depth": 44.875,
+              "Date": 1809.226,
+              "StandardDeviation": 676.943
+            },
+            {
+              "Depth": 44.5,
+              "Date": 1785.634,
+              "StandardDeviation": 665.92
+            },
+            {
+              "Depth": 44.125,
+              "Date": 1761.958,
+              "StandardDeviation": 652.971
+            },
+            {
+              "Depth": 43.75,
+              "Date": 1738.94,
+              "StandardDeviation": 641.544
+            },
+            {
+              "Depth": 43.375,
+              "Date": 1715.5140000000001,
+              "StandardDeviation": 629.443
+            },
+            {
+              "Depth": 43.0,
+              "Date": 1691.887,
+              "StandardDeviation": 618.638
+            },
+            {
+              "Depth": 42.625,
+              "Date": 1668.156,
+              "StandardDeviation": 604.314
+            },
+            {
+              "Depth": 42.25,
+              "Date": 1644.158,
+              "StandardDeviation": 591.151
+            },
+            {
+              "Depth": 41.875,
+              "Date": 1620.667,
+              "StandardDeviation": 577.559
+            },
+            {
+              "Depth": 41.5,
+              "Date": 1597.115,
+              "StandardDeviation": 565.404
+            },
+            {
+              "Depth": 41.125,
+              "Date": 1573.214,
+              "StandardDeviation": 550.836
+            },
+            {
+              "Depth": 40.75,
+              "Date": 1549.251,
+              "StandardDeviation": 537.581
+            },
+            {
+              "Depth": 40.375,
+              "Date": 1526.204,
+              "StandardDeviation": 524.106
+            },
+            {
+              "Depth": 40.0,
+              "Date": 1503.091,
+              "StandardDeviation": 512.045
+            },
+            {
+              "Depth": 39.625,
+              "Date": 1479.377,
+              "StandardDeviation": 493.288
+            },
+            {
+              "Depth": 39.25,
+              "Date": 1455.8609999999999,
+              "StandardDeviation": 476.179
+            },
+            {
+              "Depth": 38.875,
+              "Date": 1432.993,
+              "StandardDeviation": 458.546
+            },
+            {
+              "Depth": 38.5,
+              "Date": 1409.636,
+              "StandardDeviation": 441.952
+            },
+            {
+              "Depth": 38.125,
+              "Date": 1386.089,
+              "StandardDeviation": 421.778
+            },
+            {
+              "Depth": 37.75,
+              "Date": 1361.949,
+              "StandardDeviation": 402.484
+            },
+            {
+              "Depth": 37.375,
+              "Date": 1338.319,
+              "StandardDeviation": 382.044
+            },
+            {
+              "Depth": 37.0,
+              "Date": 1314.222,
+              "StandardDeviation": 362.778
+            },
+            {
+              "Depth": 36.625,
+              "Date": 1290.377,
+              "StandardDeviation": 337.1
+            },
+            {
+              "Depth": 36.25,
+              "Date": 1266.656,
+              "StandardDeviation": 312.68
+            },
+            {
+              "Depth": 35.875,
+              "Date": 1243.758,
+              "StandardDeviation": 286.405
+            },
+            {
+              "Depth": 35.5,
+              "Date": 1219.772,
+              "StandardDeviation": 259.689
+            },
+            {
+              "Depth": 35.125,
+              "Date": 1196.696,
+              "StandardDeviation": 226.14
+            },
+            {
+              "Depth": 34.75,
+              "Date": 1172.739,
+              "StandardDeviation": 190.154
+            },
+            {
+              "Depth": 34.375,
+              "Date": 1148.491,
+              "StandardDeviation": 143.446
+            },
+            {
+              "Depth": 34.0,
+              "Date": 1124.567,
+              "StandardDeviation": 84.7253
+            },
+            {
+              "Depth": 33.5,
+              "Date": 1106.926,
+              "StandardDeviation": 106.394
+            },
+            {
+              "Depth": 33.0,
+              "Date": 1089.342,
+              "StandardDeviation": 126.137
+            },
+            {
+              "Depth": 32.5,
+              "Date": 1072.02,
+              "StandardDeviation": 141.972
+            },
+            {
+              "Depth": 32.0,
+              "Date": 1054.4270000000001,
+              "StandardDeviation": 157.731
+            },
+            {
+              "Depth": 31.5,
+              "Date": 1037.5720000000001,
+              "StandardDeviation": 169.324
+            },
+            {
+              "Depth": 31.0,
+              "Date": 1019.743,
+              "StandardDeviation": 181.831
+            },
+            {
+              "Depth": 30.5,
+              "Date": 1002.254,
+              "StandardDeviation": 192.817
+            },
+            {
+              "Depth": 30.0,
+              "Date": 984.888,
+              "StandardDeviation": 204.185
+            },
+            {
+              "Depth": 29.5,
+              "Date": 967.436,
+              "StandardDeviation": 211.965
+            },
+            {
+              "Depth": 29.0,
+              "Date": 950.311,
+              "StandardDeviation": 220.291
+            },
+            {
+              "Depth": 28.5,
+              "Date": 932.71,
+              "StandardDeviation": 227.958
+            },
+            {
+              "Depth": 28.0,
+              "Date": 915.4000000000001,
+              "StandardDeviation": 236.251
+            },
+            {
+              "Depth": 27.5,
+              "Date": 897.7,
+              "StandardDeviation": 242.788
+            },
+            {
+              "Depth": 27.0,
+              "Date": 880.05,
+              "StandardDeviation": 249.972
+            },
+            {
+              "Depth": 26.5,
+              "Date": 862.56,
+              "StandardDeviation": 256.396
+            },
+            {
+              "Depth": 26.0,
+              "Date": 845.19,
+              "StandardDeviation": 263.428
+            },
+            {
+              "Depth": 25.5,
+              "Date": 827.97,
+              "StandardDeviation": 266.57
+            },
+            {
+              "Depth": 25.0,
+              "Date": 810.5899999999999,
+              "StandardDeviation": 270.527
+            },
+            {
+              "Depth": 24.5,
+              "Date": 793.23,
+              "StandardDeviation": 273.931
+            },
+            {
+              "Depth": 24.0,
+              "Date": 775.8299999999999,
+              "StandardDeviation": 278.126
+            },
+            {
+              "Depth": 23.5,
+              "Date": 758.02,
+              "StandardDeviation": 280.868
+            },
+            {
+              "Depth": 23.0,
+              "Date": 740.51,
+              "StandardDeviation": 284.368
+            },
+            {
+              "Depth": 22.5,
+              "Date": 722.8800000000001,
+              "StandardDeviation": 287.329
+            },
+            {
+              "Depth": 22.0,
+              "Date": 705.8499999999999,
+              "StandardDeviation": 290.866
+            },
+            {
+              "Depth": 21.5,
+              "Date": 688.71,
+              "StandardDeviation": 292.262
+            },
+            {
+              "Depth": 21.0,
+              "Date": 671.6500000000001,
+              "StandardDeviation": 294.426
+            },
+            {
+              "Depth": 20.5,
+              "Date": 654.1099999999999,
+              "StandardDeviation": 296.123
+            },
+            {
+              "Depth": 20.0,
+              "Date": 636.3900000000001,
+              "StandardDeviation": 298.594
+            },
+            {
+              "Depth": 19.5,
+              "Date": 618.76,
+              "StandardDeviation": 299.728
+            },
+            {
+              "Depth": 19.0,
+              "Date": 601.23,
+              "StandardDeviation": 301.558
+            },
+            {
+              "Depth": 18.5,
+              "Date": 583.29,
+              "StandardDeviation": 303.014
+            },
+            {
+              "Depth": 18.0,
+              "Date": 565.78,
+              "StandardDeviation": 305.108
+            },
+            {
+              "Depth": 17.5,
+              "Date": 548.4100000000001,
+              "StandardDeviation": 302.668
+            },
+            {
+              "Depth": 17.0,
+              "Date": 530.6300000000001,
+              "StandardDeviation": 300.894
+            },
+            {
+              "Depth": 16.5,
+              "Date": 513.1700000000001,
+              "StandardDeviation": 298.681
+            },
+            {
+              "Depth": 16.0,
+              "Date": 495.68000000000006,
+              "StandardDeviation": 297.274
+            },
+            {
+              "Depth": 15.5,
+              "Date": 477.98,
+              "StandardDeviation": 294.441
+            },
+            {
+              "Depth": 15.0,
+              "Date": 461.0,
+              "StandardDeviation": 292.465
+            },
+            {
+              "Depth": 14.5,
+              "Date": 443.24,
+              "StandardDeviation": 289.882
+            },
+            {
+              "Depth": 14.0,
+              "Date": 425.78,
+              "StandardDeviation": 288.04
+            },
+            {
+              "Depth": 13.5,
+              "Date": 408.24,
+              "StandardDeviation": 283.953
+            },
+            {
+              "Depth": 13.0,
+              "Date": 390.5899999999999,
+              "StandardDeviation": 280.575
+            },
+            {
+              "Depth": 12.5,
+              "Date": 373.26,
+              "StandardDeviation": 276.761
+            },
+            {
+              "Depth": 12.0,
+              "Date": 355.70000000000005,
+              "StandardDeviation": 273.629
+            },
+            {
+              "Depth": 11.5,
+              "Date": 338.0899999999999,
+              "StandardDeviation": 268.995
+            },
+            {
+              "Depth": 11.0,
+              "Date": 320.8900000000001,
+              "StandardDeviation": 265.25
+            },
+            {
+              "Depth": 10.5,
+              "Date": 303.3699999999999,
+              "StandardDeviation": 260.806
+            },
+            {
+              "Depth": 10.0,
+              "Date": 286.3599999999999,
+              "StandardDeviation": 257.256
+            },
+            {
+              "Depth": 9.5,
+              "Date": 268.5799999999999,
+              "StandardDeviation": 249.454
+            },
+            {
+              "Depth": 9.0,
+              "Date": 251.01,
+              "StandardDeviation": 242.362
+            },
+            {
+              "Depth": 8.5,
+              "Date": 233.70000000000005,
+              "StandardDeviation": 234.716
+            },
+            {
+              "Depth": 8.0,
+              "Date": 216.97000000000003,
+              "StandardDeviation": 228.008
+            },
+            {
+              "Depth": 7.5,
+              "Date": 199.42000000000007,
+              "StandardDeviation": 218.818
+            },
+            {
+              "Depth": 7.0,
+              "Date": 181.6500000000001,
+              "StandardDeviation": 210.189
+            },
+            {
+              "Depth": 6.5,
+              "Date": 164.1199999999999,
+              "StandardDeviation": 200.641
+            },
+            {
+              "Depth": 6.0,
+              "Date": 146.26999999999998,
+              "StandardDeviation": 191.551
+            },
+            {
+              "Depth": 5.5,
+              "Date": 129.25,
+              "StandardDeviation": 179.063
+            },
+            {
+              "Depth": 5.0,
+              "Date": 111.5,
+              "StandardDeviation": 166.454
+            },
+            {
+              "Depth": 4.5,
+              "Date": 94.06999999999994,
+              "StandardDeviation": 152.048
+            },
+            {
+              "Depth": 4.0,
+              "Date": 76.41000000000008,
+              "StandardDeviation": 137.763
+            },
+            {
+              "Depth": 3.5,
+              "Date": 59.00999999999999,
+              "StandardDeviation": 118.723
+            },
+            {
+              "Depth": 3.0,
+              "Date": 41.50999999999999,
+              "StandardDeviation": 98.153
+            },
+            {
+              "Depth": 2.5,
+              "Date": 24.299999999999955,
+              "StandardDeviation": 70.2917
+            },
+            {
+              "Depth": 2.0,
+              "Date": 6.980000000000018,
+              "StandardDeviation": 26.5845
+            },
+            {
+              "Depth": 1.5,
+              "Date": 5.410000000000082,
+              "StandardDeviation": 22.315
+            },
+            {
+              "Depth": 1.0,
+              "Date": 3.769999999999982,
+              "StandardDeviation": 17.5279
+            },
+            {
+              "Depth": 0.5,
+              "Date": 2.1400000000001,
+              "StandardDeviation": 11.8387
+            },
+            {
+              "Depth": 0.0,
+              "Date": 0.5,
+              "StandardDeviation": 0.0
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "63dde0f2-2622-46c4-bcb0-274960087010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "ddcf419f-f719-40b2-a5d8-fced482c9a1f"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "Calibrated": {
+            "CalibrationCurve": {
+              "item": "Atmospheric data from Reimer et al (2020)"
+            },
+            "InputDate": 6210.0,
+            "InputStandardDeviation": 340.0,
+            "DateRanges": [
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 67.293536
+                },
+                "EarlierBound": 7427.5,
+                "LaterBound": 6731.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 0.975414
+                },
+                "EarlierBound": 6693.5,
+                "LaterBound": 6679.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 94.376304
+                },
+                "EarlierBound": 7703.5,
+                "LaterBound": 6386.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 1.07367
+                },
+                "EarlierBound": 6374.5,
+                "LaterBound": 6313.0
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 99.73002
+                },
+                "EarlierBound": 8041.0,
+                "LaterBound": 5995.0
+              }
+            ],
+            "SoftwareUsed": {
+              "item": "OxCal"
+            },
+            "Origin": {
+              "PartOfReanalysis": [
+                {
+                  "item1": [
+                    "A",
+                    "C"
+                  ],
+                  "item2": "Martin"
+                },
+                {
+                  "item": "2024-11-05"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "63dde0f2-2622-46c4-bcb0-274960087010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "dd58d591-8f05-4bda-833b-c588bc3097f7"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "Calibrated": {
+            "CalibrationCurve": {
+              "item": "Atmospheric data from Reimer et al (2020)"
+            },
+            "InputDate": 1.0,
+            "InputStandardDeviation": 50.0,
+            "DateRanges": [
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 22.574418
+                },
+                "EarlierBound": 252.0,
+                "LaterBound": 226.5
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 20.510462
+                },
+                "EarlierBound": 136.5,
+                "LaterBound": 114.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 25.184069000000004
+                },
+                "EarlierBound": 67.0,
+                "LaterBound": 39.0
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 26.858925
+                },
+                "EarlierBound": 262.0,
+                "LaterBound": 219.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 68.591049
+                },
+                "EarlierBound": 143.5,
+                "LaterBound": 25.0
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 29.296571
+                },
+                "EarlierBound": 277.0,
+                "LaterBound": 172.0
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 70.43345
+                },
+                "EarlierBound": 152.5,
+                "LaterBound": 5.5
+              }
+            ],
+            "SoftwareUsed": {
+              "item": "OxCal"
+            },
+            "Origin": {
+              "PartOfReanalysis": [
+                {
+                  "item1": [
+                    "A",
+                    "C"
+                  ],
+                  "item2": "Martin"
+                },
+                {
+                  "item": "2024-11-05"
+                }
+              ]
+            },
+            "HasWarnings": [
+              {
+                "item": "Warning! Date probably out of range - 1+/-50BP"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "63dde0f2-2622-46c4-bcb0-274960087010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "4eb3370c-5075-4f93-8815-845e718ff17d"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "Calibrated": {
+            "CalibrationCurve": {
+              "item": "Atmospheric data from Reimer et al (2020)"
+            },
+            "InputDate": 8400.0,
+            "InputStandardDeviation": 80.0,
+            "DateRanges": [
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 5.559599
+                },
+                "EarlierBound": 9525.0,
+                "LaterBound": 9507.5
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 41.512713
+                },
+                "EarlierBound": 9493.5,
+                "LaterBound": 9399.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 21.196637
+                },
+                "EarlierBound": 9364.5,
+                "LaterBound": 9306.0
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 90.124871
+                },
+                "EarlierBound": 9538.0,
+                "LaterBound": 9253.0
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 1.7977430000000003
+                },
+                "EarlierBound": 9229.5,
+                "LaterBound": 9202.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 3.527359
+                },
+                "EarlierBound": 9176.5,
+                "LaterBound": 9140.5
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 99.335511
+                },
+                "EarlierBound": 9550.5,
+                "LaterBound": 9079.5
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 0.394509
+                },
+                "EarlierBound": 9059.5,
+                "LaterBound": 9026.0
+              }
+            ],
+            "SoftwareUsed": {
+              "item": "OxCal"
+            },
+            "Origin": {
+              "PartOfReanalysis": [
+                {
+                  "item1": [
+                    "A",
+                    "C"
+                  ],
+                  "item2": "Martin"
+                },
+                {
+                  "item": "2024-11-05"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "63dde0f2-2622-46c4-bcb0-274960087010"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "02d22971-de20-4242-a67b-96a32a3ecd0a"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "Calibrated": {
+            "CalibrationCurve": {
+              "item": "Atmospheric data from Reimer et al (2020)"
+            },
+            "InputDate": 1200.0,
+            "InputStandardDeviation": 70.0,
+            "DateRanges": [
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 10.634906
+                },
+                "EarlierBound": 1245.5,
+                "LaterBound": 1211.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 51.136938
+                },
+                "EarlierBound": 1177.5,
+                "LaterBound": 1055.0
+              },
+              {
+                "Sigma": "OneSigma",
+                "Probability": {
+                  "item": 6.497106
+                },
+                "EarlierBound": 1024.0,
+                "LaterBound": 1001.5
+              },
+              {
+                "Sigma": "TwoSigma",
+                "Probability": {
+                  "item": 95.449974
+                },
+                "EarlierBound": 1275.0,
+                "LaterBound": 963.5
+              },
+              {
+                "Sigma": "ThreeSigma",
+                "Probability": {
+                  "item": 99.73002
+                },
+                "EarlierBound": 1299.5,
+                "LaterBound": 924.5
+              }
+            ],
+            "SoftwareUsed": {
+              "item": "OxCal"
+            },
+            "Origin": {
+              "PartOfReanalysis": [
+                {
+                  "item1": [
+                    "A",
+                    "C"
+                  ],
+                  "item2": "Martin"
+                },
+                {
+                  "item": "2024-11-05"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  ]
+]
