@@ -1,0 +1,76 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "139c0ac6-be57-425b-a046-0d8aad829409"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibratedRanges": {
+              "CalibratedDate": [
+                {
+                  "Sigma": "OneSigma",
+                  "EarlierBound": 10889.0,
+                  "LaterBound": 10219.0
+                }
+              ],
+              "CalibrationCurve": {
+                "item": "Stuiver & Reimer (1993)"
+              },
+              "UncalibratedDate": {
+                "Date": 9450.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 170.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Drepunocladus exrtnnulutus"
+          },
+          "SampleDepth": {
+            "DepthPoint": {
+              "_depth": 100.0
+            }
+          },
+          "LabNumber": {
+            "item": "AAR-1421"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "139c0ac6-be57-425b-a046-0d8aad829409"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10430ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              10430.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

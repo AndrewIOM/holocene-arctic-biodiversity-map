@@ -1,0 +1,83 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "26e34cac-2ba3-44bb-ada4-8177f40a7d14"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibratedRanges": {
+              "CalibratedDate": [
+                {
+                  "Sigma": "OneSigma",
+                  "EarlierBound": 900.0,
+                  "LaterBound": 700.0
+                }
+              ],
+              "CalibrationCurve": {
+                "item": "Stuiver & Reimer (1993)"
+              },
+              "UncalibratedDate": {
+                "Date": 875.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 65.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Salix arctica"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 13.5
+              },
+              {
+                "_depth": 10.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "AAR-1505"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "26e34cac-2ba3-44bb-ada4-8177f40a7d14"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "760ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              760.0,
+              {
+                "item": "Stuiver & Reimer (1993)"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]
