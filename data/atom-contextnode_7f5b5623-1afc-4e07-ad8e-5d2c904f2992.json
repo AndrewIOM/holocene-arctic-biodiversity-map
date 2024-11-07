@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "7f5b5623-1afc-4e07-ad8e-5d2c904f2992"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Terte, Lake A"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "64°28'00\"N,51°35'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 160.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

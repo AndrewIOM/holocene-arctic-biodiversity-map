@@ -1,0 +1,82 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "11a14106-56a4-4d04-a043-01263079cf4e"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 790.0,
+              "CalibrationCurve": {
+                "item": "CALIB 4.0 terrestrial and marine (Stuiver and Reimer, 1993; Stuiver et al., 1998)"
+              },
+              "UncalibratedDate": {
+                "Date": 985.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 50.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinusSigma": [
+              "TwoSigma",
+              105.0
+            ]
+          },
+          "MaterialDated": {
+            "item": "Twigs"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 42.0
+              },
+              {
+                "_depth": 40.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "OxA-7286"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "11a14106-56a4-4d04-a043-01263079cf4e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "870ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              870.0,
+              {
+                "item": "CALIB 4.0"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

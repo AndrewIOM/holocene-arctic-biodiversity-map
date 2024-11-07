@@ -1,0 +1,77 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "0471fc39-0677-4d3e-a67d-90437789b505"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 4700.0,
+              "CalibrationCurve": {
+                "item": "CALIB 4.0 terrestrial and marine (Stuiver and Reimer, 1993; Stuiver et al., 1998)"
+              },
+              "UncalibratedDate": {
+                "Date": 4175.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 50.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinusSigma": [
+              "TwoSigma",
+              130.0
+            ]
+          },
+          "MaterialDated": {
+            "item": "Mosses"
+          },
+          "SampleDepth": {
+            "DepthPoint": {
+              "_depth": 124.0
+            }
+          },
+          "LabNumber": {
+            "item": "OxA-7287"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "0471fc39-0677-4d3e-a67d-90437789b505"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4700ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              4700.0,
+              {
+                "item": "CALIB 4.0"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

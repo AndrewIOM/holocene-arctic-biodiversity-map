@@ -43,6 +43,24 @@
         ]
       },
       {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_fredskild_thvdotgawg_1983"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_fredskild_thdoslahagl_1983"
+        ]
+      },
+      {
         "UUID": [
           "individualtimelinenode",
           "62f189eb-3bfe-4c5e-ad17-8c7ad4af4333"

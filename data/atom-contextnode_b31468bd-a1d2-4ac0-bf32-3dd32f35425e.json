@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b31468bd-a1d2-4ac0-bf32-3dd32f35425e"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Johannes Iversen Sø"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "64°24'00\"N,50°12'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 367.5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

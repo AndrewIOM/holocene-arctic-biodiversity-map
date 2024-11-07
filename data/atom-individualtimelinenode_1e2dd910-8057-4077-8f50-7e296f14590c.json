@@ -23,6 +23,132 @@
         ]
       },
       {
+        "UUID": [
+          "individualdatenode",
+          "efc802fe-3e6b-4ea8-bd65-32f5d4678316"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1e2dd910-8057-4077-8f50-7e296f14590c"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "f7fa7a39-cd67-4d32-9ab3-dad9fb76deb0"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1e2dd910-8057-4077-8f50-7e296f14590c"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "e4695432-ce9a-4fe9-9b39-e4df74a5e389"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1e2dd910-8057-4077-8f50-7e296f14590c"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "0471fc39-0677-4d3e-a67d-90437789b505"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1e2dd910-8057-4077-8f50-7e296f14590c"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "ffbd3be5-7677-4dd7-bf2f-b43f9552db67"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1e2dd910-8057-4077-8f50-7e296f14590c"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "11a14106-56a4-4d04-a043-01263079cf4e"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1e2dd910-8057-4077-8f50-7e296f14590c"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "dc78170f-d551-469b-bfb1-23288c1e7aaa"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1e2dd910-8057-4077-8f50-7e296f14590c"
+        ]
+      },
+      {
         "FriendlyKey": [
           "bioticproxycategorynode",
           "fossilmicro_pollen"
