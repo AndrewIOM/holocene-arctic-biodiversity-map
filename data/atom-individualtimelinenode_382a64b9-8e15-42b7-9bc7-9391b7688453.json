@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "382a64b9-8e15-42b7-9bc7-9391b7688453"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "382a64b9-8e15-42b7-9bc7-9391b7688453"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_diatom"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "382a64b9-8e15-42b7-9bc7-9391b7688453"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "382a64b9-8e15-42b7-9bc7-9391b7688453"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "c9eac38c-f72d-4f0f-83c8-f505c3d6a625"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "382a64b9-8e15-42b7-9bc7-9391b7688453"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "1000ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "382a64b9-8e15-42b7-9bc7-9391b7688453"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "CalYrBP": [
+              12000.0,
+              {
+                "item": "CALIB 4.0"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

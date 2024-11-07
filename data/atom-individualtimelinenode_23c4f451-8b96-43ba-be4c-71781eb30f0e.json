@@ -1,0 +1,127 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "23c4f451-8b96-43ba-be4c-71781eb30f0e"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "23c4f451-8b96-43ba-be4c-71781eb30f0e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossil_plants"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "23c4f451-8b96-43ba-be4c-71781eb30f0e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "adna_plants"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "23c4f451-8b96-43ba-be4c-71781eb30f0e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "23c4f451-8b96-43ba-be4c-71781eb30f0e"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "13c5c73b-e636-4934-b241-8581c5c66134"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "23c4f451-8b96-43ba-be4c-71781eb30f0e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "0ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "23c4f451-8b96-43ba-be4c-71781eb30f0e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10500ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

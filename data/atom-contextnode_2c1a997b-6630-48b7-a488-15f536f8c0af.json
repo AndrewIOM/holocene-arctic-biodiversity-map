@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "2c1a997b-6630-48b7-a488-15f536f8c0af"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Amdrup Land"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 80.816666
+              },
+              {
+                "item": -15.0
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 8.0
+                },
+                {
+                  "_depth": 100.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

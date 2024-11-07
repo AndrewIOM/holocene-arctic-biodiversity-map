@@ -36,5 +36,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_jasinski_lditdwanflcfm_2002"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "885e4bb7-cd5d-4860-92b3-6385b352d86d"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_jasinski_lditdwanflcfm_2002"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "a5fdd91b-7373-4656-b1b4-3ac114c13df7"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

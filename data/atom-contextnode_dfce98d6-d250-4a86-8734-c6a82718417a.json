@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "dfce98d6-d250-4a86-8734-c6a82718417a"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Depression J16"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 70.6227777
+              },
+              {
+                "item": -147.91
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 14.3
+                },
+                {
+                  "_depth": 26.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

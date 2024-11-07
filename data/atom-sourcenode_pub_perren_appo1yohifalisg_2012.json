@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_perren_appo1yohifalisg_2012"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "22df7549-60b6-407a-9712-83b5ace4fef3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b77cad92-0e69-4865-8547-511f519208f4"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Peters Bugt So PB2"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 75.304862
+              },
+              {
+                "item": -20.012898
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 140.0
+                },
+                {
+                  "_depth": 227.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

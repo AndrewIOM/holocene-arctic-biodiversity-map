@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b4822c3a-6120-4749-b847-fdd662364105"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Apatity bog "
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.51633
+              },
+              {
+                "item": 33.3508130556
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 37.0
+                },
+                {
+                  "_depth": 155.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

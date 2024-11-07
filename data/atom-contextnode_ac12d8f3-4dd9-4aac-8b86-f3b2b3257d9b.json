@@ -1,0 +1,53 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "ac12d8f3-4dd9-4aac-8b86-f3b2b3257d9b"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Igaliku"
+          },
+          "SamplingLocation": {
+            "Locality": [
+              {
+                "item": "Igaliku"
+              },
+              {
+                "item": "Kujalleq"
+              },
+              {
+                "item": "Kujalleq"
+              },
+              {
+                "item": "Greenland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Drainage ditch sediment"
+              },
+              {
+                "DepthRange": [
+                  {
+                    "_depth": 28.0
+                  },
+                  {
+                    "_depth": 47.0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

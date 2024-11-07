@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "15e18d8a-e70d-4a75-8b17-408837aa04cd"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Plot PINE"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 62.0
+              },
+              {
+                "item": 57.0
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 54.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

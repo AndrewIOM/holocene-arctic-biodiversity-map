@@ -1,0 +1,33 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "4f4e8247-b31a-4e13-b39d-c80a2f35b0c0"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "SS1381"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.03982
+              },
+              {
+                "item": -51.059437
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": "DepthRangeNotStated"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

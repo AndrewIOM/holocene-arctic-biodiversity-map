@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_bocher_ehiaprfjleg_1996"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "J"
+                ],
+                "item2": "Bocher"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "O"
+                  ],
+                  "item2": "Bennike"
+                }
+              ],
+              "Title": {
+                "item": "Early Holocene insect and plant remains from Jameson Land, East Greenland"
+              },
+              "Journal": {
+                "item": " Boreas"
+              },
+              "Year": 1996,
+              "Volume": 25,
+              "PageRange": {
+                "item1": 187,
+                "item2": 193
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -40,5 +40,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_guillemot_eopisgdtltmrfbaacfsils_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2bd29a7-515f-4263-9c3a-2ff3ca97e07f"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wagner_hecitsaengboalr_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0de32de2-948a-45d9-aad4-faf8cfeacef3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

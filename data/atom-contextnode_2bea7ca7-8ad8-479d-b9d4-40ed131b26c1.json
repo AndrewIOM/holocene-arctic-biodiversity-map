@@ -1,0 +1,45 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "2bea7ca7-8ad8-479d-b9d4-40ed131b26c1"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Saqqaa"
+          },
+          "SamplingLocation": {
+            "District": [
+              {
+                "item": "Vatnahverfi"
+              },
+              {
+                "item": "Kujalleq"
+              },
+              {
+                "item": "Greenland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 26.0
+                },
+                {
+                  "_depth": 49.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

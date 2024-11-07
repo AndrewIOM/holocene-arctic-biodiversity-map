@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_axford_tamoetmhwiegifc_2017"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c31a35ff-fcaa-4bef-8bea-8f04d2518007"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

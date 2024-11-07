@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_luoto_atawlifnlstlia_2020"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "94d0df1a-c441-490f-95c6-21b7fb9b630b"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

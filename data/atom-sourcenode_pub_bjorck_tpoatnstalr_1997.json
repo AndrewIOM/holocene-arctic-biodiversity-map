@@ -34,5 +34,60 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bjorck_tpoatnstalr_1997"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "8d1dfb69-1bc4-49de-b34d-88ec514c651c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bjorck_tpoatnstalr_1997"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "3991e9fa-b57d-4463-a7fb-dc32a15af096"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bjorck_tpoatnstalr_1997"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "6b4db4af-1f95-48e2-b17b-5434653117f3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

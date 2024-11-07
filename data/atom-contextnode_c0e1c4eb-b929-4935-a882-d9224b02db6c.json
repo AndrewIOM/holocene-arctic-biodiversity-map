@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "c0e1c4eb-b929-4935-a882-d9224b02db6c"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake SS2"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "66°59'24\"N,50°58'12\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 111.5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_sorvari_ldrtrawifl_2002"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "14288643-506b-476d-9984-9bb61320cf03"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

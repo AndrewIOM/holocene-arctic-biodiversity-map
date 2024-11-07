@@ -34,5 +34,96 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_solovieva_drt2ccwilftnur_2008"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "876a291a-64d1-45aa-9db5-492ae46f3813"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_solovieva_drt2ccwilftnur_2008"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0ba063ab-71d2-4505-9beb-3c84fd371e64"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_solovieva_drt2ccwilftnur_2008"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cc0a6ea3-7f34-4daa-acb3-02e14faba8a9"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_solovieva_drt2ccwilftnur_2008"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ebfa5a4f-73ac-4418-bebe-e444435c44b1"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_solovieva_drt2ccwilftnur_2008"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0dad5c12-14e7-447e-bdb6-601d0d499f96"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

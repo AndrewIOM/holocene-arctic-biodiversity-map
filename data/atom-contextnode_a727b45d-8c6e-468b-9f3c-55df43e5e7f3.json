@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "a727b45d-8c6e-468b-9f3c-55df43e5e7f3"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Chuna"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.95
+              },
+              {
+                "item": 32.483333
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 4.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

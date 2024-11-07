@@ -1,0 +1,22 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxycategorynode",
+        "fossilmicro_other_coleoptera"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyCategoryNode": {
+          "Microfossil": {
+            "OtherMicrofossilGroup": {
+              "item": "Coleoptera"
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

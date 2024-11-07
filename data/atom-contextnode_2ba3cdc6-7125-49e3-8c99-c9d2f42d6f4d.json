@@ -1,0 +1,44 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "2ba3cdc6-7125-49e3-8c99-c9d2f42d6f4d"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Olrik Fjord"
+          },
+          "SamplingLocation": {
+            "District": [
+              {
+                "item": "Thule region"
+              },
+              {
+                "item": "Qaasuitsup"
+              },
+              {
+                "item": "Greenland"
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "Remains found - non-excavation"
+              },
+              null
+            ]
+          },
+          "SampleLocationDescription": {
+            "item": "Remains found in various sites in area north of Olrik Fjord"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

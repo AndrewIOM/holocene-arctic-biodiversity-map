@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b3688ff7-aa92-414f-a8df-f89881b6a8b9"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Gardar (Igaliku)"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 60.9864333
+              },
+              {
+                "item": -45.42045
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "OtherOrigin": [
+              {
+                "item": "sediment - drainage ditch"
+              },
+              {
+                "DepthRange": [
+                  {
+                    "_depth": 28.0
+                  },
+                  {
+                    "_depth": 47.0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

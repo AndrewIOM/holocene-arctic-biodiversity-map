@@ -40,5 +40,114 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mcgowan_vtdtabial_2018"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1245923f-2d64-42de-88b8-8d0ed2f6ad6b"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mcgowan_vtdtabial_2018"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "5f77699b-e7e0-4e40-81cc-23963dfcf29b"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mcgowan_vtdtabial_2018"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "11c951e6-a1fd-406f-91bd-961a6c04dfd4"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mcgowan_vtdtabial_2018"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "13420a43-c27a-4702-9e8e-6452c4e8b3dd"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mcgowan_vtdtabial_2018"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ad7a50af-32b5-48b2-a373-5a8140afae8d"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mcgowan_vtdtabial_2018"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2afb5aa5-b82d-4cbb-bce5-083beaae5384"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

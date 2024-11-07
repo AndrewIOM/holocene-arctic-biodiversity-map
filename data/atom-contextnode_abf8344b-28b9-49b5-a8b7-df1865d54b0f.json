@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "abf8344b-28b9-49b5-a8b7-df1865d54b0f"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Alaska - Ruppert Lake"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.070763888
+              },
+              {
+                "item": -154.2448555
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 580.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

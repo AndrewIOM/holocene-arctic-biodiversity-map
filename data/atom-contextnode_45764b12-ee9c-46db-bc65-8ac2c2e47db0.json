@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "45764b12-ee9c-46db-bc65-8ac2c2e47db0"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Greenland - AT2"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 66.97336111
+              },
+              {
+                "item": -53.393036111
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 1100.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_shemesh_hccislifaorolbs_2001"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7311217a-3381-445a-942d-e7b395cb0ab1"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

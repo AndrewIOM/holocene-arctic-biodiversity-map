@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "02c6212c-2ae9-4e76-b67d-d798828dd172"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Somaslampi"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 69.2638888
+              },
+              {
+                "item": 21.5102777
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 72.0
+                },
+                {
+                  "_depth": 185.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

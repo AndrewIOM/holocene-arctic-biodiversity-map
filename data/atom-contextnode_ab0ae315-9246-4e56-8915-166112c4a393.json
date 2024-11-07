@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "ab0ae315-9246-4e56-8915-166112c4a393"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Norway - Dalmuttlado"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 69.18983888
+              },
+              {
+                "item": -20.7321388
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 475.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

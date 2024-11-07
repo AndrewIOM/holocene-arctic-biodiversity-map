@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "6da3ccf8-717f-4534-b776-65db2cf5d577"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Co 1410"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 67.715555
+              },
+              {
+                "item": 33.08511666
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 800.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
