@@ -237,6 +237,7 @@ let run () =
                         match r with
                         | GraphStructure.Relation.Exposure r ->
                             match r with
+                            | Exposure.ExtentEarliestSpecified _
                             | Exposure.ExposureRelation.ExtentEarliest -> true
                             | _ -> false
                         | _ -> false)
@@ -247,6 +248,7 @@ let run () =
                         match r with
                         | GraphStructure.Relation.Exposure r ->
                             match r with
+                            | Exposure.ExposureRelation.ExtentLatestSpecified _
                             | Exposure.ExposureRelation.ExtentLatest -> true
                             | _ -> false
                         | _ -> false)
@@ -494,6 +496,7 @@ let run () =
                                     individualDates |> List.map(fun d ->                        
                                         match d.Date with
                                         | FieldDataTypes.OldDate.RadiocarbonUncalibrated _ -> "Radiocarbon (Uncalibrated)"
+                                        | FieldDataTypes.OldDate.RadiocarbonCalibratedRanges _
                                         | FieldDataTypes.OldDate.RadiocarbonCalibrated _ -> "Radiocarbon (Calibrated)"
                                         | FieldDataTypes.OldDate.RadiocarbonUncalibratedConventional _ -> "Radiocarbon (Conventional - Uncalibrated)"
                                         | FieldDataTypes.OldDate.Tephra _ -> "Tephra layer"

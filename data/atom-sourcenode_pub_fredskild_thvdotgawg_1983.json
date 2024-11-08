@@ -8,24 +8,100 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Fredskild, B."
-            },
-            "Title": {
-              "item": "The Holocene vegetational development of the Godthabsfjord area, West Greenland"
-            },
-            "Journal": {
-              "item": "Meddelelser om Gronland, Geoscience"
-            },
-            "Year": 1983,
-            "Volume": 10,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Fredskild, B."
+              },
+              "Title": {
+                "item": "The Holocene vegetational development of the Godthabsfjord area, West Greenland"
+              },
+              "Journal": {
+                "item": "Meddelelser om Gronland, Geoscience"
+              },
+              "Year": 1983,
+              "Volume": 10,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_fredskild_thvdotgawg_1983"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "48d66bcb-89ff-4d3f-8713-057de0eb592b"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_fredskild_thvdotgawg_1983"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "317065f9-d59a-4a58-9592-ba20dcf81572"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_fredskild_thvdotgawg_1983"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_fredskild_thvdotgawg_1983"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

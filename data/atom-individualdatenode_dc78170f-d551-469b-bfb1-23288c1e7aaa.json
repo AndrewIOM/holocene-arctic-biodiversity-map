@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "dc78170f-d551-469b-bfb1-23288c1e7aaa"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 790.0,
+              "CalibrationCurve": {
+                "item": "CALIB 4.0 terrestrial and marine (Stuiver and Reimer, 1993; Stuiver et al., 1998)"
+              },
+              "UncalibratedDate": {
+                "Date": 845.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 40.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinusSigma": [
+              "TwoSigma",
+              115.0
+            ]
+          },
+          "MaterialDated": {
+            "item": "Twigs"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 34.0
+              },
+              {
+                "_depth": 32.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "OxA-7253"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "dc78170f-d551-469b-bfb1-23288c1e7aaa"
+        ]
+      },
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "bbda90db-5327-4ff1-aa3c-c7e16ca64292"
+        ]
+      },
+      1,
+      {
+        "Exposure": "UsedInCalibration"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "dc78170f-d551-469b-bfb1-23288c1e7aaa"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "790ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              790.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

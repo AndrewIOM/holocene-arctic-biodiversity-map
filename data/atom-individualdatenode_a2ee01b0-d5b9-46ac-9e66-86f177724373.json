@@ -1,0 +1,81 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "a2ee01b0-d5b9-46ac-9e66-86f177724373"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 7470.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 110.0
+          },
+          "MaterialDated": {
+            "item": "Gyttja"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 147.0
+              },
+              {
+                "_depth": 144.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "K-3191"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "a2ee01b0-d5b9-46ac-9e66-86f177724373"
+        ]
+      },
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "1f38cf7e-c0d2-499c-a29b-62ac41af9051"
+        ]
+      },
+      1,
+      {
+        "Exposure": "UsedInCalibration"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "a2ee01b0-d5b9-46ac-9e66-86f177724373"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7470ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 7470.0
+          }
+        }
+      }
+    ]
+  ]
+]

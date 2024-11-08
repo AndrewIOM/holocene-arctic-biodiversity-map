@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "dabab4f6-788f-4b4b-9f92-4d2ce7887733"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Karra"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "64°46'00\"N,50°35'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 168.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

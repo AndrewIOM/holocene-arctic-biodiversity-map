@@ -1,0 +1,225 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "5af90f88-570a-467b-9000-a3aa4bf8288c"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "3227aee2-c04f-4d63-8e58-710fbc693643"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "fe2b73e6-7425-449a-bf71-a8e1c25ea0a1"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "c70da311-6fd4-4d81-994a-bb5b4f1557d7"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_plantmacrofossil"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "dabab4f6-788f-4b4b-9f92-4d2ce7887733"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8555ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8925ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "0ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentLatestSpecified": {
+            "BP": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8740ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestSpecified": {
+            "BP": 8740.0
+          }
+        }
+      }
+    ]
+  ]
+]

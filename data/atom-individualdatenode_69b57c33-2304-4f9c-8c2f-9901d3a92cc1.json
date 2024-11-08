@@ -1,0 +1,81 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "69b57c33-2304-4f9c-8c2f-9901d3a92cc1"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 8960.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 190.0
+          },
+          "MaterialDated": {
+            "item": "Moss"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 180.0
+              },
+              {
+                "_depth": 178.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "K-2750"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "69b57c33-2304-4f9c-8c2f-9901d3a92cc1"
+        ]
+      },
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "1f38cf7e-c0d2-499c-a29b-62ac41af9051"
+        ]
+      },
+      1,
+      {
+        "Exposure": "UsedInCalibration"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "69b57c33-2304-4f9c-8c2f-9901d3a92cc1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8960ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 8960.0
+          }
+        }
+      }
+    ]
+  ]
+]

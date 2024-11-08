@@ -1,0 +1,100 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "efc802fe-3e6b-4ea8-bd65-32f5d4678316"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 10010.0,
+              "CalibrationCurve": {
+                "item": "CALIB 4.0 terrestrial and marine (Stuiver and Reimer, 1993; Stuiver et al., 1998)"
+              },
+              "UncalibratedDate": {
+                "Date": 8960.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 160.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinusSigma": [
+              "TwoSigma",
+              410.0
+            ]
+          },
+          "MaterialDated": {
+            "item": "Leaves, Twigs"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 242.0
+              },
+              {
+                "_depth": 240.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "UtC-8454"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "efc802fe-3e6b-4ea8-bd65-32f5d4678316"
+        ]
+      },
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "bbda90db-5327-4ff1-aa3c-c7e16ca64292"
+        ]
+      },
+      1,
+      {
+        "Exposure": "UsedInCalibration"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "efc802fe-3e6b-4ea8-bd65-32f5d4678316"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10010ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              10010.0,
+              {
+                "item": "CALIB 4.0"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]
