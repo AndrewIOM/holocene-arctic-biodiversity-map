@@ -77,6 +77,7 @@ let queryGraphForDates (graph:Storage.FileBasedGraph<GraphStructure.Node,GraphSt
                     match conn with
                     | Relation.Exposure r ->
                         match r with
+                        | Exposure.ExposureRelation.ExtentLatestSpecified _ -> Some sinkId
                         | Exposure.ExposureRelation.ExtentLatest -> Some sinkId
                         | _ -> None
                     | _ -> None )
@@ -525,9 +526,10 @@ match timelines with
 | Ok timelines ->
     printfn "Query identified %i timelines with individual dates." timelines.Length
 
-    // let timelines = 
-    //     timelines |> List.sortBy(fun (_,_,_,d) -> d.Length) 
-    //     |> List.splitInto 8 |> List.skip 7 |> List.head |> List.rev
+    let timelines =
+        //[ "317065f9-d59a-4a58-9592-ba20dcf81572"; "38a71e4f-a3fa-4afe-b3ab-7166c907c87e"; "48d66bcb-89ff-4d3f-8713-057de0eb592b"; "c2805b46-f963-491a-b825-766208e247a0" ]
+        
+        [ timelines |> List.find(fun (t,_,_,_) -> t.AsString.Contains "c2805b46-f963-491a-b825-766208e247a0") ]
 
     let updatedGraph =
         timelines
