@@ -3,17 +3,17 @@
     {
       "UUID": [
         "individualdatenode",
-        "557661ca-45a4-4f70-bfe8-b704e49b2516"
+        "47e29149-c016-4388-ac0a-ba1ad5761ee8"
       ]
     },
     {
       "ExposureNode": {
         "DateNode": {
           "Date": {
-            "RadiocarbonUncalibrated": 9590.0
+            "RadiocarbonUncalibrated": 14780.0
           },
           "MeasurementError": {
-            "DatingErrorPlusMinus": 120.0
+            "DatingErrorPlusMinus": 360.0
           },
           "MaterialDated": {
             "item": "Bulk"
@@ -21,15 +21,15 @@
           "SampleDepth": {
             "DepthBand": [
               {
-                "_depth": 179.5
+                "_depth": 190.5
               },
               {
-                "_depth": 175.5
+                "_depth": 194.5
               }
             ]
           },
           "LabNumber": {
-            "item": "Lu-3272"
+            "item": "Lu-3277"
           },
           "Discarded": false
         }
@@ -41,20 +41,20 @@
       {
         "UUID": [
           "individualdatenode",
-          "557661ca-45a4-4f70-bfe8-b704e49b2516"
+          "47e29149-c016-4388-ac0a-ba1ad5761ee8"
         ]
       },
       {
         "FriendlyKey": [
           "calyearnode",
-          "9590ybp"
+          "1000ybp"
         ]
       },
       1,
       {
         "Exposure": {
-          "TimeEstimate": {
-            "BP": 9590.0
+          "ExtentEarliestOutOfScope": {
+            "BP": 14780.0
           }
         }
       }
