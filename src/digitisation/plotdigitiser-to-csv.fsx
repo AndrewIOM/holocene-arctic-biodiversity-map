@@ -88,6 +88,8 @@ let withClosestRealDepth =
 
 let taxa = rows |> Array.map(fun r -> r.Morphotype) |> Array.distinct
 
+printfn "Real depths %A" realDepths
+
 let stacked =
     realDepths
     |> Array.map(fun depth ->
@@ -101,11 +103,11 @@ let stacked =
                 |> Option.defaultValue 0.
                 |> fun x -> if x < 0. then 0. else x
             )
-        sprintf "%f,%s" depth (values |> Array.map string |> String.concat ",")    
+        sprintf "%f\t%s" depth (values |> Array.map string |> String.concat "\t")    
     )
     |> Array.toList
 
-let header = sprintf "depth,%s" (taxa |> String.concat ",")
+let header = sprintf "depth\t%s" (taxa |> String.concat "\t")
 
 System.IO.File.WriteAllLines("processed-depth-data.csv", header :: stacked)
 
