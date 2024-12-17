@@ -1,0 +1,164 @@
+morphotype  taxon   rank	confidence
+Equisetum sp.	Equisetum	genus	fully-reliable
+Isoetes lacustris	Isoetes lacustris	species	fully-reliable
+Isoetes sectacea ssp. muric.	Isoetes sectacea ssp. muric.	subspecies	fully-reliable
+Diphasium type	Diphasium alpinum	species	unreliable
+Diphasium type	Diphasium complanatum	species	unreliable
+Diphasium type	Lycopodium dubium	species	unreliable
+Diphasium type	Lycopodium clavatum	species	unreliable
+Huperzia selago	Huperzia selago	species	fully-reliable
+Lycopodium dubium	Lycopodium dubium	species	fully-reliable
+Lycopodium dubium	Diphasium alpinum	species	fully-reliable
+Lycopodium dubium	Diphasium complanatum	species	fully-reliable
+Lycopodium dubium	Lycopodium clavatum	species	fully-reliable
+Lycopodium clavatum	Lycopodium clavatum	species	fairly-reliable
+Botrychium sp.	Botrychium	genus	fully-reliable
+Cystopteris fragilis ssp. fragilis	Cystopteris fragilis ssp. fragilis	subspecies	fully-reliable
+Cystopteris fragilis ssp. dickieana	Cystopteris fragilis ssp. dickieana	subspecies	fully-reliable
+Dryopteris type	Polypodiaceae	family	unreliable
+Gymnocarpium dryopteris	Gymnocarpium dryopteris species	fully-reliable
+Polystichum lonchitis	Polystichum lonchitis	species	fully-reliable
+Selaginella selaginoides	Selaginella selaginoides	species	fully-reliable
+Juniperus communis	Juniperus communis	species	fully-reliable
+Alnus sp.	Alnus	genus	fully-reliable
+Betula sp.  Betula  genus	fully-reliable
+Callitriche sp.	Callitriche	genus	failry-reliable
+Campanula sp.	Campanula	genus	fully-reliable
+Cerastium cerastoides	Cerastium cerastoides	species	fairly-reliable
+Cerastium-Stellaria type	Cerastium alpinum	species	unreliable
+Cerastium-Stellaria type	Cerastium arcticum	species	unreliable
+Cerastium-Stellaria type	Cerastium fontanum	species	unreliable
+Cerastium-Stellaria type	Stellaria longipes	species	unreliable
+Cerastium-Stellaria type	Stellaria calycantha	species	unreliable
+Cerastium-Stellaria type	Minuartia groenlandica	species	unreliable
+Cerastium-Stellaria type	Minuartia stricta	species	unreliable
+Melandrium sp.	Melandrium	genus	fully-reliable
+Melandrium apetalum	Melandrium apetalum	species	fully-reliable
+Melandrium trifiorum	Melandrium trifiorum	species	fully-reliable
+Minuartia type	Viscaria	genus	unreliable
+Minuartia type	Minuartia rubella	species	unreliable
+Minuartia type	Minuartia rossii	species	unreliable
+Minuartia type	Arenaria humifusa	species	unreliable
+Minuartia type	Arenaria pseudofrigida	species	unreliable
+Minuartia type	Honckenya	genus	unreliable
+Minuartia type	Silene acaulis	species	unreliable
+Sagina sp.	Sagina	genus	fully-reliable
+Silene acaulis type	Silene acaulis	species	fully-reliable
+Stellaria humifusa	Stellaria humifusa	species	fully-reliable
+Viscaria alpina	Viscaria alpina	species	fully-reliable
+Achillea-Tripleurospermum type	Achillea millefolium	species	unreliable
+Achillea-Tripleurospermum type	Tripleurospermum maritimum	species	unreliable
+Artemisia sp.	Artemisia	genus	fully-reliable
+Erigeron type	Erigeron	genus	unreliable
+Erigeron type	Gnaphalium	genus	unreliable
+Ligulifiorae	Hieracium	genus	fully-reliable
+Ligulifiorae	Taraxacum	genus	fully-reliable
+Ligulifiorae	Leontodon	genus	fully-reliable
+Streptopus amplexifolius	Streptopus amplexifolius	species	fully-reliable
+Cornus suecica/canadensis	Cornus suecica	species	fully-reliable
+Cornus suecica/canadensis	Cornus canadensis	species	fully-reliable
+Sedum sp.   Sedum   genus	fully-reliable
+Eutrema edwardsii	Eutrema edwardsii	species	fully-reliable
+Subularia aquatica	Subularia aquatica	species	fully-reliable
+Empetrum nigrum ssp. hermaphroditum	Empetrum nigrum ssp. hermaphroditum	subspecies	fully-reliable
+Cassiope type	Cassiope tetragona	species	unreliable
+Cassiope type	Harrimanella hypnoides	species	unreliable
+Harrimanella type	Cassiope tetragona	species	unreliable
+Harrimanella type	Harrimanella hypnoides	species	unreliable
+Ericales sp.	Ericales	genus	fully-reliable
+Ericales sp.	Loiseleuria	genus	fully-reliable
+Ledum type	Ledum palustre	species	unreliable
+Ledum type	Ledum decumbens	species	unreliable
+Ledum type	Ledum groenlandicum	species	unreliable
+Rhododendron-Arctostaphylos type	Rhododendron lapponicum	species	fully-reliable
+Rhododendron-Arctostaphylos type	Arctostaphylos uva-ursi	species	fully-reliable
+Rhododendron-Arctostaphylos type	Arctostaphylos aplina	species	fully-reliable
+Loiseleuria procumbens	Loiseleuria procumbens	species	fully-reliable
+Ericaceae sp.	Ericaceae	family	fully-reliable
+Ericaceae sp.	Phyllodoce coerulea	species	fully-reliable
+Ericaceae sp.	Pirola grandiflora	species	fully-reliable
+Ericaceae sp.	Pirola minor	species	fully-reliable
+Ericaceae sp.	Andromeda polifolia	species	fully-reliable
+Gentiana aurea	Gentiana aurea	species	fully-reliable
+Gentiana nivalis	Gentiana nivalis	species	fully-reliable
+Lomatogonium rotatum	Lomatogonium rotatum	species	fully-reliable
+Menyanthes trifoliata	Menyanthes trifoliata	species	fully-reliable
+Alopecurus alpinus type	Alopecurus alpinus	species	unreliable
+Elymus sp.	Elymus arenarius	species	fully-reliable
+Elymus sp.	Elymus arenarius s.str	subspecies	fully-reliable
+Phleum commutatum type	Phleum commutatum	species	unreliable
+Myriophyllum alterniflorum	Myriophyllum alterniflorum	species	fully-reliable
+Myriophyllum spicatum ssp. exalbescens	Myriophyllum spicatum ssp. exalbescens	subspecies	unreliable
+Hippuris vulgaris	Hippuris vulgaris	species	fully-reliable
+Luzula-Juncus	Luzula	genus	fully-reliable
+Luzula-Juncus	Juncus	genus	fully-reliable
+Thymus praecox	Thymus praecox	species	fully-reliable
+Pinguicula vulgaris	Pinguicula vulgaris	species	fully-reliable
+Tofieldia sp.	Tofieldia	genus	fully-reliable
+Chamaenerion sp.	Chamaenerion	genus	fairly-reliable
+Chamaenerion latifolium		Chamaenerion latifolium	species	fairly-reliable
+Epilobium sp.	Epilobium	genus	fully-reliable
+Papaver radicatum	Papaver radicatum	species	fully-reliable
+Lathyrus japonicus	Lathyrus japonicus	species	fully-reliable
+Plantago maritima ssp. borealis	Plantago maritima ssp. borealis	subspecies	fully-reliable
+Armeria sp.	Armeria	genus	fully-reliable
+Koenigia islandica	Koenigia islandica	species	fully-reliable
+Oxyria digyna	Oxyria digyna	species	fairly-reliable
+Oxyria-Rumex type	Oxyria	genus	fully-reliable
+Oxyria-Rumex type	Rumex acetosella	species	fully-reliable
+Oxyria-Rumex type	Rumex acetosa ssp. lapponicus	subspecies	fully-reliable
+Polygonum aviculare coll.	Polygonum aviculare	species	fully-reliable
+Polygonum viviparum	Polygonum viviparum	species	fully-reliable
+Rumex acetosella	Rumex acetosella	species	fully-reliable
+Rumex acetosella/acetosa	Rumex acetosella	species	fairly-reliable
+Rumex acetosella/acetosa	Rumex acetosa ssp. lapponicus	subspecies	fairly-reliable
+Montia fontana	Montia fontana	species	fully-reliable
+Potamogeton filiformis	Potamogeton filiformis	species	fully-reliable
+Eupotamogeton	Eupotamogeton	genus	fully-reliable
+Coptis trifoliata	Coptis trifoliata	species	fully-reliable
+Ranunculus sp.	Ranunculus	genus	fully-reliable
+Thalictrum alpinum	Thalictrum alpinum	species	fully-reliable
+Alchemilla sp.	Alchemilla	genus	unreliable
+Potentilla crantzii type	Potentilla crantzii	species	unreliable
+Potentilla crantzii type	Potentilla tridentata	species	unreliable
+Dryas type	Dryas	genus	unreliable
+Potentilla-Comarum type Potentilla egedii	species	unreliable
+Potentilla-Comarum type Potentilla pulchella	species	unreliable
+Potentilla-Comarum type Potentilla hookeriana	species	unreliable
+Potentilla-Comarum type Potentilla nivea	species	unreliable
+Potentilla-Comarum type Potentilla hyparctica	species	unreliable
+Potentilla-Comarum type Potentilla anserina	species	unreliable
+Potentilla-Comarum type Comarum palustre	species	unreliable
+Potentilla-Comarum type Sibbaldia procumbens	species	unreliable
+Galium sp.	Galium	genus	fully-reliable
+Salix sp.   Salix   genus	fully-reliable
+Salix herbacea type Salix herbacea  species	unreliable
+Saxifraga oppositifolia type	Saxifraga oppositifolia	species	fully-reliable
+Saxifraga oppositifolia type	Saxifraga tricuspidata	species	fully-reliable
+Saxifraga oppositifolia type	Saxifraga aizoides	species	fully-reliable
+Saxifraga oppositifolia type	Saxifraga paniculata	species	fully-reliable
+Saxifraga caespitosa type	Saxifraga caespitosa	species	unreliable
+Saxifraga caespitosa type	Saxifraga cernua	species	unreliable
+Saxifraga caespitosa type	Saxifraga hirculus	species	unreliable
+Saxifraga caespitosa type	Saxifraga flagellaris	species	unreliable
+Saxifraga caespitosa type	Saxifraga rivularis	species	unreliable
+Saxifraga caespitosa type	Saxifraga hyperborea	species	unreliable
+Saxifraga foliolosa type	Saxifraga foliolosa	species	unreliable
+Saxifraga foliolosa type	Saxifraga stellaris	species	unreliable
+Saxifraga nillalis type	Saxifraga nivalis	species	unreliable
+Saxifraga nillalis type	Saxifraga tenuis	species	unreliable
+Saxifraga nillalis type	Saxifraga hieraciifolia	species	unreliable
+Euphrasia type	Bartsia	genus	unreliable
+Euphrasia type	Euphrasia	genus	unreliable
+Euphrasia type	Rhinanthus	genus	unreliable
+Pedicularis sp.	Pedicularis	genus	fully-reliable
+Veronica sp.	Veronica	genus	fairly-reliable
+Veronica fruticans	Veronica fruticans	species	fairly-reliable
+Sparganium sp.	Sparganium	genus	fully-reliable
+Angelica archangelica ssp. norvegica    Angelica archangelica ssp. norvegica    subspecies	fully-reliable
+Ligusticum type	Ligusticum scoticum	species	unreliable
+Vaccinium type  Vaccinium vitis-idaea   species	unreliable
+Vaccinium type  Vaccinium uliginosum   species	unreliable
+Vaccinium type  Oxycoccus   genus	unreliable
+Sphagnum	Sphagnum	genus	fully-reliable
+Tilletia sphagni	Tilletia sphagni	species	fully-reliable
