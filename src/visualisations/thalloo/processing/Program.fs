@@ -11,7 +11,7 @@ type IndividualSiteCsv = CsvProvider<
     Sample = "source_id, source_title, source_year, source_authors, source_type, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, taxon_kingdom, taxon_family, taxon_genus, taxon_species, sample_origin, earliest_extent, latest_extent, proxy_category, variability_temp, variability_precip, max_temp, max_precip, min_temp, min_precip, elevation_change, dist_to_land_ice_max, dist_to_land_ice_min, dating_methods, dating_levels, depth_min, depth_max",
     Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), taxon_kingdom (string), taxon_family (string), taxon_genus (string), taxon_species (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string), variability_temp (float), variability_precip (float), max_temp (float), max_precip (float), min_temp (float), min_precip (float), elevation_change (int option), dist_to_land_ice_max (float), dist_to_land_ice_min (float), dating_methods (string), dating_levels (string), depth_min (float option), depth_max (float option)", HasHeaders = true>
 
-type CryosphereData = CsvProvider<"../../src/cryo-db/cryo_db.csv">
+type CryosphereData = CsvProvider<"../../../cryo-db/cryo_db.csv">
 
 let unwrap (f:float<_>) = float f
 let removeUnit (x:float<_>) = float x
@@ -148,10 +148,10 @@ let run () =
 
         // NB FSharp.Data uses relative path from net6.0 folder
         printfn "Loading cryospheric dataset"
-        let cryoDataset = CryosphereData.Load "../../../../../src/cryo-db/cryo_db.csv"
+        let cryoDataset = CryosphereData.Load "../../../../../../cryo-db/cryo_db.csv"
 
         printfn "Loading graph"
-        let! graph = Storage.loadOrInitGraph "../../data/"
+        let! graph = Storage.loadOrInitGraph "../../../../data/"
 
         printfn "Finding included and complete sources"
 

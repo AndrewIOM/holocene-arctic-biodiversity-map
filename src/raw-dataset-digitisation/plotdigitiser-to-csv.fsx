@@ -3,7 +3,7 @@
 // it into a dataset ready for import into the
 // graph database.
 
-// Data from plotdigitiser can easily be imported by
+// Data from plotdigitiser can be imported by
 // running it through this script.
 
 open System.IO
@@ -24,12 +24,12 @@ type HowDepthIsDefined =
 /// to which all other depths are rounded to. Alternatively, you may
 /// specify the depth levels manually by a range and their spacing
 /// (e.g. 2cm intervals between X and Y cm).
-let definitiveDepths = ByMorphotype "Cyperaceae"
+let definitiveDepths = ByMorphotype "Gramineae"
 // let definitiveDepths = ByLevels (0.5<cm>, 275.<cm>, 2.<cm>)
 
 /// The file in which the data is currently stored, either absolute
 /// or relative to the script.
-let filename = "test.csv"
+let filename = "/Users/andrewmartin/Desktop/Louie digitisations/Fredskild_1983_64_24N_51_41W_pollen.txt"
 
 
 // Script starts here:
@@ -47,8 +47,7 @@ let rows =
     fileContents.Split("\n")
     |> Array.skip 1
     |> Array.map(fun line ->
-        
-        let cells = line.Split ',' |> Array.map(fun s -> s.Trim())
+        let cells = line.Split '\t' |> Array.map(fun s -> s.Trim())
         {
             Depth = (cells.[1] |> float) * 1.<cm>
             Value = cells.[0] |> float

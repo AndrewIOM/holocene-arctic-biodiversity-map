@@ -8,7 +8,6 @@
 
 open BiodiversityCoder.Core
 open BiodiversityCoder.Core.Storage
-open Bolero
 
 let directory = "data/"
 let graph: Storage.FileBasedGraph<GraphStructure.Node,GraphStructure.Relation> =

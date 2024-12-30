@@ -45,47 +45,73 @@ scale_colour_publication <- function(...){
   discrete_scale("colour","Publication",scales::manual_pal(values = c("#386cb0","#fdb462","#7fc97f","#ef3b2c","#662506","#a6cee3","#fb9a99","#984ea3","#ffff33")), ...)
 }
 
-site_data <- tibble(read.csv("visualisation/thalloo-static-site/map-data/ahbdb_sites.csv"))
+site_data <- tibble(read.delim("visualisation/thalloo-static-site/map-data/ahbdb_sites.txt"))
 
 site_data_split <-
   site_data %>%
   separate_rows(proxy_category, sep = ";") %>%
   mutate(proxy_category = as.factor(proxy_category)) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'OtherProxy \\(ShortText \\"', "")) %>%
-  mutate(proxy_category = str_replace(proxy_category, '\\"\\)\\)', "")) %>%    
-  mutate(proxy_category = str_replace(proxy_category, '\\"\\)', "")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'Microfossil \\(OtherMicrofossilGroup \\(ShortText \\"', "")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'OtherMicrofossilGroup \\(ShortText \\"', "")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'Acritarch', "Other")) %>% 
-  mutate(proxy_category = str_replace(proxy_category, 'Suberised Basal Cells', "Other")) %>% 
-  mutate(proxy_category = str_replace(proxy_category, 'Palynomorph', "Other")) %>% 
-  mutate(proxy_category = str_replace(proxy_category, 'Contemporary Mammals', "Other")) %>% 
-  mutate(proxy_category = str_replace(proxy_category, 'Trichoblast', "Other")) %>% 
-  mutate(proxy_category = str_replace(proxy_category, 'Colony', "Other")) %>% 
-  mutate(proxy_category = str_replace(proxy_category, 'Bosmina', "Cladocera")) %>% 
-  mutate(proxy_category = str_replace(proxy_category, 'Fungal Spore', "Spore")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'Microfossil ', "")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'Head Capsule', "Chironomid")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'Megafossil', "Mega- or Sub-fossil")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'Macrofossil', "Mega- or Sub-fossil")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'Fossil Plants', "Mega- or Sub-fossil")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'Fossil Mammals', "Mega- or Sub-fossil")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'PlantMega- or Sub-fossil', "Plant Macrofossil")) %>%
-  mutate(proxy_category = str_replace(proxy_category, 'Cladoceran', "Cladocera")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'OtherProxy \\(ShortText \\"', "")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, '\\"\\)\\)', "")) %>%    
+  # mutate(proxy_category = str_replace(proxy_category, '\\"\\)', "")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'Microfossil \\(OtherMicrofossilGroup \\(ShortText \\"', "")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'OtherMicrofossilGroup \\(ShortText \\"', "")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'Acritarch', "Other")) %>% 
+  # mutate(proxy_category = str_replace(proxy_category, 'Suberised Basal Cells', "Other")) %>% 
+  # mutate(proxy_category = str_replace(proxy_category, 'Palynomorph', "Other")) %>% 
+  # mutate(proxy_category = str_replace(proxy_category, 'Contemporary Mammals', "Other")) %>% 
+  # mutate(proxy_category = str_replace(proxy_category, 'Trichoblast', "Other")) %>% 
+  # mutate(proxy_category = str_replace(proxy_category, 'Colony', "Other")) %>% 
+  # mutate(proxy_category = str_replace(proxy_category, 'Bosmina', "Cladocera")) %>% 
+  # mutate(proxy_category = str_replace(proxy_category, 'Fungal Spore', "Spore")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'Microfossil ', "")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'Head Capsule', "Chironomid")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'Megafossil', "Mega- or Sub-fossil")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'Macrofossil', "Mega- or Sub-fossil")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'Fossil Plants', "Mega- or Sub-fossil")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'Fossil Mammals', "Mega- or Sub-fossil")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'PlantMega- or Sub-fossil', "Plant Macrofossil")) %>%
+  # mutate(proxy_category = str_replace(proxy_category, 'Cladoceran', "Cladocera")) %>%
   filter(proxy_category != "")
 
 
+#a. What extents do we have for Greenland
+site_data_greenland <-
+  site_data %>%
+  filter(LatDD > 60.03676) %>%
+  filter(LatDD < 83.64513) %>%
+  filter(LonDD < -73.297) %>%
+  filter(LonDD < -12.20855)
+
+ggplot(site_data_greenland, aes(y = latest_extent, x = earliest_extent)) +
+  geom_bar()
+
+ggplot(site_data_greenland %>% arrange(depth_max)) +
+  # geom_linerange(color = "black", mapping = aes(x = timeline_id, ymin = max_date_level, ymax = depth_max, lwd = 1)) +
+  geom_linerange( aes(x = source_id, ymin = latest_extent, ymax = earliest_extent, lwd = 1, color = sample_origin)) +
+  scale_y_reverse() +
+  theme_publication() +
+  ylab("Estimated extent (years BP)") +
+  scale_colour_publication() +
+  facet_grid(~ sample_origin)
+
+
 # 1. What have we captured beyond existing databases?
-site_data_not_db <-
-  site_data_split %>%
-  filter(source_type != "Database entry") %>%
-  filter(inferred_as != "Placeholder from NeotomaDB Import [Kingdom]")
+  site_data_not_db <-
+    site_data_greenland %>%
+    filter(source_type != "Database entry") %>%
+    filter(inferred_as != "Placeholder from NeotomaDB Import [Kingdom]")
 
 # Number of additional time-series by category
 additional_by_type <- 
   site_data_not_db %>%
   group_by(proxy_category) %>%
   summarise(n = n())
+
+additional_by_type <-
+  additional_by_type %>%
+    arrange(desc(n)) %>%
+    top_n(10)
 
 ggplot(additional_by_type, aes(y = proxy_category, x = n)) +
   geom_col() +
@@ -102,11 +128,12 @@ additional_by_author_occ <-
   group_by(name) %>%
   summarise(n = n()) %>%
   arrange(desc(n)) %>%
-  top_n(27)
+  top_n(40)
 
 ggplot(additional_by_author_occ, aes(y = name, x = n)) +
   geom_col() +
   theme_publication()
+
 
 # 2. Biodiversity questions
 
@@ -123,13 +150,14 @@ additional_by_taxon_res <-
   mutate(rank = str_extract_all(inferred_as, "\\[(.*?)\\]")) %>%
   select(proxy_category, rank) %>%
   unnest(rank) %>%
-  group_by(rank) %>%
+  group_by(proxy_category, rank) %>%
   summarise(n = n())
 
-ggplot(additional_by_taxon_res, aes(x = proxy_category, fill = rank)) +
-  geom_bar() +
-  theme_publication() +
+
+ggplot(additional_by_taxon_res, aes(x = proxy_category, y = n, fill = rank)) +
+  geom_col() +
   scale_x_discrete(guide = guide_axis(n.dodge = 2)) +
+  theme_publication() +
   scale_fill_publication()
 
 # Assemblage size
@@ -244,3 +272,26 @@ ggplot(site_data_split %>% filter(variability_temp > 0.05), aes(x = variability_
   facet_wrap(~sample_origin, ncol = 1) +
   scale_fill_viridis_c()
 
+
+age_depth_model <- read.csv("/Users/andrewmartin/Documents/GitHub Projects/holocene-arctic-biodiversity-map/ages-unsure-which.csv")
+
+ggplot(age_depth_model, aes(x = depth, y = age)) +
+  geom_ribbon(aes(ymin = age - sd, ymax = age + sd), fill = "red") +
+  geom_line() + coord_flip() + scale_x_reverse() + scale_y_reverse() +
+  theme_publication() + ylab("Year (cal yr BP)") +
+  xlab("Depth (cm)")
+
+
+
+data_calibrated <- read.csv("/Users/andrewmartin/Documents/GitHub Projects/holocene-arctic-biodiversity-map/visualisation/figures/data-calibrated.csv")
+
+x <-
+  data_calibrated %>%
+  filter(timeline == "individualtimelinenode_c2805b46-f963-491a-b825-766208e247a0") %>%
+  group_by(date, morphotype) %>%
+  summarise(n = sum(percent)) %>%
+  mutate(percentage = n / sum(n) * 100)
+
+ggplot(x, aes(x = date, y = percentage, fill = morphotype)) +
+  geom_area(alpha = 0.6, size = 0, colour = "black") +
+  scale_x_reverse() + scale_fill_viridis_d(option = "inferno")
