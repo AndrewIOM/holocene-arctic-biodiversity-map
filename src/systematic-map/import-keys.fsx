@@ -17,11 +17,23 @@ type AtlasMetadata = JsonProvider<"../../data-keys/pollen/pub_fredskild_sitvhogp
 
 module Lookup =
 
-    let rank = function
-        | "species" -> Rank.Species
-        | "subspecies" -> Rank.Subspecies
-        | "family" -> Rank.Family
-        | "genus" -> Rank.Genus
+    let toTxt t = t |> FieldDataTypes.Text.createShort |> Result.forceOk
+
+    let scaffoldTaxon (taxon:string) rank authorship =
+        printfn "%s | %s | %s" taxon rank authorship
+        match rank with
+        | "species" ->
+            let t = taxon.Trim().Split(" ")
+            if t.Length <> 2 then failwithf "Species name not two words: %s" taxon
+            else Population.Taxonomy.Species(toTxt t.[0],toTxt t.[1], toTxt authorship)
+        | "subspecies" ->
+            let t = taxon.Trim().Split(" ")
+            if t.Length <> 4 then failwithf "Subspecies must be X Y ssp. Z: %s" taxon
+            else
+                if t.[2] <> "ssp." then failwithf "Subspecies must be X Y ssp. Z: %s" taxon
+                else Population.Taxonomy.Subspecies(toTxt t.[0],toTxt t.[1], toTxt t.[3], toTxt authorship)
+        | "family" -> Population.Taxonomy.Family (toTxt taxon)
+        | "genus" -> Population.Taxonomy.Genus (toTxt taxon)
         | s -> failwithf "Unknown rank: %s" s
 
     let confidence = function
@@ -45,11 +57,11 @@ let preparedNodes =
             Nomleclature = atlas.Metadata.Nomleclature |> FieldDataTypes.Text.createShort |> Result.forceOk
             Entries = (
                 atlas.Atlas.Rows
-                |> Seq.map(fun r -> {
-                    MorphotypeName = r.Morphotype |> FieldDataTypes.Text.createShort |> Result.forceOk
-                    TaxonName = r.Taxon |> FieldDataTypes.Text.createShort |> Result.forceOk
-                    Rank = Lookup.rank r.Rank
-                    Confidence = Lookup.confidence r.Confidence
+                |> Seq.groupBy(fun r -> r.Morphotype, r.Confidence)
+                |> Seq.map(fun ((morphotype, confidence),r) -> {
+                    MorphotypeName = morphotype |> FieldDataTypes.Text.createShort |> Result.forceOk
+                    Confidence = Lookup.confidence confidence
+                    Taxa = (r |> Seq.map(fun r -> Lookup.scaffoldTaxon r.Taxon r.Rank r.Authorship) |> Seq.toList)
                 }) |> Seq.toList
             )
             Reference = atlas.Metadata.Reference |> FieldDataTypes.Text.create |> Result.forceOk

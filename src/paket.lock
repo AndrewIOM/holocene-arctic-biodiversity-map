@@ -47,4 +47,4 @@ NUGET
       System.Reflection.Emit (>= 4.7)
 GITHUB
   remote: AndrewIOM/biodiversity-graph-db
-    FULLPROJECT (7c534e513cbf5a14febbb78d9e9fc7a42cb8178a)
+    FULLPROJECT (74676525811c228d301bd078a1bc111fcc05652d)
