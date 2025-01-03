@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_potentilla_hyparctica_malte"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Potentilla"
+            },
+            {
+              "item": "hyparctica"
+            },
+            {
+              "item": "Malte"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

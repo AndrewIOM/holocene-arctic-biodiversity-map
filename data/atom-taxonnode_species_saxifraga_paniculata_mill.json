@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_saxifraga_paniculata_mill"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Saxifraga"
+            },
+            {
+              "item": "paniculata"
+            },
+            {
+              "item": "Mill."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]
