@@ -54,6 +54,7 @@ module WorldFloraOnline =
             | Population.Taxonomy.Genus g -> g.Value
             | Population.Taxonomy.Species (g,s,a) -> sprintf "%s %s %s" g.Value s.Value a.Value
             | Population.Taxonomy.Subspecies (g,s, ss,a) -> sprintf "%s %s ssp. %s %s" g.Value s.Value ss.Value a.Value
+            | _ -> "Unknown"
         sprintf "https://list.worldfloraonline.org/matching_rest.php?input_string=%s" latinName
 
     let tryMatch taxon (query:string) =
@@ -94,7 +95,7 @@ module WorldFloraOnline =
                 let regexMatch = System.Text.RegularExpressions.Regex.Match(m.FullNameHtml, "<span class=\"wfo-name-full\" ><span class=\"wfo-name\">(.*)<\/span> <span class=\"wfo-name-authors\" >(.*)<\/span><\/span>")
                 Some (Population.Taxonomy.Family(regexMatch.Groups.[1].Value |> FieldDataTypes.Text.createShort |> forceOk),
                 [ Population.Taxonomy.Kingdom("Plantae" |> FieldDataTypes.Text.createShort |> forceOk) ])
-            )
+            | _ -> None )
 
 
 let run () =
