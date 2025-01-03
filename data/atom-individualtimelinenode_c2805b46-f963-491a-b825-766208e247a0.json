@@ -24,6 +24,420 @@
       },
       {
         "UUID": [
+          "proxiedtaxonnode",
+          "0870ec78-67e8-44f6-a26b-05f053f7ead5"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "f4ef32dc-1562-49ae-b50a-1bc1886d3229"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "7c064c90-b3c0-4bf4-b2b8-c1c126de564a"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "e5148e39-d12e-4bdc-a5bd-48035ee28348"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "7bb262c2-8ccb-4cfd-8b42-b9c2d69731ee"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "0d26b8e0-adff-4ff2-99dd-6dd9049ddcb1"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "cdf49d74-9161-47a8-a60a-efdc81d77e25"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "527d8fda-f80f-4656-a3f6-87f9be707c05"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "17d1ea94-7b21-4939-9616-1ee4938dcb6e"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "fe7e3efb-928c-4377-931b-359a13955726"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "9755557f-b3fe-473d-9bc0-9341114cd993"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "db503b54-e6df-44bb-a2cb-2bd4397107e8"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "dbc2558c-23a2-4d7d-8f35-c58c496ebd1d"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c50549d1-edbd-4a60-94b2-472e1b77cd9a"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "e7ca6d24-2712-464a-8853-8185f513380d"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "892f4677-0b64-46e5-b7a4-860c26f97c1c"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "72813ff6-814e-4ab4-b3d3-c4e2cdb65157"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "057d0c86-0226-4692-a5f1-def31ff46b4a"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "7b4ad2f9-03b8-4506-ac19-54cf5374c0dd"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "68e7eed0-d5ab-4891-a325-bcc234d062e5"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "269d8b91-f78e-4e33-90d3-dc1e504cb8e0"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "9d28c517-6c7c-4b41-9136-833fe974eb72"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "6a4d8c8c-30e6-4f3a-a3c1-d660ffebac1d"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c2805b46-f963-491a-b825-766208e247a0"
+        ]
+      },
+      {
+        "UUID": [
           "digitiseddatasetnode",
           "5c482040-b416-49dd-995a-660a08f5ab21"
         ]
