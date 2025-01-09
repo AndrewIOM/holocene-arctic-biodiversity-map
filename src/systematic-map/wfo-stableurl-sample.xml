@@ -1,0 +1,180 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:wfo="https://list.worldfloraonline.org/terms/"
+        xmlns:dc="http://purl.org/dc/terms/"
+        xmlns:og="http://ogp.me/ns#">
+  <wfo:TaxonConcept rdf:about="https://list.worldfloraonline.org/wfo-0000615907-2024-12">
+    <wfo:classification rdf:resource="https://list.worldfloraonline.org/2024-12"/>
+    <dc:replaces rdf:resource="https://list.worldfloraonline.org/wfo-0000615907-2024-06"/>
+    <wfo:hasName>
+      <wfo:TaxonName rdf:about="https://list.worldfloraonline.org/wfo-0000615907">
+        <wfo:rank rdf:resource="https://list.worldfloraonline.org/terms/species"/>
+        <wfo:fullName>Comandra elliptica Raf.</wfo:fullName>
+        <wfo:authorship>Raf.</wfo:authorship>
+        <dc:creator>Raf.</dc:creator>
+        <wfo:genusName>Comandra</wfo:genusName>
+        <wfo:publicationCitation>New Fl. 2: 33 (1837)</wfo:publicationCitation>
+        <wfo:isSynonymOf rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2018-07"/>
+        <wfo:isSynonymOf rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2019-03"/>
+        <wfo:isSynonymOf rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2019-05"/>
+        <wfo:isSynonymOf rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2021-12"/>
+        <wfo:isSynonymOf rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2022-06"/>
+        <wfo:isSynonymOf rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2022-12"/>
+        <wfo:isSynonymOf rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2023-06"/>
+        <wfo:isSynonymOf rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2023-12"/>
+        <wfo:isSynonymOf rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2024-06"/>
+        <wfo:isSynonymOf rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2024-12"/>
+        <wfo:currentPreferredUsage rdf:resource="https://list.worldfloraonline.org/wfo-0000615918-2024-12"/>
+        <dc:references>
+          <rdf:Description rdf:about="http://www.wikidata.org/entity/Q364857">
+            <dc:title>Constantine Samuel Rafinesque (1783-1840)</dc:title>
+            <dc:type>person</dc:type>
+            <dc:description>Based on occurrence of standard abbreviation &#039;Raf.&#039; in the authors string.</dc:description>
+            <og:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Rafinesque_Constantine_Samuel_1783-1840.png/200px-Rafinesque_Constantine_Samuel_1783-1840.png"/>
+          </rdf:Description>
+        </dc:references>
+
+        <dc:references>
+          <rdf:Description rdf:about="https://www.ipni.org/n/780102-1">
+            <dc:title>IPNI record: 780102-1</dc:title>
+            <dc:type>database</dc:type>
+          </rdf:Description>
+        </dc:references>
+
+        <dc:references>
+          <rdf:Description rdf:about="http://www.theplantlist.org/tpl1.1/record/kew-2732230">
+            <dc:title>The Plant List v1.1 record kew-2732230</dc:title>
+            <dc:type>database</dc:type>
+          </rdf:Description>
+        </dc:references>
+
+        <dc:references>
+          <rdf:Description rdf:about="http://www.theplantlist.org/tpl/record/kew-2732230">
+            <dc:title>The Plant List version 1.0, record: kew-2732230</dc:title>
+            <dc:type>database</dc:type>
+          </rdf:Description>
+        </dc:references>
+
+      </wfo:TaxonName>
+    </wfo:hasName>
+
+  </wfo:TaxonConcept>
+</rdf:RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:wfo="https://list.worldfloraonline.org/terms/"
+         xmlns:dc="http://purl.org/dc/terms/">
+
+  <wfo:TaxonConcept rdf:about="https://list.worldfloraonline.org/wfo-9000000267-2024-12">
+    <wfo:classification rdf:resource="https://list.worldfloraonline.org/2024-12"/>
+    <dc:replaces rdf:resource="https://list.worldfloraonline.org/wfo-9000000267-2024-06"/>
+    <wfo:hasName>
+      <wfo:TaxonName rdf:about="https://list.worldfloraonline.org/wfo-9000000267">
+        <wfo:rank rdf:resource="https://list.worldfloraonline.org/terms/order"/>
+        <wfo:fullName>Hypnales W.R.Buck &amp; Vitt</wfo:fullName>
+        <wfo:authorship>W.R.Buck &amp; Vitt</wfo:authorship>
+        <dc:creator>W.R.Buck &amp; Vitt</dc:creator>
+        <wfo:publicationCitation>Taxon 35: 33. 1986.</wfo:publicationCitation>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-9000000267-2019-05"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-9000000267-2021-12"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-9000000267-2022-06"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-9000000267-2022-12"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-9000000267-2023-06"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-9000000267-2023-12"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-9000000267-2024-06"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-9000000267-2024-12"/>
+        <wfo:currentPreferredUsage rdf:resource="https://list.worldfloraonline.org/wfo-9000000267-2024-12"/>
+        <dc:references>
+          <rdf:Description rdf:about="http://www.wikidata.org/entity/Q12307056">
+            <dc:title>Dale Hadley Vitt (b.1944)</dc:title>
+            <dc:type>person</dc:type>
+            <dc:description>Based on occurrence of standard abbreviation &#039;Vitt&#039; in the authors string.</dc:description>
+          </rdf:Description>
+        </dc:references>
+
+        <dc:references>
+          <rdf:Description rdf:about="https://www.tropicos.org/name/100377110">
+            <dc:title>Tropicos record: 100377110</dc:title>
+            <dc:type>database</dc:type>
+            <dc:description>Based on data supplied by Bryonames</dc:description>
+          </rdf:Description>
+        </dc:references>
+
+      </wfo:TaxonName>
+    </wfo:hasName>
+
+    <dc:isPartOf rdf:resource="https://list.worldfloraonline.org/wfo-9500000002-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4100000683-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000019-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000758-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4100000676-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000081-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4100000657-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000743-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000119-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000140-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000158-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000208-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000214-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000230-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000235-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4100000664-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000745-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000746-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000763-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000289-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000293-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4100000667-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000325-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000332-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000333-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000334-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000379-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000382-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000748-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000401-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000405-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000407-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000768-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000463-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000475-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000498-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4100000652-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4100000653-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000504-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000505-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000749-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000772-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000516-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000774-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000750-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000537-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000560-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000564-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000753-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000586-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000754-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4100000660-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000608-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000611-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-7000000756-2024-12"/>
+    <dc:hasSynonym rdf:resource="https://list.worldfloraonline.org/wfo-4100002514"/>
+    <dc:hasSynonym rdf:resource="https://list.worldfloraonline.org/wfo-9000000268"/>
+    <dc:hasSynonym rdf:resource="https://list.worldfloraonline.org/wfo-9000000273"/>
+    <dc:hasSynonym rdf:resource="https://list.worldfloraonline.org/wfo-9000000294"/>
+    <dc:references>
+      <rdf:Description rdf:about="https://bryology.uconn.edu/classification">
+        <dc:title>Goffinet, B., W.R Buck &amp; A.J. Shaw (2008), Morphology and classification of the Bryophyta, in Goffinet &amp; Shaw (eds.) Bryophyte Biology, 2nd edition, p. 55–138, Cambridge University Press.</dc:title>
+        <dc:type>literature</dc:type>
+      </rdf:Description>
+    </dc:references>
+
+    <dc:references>
+      <rdf:Description rdf:about="https://www.bryonames.org/">
+        <dc:title>The Bryophyte Nomenclator</dc:title>
+        <dc:type>database</dc:type>
+        <dc:description>Based on data supplied by Bryonames Dec 2024</dc:description>
+      </rdf:Description>
+    </dc:references>
+
+  </wfo:TaxonConcept>
+
+</rdf:RDF>
