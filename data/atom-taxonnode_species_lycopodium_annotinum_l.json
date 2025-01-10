@@ -35,6 +35,55 @@
       {
         "FriendlyKey": [
           "taxonnode",
+          "subspecies_spinulum_annotinum_annotinum_(l.) a.haines"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_lycopodium_annotinum_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001107337"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_lycopodium_annotinum_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
           "genus_lycopodium"
         ]
       },

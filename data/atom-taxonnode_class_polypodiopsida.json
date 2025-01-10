@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4100003341"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "kingdom_plantae"
+          "class_polypodiopsida"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "phylum_polypodiophyta"
         ]
       },
       1,

@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "subspecies_spinulum_annotinum_annotinum_(l.) a.haines"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Subspecies": [
+            {
+              "item": "Spinulum"
+            },
+            {
+              "item": "annotinum"
+            },
+            {
+              "item": "annotinum"
+            },
+            {
+              "item": "(L.) A.Haines"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

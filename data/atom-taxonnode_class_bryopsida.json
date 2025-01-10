@@ -26,6 +26,28 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4100002058"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "class_bryopsida"
+        ]
+      },
+      {
+        "FriendlyKey": [
           "taxonnode",
           "phylum_bryophyta"
         ]

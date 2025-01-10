@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_diphasiastrum_alpinum_l holub"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Diphasiastrum"
+            },
+            {
+              "item": "alpinum"
+            },
+            {
+              "item": "(L.) Holub"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

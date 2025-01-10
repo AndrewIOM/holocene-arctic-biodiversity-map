@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-7000000534"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "kingdom_plantae"
+          "family_rubiaceae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "order_gentianales"
         ]
       },
       1,

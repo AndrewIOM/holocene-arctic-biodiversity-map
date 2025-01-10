@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-7000000079"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "kingdom_plantae"
+          "family_boraginaceae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "order_boraginales"
         ]
       },
       1,

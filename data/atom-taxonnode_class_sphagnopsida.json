@@ -1,0 +1,61 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "class_sphagnopsida"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Class": {
+            "item": "Sphagnopsida"
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "class_sphagnopsida"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-9850000005"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "class_sphagnopsida"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "phylum_bryophyta"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

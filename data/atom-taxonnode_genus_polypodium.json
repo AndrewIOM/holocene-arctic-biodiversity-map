@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000030796"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_polypodiaceae"
+          "genus_polypodium"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subfamily_polypodioideae"
         ]
       },
       1,

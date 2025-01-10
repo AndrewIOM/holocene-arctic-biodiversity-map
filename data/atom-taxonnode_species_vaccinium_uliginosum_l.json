@@ -34,6 +34,28 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000422453"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_vaccinium_uliginosum_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
           "taxonnode",
           "genus_vaccinium"
         ]

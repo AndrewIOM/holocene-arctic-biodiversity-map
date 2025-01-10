@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-7000000506"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "kingdom_plantae"
+          "family_ptilidiaceae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "order_ptilidiales"
         ]
       },
       1,

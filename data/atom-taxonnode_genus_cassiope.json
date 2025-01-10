@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000006915"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_ericaceae"
+          "genus_cassiope"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subfamily_cassiopoideae"
         ]
       },
       1,

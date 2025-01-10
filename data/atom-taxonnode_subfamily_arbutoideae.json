@@ -1,0 +1,61 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "subfamily_arbutoideae"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Subfamily": {
+            "item": "Arbutoideae"
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subfamily_arbutoideae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-1000002334"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subfamily_arbutoideae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "family_ericaceae"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

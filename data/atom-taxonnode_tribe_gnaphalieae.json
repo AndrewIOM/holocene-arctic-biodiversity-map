@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4100000085"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_asteraceae"
+          "tribe_gnaphalieae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subfamily_asteroideae"
         ]
       },
       1,

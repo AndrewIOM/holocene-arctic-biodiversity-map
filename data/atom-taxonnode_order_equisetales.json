@@ -1,0 +1,61 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "order_equisetales"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Order": {
+            "item": "Equisetales"
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "order_equisetales"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-9000000192"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "order_equisetales"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "class_polypodiopsida"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

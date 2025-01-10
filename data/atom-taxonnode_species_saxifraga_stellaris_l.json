@@ -35,6 +35,55 @@
       {
         "FriendlyKey": [
           "taxonnode",
+          "species_micranthes_stellaris_l galasso banfi amp soldano"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_stellaris_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000494784"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_stellaris_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
           "genus_saxifraga"
         ]
       },

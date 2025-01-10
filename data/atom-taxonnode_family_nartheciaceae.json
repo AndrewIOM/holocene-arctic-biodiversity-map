@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-7000000406"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "kingdom_plantae"
+          "family_nartheciaceae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "order_dioscoreales"
         ]
       },
       1,

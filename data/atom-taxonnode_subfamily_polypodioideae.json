@@ -1,0 +1,61 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "subfamily_polypodioideae"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Subfamily": {
+            "item": "Polypodioideae"
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subfamily_polypodioideae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-6500000523"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subfamily_polypodioideae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "family_polypodiaceae"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

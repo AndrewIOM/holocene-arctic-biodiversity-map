@@ -42,7 +42,18 @@ module WorldFloraOnline =
             | Population.Taxonomy.Genus g -> g.Value
             | Population.Taxonomy.Species (g,s,a) -> sprintf "%s %s %s" g.Value s.Value a.Value
             | Population.Taxonomy.Subspecies (g,s, ss,a) -> sprintf "%s %s ssp. %s %s" g.Value s.Value ss.Value a.Value
-            | _ -> "Unknown"
+            | Population.Taxonomy.Variety (g,s, ss,a) -> sprintf "%s %s var. %s %s" g.Value s.Value ss.Value a.Value
+            | Population.Taxonomy.Clade g -> g.Value
+            | Population.Taxonomy.Class g -> g.Value
+            | Population.Taxonomy.Tribe g -> g.Value
+            | Population.Taxonomy.Kingdom g -> g.Value
+            | Population.Taxonomy.Order g -> g.Value
+            | Population.Taxonomy.Phylum g -> g.Value
+            | Population.Taxonomy.Subfamily g -> g.Value
+            | Population.Taxonomy.Subgenus g -> g.Value
+            | Population.Taxonomy.Subtribe g -> g.Value
+            | Population.Taxonomy.Life -> "Unknown"
+            
         sprintf "https://list.worldfloraonline.org/matching_rest.php?input_string=%s" latinName
 
 
@@ -62,7 +73,7 @@ module WorldFloraOnline =
                 (Population.Taxonomy.Species(
                     name.FullName.Split(" ").[0] |> forceOkTxt,
                     name.FullName.Split(" ").[1] |> forceOkTxt,
-                    name.Authorship |> forceOkTxt), currentWfoId) :: tree
+                    name.Authorship.Value |> forceOkTxt), currentWfoId) :: tree
             match matchedParent with
             | Some m -> heirarchyFor' m.TaxonConcept.IsPartOf m.TaxonConcept.HasName.TaxonName tree
             | None -> tree
@@ -106,12 +117,16 @@ module WorldFloraOnline =
         heirarchyFor' data.TaxonConcept.IsPartOf data.TaxonConcept.HasName.TaxonName []
 
     let tryMatch (query:string) =
-        let result = WFOMatchService.Load query
-        result.Match
-        |> Option.map(fun m ->
-            let heirarchy = heirarchyFor m.WfoId |> List.rev
-            heirarchy.Head, heirarchy.Tail
-        )
+        try
+            let result = WFOMatchService.Load query
+            result.Match
+            |> Option.map(fun m ->
+                let heirarchy = heirarchyFor m.WfoId |> List.rev
+                heirarchy.Head, heirarchy.Tail
+            )
+        with e ->
+            printfn "Problem parsing JSON server result at %s ! Skipping." query
+            None
 
     type WorldFloraResult = {
         OriginalId: string
@@ -145,13 +160,33 @@ module WorldFloraOnline =
                 Some (Population.Taxonomy.Species(
                     data.TaxonConcept.HasName.TaxonName.FullName.Split(" ").[0] |> FieldDataTypes.Text.createShort |> forceOk,
                     data.TaxonConcept.HasName.TaxonName.FullName.Split(" ").[1] |> FieldDataTypes.Text.createShort |> forceOk,
-                    data.TaxonConcept.HasName.TaxonName.Authorship |> FieldDataTypes.Text.createShort |> forceOk))
-            | "https://list.worldfloraonline.org/terms/genus" ->
-                Some (Population.Taxonomy.Genus(data.TaxonConcept.HasName.TaxonName.FullName |> FieldDataTypes.Text.createShort |> forceOk))
-            | "https://list.worldfloraonline.org/terms/family" ->
-                Some (Population.Taxonomy.Family(data.TaxonConcept.HasName.TaxonName.FullName |> FieldDataTypes.Text.createShort |> forceOk))
-            | "https://list.worldfloraonline.org/terms/subspecies" -> failwith "TODO"
-            | "https://list.worldfloraonline.org/terms/variety" -> failwith "TODO"
+                    data.TaxonConcept.HasName.TaxonName.Authorship.Value |> FieldDataTypes.Text.createShort |> forceOk))
+            | "https://list.worldfloraonline.org/terms/genus" -> Some (Population.Taxonomy.Genus(data.TaxonConcept.HasName.TaxonName.FullName |> FieldDataTypes.Text.createShort |> forceOk))
+            | "https://list.worldfloraonline.org/terms/family" -> Some (Population.Taxonomy.Family(data.TaxonConcept.HasName.TaxonName.FullName |> FieldDataTypes.Text.createShort |> forceOk))
+            | "https://list.worldfloraonline.org/terms/tribe" -> Some (Population.Taxonomy.Tribe(data.TaxonConcept.HasName.TaxonName.FullName |> FieldDataTypes.Text.createShort |> forceOk))
+            | "https://list.worldfloraonline.org/terms/subtribe" -> Some (Population.Taxonomy.Subtribe(data.TaxonConcept.HasName.TaxonName.FullName |> FieldDataTypes.Text.createShort |> forceOk))
+            | "https://list.worldfloraonline.org/terms/subspecies" ->
+                match data.TaxonConcept.HasName.TaxonName.Authorship with
+                | Some auth ->
+                    Some (Population.Taxonomy.Subspecies(
+                        data.TaxonConcept.HasName.TaxonName.FullName.Split(" ").[0] |> FieldDataTypes.Text.createShort |> forceOk,
+                        data.TaxonConcept.HasName.TaxonName.FullName.Split(" ").[1] |> FieldDataTypes.Text.createShort |> forceOk,
+                        data.TaxonConcept.HasName.TaxonName.FullName.Split(" ").[3] |> FieldDataTypes.Text.createShort |> forceOk,
+                        auth |> FieldDataTypes.Text.createShort |> forceOk))
+                | None ->
+                    printfn "Skipping '%s' as it is a nominate subspecies (no authorship detail). Determine authorship manually and amend graph" data.TaxonConcept.HasName.TaxonName.FullName
+                    None
+            | "https://list.worldfloraonline.org/terms/variety" ->
+                match data.TaxonConcept.HasName.TaxonName.Authorship with
+                | Some auth ->
+                    Some (Population.Taxonomy.Variety(
+                        data.TaxonConcept.HasName.TaxonName.FullName.Split(" ").[0] |> FieldDataTypes.Text.createShort |> forceOk,
+                        data.TaxonConcept.HasName.TaxonName.FullName.Split(" ").[1] |> FieldDataTypes.Text.createShort |> forceOk,
+                        data.TaxonConcept.HasName.TaxonName.FullName.Split(" ").[3] |> FieldDataTypes.Text.createShort |> forceOk,
+                        auth |> FieldDataTypes.Text.createShort |> forceOk))
+                | None ->
+                    printfn "Skipping '%s' as it is a nominate subspecies (no authorship detail). Determine authorship manually and amend graph" data.TaxonConcept.HasName.TaxonName.FullName
+                    None
             | _ -> None
 
         {
@@ -339,8 +374,6 @@ let run () = result {
     let wfoNodeId = wfoAtoms.Head |> fst |> fst
 
     let! taxaKeys = graph.Nodes<Population.Taxonomy.TaxonNode>() |> Result.ofOption "Could not load taxonomy nodes"
-
-    // Filter taxa to plants only.
 
     let! taxonomyAtoms =
         taxaKeys.Keys

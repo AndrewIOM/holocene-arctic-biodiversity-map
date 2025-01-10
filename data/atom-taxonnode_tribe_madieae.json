@@ -1,0 +1,61 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "tribe_madieae"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Tribe": {
+            "item": "Madieae"
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "tribe_madieae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4100000041"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "tribe_madieae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subfamily_asteroideae"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

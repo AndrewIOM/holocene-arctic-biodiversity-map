@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000039281"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_asteraceae"
+          "genus_tripleurospermum"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "tribe_anthemideae"
         ]
       },
       1,

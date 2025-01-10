@@ -34,6 +34,28 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001190261"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_sphagnum_subsecundum_nees"
+        ]
+      },
+      {
+        "FriendlyKey": [
           "taxonnode",
           "genus_sphagnum"
         ]

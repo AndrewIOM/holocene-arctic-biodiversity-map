@@ -26,6 +26,28 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000001331"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_alnus"
+        ]
+      },
+      {
+        "FriendlyKey": [
           "taxonnode",
           "family_betulaceae"
         ]

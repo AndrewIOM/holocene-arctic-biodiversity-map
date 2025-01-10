@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000006621"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_brassicaceae"
+          "genus_capsella"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "tribe_camelineae"
         ]
       },
       1,

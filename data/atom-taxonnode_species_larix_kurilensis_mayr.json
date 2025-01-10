@@ -35,6 +35,55 @@
       {
         "FriendlyKey": [
           "taxonnode",
+          "variety_larix_gmelinii_japonica_(maxim. ex regel) pilg."
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_larix_kurilensis_mayr"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000443256"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_larix_kurilensis_mayr"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
           "genus_larix"
         ]
       },

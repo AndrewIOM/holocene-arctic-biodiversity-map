@@ -34,6 +34,28 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001190208"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_sphagnum_squarrosum_crome"
+        ]
+      },
+      {
+        "FriendlyKey": [
           "taxonnode",
           "genus_sphagnum"
         ]

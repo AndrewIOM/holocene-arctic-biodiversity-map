@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000009891"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_pteridaceae"
+          "genus_cryptogramma"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subfamily_cryptogrammoideae"
         ]
       },
       1,

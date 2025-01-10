@@ -34,6 +34,28 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001109663"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_selaginella_rupestris_l spring"
+        ]
+      },
+      {
+        "FriendlyKey": [
           "taxonnode",
           "genus_selaginella"
         ]
