@@ -1,0 +1,88 @@
+[
+    {
+        "inputString": "Rhopalocarpus alternifolius (Baker) Capuron",
+        "searchString": "Rhopalocarpus alternifolius (Baker) Capuron",
+        "params": {
+            "checkHomonyms": false,
+            "checkRank": false,
+            "method": "full",
+            "acceptSingleCandidate": false,
+            "fuzzyNameParts": 0,
+            "fuzzyAuthors": 0,
+            "limit": 50,
+            "classificationVersion": "2024-12"
+        },
+        "match": {
+            "wfo_id": "wfo-0000627675",
+            "full_name_plain": "Rhopalocarpus alternifolius (Baker) Capuron",
+            "full_name_html": "<span class=\"wfo-name-full\" ><span class=\"wfo-name\"><i>Rhopalocarpus<\/i> <i>alternifolius<\/i><\/span> <span class=\"wfo-name-authors\" >(Baker) Capuron<\/span><\/span>",
+            "placement": "Code\/Plantae\/Pteridobiotina\/Angiosperms\/Malvales\/Sphaerosepalaceae\/Rhopalocarpus\/alternifolius"
+        },
+        "candidates": [],
+        "error": false,
+        "errorMessage": null,
+        "parsedName": {
+            "rank": "species",
+            "canonical_form": "Rhopalocarpus alternifolius",
+            "author_string": "(Baker) Capuron"
+        },
+        "narrative": [
+            "The first word is always a name part word: 'Rhopalocarpus'",
+            "Word is found in index and so is part of name: 'alternifolius'.",
+            "Word is lowercase. Subsequent words must start with lowercase: 'alternifolius'.",
+            "Word contains non alpha chars and so is start of author string: '(Baker)'.",
+            "There are two name parts. This may be an autonym with species authors included. Checking for second occurrence of 'alternifolius'",
+            "Authors string looks like this: '(Baker) Capuron'",
+            "Parsed name complete.",
+            "Rank estimated as 'species' from name parts.",
+            "Searched index of 2024-12 for canonical form of name 'Rhopalocarpus alternifolius' and found 1 candidates.",
+            "Looking for matching author strings.",
+            "Found candidate (wfo-0000627675) with matching author string so it becomes the match."
+        ]
+    },
+    {
+        "inputString": "Invalid taxon",
+        "searchString": "Invalid taxon",
+        "params": {
+            "checkHomonyms": false,
+            "checkRank": false,
+            "method": "full",
+            "acceptSingleCandidate": false,
+            "fuzzyNameParts": 0,
+            "fuzzyAuthors": 0,
+            "limit": 50,
+            "classificationVersion": "2024-12"
+        },
+        "match": null,
+        "candidates": [],
+        "error": false,
+        "errorMessage": null,
+        "parsedName": {
+            "rank": "species",
+            "canonical_form": "Invalid taxon",
+            "author_string": ""
+        },
+        "narrative": [
+            "The first word is always a name part word: 'Invalid'",
+            "Word is NOT found in index BUT is second and has lowercase first letter so most probably novel\/erroneous epithet: 'taxon'.",
+            "No authors string provided. Will match all authors strings.",
+            "Parsed name complete.",
+            "Rank estimated as 'species' from name parts.",
+            "Searched index of 2024-12 for canonical form of name 'Invalid taxon' and found 0 candidates.",
+            "Looking for matching author strings.",
+            "Still no match found.",
+            "No candidates found so moving to enhanced search (single candidates not accepted as matches)",
+            "Found no names for 'Invalid taxon'",
+            "Found no names for 'Invalid taxo'",
+            "Found no names for 'Invalid tax'",
+            "Found no names for 'Invalid ta'",
+            "Found no names for 'Invalid t'",
+            "Found no names for 'Invalid '",
+            "Found no names for 'Invalid'",
+            "Found no names for 'Invalid'",
+            "Found no names for 'Invali'",
+            "Found no names for 'Inval'",
+            "Found no names for 'Inva'"
+        ]
+    }
+]

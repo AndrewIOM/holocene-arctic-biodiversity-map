@@ -24,7 +24,7 @@
                 "_depth": 179.5
               },
               {
-                "_depth": 1755.0
+                "_depth": 175.5
               }
             ]
           },
@@ -37,6 +37,24 @@
     }
   ],
   [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "557661ca-45a4-4f70-bfe8-b704e49b2516"
+        ]
+      },
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "5ecb27d8-0a6e-4ce7-ad09-ffb97475bfc5"
+        ]
+      },
+      1,
+      {
+        "Exposure": "UsedInCalibration"
+      }
+    ],
     [
       {
         "UUID": [

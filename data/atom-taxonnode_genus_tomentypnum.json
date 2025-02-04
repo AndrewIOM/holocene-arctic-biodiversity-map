@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000038542"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_brachytheciaceae"
+          "genus_tomentypnum"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "family_amblystegiaceae"
         ]
       },
       1,

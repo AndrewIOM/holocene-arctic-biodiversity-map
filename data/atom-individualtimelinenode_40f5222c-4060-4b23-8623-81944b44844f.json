@@ -25,6 +25,24 @@
       {
         "UUID": [
           "individualdatenode",
+          "47e29149-c016-4388-ac0a-ba1ad5761ee8"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "40f5222c-4060-4b23-8623-81944b44844f"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
           "557661ca-45a4-4f70-bfe8-b704e49b2516"
         ]
       },

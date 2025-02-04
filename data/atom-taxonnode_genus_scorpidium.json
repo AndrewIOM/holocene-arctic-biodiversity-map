@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000034824"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_amblystegiaceae"
+          "genus_scorpidium"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "family_scorpidiaceae"
         ]
       },
       1,

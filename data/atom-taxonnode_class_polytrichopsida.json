@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-9850000004"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "genus_actaea"
+          "class_polytrichopsida"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "phylum_bryophyta"
         ]
       },
       1,

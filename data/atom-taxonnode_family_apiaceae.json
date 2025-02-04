@@ -26,13 +26,17 @@
       },
       {
         "FriendlyKey": [
-          "taxonnode",
-          "kingdom_plantae"
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
         ]
       },
       1,
       {
-        "Population": "IsA"
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-7000000036"
+          }
+        }
       }
     ],
     [
@@ -45,7 +49,7 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "life"
+          "order_apiales"
         ]
       },
       1,

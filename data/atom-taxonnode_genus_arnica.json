@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000003092"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_asteraceae"
+          "genus_arnica"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subtribe_arnicinae"
         ]
       },
       1,

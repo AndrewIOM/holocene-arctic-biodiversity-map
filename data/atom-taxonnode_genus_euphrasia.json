@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_euphrasia"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Genus": {
+            "item": "Euphrasia"
+          }
+        }
+      }
+    }
+  ],
+  []
+]
