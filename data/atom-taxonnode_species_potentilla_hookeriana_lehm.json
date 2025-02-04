@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_potentilla_hookeriana_lehm"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Potentilla"
+            },
+            {
+              "item": "hookeriana"
+            },
+            {
+              "item": "Lehm."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

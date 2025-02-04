@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_stellaria_longipes_goldie"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Stellaria"
+            },
+            {
+              "item": "longipes"
+            },
+            {
+              "item": "Goldie"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

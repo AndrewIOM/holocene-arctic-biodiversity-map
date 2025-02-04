@@ -34,7 +34,7 @@ jobs:
         R -e 'install.packages("purrr")'
 
     - name: Run cryo data R script
-      working-directory: cryo_db
+      working-directory: src/cryo_db
       run: Rscript fetch_cryo_data.R
 
     - name: Commit and push new cryo_db version

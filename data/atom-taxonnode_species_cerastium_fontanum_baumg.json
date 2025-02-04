@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_cerastium_fontanum_baumg"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Cerastium"
+            },
+            {
+              "item": "fontanum"
+            },
+            {
+              "item": "Baumg."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

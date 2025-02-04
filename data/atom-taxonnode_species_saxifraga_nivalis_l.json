@@ -35,6 +35,55 @@
       {
         "FriendlyKey": [
           "taxonnode",
+          "species_micranthes_nivalis_l small"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_nivalis_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000493648"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_nivalis_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
           "genus_saxifraga"
         ]
       },

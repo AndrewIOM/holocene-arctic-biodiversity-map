@@ -1,0 +1,2840 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "inferencemethodnode",
+        "atlas_lookup_fbsitvhogpioshlabdmog"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "InferenceMethodNode": {
+          "IdentificationKeyOrAtlasWithLookup": {
+            "Nomleclature": {
+              "item": "Böcher, Holmen, & Jakobsen (1968)"
+            },
+            "Entries": [
+              {
+                "MorphotypeName": {
+                  "item": "Equisetum sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Equisetum"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Isoetes lacustris"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Isoetes"
+                      },
+                      {
+                        "item": "lacustris"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Isoetes sectacea ssp. muric."
+                },
+                "Taxa": [
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Isoetes"
+                      },
+                      {
+                        "item": "sectacea"
+                      },
+                      {
+                        "item": "muricata"
+                      },
+                      {
+                        "item": "(Dur.) Holub"
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Diphasium type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Diphasium"
+                      },
+                      {
+                        "item": "alpinum"
+                      },
+                      {
+                        "item": "(L.) Rothm."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Diphasium"
+                      },
+                      {
+                        "item": "complanatum"
+                      },
+                      {
+                        "item": "(L.) Rothm."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Lycopodium"
+                      },
+                      {
+                        "item": "dubium"
+                      },
+                      {
+                        "item": "Zoega."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Lycopodium"
+                      },
+                      {
+                        "item": "clavatum"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Huperzia selago"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Huperzia"
+                      },
+                      {
+                        "item": "selago"
+                      },
+                      {
+                        "item": "(L.) Bernh. ex Schrank. & Mart."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Lycopodium dubium"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Lycopodium"
+                      },
+                      {
+                        "item": "dubium"
+                      },
+                      {
+                        "item": "Zoega."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Diphasium"
+                      },
+                      {
+                        "item": "alpinum"
+                      },
+                      {
+                        "item": "(L.) Rothm."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Diphasium"
+                      },
+                      {
+                        "item": "complanatum"
+                      },
+                      {
+                        "item": "(L.) Rothm."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Lycopodium"
+                      },
+                      {
+                        "item": "clavatum"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Lycopodium clavatum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Lycopodium"
+                      },
+                      {
+                        "item": "clavatum"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FairlyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Botrychium sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Botrychium"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Cystopteris fragilis ssp. fragilis"
+                },
+                "Taxa": [
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Cystopteris"
+                      },
+                      {
+                        "item": "fragilis"
+                      },
+                      {
+                        "item": "fragilis"
+                      },
+                      {
+                        "item": "(L.) Bernh."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Cystopteris fragilis ssp. dickieana"
+                },
+                "Taxa": [
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Cystopteris"
+                      },
+                      {
+                        "item": "fragilis"
+                      },
+                      {
+                        "item": "dickieana"
+                      },
+                      {
+                        "item": "(Sim.) Hyl."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Dryopteris type"
+                },
+                "Taxa": [
+                  {
+                    "Family": {
+                      "item": "Polypodiaceae"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Gymnocarpium dryopteris"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Gymnocarpium"
+                      },
+                      {
+                        "item": "dryopteris"
+                      },
+                      {
+                        "item": "(L.) Newman"
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Polystichum lonchitis"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Polystichum"
+                      },
+                      {
+                        "item": "lonchitis"
+                      },
+                      {
+                        "item": "(L.) Roth."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Selaginella selaginoides"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Selaginella"
+                      },
+                      {
+                        "item": "selaginoides"
+                      },
+                      {
+                        "item": "(L.) Link."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Juniperus communis"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Juniperus"
+                      },
+                      {
+                        "item": "communis"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Alnus sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Alnus"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Betula sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Betula"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Callitriche sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Callitriche"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FairlyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Campanula sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Campanula"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Cerastium cerastoides"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Cerastium"
+                      },
+                      {
+                        "item": "cerastoides"
+                      },
+                      {
+                        "item": "(L.) Britton"
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FairlyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Cerastium-Stellaria type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Cerastium"
+                      },
+                      {
+                        "item": "alpinum"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Cerastium"
+                      },
+                      {
+                        "item": "arcticum"
+                      },
+                      {
+                        "item": "Lge."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Cerastium"
+                      },
+                      {
+                        "item": "fontanum"
+                      },
+                      {
+                        "item": "Baumg."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Stellaria"
+                      },
+                      {
+                        "item": "longipes"
+                      },
+                      {
+                        "item": "Goldie"
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Stellaria"
+                      },
+                      {
+                        "item": "calycantha"
+                      },
+                      {
+                        "item": "(Led.) Bong."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Minuartia"
+                      },
+                      {
+                        "item": "groenlandica"
+                      },
+                      {
+                        "item": "Retz."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Minuartia"
+                      },
+                      {
+                        "item": "stricta"
+                      },
+                      {
+                        "item": "(Sw). Hiern."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Melandrium sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Melandrium"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Melandrium apetalum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Melandrium"
+                      },
+                      {
+                        "item": "apetalum"
+                      },
+                      {
+                        "item": "(L.) Fenzl."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Melandrium trifiorum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Melandrium"
+                      },
+                      {
+                        "item": "trifiorum"
+                      },
+                      {
+                        "item": "(R. Br.) J. Vahl."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Minuartia type"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Viscaria"
+                    }
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Minuartia"
+                      },
+                      {
+                        "item": "rubella"
+                      },
+                      {
+                        "item": "(Wbg.) Hiern."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Minuartia"
+                      },
+                      {
+                        "item": "rossii"
+                      },
+                      {
+                        "item": "(R. Br.) Graebn."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Arenaria"
+                      },
+                      {
+                        "item": "humifusa"
+                      },
+                      {
+                        "item": "Wbg."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Arenaria"
+                      },
+                      {
+                        "item": "pseudofrigida"
+                      },
+                      {
+                        "item": "Ostf. & Dahl."
+                      }
+                    ]
+                  },
+                  {
+                    "Genus": {
+                      "item": "Honckenya"
+                    }
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Silene"
+                      },
+                      {
+                        "item": "acaulis"
+                      },
+                      {
+                        "item": "(L.) Jacq."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Sagina sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Sagina"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Silene acaulis type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Silene"
+                      },
+                      {
+                        "item": "acaulis"
+                      },
+                      {
+                        "item": "(L.) Jacq."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Stellaria humifusa"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Stellaria"
+                      },
+                      {
+                        "item": "humifusa"
+                      },
+                      {
+                        "item": "Rottb."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Viscaria alpina"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Viscaria"
+                      },
+                      {
+                        "item": "alpina"
+                      },
+                      {
+                        "item": "(L.) G. Don"
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Achillea-Tripleurospermum type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Achillea"
+                      },
+                      {
+                        "item": "millefolium"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Tripleurospermum"
+                      },
+                      {
+                        "item": "maritimum"
+                      },
+                      {
+                        "item": "(L.) W.D.J.Koch"
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Artemisia sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Artemisia"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Erigeron type"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Erigeron"
+                    }
+                  },
+                  {
+                    "Genus": {
+                      "item": "Gnaphalium"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Ligulifiorae"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Hieracium"
+                    }
+                  },
+                  {
+                    "Genus": {
+                      "item": "Taraxacum"
+                    }
+                  },
+                  {
+                    "Genus": {
+                      "item": "Leontodon"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Streptopus amplexifolius"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Streptopus"
+                      },
+                      {
+                        "item": "amplexifolius"
+                      },
+                      {
+                        "item": "(L.) DC."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Cornus suecica/canadensis"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Cornus"
+                      },
+                      {
+                        "item": "suecica"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Cornus"
+                      },
+                      {
+                        "item": "canadensis"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Sedum sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Sedum"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Eutrema edwardsii"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Eutrema"
+                      },
+                      {
+                        "item": "edwardsii"
+                      },
+                      {
+                        "item": "R.Br."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Subularia aquatica"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Subularia"
+                      },
+                      {
+                        "item": "aquatica"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Empetrum nigrum ssp. hermaphroditum"
+                },
+                "Taxa": [
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Empetrum"
+                      },
+                      {
+                        "item": "nigrum"
+                      },
+                      {
+                        "item": "hermaphroditum"
+                      },
+                      {
+                        "item": "(Hagerup) B�ch"
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Cassiope type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Cassiope"
+                      },
+                      {
+                        "item": "tetragona"
+                      },
+                      {
+                        "item": "(L.) D. Don."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Harrimanella"
+                      },
+                      {
+                        "item": "hypnoides"
+                      },
+                      {
+                        "item": "(L.) Coville."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Harrimanella type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Cassiope"
+                      },
+                      {
+                        "item": "tetragona"
+                      },
+                      {
+                        "item": "(L.) D. Don."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Harrimanella"
+                      },
+                      {
+                        "item": "hypnoides"
+                      },
+                      {
+                        "item": "(L.) Coville."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Ericales sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Ericales"
+                    }
+                  },
+                  {
+                    "Genus": {
+                      "item": "Loiseleuria"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Ledum type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Ledum"
+                      },
+                      {
+                        "item": "palustre"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Ledum"
+                      },
+                      {
+                        "item": "palustre"
+                      },
+                      {
+                        "item": "decumbens"
+                      },
+                      {
+                        "item": "(Ait.) Hult."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Ledum"
+                      },
+                      {
+                        "item": "groenlandicum"
+                      },
+                      {
+                        "item": "Oed."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Rhododendron-Arctostaphylos type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Rhododendron"
+                      },
+                      {
+                        "item": "lapponicum"
+                      },
+                      {
+                        "item": "(L.) Wbg."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Arctostaphylos"
+                      },
+                      {
+                        "item": "uva-ursi"
+                      },
+                      {
+                        "item": "(L.) Spreng."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Arctostaphylos"
+                      },
+                      {
+                        "item": "aplina"
+                      },
+                      {
+                        "item": "(L.) Spreng."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Loiseleuria procumbens"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Loiseleuria"
+                      },
+                      {
+                        "item": "procumbens"
+                      },
+                      {
+                        "item": "(L.) Desv."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Ericaceae sp."
+                },
+                "Taxa": [
+                  {
+                    "Family": {
+                      "item": "Ericaceae"
+                    }
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Phyllodoce"
+                      },
+                      {
+                        "item": "coerulea"
+                      },
+                      {
+                        "item": "(L.) Bab."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Pirola"
+                      },
+                      {
+                        "item": "grandiflora"
+                      },
+                      {
+                        "item": "Rad."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Pirola"
+                      },
+                      {
+                        "item": "minor"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Andromeda"
+                      },
+                      {
+                        "item": "polifolia"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Gentiana aurea"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Gentiana"
+                      },
+                      {
+                        "item": "aurea"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Gentiana nivalis"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Gentiana"
+                      },
+                      {
+                        "item": "nivalis"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Lomatogonium rotatum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Lomatogonium"
+                      },
+                      {
+                        "item": "rotatum"
+                      },
+                      {
+                        "item": "(L.) Fr."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Menyanthes trifoliata"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Menyanthes"
+                      },
+                      {
+                        "item": "trifoliata"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Alopecurus alpinus type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Alopecurus"
+                      },
+                      {
+                        "item": "alpinus"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Elymus sp."
+                },
+                "Taxa": [
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Elymus"
+                      },
+                      {
+                        "item": "arenarius"
+                      },
+                      {
+                        "item": "Mollis"
+                      },
+                      {
+                        "item": "(Trin.) Hult."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Phleum commutatum type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Phleum"
+                      },
+                      {
+                        "item": "commutatum"
+                      },
+                      {
+                        "item": "Gaud."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Myriophyllum alterniflorum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Myriophyllum"
+                      },
+                      {
+                        "item": "alterniflorum"
+                      },
+                      {
+                        "item": "DC."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Myriophyllum spicatum ssp. exalbescens"
+                },
+                "Taxa": [
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Myriophyllum"
+                      },
+                      {
+                        "item": "spicatum"
+                      },
+                      {
+                        "item": "exalbescens"
+                      },
+                      {
+                        "item": "(Fern.) Hult."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Hippuris vulgaris"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Hippuris"
+                      },
+                      {
+                        "item": "vulgaris"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Luzula-Juncus"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Luzula"
+                    }
+                  },
+                  {
+                    "Genus": {
+                      "item": "Juncus"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Thymus praecox"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Thymus"
+                      },
+                      {
+                        "item": "praecox"
+                      },
+                      {
+                        "item": "Opiz"
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Pinguicula vulgaris"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Pinguicula"
+                      },
+                      {
+                        "item": "vulgaris"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Tofieldia sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Tofieldia"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Chamaenerion sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Chamaenerion"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FairlyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Chamaenerion latifolium"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Chamaenerion"
+                      },
+                      {
+                        "item": "latifolium"
+                      },
+                      {
+                        "item": "(L.) Th. Fries & Lge."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FairlyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Epilobium sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Epilobium"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Papaver radicatum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Papaver"
+                      },
+                      {
+                        "item": "radicatum"
+                      },
+                      {
+                        "item": "Rottb."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Lathyrus japonicus"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Lathyrus"
+                      },
+                      {
+                        "item": "japonicus"
+                      },
+                      {
+                        "item": "Willd."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Plantago maritima ssp. borealis"
+                },
+                "Taxa": [
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Plantago"
+                      },
+                      {
+                        "item": "maritima"
+                      },
+                      {
+                        "item": "borealis"
+                      },
+                      {
+                        "item": "(Lge.) Bl. & D."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Armeria sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Armeria"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Koenigia islandica"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Koenigia"
+                      },
+                      {
+                        "item": "islandica"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Oxyria digyna"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Oxyria"
+                      },
+                      {
+                        "item": "digyna"
+                      },
+                      {
+                        "item": "(L.) Hill."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FairlyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Oxyria-Rumex type"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Oxyria"
+                    }
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Rumex"
+                      },
+                      {
+                        "item": "acetosella"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Rumex"
+                      },
+                      {
+                        "item": "acetosa"
+                      },
+                      {
+                        "item": "lapponicus"
+                      },
+                      {
+                        "item": "Hiit."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Polygonum aviculare coll."
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Polygonum"
+                      },
+                      {
+                        "item": "aviculare"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Polygonum viviparum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Polygonum"
+                      },
+                      {
+                        "item": "viviparum"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Rumex acetosella"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Rumex"
+                      },
+                      {
+                        "item": "acetosella"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Rumex acetosella/acetosa"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Rumex"
+                      },
+                      {
+                        "item": "acetosella"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Rumex"
+                      },
+                      {
+                        "item": "acetosa"
+                      },
+                      {
+                        "item": "lapponicus"
+                      },
+                      {
+                        "item": "Hiit."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FairlyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Montia fontana"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Montia"
+                      },
+                      {
+                        "item": "fontana"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Potamogeton filiformis"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Potamogeton"
+                      },
+                      {
+                        "item": "filiformis"
+                      },
+                      {
+                        "item": "Pers."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Eupotamogeton"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Eupotamogeton"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Coptis trifoliata"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Coptis"
+                      },
+                      {
+                        "item": "trifoliata"
+                      },
+                      {
+                        "item": "(L.) Salisb."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Ranunculus sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Ranunculus"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Thalictrum alpinum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Thalictrum"
+                      },
+                      {
+                        "item": "alpinum"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Alchemilla sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Alchemilla"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Potentilla crantzii type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Potentilla"
+                      },
+                      {
+                        "item": "crantzii"
+                      },
+                      {
+                        "item": "(Cr.) G. Beck"
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Potentilla"
+                      },
+                      {
+                        "item": "tridentata"
+                      },
+                      {
+                        "item": "Ait."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Dryas type"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Dryas"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Potentilla-Comarum type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Potentilla"
+                      },
+                      {
+                        "item": "egedii"
+                      },
+                      {
+                        "item": "Wormsk."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Potentilla"
+                      },
+                      {
+                        "item": "pulchella"
+                      },
+                      {
+                        "item": "R. Br."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Potentilla"
+                      },
+                      {
+                        "item": "hookeriana"
+                      },
+                      {
+                        "item": "Lehm."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Potentilla"
+                      },
+                      {
+                        "item": "nivea"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Potentilla"
+                      },
+                      {
+                        "item": "hyparctica"
+                      },
+                      {
+                        "item": "Malte"
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Potentilla"
+                      },
+                      {
+                        "item": "anserina"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Comarum"
+                      },
+                      {
+                        "item": "palustre"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Sibbaldia"
+                      },
+                      {
+                        "item": "procumbens"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Galium sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Galium"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Salix sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Salix"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Salix herbacea type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Salix"
+                      },
+                      {
+                        "item": "herbacea"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Saxifraga oppositifolia type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "oppositifolia"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "tricuspidata"
+                      },
+                      {
+                        "item": "Rottb."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "aizoides"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "paniculata"
+                      },
+                      {
+                        "item": "Mill."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Saxifraga caespitosa type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "caespitosa"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "cernua"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "hirculus"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "flagellaris"
+                      },
+                      {
+                        "item": "Willd."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "rivularis"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "hyperborea"
+                      },
+                      {
+                        "item": "R. Br."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Saxifraga foliolosa type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "foliolosa"
+                      },
+                      {
+                        "item": "R. Br."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "stellaris"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Saxifraga nillalis type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "nivalis"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "tenuis"
+                      },
+                      {
+                        "item": "(Wbg.) H. Sm."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Saxifraga"
+                      },
+                      {
+                        "item": "hieraciifolia"
+                      },
+                      {
+                        "item": "W. & K."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Euphrasia type"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Bartsia"
+                    }
+                  },
+                  {
+                    "Genus": {
+                      "item": "Euphrasia"
+                    }
+                  },
+                  {
+                    "Genus": {
+                      "item": "Rhinanthus"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Pedicularis sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Pedicularis"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Veronica sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Veronica"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FairlyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Veronica fruticans"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Veronica"
+                      },
+                      {
+                        "item": "fruticans"
+                      },
+                      {
+                        "item": "Jacq."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FairlyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Sparganium sp."
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Sparganium"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Angelica archangelica ssp. norvegica"
+                },
+                "Taxa": [
+                  {
+                    "Subspecies": [
+                      {
+                        "item": "Angelica"
+                      },
+                      {
+                        "item": "archangelica"
+                      },
+                      {
+                        "item": "norvegica"
+                      },
+                      {
+                        "item": "(Rupr.) Nordh."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Ligusticum type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Ligusticum"
+                      },
+                      {
+                        "item": "scoticum"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Vaccinium type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Vaccinium"
+                      },
+                      {
+                        "item": "vitis-idaea"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Vaccinium"
+                      },
+                      {
+                        "item": "uliginosum"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  },
+                  {
+                    "Genus": {
+                      "item": "Oxycoccus"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "Unreliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Sphagnum"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Sphagnum"
+                    }
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Tilletia sphagni"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Tilletia"
+                      },
+                      {
+                        "item": "sphagni"
+                      },
+                      {
+                        "item": "Navashin"
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": {
+                  "Reliability": "FullyReliable"
+                }
+              }
+            ],
+            "Reference": {
+              "item": "Fredskild, B. (1973). Studies in the Vegetational History of Greenland, Palaeobotanical Investigations of some Holocene Lake and Bog deposits. Meddelelser om Grønland."
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

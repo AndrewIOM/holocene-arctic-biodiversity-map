@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "variety_larix_gmelinii_japonica_(maxim. ex regel) pilg."
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Variety": [
+            {
+              "item": "Larix"
+            },
+            {
+              "item": "gmelinii"
+            },
+            {
+              "item": "japonica"
+            },
+            {
+              "item": "(Maxim. ex Regel) Pilg."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

@@ -32,8 +32,6 @@ We are using a custom-designed app to conduct data coding. In this repository, y
 
 * **A file-based graph database in ```/data```.** The file-based structure allows for data coders to commit their changes every so often and resolve any conflicts between the coders.
 
-* **The ready-to-run application in ```/dist```.** The app is compiled for macOS (Intel binary) and Windows.
-
 ### Tutorial
 
 To perform coding, the following steps are required:

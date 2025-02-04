@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:wfo="https://list.worldfloraonline.org/terms/"
+         xmlns:dc="http://purl.org/dc/terms/">
+
+  <wfo:TaxonConcept rdf:about="https://list.worldfloraonline.org/wfo-7000000024-2024-12">
+    <wfo:classification rdf:resource="https://list.worldfloraonline.org/2024-12"/>
+    <dc:replaces rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2024-06"/>
+    <wfo:hasName>
+      <wfo:TaxonName rdf:about="https://list.worldfloraonline.org/wfo-7000000024">
+        <wfo:rank rdf:resource="https://list.worldfloraonline.org/terms/family"/>
+        <wfo:fullName>Anastrophyllaceae L.Söderstr., De Roo &amp; Hedd.</wfo:fullName>
+        <wfo:authorship>L.Söderstr., De Roo &amp; Hedd.</wfo:authorship>
+        <dc:creator>L.Söderstr., De Roo &amp; Hedd.</dc:creator>
+        <wfo:publicationCitation>Phytotaxa 3: 48. 2010.</wfo:publicationCitation>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2018-07"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2019-05"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2021-12"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2022-06"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2022-12"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2023-06"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2023-12"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2024-06"/>
+        <wfo:acceptedNameFor rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2024-12"/>
+        <wfo:currentPreferredUsage rdf:resource="https://list.worldfloraonline.org/wfo-7000000024-2024-12"/>
+        <dc:references>
+          <rdf:Description rdf:about="http://www.wikidata.org/entity/Q21609166">
+            <dc:title>Lars Söderström (b.1954)</dc:title>
+            <dc:type>person</dc:type>
+            <dc:description>Based on occurrence of standard abbreviation &#039;L.Söderstr.&#039; in the authors string.</dc:description>
+          </rdf:Description>
+        </dc:references>
+
+        <dc:references>
+          <rdf:Description rdf:about="http://www.wikidata.org/entity/Q36660725">
+            <dc:title>Ryan De Roo</dc:title>
+            <dc:type>person</dc:type>
+            <dc:description>Based on occurrence of standard abbreviation &#039;De Roo&#039; in the authors string.</dc:description>
+          </rdf:Description>
+        </dc:references>
+
+        <dc:references>
+          <rdf:Description rdf:about="http://www.wikidata.org/entity/Q21515630">
+            <dc:title>Terry Albert John Hedderson (b.1962)</dc:title>
+            <dc:type>person</dc:type>
+            <dc:description>Based on occurrence of standard abbreviation &#039;Hedd.&#039; in the authors string.</dc:description>
+          </rdf:Description>
+        </dc:references>
+
+        <dc:references>
+          <rdf:Description rdf:about="http://www.theplantlist.org/browse/B/Anastrophyllaceae/">
+            <dc:title>The Plant List version 1.0, record: Anastrophyllaceae</dc:title>
+            <dc:type>database</dc:type>
+          </rdf:Description>
+        </dc:references>
+
+        <dc:references>
+          <rdf:Description rdf:about="http://www.theplantlist.org/1.1/browse/B/Anastrophyllaceae/">
+            <dc:title>The Plant List version 1.1, record: Anastrophyllaceae</dc:title>
+            <dc:type>database</dc:type>
+          </rdf:Description>
+        </dc:references>
+
+        <dc:references>
+          <rdf:Description rdf:about="https://www.tropicos.org/name/100356500">
+            <dc:title>Tropicos record: 100356500</dc:title>
+            <dc:type>database</dc:type>
+            <dc:description>Based on data supplied by Bryonames</dc:description>
+          </rdf:Description>
+        </dc:references>
+
+      </wfo:TaxonName>
+    </wfo:hasName>
+
+    <dc:isPartOf rdf:resource="https://list.worldfloraonline.org/wfo-4100003770-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000001876-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000001879-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000004063-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000004565-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000007673-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000009764-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000016465-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000016795-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000017019-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000019296-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000025792-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000027255-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000030392-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000043162-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4100000432-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000043165-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000034494-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000034495-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000036041-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000036043-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000037926-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000043230-2024-12"/>
+    <dc:hasPart rdf:resource="https://list.worldfloraonline.org/wfo-4000043184-2024-12"/>
+    <dc:references>
+      <rdf:Description rdf:about="https://www.doi.org/10.3897/phytokeys.59.6261">
+        <dc:title>Söderström, L. et al. (2016), World checklist of hornworts and liverworts. PhytoKeys 59: 1–828. </dc:title>
+        <dc:type>literature</dc:type>
+      </rdf:Description>
+    </dc:references>
+
+    <dc:references>
+      <rdf:Description rdf:about="https://about.worldfloraonline.org/tens/bryophytesgroup">
+        <dc:title>The Bryophyte TEN</dc:title>
+        <dc:type>person</dc:type>
+        <dc:description>The World Flora Online Classification for Anastrophyllaceae is pending curation by the Bryophyte TEN.</dc:description>
+      </rdf:Description>
+    </dc:references>
+
+    <dc:references>
+      <rdf:Description rdf:about="https://www.bryonames.org/">
+        <dc:title>The Bryophyte Nomenclator</dc:title>
+        <dc:type>database</dc:type>
+        <dc:description>Based on data supplied by Bryonames Dec 2024</dc:description>
+      </rdf:Description>
+    </dc:references>
+
+  </wfo:TaxonConcept>
+
+</rdf:RDF>

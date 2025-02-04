@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_gymnocarpium_dryopteris_l newman"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Gymnocarpium"
+            },
+            {
+              "item": "dryopteris"
+            },
+            {
+              "item": "(L.) Newman"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

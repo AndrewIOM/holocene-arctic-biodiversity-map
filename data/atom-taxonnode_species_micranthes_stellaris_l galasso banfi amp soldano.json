@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_micranthes_stellaris_l galasso banfi amp soldano"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Micranthes"
+            },
+            {
+              "item": "stellaris"
+            },
+            {
+              "item": "(L.) Galasso, Banfi & Soldano"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

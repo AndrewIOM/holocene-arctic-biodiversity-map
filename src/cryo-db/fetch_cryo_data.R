@@ -31,7 +31,7 @@ cat("done.\n")
 
 ## Load site coordinates from ahbddb.txt
 cat("Loading ahbdb coordinates...")
-ahbdb <- read_delim("../../visualisation/thalloo-static-site/map-data/ahbdb_sites.txt",
+ahbdb <- read_delim("../visualisations/thalloo/thalloo-static-site/map-data/ahbdb_sites.txt",
                     delim = "\t",
                     show_col_types = FALSE)
 
@@ -60,7 +60,7 @@ if(file.exists("cryo_db.csv")){
 }
 
 # Determine subset of coordinates to extract
-if(exists("croy_db")){
+if(exists("cryo_db")){
   coords_to_extract <- ahbdb %>%
     filter(!(geometry %in% unique(cryo_db$geometry))) %>%
     # Add unique ID column
