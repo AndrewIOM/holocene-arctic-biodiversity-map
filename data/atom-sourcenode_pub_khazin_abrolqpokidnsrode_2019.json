@@ -8,7 +8,7 @@
     },
     {
       "SourceNode": {
-        "Excluded": [
+        "Included": [
           {
             "Bibliographic": {
               "Author": {
@@ -29,10 +29,7 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "NotTimeSeries",
-          {
-            "item": "Occasionally correlated wide pollen zones to dates obtained in other studies, but no intra-study dating nor correlation with core depth etc."
-          }
+          "CompletedNone"
         ]
       }
     }

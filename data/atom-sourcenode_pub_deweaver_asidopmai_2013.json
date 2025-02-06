@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "DeWeaver, E. T.; Bitz, C. M.; Tremblay, L. B."
-            },
-            "Title": {
-              "item": "Arctic sea ice decline: Observations, projections, mechanisms, and implications"
-            },
-            "Journal": {
-              "item": "Arctic Sea Ice Decline: Observations, Projections, Mechanisms, and Implications"
-            },
-            "Year": 2013,
-            "Pages": [
-              1,
-              269
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "DeWeaver, E. T.; Bitz, C. M.; Tremblay, L. B."
+              },
+              "Title": {
+                "item": "Arctic sea ice decline: Observations, projections, mechanisms, and implications"
+              },
+              "Journal": {
+                "item": "Arctic Sea Ice Decline: Observations, Projections, Mechanisms, and Implications"
+              },
+              "Year": 2013,
+              "Pages": [
+                1,
+                269
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Palaeo chapter covers dinoflagellate cysts with background on diatoms"
           }
-        }
+        ]
       }
     }
   ],

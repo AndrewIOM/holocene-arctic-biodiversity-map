@@ -8,7 +8,7 @@
     },
     {
       "SourceNode": {
-        "Excluded": [
+        "Included": [
           {
             "Bibliographic": {
               "Author": {
@@ -29,10 +29,7 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "NotTimeSeries",
-          {
-            "item": "links to a relevant database, but this publication is the press release announcing the establishment of the database"
-          }
+          "CompletedNone"
         ]
       }
     }

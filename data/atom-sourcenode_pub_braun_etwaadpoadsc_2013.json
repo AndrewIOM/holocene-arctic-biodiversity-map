@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Braun, S.; Nievergelt, D.; Hellmann, L.; Tegel, W.; Büntgen, U.; Schweingruber, F. H."
-            },
-            "Title": {
-              "item": "Evaluating the wood anatomical and dendroecological potential of arctic dwarf shrub communities"
-            },
-            "Journal": {
-              "item": "IAWA Journal"
-            },
-            "Year": 2013,
-            "Volume": 34,
-            "Pages": [
-              485,
-              497
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Braun, S.; Nievergelt, D.; Hellmann, L.; Tegel, W.; Büntgen, U.; Schweingruber, F. H."
+              },
+              "Title": {
+                "item": "Evaluating the wood anatomical and dendroecological potential of arctic dwarf shrub communities"
+              },
+              "Journal": {
+                "item": "IAWA Journal"
+              },
+              "Year": 2013,
+              "Volume": 34,
+              "Pages": [
+                485,
+                497
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "NA"
           }
-        }
+        ]
       }
     }
   ],

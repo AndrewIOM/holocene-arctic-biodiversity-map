@@ -8,7 +8,7 @@
     },
     {
       "SourceNode": {
-        "Excluded": [
+        "Included": [
           {
             "Bibliographic": {
               "Author": {
@@ -29,10 +29,7 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "BiotaNotPresent",
-          {
-            "item": "No included taxa; study of testate amoebae"
-          }
+          "CompletedNone"
         ]
       }
     }

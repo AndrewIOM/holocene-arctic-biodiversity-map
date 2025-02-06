@@ -8,7 +8,7 @@
     },
     {
       "SourceNode": {
-        "Excluded": [
+        "Included": [
           {
             "Bibliographic": {
               "Author": {
@@ -29,10 +29,7 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "NotArcticRegion",
-          {
-            "item": "Samples from Birch Lake, South-East of Fairbanks."
-          }
+          "CompletedNone"
         ]
       }
     }
