@@ -52,24 +52,24 @@ let flattened =
 
         let ofOption (k:FieldDataTypes.Text.Text option) = k |> Option.map(fun k -> k.Value) |> Option.defaultValue ""
         let ofOptionSh (k:FieldDataTypes.Text.ShortText option) = k |> Option.map(fun k -> k.Value) |> Option.defaultValue ""
-        let kind, title =
+        let kind, title, auth =
             match s with
-            | Sources.Source.Bibliographic b -> "bibliographic", (ofOption b.Title)
-            | Sources.Source.DarkData b -> "dark-data", b.Details.Value
-            | Sources.Source.DarkDataSource b -> "dark-data-source", (ofOptionSh b.Title)
-            | Sources.Source.Database b -> "database", b.FullName.Value
-            | Sources.Source.DatabaseEntry b -> "database-entry", (ofOptionSh b.Title)
-            | Sources.Source.GreyLiterature b -> "grey-lit", b.Title.Value
-            | Sources.Source.GreyLiteratureSource b -> "grey-lit-source", b.Title.Value
+            | Sources.Source.Bibliographic b -> "bibliographic", (ofOption b.Title), (ofOption b.Author)
+            | Sources.Source.DarkData b -> "dark-data", b.Details.Value, b.Contact.LastName.Value
+            | Sources.Source.DarkDataSource b -> "dark-data-source", (ofOptionSh b.Title), b.Investigator.Display
+            | Sources.Source.Database b -> "database", b.FullName.Value, ""
+            | Sources.Source.DatabaseEntry b -> "database-entry", (ofOptionSh b.Title), (b.Investigators |> Seq.tryHead |> Option.map(fun p -> p.LastName.Value) |> Option.defaultValue "")
+            | Sources.Source.GreyLiterature b -> "grey-lit", b.Title.Value, b.Contact.LastName.Value
+            | Sources.Source.GreyLiteratureSource b -> "grey-lit-source", b.Title.Value, (b.Contributors |> Seq.tryHead |> Option.map(fun p -> p.Display) |> Option.defaultValue "")
             | Sources.Source.PublishedSource b ->
                 match b with
-                | Sources.Book b -> "book", b.BookTitle.Value
-                | Sources.BookChapter b -> "book-chapter", b.ChapterTitle.Value
-                | Sources.Dissertation b -> "dissertation", b.Title.Value
-                | Sources.IndividualDataset b -> "dataset", b.Title.Value
-                | Sources.JournalArticle b -> "journal-article", b.Title.Value
+                | Sources.Book b -> "book", b.BookTitle.Value, b.BookFirstAuthor.Display
+                | Sources.BookChapter b -> "book-chapter", b.ChapterTitle.Value, b.ChapterFirstAuthor.Display
+                | Sources.Dissertation b -> "dissertation", b.Title.Value, b.Author.Display
+                | Sources.IndividualDataset b -> "dataset", b.Title.Value, (b.Contributors |> Seq.tryHead |> Option.map(fun p -> p.Display) |> Option.defaultValue "")
+                | Sources.JournalArticle b -> "journal-article", b.Title.Value, b.FirstAuthor.Display
 
-        [ kind; title; status; reason; notes; codingStatus; nTimelines.ToString(); name ]
+        [ kind; title; status; reason; notes; codingStatus; nTimelines.ToString(); auth; name ]
         |> String.concat "\t" 
     )
 
