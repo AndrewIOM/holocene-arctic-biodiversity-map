@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "aae2a70d-72ee-416c-aec7-2948bd9f4cbd"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 8950.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 130.0
+          },
+          "MaterialDated": {
+            "item": "unknown"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 169.9
+              },
+              {
+                "_depth": 160.6
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "aae2a70d-72ee-416c-aec7-2948bd9f4cbd"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8950ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 8950.0
+          }
+        }
+      }
+    ]
+  ]
+]
