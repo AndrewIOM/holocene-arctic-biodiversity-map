@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "68b1f2b8-364f-419d-9cf6-b8aeffb049a7"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Nigerdleq"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 62.065
+              },
+              {
+                "item": -49.359
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 194.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

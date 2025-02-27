@@ -1,0 +1,69 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_kelly_tpsolqlsosg_1974"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Included": [
+          {
+            "PublishedSource": {
+              "JournalArticle": {
+                "FirstAuthor": {
+                  "item1": [
+                    "M"
+                  ],
+                  "item2": "Kelly"
+                },
+                "AdditionalAuthors": [
+                  {
+                    "item1": [
+                      "S"
+                    ],
+                    "item2": "Funder"
+                  }
+                ],
+                "Title": {
+                  "item": "The pollen stratigraphy of late Quaternary lake sediments of South-West Greenland"
+                },
+                "Journal": {
+                  "item": "Rapport Grønlands Geologiske Undersøgelse"
+                },
+                "Year": 1974,
+                "Volume": 64,
+                "Month": "Jan",
+                "DOI": {
+                  "item": "10.34194/rapggu.v64.7374"
+                }
+              }
+            }
+          },
+          "CompletedNone"
+        ]
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kelly_tpsolqlsosg_1974"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "b207aaac-1da9-40a6-93c0-6266e760089c"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
+]

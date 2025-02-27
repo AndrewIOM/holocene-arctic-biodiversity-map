@@ -14,6 +14,7 @@ type cm
 type HowDepthIsDefined =
     | ByMorphotype of name:string
     | ByLevels of lowest:float<cm> * highest:float<cm> * spacing:float<cm>
+    | ByDepths
 
 
 // Options that may be changed:
@@ -24,12 +25,12 @@ type HowDepthIsDefined =
 /// to which all other depths are rounded to. Alternatively, you may
 /// specify the depth levels manually by a range and their spacing
 /// (e.g. 2cm intervals between X and Y cm).
-let definitiveDepths = ByMorphotype "Gramineae"
+let definitiveDepths = ByDepths
 // let definitiveDepths = ByLevels (0.5<cm>, 275.<cm>, 2.<cm>)
 
 /// The file in which the data is currently stored, either absolute
 /// or relative to the script.
-let filename = "/Users/andrewmartin/Desktop/Louie digitisations/Fredskild_1983_64_24N_51_41W_pollen.txt"
+let filename = "/Users/andrewmartin/Library/CloudStorage/Tresorit-AndrewMartin/CHARTER Work Package 4/Digitised/kelly-1974-nigerdleq-data.txt"
 
 
 // Script starts here:
@@ -65,6 +66,11 @@ let realDepths=
         |> Array.sort
     | ByLevels (low, high, spacing) ->
         failwith "not finished"
+    | ByDepths ->
+        rows 
+        |> Array.filter(fun r -> r.Morphotype = "depth")
+        |> Array.map(fun r -> r.Depth)
+        |> Array.sort
 
 let withClosestRealDepth =
     rows
