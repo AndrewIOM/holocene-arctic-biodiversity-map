@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "inferencemethodnode",
+        "atlas_ghnhmd"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "InferenceMethodNode": {
+          "IdentificationKeyOrAtlas": {
+            "item": "Greenland herbarium, Natural History Museum, Denmark"
+          }
+        }
+      }
+    }
+  ],
+  []
+]
