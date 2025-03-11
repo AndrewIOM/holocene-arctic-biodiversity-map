@@ -1,0 +1,25 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_plantmacrofossil_potamogeton pusillus"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyNode": {
+          "Morphotype": {
+            "Microfossil": [
+              "PlantMacrofossil",
+              {
+                "item": "Potamogeton pusillus"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

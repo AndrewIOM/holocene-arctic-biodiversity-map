@@ -85,6 +85,8 @@ module Options =
     /// If a in-built lookup is not used, specify one manually here:
     let manualLookup = ManualLookups.floraOfGreenland
 
+    let addUnmatchedTaxa = true
+
 // ---------
 // SCRIPT FUNCTIONS START
 // ---------
@@ -110,7 +112,7 @@ module WorldFloraOnline =
 
     let tryMatch taxon (query:string) =
         let result = WFO.Load query
-        printfn "Result %A" result.Candidates
+        // printfn "Result %A" result.Candidates
         result.Match
         |> Option.bind(fun m ->
             let tree = m.Placement.Split("/") |> Array.rev
@@ -276,13 +278,15 @@ let run () =
         let taxa =
             proxiedTaxa
             |> List.collect(fun (_,t) -> t)
-            // |> List.distinct
-            // |> List.map(fun t ->
-            //     WorldFloraOnline.query t |> WorldFloraOnline.tryMatch t
-            //     |> Option.defaultWith(fun _ ->
-            //         printfn "No match in WFO for %A" t
-            //         t, [] ) )
-            |> List.choose(fun t -> WorldFloraOnline.query t |> WorldFloraOnline.tryMatch t )
+            |> List.distinct
+            |> List.choose(fun t ->
+                WorldFloraOnline.query t 
+                |> WorldFloraOnline.tryMatch t
+                |> Option.orElseWith(fun _ ->
+                    printfn "[Warning] Not a WFO match for %A." t
+                    if Options.addUnmatchedTaxa
+                    then  Some (t, [ Population.Taxonomy.Kingdom (forceOk <| FieldDataTypes.Text.createShort "Plantae")])
+                    else None ) )
 
         let taxonToNode taxon =
             taxon |> GraphStructure.TaxonomyNode |> GraphStructure.PopulationNode
@@ -307,7 +311,7 @@ let run () =
                             |> Result.bind(fun (g,a) ->
                                 Storage.addRelationByKey g
                                     (GraphStructure.makeUniqueKey child)
-                                    (GraphStructure.makeUniqueKey child)
+                                    (GraphStructure.makeUniqueKey parent)
                                     (GraphStructure.ProposedRelation.Population (Population.PopulationRelation.IsA))
                                 )
                         else

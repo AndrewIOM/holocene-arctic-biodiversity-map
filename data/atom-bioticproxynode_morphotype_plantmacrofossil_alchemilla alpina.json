@@ -1,0 +1,25 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_plantmacrofossil_alchemilla alpina"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyNode": {
+          "Morphotype": {
+            "Microfossil": [
+              "PlantMacrofossil",
+              {
+                "item": "Alchemilla alpina"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]
