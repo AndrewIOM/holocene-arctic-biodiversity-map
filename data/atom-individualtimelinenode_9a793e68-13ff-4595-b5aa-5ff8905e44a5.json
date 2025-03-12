@@ -1,0 +1,171 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "UUID": [
+          "digitiseddatasetnode",
+          "c44029c0-5bbc-45fa-b059-e58c871bc32b"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasRawData"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_diatom"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "6490f92b-8f6e-4e0f-8021-977ddf9701a3"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "12725ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "13195ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "0ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentLatestSpecified": {
+            "BP": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "BP": 12960.0
+          }
+        }
+      }
+    ]
+  ]
+]
