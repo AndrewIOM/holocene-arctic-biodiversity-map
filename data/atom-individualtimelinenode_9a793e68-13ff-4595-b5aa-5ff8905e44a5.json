@@ -24,6 +24,114 @@
       },
       {
         "UUID": [
+          "individualdatenode",
+          "0cdcc734-503e-4afc-9816-271856530d4d"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "99a19c99-ccb3-4eac-bf85-2d9c1eacd656"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "9a3b4931-2f8a-4cbb-8583-eb21e6e0e310"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "cb125fd8-9001-434c-9fea-834cd6e6ef00"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "f513d1a1-0187-478b-9746-97ebf60c3655"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "8270d8b4-b69b-4569-882d-eca178ef4b7a"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      {
+        "UUID": [
           "digitiseddatasetnode",
           "c44029c0-5bbc-45fa-b059-e58c871bc32b"
         ]

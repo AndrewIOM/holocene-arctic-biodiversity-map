@@ -1,0 +1,63 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "f513d1a1-0187-478b-9746-97ebf60c3655"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 3670.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 150.0
+          },
+          "MaterialDated": {
+            "item": "organic material"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 50.0
+              },
+              {
+                "_depth": 45.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "Lu-1744"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "f513d1a1-0187-478b-9746-97ebf60c3655"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "3670ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 3670.0
+          }
+        }
+      }
+    ]
+  ]
+]

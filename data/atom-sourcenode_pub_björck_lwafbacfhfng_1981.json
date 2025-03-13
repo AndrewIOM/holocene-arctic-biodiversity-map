@@ -44,6 +44,9 @@
           {
             "InProgress": [
               {
+                "item": "exposure"
+              },
+              {
                 "item": "source-primary-or-secondary"
               }
             ]
