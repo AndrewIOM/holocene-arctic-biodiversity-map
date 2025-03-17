@@ -2,61 +2,8 @@
 // to it's 'real taxa' using lookup-based atlases / keys
 // that exist in the graph database.
 
-#r "nuget: FSharp.Data,5.0.2"
-#r "nuget: Newtonsoft.Json,13.0.3"
-#r "nuget: Microsoft.FSharpLu.Json,0.11.7"
-#r "../../dist/BiodiversityCoder.Core.dll"
-
+#load "nomenclatures.fsx"
 open BiodiversityCoder.Core
-open Population.Taxonomy
-
-module ManualLookups =
-
-    /// 1968 edition of the Flora of Greenland. Lookup of macrofossil names as mentioned
-    /// in various Fredskild 1970s - 1980s macrofossil diagrams.
-    let floraOfGreenland =
-        let txt s = s |> FieldDataTypes.Text.createShort |> forceOk
-        [
-            "Alchemilla alpina", [ Species(txt "Alchemilla", txt "alpina", txt "L.") ]
-            "Betula nana", [ Species(txt "Betula", txt "nana", txt "L.") ]
-            // "Carex arctogena", []
-            "Carex bigelowii", [ Species(txt "Carex", txt "bigelowii", txt "Torr.") ]
-            "Carex brunescens", [ Species(txt "Carex", txt "brunescens", txt "(Pers.) Poir.") ]
-            "Carex capillaris", [ Species(txt "Carex", txt "capillaris", txt "L.") ]
-            "Carex gynocrates", [ Species(txt "Carex", txt "gynocrates", txt "Wormsk.") ]
-            "Carex lachenalii", [ Species(txt "Carex", txt "lachenalii", txt "Schkuhr.") ]
-            "Carex norvegica", [ Species(txt "Carex", txt "norvegica", txt "L.") ]
-            "Carex rufina", [ Species(txt "Carex", txt "rufina", txt "Drej.") ]
-            // "Carex sect. heleonastes", [ Species(txt "", txt "", txt "") ]
-            "Carex sp. distigmitat", [ Genus(txt "Carex") ]
-            "Carex sp. tristigmat.", [ Genus(txt "Carex") ]
-            "Chamaenerion latifolium", [ Species(txt "Chamaenerion", txt "latifolium", txt "(L.) Th. Fries & Lge.") ]
-            "Draba sp.", [ Genus(txt "Draba") ]
-            "Dryas integrifolia", [ Species(txt "Dryas", txt "integrifolia", txt "M. Vahl.") ]
-            "Empetrum hermaphroditum", [ Species(txt "Empetrum", txt "hermaphroditum", txt "(Hagerup) Böch.") ]
-            "Ericales sp. and Salix herbacea", [
-                Order(txt "Ericales")
-                Species(txt "Salix", txt "herbacea", txt "L.") ]
-            "Harrimanella hypnoides", [ Species(txt "Harrimanella", txt "hypnoides", txt "(L.) Coville.") ]
-            "Hippuris vulgaris", [ Species(txt "Hippuris", txt "vulgaris", txt "L.") ]
-            "Juncus bi- and tri-triglumis", [ Genus(txt "Juncus") ]
-            "Juniperus communis", [ Species(txt "Juniperus", txt "communis", txt "L.") ]
-            // "Loiseleuria decumbens", [ Species(txt "", txt "", txt "") ]
-            "Luzula sp.", [ Genus(txt "Luzula") ]
-            "Minuratia rubella", [ Species(txt "Minuratia", txt "rubella", txt "(Wbg.) Hiern.") ]
-            "Phippsia algida", [ Species(txt "Phippsia", txt "algida", txt "(Sol.) R. Br.") ]
-            "Phyllodoce", [ Genus(txt "Phyllodoce") ]
-            "Poa sp.", [ Genus(txt "Poa") ]
-            "Potamogeton pusillus", [ Species(txt "Potamogeton", txt "pusillus", txt "L.") ]
-            "Potentilla sp.", [ Genus(txt "Potentilla") ]
-            "Ranunculus confervoides", [ Species(txt "Ranunculus", txt "confervoides", txt "(Fr.) Asch. & Graebn.") ]
-            "Ranunculus hyperboreus", [ Species(txt "Ranunculus", txt "hyperboreus", txt "Rottb.") ]
-            "Salix", [ Genus(txt "Salix") ]
-            "Salix herbacea", [ Species(txt "Salix", txt "herbacea", txt "L.") ]
-            "Silene acaulis", [ Species(txt "Silene", txt "acaulis", txt "(L.) Jacq.") ]
-            "Vaccinium uliginosum", [ Species(txt "Vaccinium", txt "uliginosum", txt "L.") ]
-        ]
-
 
 /// ----
 /// User-configurable options
@@ -64,28 +11,57 @@ module ManualLookups =
 module Options =
 
     /// The timeline for which data should be added
-    let timeline = System.Guid "48d66bcb-89ff-4d3f-8713-057de0eb592b"
+    let timeline = System.Guid "7ad29507-799c-4376-b56f-1351f3b39160"
 
     /// Stops processing if some morphotypes are not matched
     /// within the specified key.
-    let runWithIncompleteMatches = true
+    let runWithIncompleteMatches = false
 
     /// If there are more than one raw dataset for the timeline,
     /// specify the raw data to use here.
     let specifiedRawDataset = None
 
-    let proxyGroup = Population.BioticProxies.MicrofossilGroup.PlantMacrofossil
+    let proxyGroup = Population.BioticProxies.MicrofossilGroup.Pollen
 
     let outcome = Outcomes.Biodiversity.Abundance
 
-    let atlasToUse = Graph.FriendlyKey("inferencemethodnode", "atlas_ghnhmd")
+    /// Specify an atlas or key to use by ID. If a lookup
+    /// is available it will be used to make the proxied taxa.
+    /// For a list of atlases, work from newest to oldest finding
+    /// the first match for a morphotype. For pollen lookup, this will
+    /// just be the one inference node.
+    let inferenceAtlases = [ // List newest to oldest
+        "atlas_lookup_fshsavhitssaegbggu"
+        "atlas_lookup_fbsitvhogpioshlabdmog"
+    ]
+
+    /// If a morphotype has been used with a different interchangable name for an
+    /// identical morphotype, enter the names here.
+    /// Key name -> this data name
+    let morphotypeSynonyms = Map.ofList [
+        "Saxifraga caespitosa type", "Saxifraga ceruna type"
+    ]
+
+    // /// If botanical naming scheme has been defined, state it here.
+    // /// e.g. Bocher (1965) Flora of Greenland.
+    // let inferenceNomenclature = Some Nomenclatures.Floras.``Flora of Greenland (Böcher et al., 1968)``
+
+    // /// If a specific convention on naming morphotypes has been applied,
+    // /// name that here or use None for unspecified.
+    // /// e.g. Faegri and Iversen (1975) as system for naming types.
+    // let inferenceMorphotypeConvention = Some <| Graph.FriendlyKey("inferencemethodnode", "morphotypeterminology_fitopa")
 
     let dataFolder = "/Users/andrewmartin/Documents/GitHub Projects/holocene-arctic-biodiversity-map/data/"
 
-    /// If a in-built lookup is not used, specify one manually here:
-    let manualLookup = ManualLookups.floraOfGreenland
+    /// A manual lookup table to convert from pollen morphotypes into
+    /// taxonomic entities (including full naming / nomenclature).
+    let manualLookup = []
 
     let addUnmatchedTaxa = true
+
+    /// Try to match keys and without sp. on the end for genera.
+    let dataIsMissingSpSuffix = true
+
 
 // ---------
 // SCRIPT FUNCTIONS START
@@ -151,6 +127,25 @@ module WorldFloraOnline =
                 [ Population.Taxonomy.Kingdom("Plantae" |> FieldDataTypes.Text.createShort |> forceOk) ])
             | _ -> None )
 
+let fetchAtlas inferenceAtlas graph =
+    Storage.atomByKey (Graph.FriendlyKey("inferencemethodnode",inferenceAtlas)) graph
+    |> Result.ofOption "Could not find atlas node"
+    |> Result.bind (fun a ->
+        match (a |> fst |> snd) with
+        | GraphStructure.Node.PopulationNode p ->
+            match p with
+            | GraphStructure.InferenceMethodNode i ->
+                match i with
+                | Population.BioticProxies.InferenceMethodNode.IdentificationKeyOrAtlasWithLookup l -> Ok (i, Some l)
+                | _ -> Ok (i, None)
+            | _ -> Error "Not an atlas node"
+        | _ -> Error "Not an atlas node" )
+
+let stackAtlases (atlases: list<Population.BioticProxies.InferenceMethodNode * option<Population.BioticProxies.TaxonLookup>>) =
+    atlases 
+    |> List.choose(fun (n,l) -> l |> Option.map(fun l -> l.Entries |> List.map(fun e -> e,n)))
+    |> List.collect id
+
 
 let run () =
     result {
@@ -163,19 +158,11 @@ let run () =
 
         let! measureNode = Storage.atomByKey (GraphStructure.makeUniqueKey (GraphStructure.OutcomeNode <| GraphStructure.MeasureNode Options.outcome)) graph |> Result.ofOption ""
 
-        let! inferNode, atlas =
-            Storage.atomByKey Options.atlasToUse graph
-            |> Result.ofOption "Could not find atlas node"
-            |> Result.bind (fun a ->
-                match (a |> fst |> snd) with
-                | GraphStructure.Node.PopulationNode p ->
-                    match p with
-                    | GraphStructure.InferenceMethodNode i ->
-                        match i with
-                        | Population.BioticProxies.InferenceMethodNode.IdentificationKeyOrAtlasWithLookup l -> Ok (i, Some l)
-                        | _ -> Ok (i, None)
-                    | _ -> Error "Not an atlas node"
-                | _ -> Error "Not an atlas node" )
+        let! stackedAtlas =
+            Options.inferenceAtlases
+            |> List.map(fun a -> fetchAtlas a graph)
+            |> Result.ofList
+            |> Result.map stackAtlases
 
         let! rawData =
             timeline |> snd
@@ -205,14 +192,24 @@ let run () =
             // |> List.map(fun x -> Options.morphotypeSynonyms |> Map.tryFind x |> Option.defaultValue x)
         do!
             let inKey =
-                match atlas with
-                | Some a -> a.Entries |> List.map(fun a -> a.MorphotypeName.Value)
-                | None -> Options.manualLookup |> List.map fst
+                match Seq.isEmpty stackedAtlas with
+                | false -> stackedAtlas |> List.map(fun (a,b) -> a.MorphotypeName.Value)
+                | true -> Options.manualLookup |> List.map fst
+                |> List.map(fun s -> if Options.dataIsMissingSpSuffix then s.Replace(" sp.", "") else s)
+                |> List.map(fun s ->
+                    match Options.morphotypeSynonyms |> Map.tryFind s with
+                    | Some m ->
+                        printfn "[Info] Replacing morphotype %s with synonym %s" s m
+                        m
+                    | None -> s )
             let intersect = Set.intersect (Set.ofList dataMorphotypes) (Set.ofList inKey)
             printfn "Found %i / %i morphotypes in the atlas" intersect.Count dataMorphotypes.Length
             if intersect.Count <> dataMorphotypes.Length && not Options.runWithIncompleteMatches
             then Error (sprintf "%i morphotypes are not in the atlas: %A" (dataMorphotypes.Length - intersect.Count) (List.except (Set.toList intersect) dataMorphotypes))
-            else Ok ()
+            else
+                List.except (Set.toList intersect) dataMorphotypes
+                |> List.iter(fun m -> printfn "[Warning] '%s' not in key / atlas." m)
+                Ok ()
 
         // Only assign morphotypes not already added as proxied taxa.
         let! proxiesAlreadyEntered =
@@ -251,33 +248,42 @@ let run () =
         printfn "The following proxies are already entered: %A" proxiesAlreadyEntered
 
         let lookupToUse =
-            match atlas with
-            | Some a -> a.Entries |> List.map(fun a -> a.MorphotypeName.Value, a.Taxa)
-            | None -> Options.manualLookup
+            match Seq.isEmpty stackedAtlas with
+            | false -> stackedAtlas |> List.map(fun (a,b) -> a.MorphotypeName.Value, b, a.Taxa)
+            | true -> Options.manualLookup
 
         let proxiedTaxa =
             dataMorphotypes
-            |> List.filter(fun m -> lookupToUse |> List.exists(fun a -> fst a = m))
-            |> List.map(fun morphotype ->
-                let entry =
-                    lookupToUse
-                    |> List.find(fun e -> fst e = morphotype)
+            |> List.map(fun m ->
+                lookupToUse 
+                |> List.tryFind(fun (a,_,_) ->
+                    if Options.dataIsMissingSpSuffix
+                    then
+                        printfn "[%s] [%s]" (a.Replace(" sp.", "")) m
+                        a = m || a.Replace(" sp.", "") = m
+                    else a = m )
+                |> Option.defaultWith(fun _ ->
+                    printfn "[Info] Using placeholder taxon for morphotype '%s'." m
+                    (m, Population.BioticProxies.Implicit, [ Population.Taxonomy.Kingdom (forceOk <| FieldDataTypes.Text.createShort "Problematic (Placeholder)")])
+                )
+            )
+            |> List.map(fun (entry, inferNode, taxa) ->
                 let morphotypeNode =
                     let name =
                         match Options.proxyGroup with
-                        | Population.BioticProxies.PlantMacrofossil -> (fst entry).Replace(" (any)", "")
-                        | _ -> fst entry
+                        | Population.BioticProxies.PlantMacrofossil -> entry.Replace(" (any)", "")
+                        | _ -> entry
                     Population.BioticProxies.Microfossil (Options.proxyGroup, FieldDataTypes.Text.createShort name |> forceOk)
                     |> Population.BioticProxies.BioticProxyNode.Morphotype
-                morphotypeNode, snd entry
+                morphotypeNode, inferNode, taxa
             )
-            |> List.filter(fun (m,_) -> proxiesAlreadyEntered |> List.contains m |> not)
+            |> List.filter(fun (m,_,_) -> proxiesAlreadyEntered |> List.contains m |> not)
 
         printfn "%i proxies remain to be entered" proxiedTaxa.Length
 
         let taxa =
             proxiedTaxa
-            |> List.collect(fun (_,t) -> t)
+            |> List.collect(fun (_,_,t) -> t)
             |> List.distinct
             |> List.choose(fun t ->
                 WorldFloraOnline.query t 
@@ -324,7 +330,7 @@ let run () =
         printfn "(adding nodes for biotic proxies if they don't already exist)"
 
         let! graphWithProxied =
-            List.fold(fun state (morpho,taxa) -> 
+            List.fold(fun state (morpho, inferNode,taxa) -> 
                 state 
                 |> Result.bind(fun s -> Storage.addOrSkipNodes s [ GraphStructure.PopulationNode <| GraphStructure.BioticProxyNode morpho ])
                 |> Result.bind(fun (s,_) ->
@@ -334,6 +340,7 @@ let run () =
                         (taxa |> List.head)
                         (taxa |> List.tail)
                         inferNode
+                        ([] |> List.choose id)
                         s
                     |> Result.bind(fun (g, proxiedKey) -> 
                         Storage.addRelationByKey g (timeline |> fst |> fst) proxiedKey (GraphStructure.ProposedRelation.Exposure Exposure.ExposureRelation.HasProxyInfo)
