@@ -1,0 +1,309 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "inferencemethodnode",
+        "atlas_lookup_fshsavhitssaegbggu"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "InferenceMethodNode": {
+          "IdentificationKeyOrAtlasWithLookup": {
+            "Nomleclature": {
+              "item": "Böcher, Holmen, & Jakobsen (1966)"
+            },
+            "Entries": [
+              {
+                "MorphotypeName": {
+                  "item": "Empetrum nigrum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Empetrum"
+                      },
+                      {
+                        "item": "nigrum"
+                      },
+                      {
+                        "item": "(Hagerup) Böch."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Vaccinium uliginosum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Vaccinium"
+                      },
+                      {
+                        "item": "uliginosum"
+                      },
+                      {
+                        "item": "L."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Phyllodoce corerulea"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Phyllodoce"
+                      },
+                      {
+                        "item": "corerulea"
+                      },
+                      {
+                        "item": "(L.) Bab."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Cassiope type"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Cassiope"
+                      },
+                      {
+                        "item": "tetragona"
+                      },
+                      {
+                        "item": "(L.) D.Don"
+                      }
+                    ]
+                  },
+                  {
+                    "Species": [
+                      {
+                        "item": "Harrimanella"
+                      },
+                      {
+                        "item": "hypnoides"
+                      },
+                      {
+                        "item": "(L.) Coville"
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Rhododendron lapponicum"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Rhododendron"
+                      },
+                      {
+                        "item": "lapponicum"
+                      },
+                      {
+                        "item": "(L.) Wbg."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Arctostaphylos alpina"
+                },
+                "Taxa": [
+                  {
+                    "Species": [
+                      {
+                        "item": "Arctostaphylos"
+                      },
+                      {
+                        "item": "alpina"
+                      },
+                      {
+                        "item": "(L.) Spreng."
+                      }
+                    ]
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Chamaenerion type"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Chamaenerion"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Oxyria"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Oxyria"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Dryas"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Dryas"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Gramineae"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Gramineae"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Pedicuralis"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Pedicuralis"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Potentilla"
+                },
+                "Taxa": [
+                  {
+                    "Genus": {
+                      "item": "Potentilla"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Cruciferae"
+                },
+                "Taxa": [
+                  {
+                    "Family": {
+                      "item": "Cruciferae"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Cyperaceae"
+                },
+                "Taxa": [
+                  {
+                    "Family": {
+                      "item": "Cyperaceae"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Liguiflorae"
+                },
+                "Taxa": [
+                  {
+                    "Family": {
+                      "item": "Liguiflorae"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Polypodiaceae"
+                },
+                "Taxa": [
+                  {
+                    "Family": {
+                      "item": "Polypodiaceae"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              },
+              {
+                "MorphotypeName": {
+                  "item": "Caryophyllaceae"
+                },
+                "Taxa": [
+                  {
+                    "Family": {
+                      "item": "Caryophyllaceae"
+                    }
+                  }
+                ],
+                "Confidence": "Unspecified"
+              }
+            ],
+            "Reference": {
+              "item": "Funder, S (1978). Holocene stratigraphy and vegetation history in the Scoresby Sund area, East Greenland. Bulletin Grønlands Geologiske Undersøgelse"
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
