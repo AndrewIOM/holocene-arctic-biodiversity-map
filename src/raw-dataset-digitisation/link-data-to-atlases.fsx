@@ -262,6 +262,7 @@ let run () =
                         printfn "[%s] [%s]" (a.Replace(" sp.", "")) m
                         a = m || a.Replace(" sp.", "") = m
                     else a = m )
+                |> Option.map(fun (a,b,c) -> if Options.dataIsMissingSpSuffix then a.Replace(" sp.", ""),b,c else a,b,c)
                 |> Option.defaultWith(fun _ ->
                     printfn "[Info] Using placeholder taxon for morphotype '%s'." m
                     (m, Population.BioticProxies.Implicit, [ Population.Taxonomy.Kingdom (forceOk <| FieldDataTypes.Text.createShort "Problematic (Placeholder)")])
