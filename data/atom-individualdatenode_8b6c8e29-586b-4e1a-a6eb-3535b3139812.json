@@ -1,0 +1,63 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "8b6c8e29-586b-4e1a-a6eb-3535b3139812"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 3840.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 100.0
+          },
+          "MaterialDated": {
+            "item": "gyttja"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 73.0
+              },
+              {
+                "_depth": 70.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "K-2037"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "8b6c8e29-586b-4e1a-a6eb-3535b3139812"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "3840ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 3840.0
+          }
+        }
+      }
+    ]
+  ]
+]

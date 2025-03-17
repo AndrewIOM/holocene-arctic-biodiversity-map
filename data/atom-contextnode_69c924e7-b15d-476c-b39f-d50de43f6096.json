@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "69c924e7-b15d-476c-b39f-d50de43f6096"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Hugin Sø"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "70°46'00\"N,24°07'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 160.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
