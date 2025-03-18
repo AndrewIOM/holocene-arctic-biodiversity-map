@@ -11,11 +11,14 @@ open BiodiversityCoder.Core
 module Options =
 
     /// The timeline for which data should be added
-    let timeline = System.Guid "7ad29507-799c-4376-b56f-1351f3b39160"
+    let timeline = System.Guid "9a793e68-13ff-4595-b5aa-5ff8905e44a5" // Bugt Sø
 
     /// Stops processing if some morphotypes are not matched
     /// within the specified key.
-    let runWithIncompleteMatches = false
+    let runWithIncompleteMatches = true
+
+    /// Adds unmatched taxa with a placeholder to the 'Problematic' kingdom if true.
+    let addUnmatchedTaxa = true
 
     /// If there are more than one raw dataset for the timeline,
     /// specify the raw data to use here.
@@ -32,7 +35,7 @@ module Options =
     /// just be the one inference node.
     let inferenceAtlases = [ // List newest to oldest
         "atlas_lookup_fshsavhitssaegbggu"
-        "atlas_lookup_fbsitvhogpioshlabdmog"
+        // "atlas_lookup_fbsitvhogpioshlabdmog"
     ]
 
     /// If a morphotype has been used with a different interchangable name for an
@@ -42,9 +45,9 @@ module Options =
         "Saxifraga caespitosa type", "Saxifraga ceruna type"
     ]
 
-    // /// If botanical naming scheme has been defined, state it here.
-    // /// e.g. Bocher (1965) Flora of Greenland.
-    // let inferenceNomenclature = Some Nomenclatures.Floras.``Flora of Greenland (Böcher et al., 1968)``
+    /// If botanical naming scheme has been defined, state it here.
+    /// e.g. Bocher (1965) Flora of Greenland.
+    let inferenceNomenclature = Some Nomenclatures.Floras.``Flora of Greenland (Böcher et al., 1968)``
 
     // /// If a specific convention on naming morphotypes has been applied,
     // /// name that here or use None for unspecified.
@@ -56,8 +59,6 @@ module Options =
     /// A manual lookup table to convert from pollen morphotypes into
     /// taxonomic entities (including full naming / nomenclature).
     let manualLookup = []
-
-    let addUnmatchedTaxa = true
 
     /// Try to match keys and without sp. on the end for genera.
     let dataIsMissingSpSuffix = true
@@ -195,6 +196,8 @@ let run () =
                 match Seq.isEmpty stackedAtlas with
                 | false -> stackedAtlas |> List.map(fun (a,b) -> a.MorphotypeName.Value)
                 | true -> Options.manualLookup |> List.map fst
+                // Also match in flora if specified:
+                |> List.append (Options.inferenceNomenclature |> Option.map(fun l -> fst l |> List.map fst) |> Option.defaultValue [] )
                 |> List.map(fun s -> if Options.dataIsMissingSpSuffix then s.Replace(" sp.", "") else s)
                 |> List.map(fun s ->
                     match Options.morphotypeSynonyms |> Map.tryFind s with
@@ -202,6 +205,7 @@ let run () =
                         printfn "[Info] Replacing morphotype %s with synonym %s" s m
                         m
                     | None -> s )
+
             let intersect = Set.intersect (Set.ofList dataMorphotypes) (Set.ofList inKey)
             printfn "Found %i / %i morphotypes in the atlas" intersect.Count dataMorphotypes.Length
             if intersect.Count <> dataMorphotypes.Length && not Options.runWithIncompleteMatches
@@ -247,10 +251,34 @@ let run () =
         
         printfn "The following proxies are already entered: %A" proxiesAlreadyEntered
 
+        let! nomenclatureForLookup =
+            Options.inferenceNomenclature 
+            |> Option.map(fun (key,nomId) ->
+                Storage.atomByKey nomId graph
+                |> Result.ofOption "Could not find inference node (nomenclature)"
+                |> Result.bind(fun inferAtom ->
+                    match inferAtom |> fst |> snd with
+                    | GraphStructure.PopulationNode e ->
+                        match e with
+                        | GraphStructure.InferenceMethodNode i -> Ok i
+                        | _ -> Error "Not an inference node"
+                    | _ -> Error "Not an inference node" )
+                |> Result.map(fun inferNode ->
+                    key 
+                    |> List.map(fun (name,taxa) -> name, inferNode, taxa)))
+            |> Option.defaultValue (Ok [])
+
+        // Lookup ordered with morphotypes first, and nomenclature second.
         let lookupToUse =
-            match Seq.isEmpty stackedAtlas with
-            | false -> stackedAtlas |> List.map(fun (a,b) -> a.MorphotypeName.Value, b, a.Taxa)
-            | true -> Options.manualLookup
+            List.append (
+                match Seq.isEmpty stackedAtlas with
+                | false -> stackedAtlas |> List.map(fun (a,b) -> a.MorphotypeName.Value, b, a.Taxa)
+                | true -> Options.manualLookup) nomenclatureForLookup
+
+        printfn "Lookup = ..."
+        lookupToUse |> List.iter(fun i -> printfn "%A" i)
+        System.Console.ReadLine() |> ignore
+
 
         let proxiedTaxa =
             dataMorphotypes
