@@ -1,0 +1,63 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "83c15e68-06f8-4312-b101-c4e269a83e71"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 4990.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 90.0
+          },
+          "MaterialDated": {
+            "item": "gytta"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 66.0
+              },
+              {
+                "_depth": 62.0
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "K-3688"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "83c15e68-06f8-4312-b101-c4e269a83e71"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4990ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 4990.0
+          }
+        }
+      }
+    ]
+  ]
+]

@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "28a0612c-15bd-4660-b915-619da1b14785"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Langesø"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "75°22'00\"N,58°36'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 105.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

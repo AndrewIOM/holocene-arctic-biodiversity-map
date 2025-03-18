@@ -8,24 +8,64 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Fredskild, B."
-            },
-            "Title": {
-              "item": "The Holocene vegetational development of Tugtuligssuaq and Qeqertat, northwest Greenland"
-            },
-            "Journal": {
-              "item": "Meddelelser om Gronland, Geoscience"
-            },
-            "Year": 1985,
-            "Volume": 14,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Fredskild, B."
+              },
+              "Title": {
+                "item": "The Holocene vegetational development of Tugtuligssuaq and Qeqertat, northwest Greenland"
+              },
+              "Journal": {
+                "item": "Meddelelser om Gronland, Geoscience"
+              },
+              "Year": 1985,
+              "Volume": 14,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_fredskild_thvdotaqng_1985"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "55605ff3-9812-494e-82f3-2695069b87fa"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_fredskild_thvdotaqng_1985"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f2c05308-7e21-4516-8d8f-a0c1e9295e59"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
