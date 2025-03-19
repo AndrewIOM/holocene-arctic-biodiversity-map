@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "7f7dad3e-a5c5-44d4-863f-f0e80e3d8472"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "7f7dad3e-a5c5-44d4-863f-f0e80e3d8472"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "7f7dad3e-a5c5-44d4-863f-f0e80e3d8472"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_salix_arctica_pall"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "7f7dad3e-a5c5-44d4-863f-f0e80e3d8472"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "nomenclature_bhjtfog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "7f7dad3e-a5c5-44d4-863f-f0e80e3d8472"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_salix arctica"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

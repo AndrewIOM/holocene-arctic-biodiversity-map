@@ -1,0 +1,78 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "bada5d8e-8664-4206-a724-70152aa881b7"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 7790.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 110.0
+          },
+          "MaterialDated": {
+            "item": "unknown"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 114.8
+              },
+              {
+                "_depth": 109.4
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "bada5d8e-8664-4206-a724-70152aa881b7"
+        ]
+      },
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "d739815c-fe4b-4212-8647-f86255bc1061"
+        ]
+      },
+      1,
+      {
+        "Exposure": "UsedInCalibration"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "bada5d8e-8664-4206-a724-70152aa881b7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7790ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 7790.0
+          }
+        }
+      }
+    ]
+  ]
+]

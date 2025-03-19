@@ -1,0 +1,25 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_plantmacrofossil_potentilla sp"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyNode": {
+          "Morphotype": {
+            "Microfossil": [
+              "PlantMacrofossil",
+              {
+                "item": "Potentilla sp."
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

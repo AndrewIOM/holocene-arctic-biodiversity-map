@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gudbergsson, G."
-            },
-            "Title": {
-              "item": "Arctic charr in Lake Myvatn: The centennial catch record in the light of recent stock estimates"
-            },
-            "Journal": {
-              "item": "Aquatic Ecology"
-            },
-            "Year": 2004,
-            "Volume": 38,
-            "Pages": [
-              271,
-              284
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gudbergsson, G."
+              },
+              "Title": {
+                "item": "Arctic charr in Lake Myvatn: The centennial catch record in the light of recent stock estimates"
+              },
+              "Journal": {
+                "item": "Aquatic Ecology"
+              },
+              "Year": 2004,
+              "Volume": 38,
+              "Pages": [
+                271,
+                284
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Fish catch records"
           }
-        }
+        ]
       }
     }
   ],

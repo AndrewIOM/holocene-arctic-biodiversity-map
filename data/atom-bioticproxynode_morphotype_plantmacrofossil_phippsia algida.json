@@ -1,0 +1,25 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_plantmacrofossil_phippsia algida"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyNode": {
+          "Morphotype": {
+            "Microfossil": [
+              "PlantMacrofossil",
+              {
+                "item": "Phippsia algida"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

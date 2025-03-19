@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "6490f92b-8f6e-4e0f-8021-977ddf9701a3"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Peters Bugt Sø"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "75°19'00\"N,20°03'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 191.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

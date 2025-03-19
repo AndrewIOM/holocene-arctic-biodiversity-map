@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "e0cb69a2-cae1-4f4b-80c2-f04034c53391"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "e0cb69a2-cae1-4f4b-80c2-f04034c53391"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "e0cb69a2-cae1-4f4b-80c2-f04034c53391"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_papaver"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "e0cb69a2-cae1-4f4b-80c2-f04034c53391"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "nomenclature_bhjtfog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "e0cb69a2-cae1-4f4b-80c2-f04034c53391"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_papaver"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "inferencemethodnode",
+        "nomenclature_bhjtfog"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "InferenceMethodNode": {
+          "TaxonomicNomenclature": {
+            "item": "Böcher, Holmen, & Jakobsen (1968). The Flora of Greenland"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

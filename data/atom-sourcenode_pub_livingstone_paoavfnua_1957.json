@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_livingstone_paoavfnua_1957"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "D",
+                  "A"
+                ],
+                "item2": "Livingstone"
+              },
+              "AdditionalAuthors": [],
+              "Title": {
+                "item": "Pollen analysis of a valley fill near Umiat, Alaska"
+              },
+              "Journal": {
+                "item": "American Journal of Science"
+              },
+              "Year": 1957,
+              "Volume": 255,
+              "Number": 4,
+              "Month": "Apr",
+              "DOI": {
+                "item": "10.2475/ajs.255.4.254"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

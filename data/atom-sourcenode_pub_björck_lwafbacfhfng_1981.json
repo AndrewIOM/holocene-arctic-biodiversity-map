@@ -1,0 +1,96 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_björck_lwafbacfhfng_1981"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Included": [
+          {
+            "PublishedSource": {
+              "JournalArticle": {
+                "FirstAuthor": {
+                  "item1": [
+                    "S"
+                  ],
+                  "item2": "Björck"
+                },
+                "AdditionalAuthors": [
+                  {
+                    "item1": [
+                      "T"
+                    ],
+                    "item2": "Persson"
+                  }
+                ],
+                "Title": {
+                  "item": "Late Weichselian and Flandrian biostratigraphy and chronology from Hochstetter Forland, Northeast Greenland"
+                },
+                "Journal": {
+                  "item": "Meddelelser om Grønland. Geoscience"
+                },
+                "Year": 1981,
+                "Volume": 5,
+                "Month": "Dec",
+                "DOI": {
+                  "item": "10.7146/moggeosci.v5i.141016"
+                }
+              }
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "exposure"
+              },
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_björck_lwafbacfhfng_1981"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "5dfad8fa-d904-4bfc-b626-5eeb08ced60b"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_björck_lwafbacfhfng_1981"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9a793e68-13ff-4595-b5aa-5ff8905e44a5"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
+]

@@ -1,0 +1,105 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "b5a42f37-3d22-44ca-9d54-9186290d6e78"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b5a42f37-3d22-44ca-9d54-9186290d6e78"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b5a42f37-3d22-44ca-9d54-9186290d6e78"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_salix_herbacea_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b5a42f37-3d22-44ca-9d54-9186290d6e78"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "order_ericales"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b5a42f37-3d22-44ca-9d54-9186290d6e78"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_ghnhmd"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b5a42f37-3d22-44ca-9d54-9186290d6e78"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_plantmacrofossil_ericales sp and salix herbacea"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

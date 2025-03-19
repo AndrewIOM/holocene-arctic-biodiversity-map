@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "family_vaccinioideae"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Family": {
+            "item": "Vaccinioideae"
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "family_vaccinioideae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "kingdom_plantae"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

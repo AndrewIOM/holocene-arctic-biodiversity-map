@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "460121ba-9cd3-4bfd-ad7a-70d3cd69249b"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Qeqertat "
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "77°30'00\"N,66°39'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 140.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

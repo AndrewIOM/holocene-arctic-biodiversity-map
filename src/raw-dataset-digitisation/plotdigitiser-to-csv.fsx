@@ -14,6 +14,7 @@ type cm
 type HowDepthIsDefined =
     | ByMorphotype of name:string
     | ByLevels of lowest:float<cm> * highest:float<cm> * spacing:float<cm>
+    | ByDepths
 
 
 // Options that may be changed:
@@ -24,12 +25,12 @@ type HowDepthIsDefined =
 /// to which all other depths are rounded to. Alternatively, you may
 /// specify the depth levels manually by a range and their spacing
 /// (e.g. 2cm intervals between X and Y cm).
-let definitiveDepths = ByMorphotype "Gramineae"
+let definitiveDepths = ByDepths
 // let definitiveDepths = ByLevels (0.5<cm>, 275.<cm>, 2.<cm>)
 
 /// The file in which the data is currently stored, either absolute
 /// or relative to the script.
-let filename = "/Users/andrewmartin/Desktop/Louie digitisations/Fredskild_1983_64_24N_51_41W_pollen.txt"
+let filename = "/Users/andrewmartin/Library/CloudStorage/Tresorit-AndrewMartin/CHARTER Work Package 4/Digitised/Louie digitisations/Fredskild_1983_64_24N_51_41W_macrofossils_plants-ready-for-script.txt"
 
 
 // Script starts here:
@@ -65,6 +66,11 @@ let realDepths=
         |> Array.sort
     | ByLevels (low, high, spacing) ->
         failwith "not finished"
+    | ByDepths ->
+        rows 
+        |> Array.filter(fun r -> r.Morphotype = "depth")
+        |> Array.map(fun r -> r.Depth)
+        |> Array.sort
 
 let withClosestRealDepth =
     rows
@@ -85,16 +91,17 @@ let withClosestRealDepth =
 //     |> Array.sortBy(fun (row,_) -> row.Morphotype, row.Depth)
 //     |> Array.map(fun (row, closest) -> sprintf "%f,%f,%s" closest row.Value row.Morphotype )
 
-let taxa = rows |> Array.map(fun r -> r.Morphotype) |> Array.distinct
+let taxa = rows |> Array.map(fun r -> r.Morphotype) |> Array.distinct |> Array.filter(fun s -> s.StartsWith "dimension:" |> not) |> Array.except ["depth"]
+let dimensions = rows |> Array.map(fun r -> r.Morphotype) |> Array.distinct |> Array.filter(fun s -> s.StartsWith "dimension:")
 
 printfn "Real depths %A" realDepths
 
-let stacked =
+let stacked names =
     realDepths
     |> Array.map(fun depth ->
         
         let values =
-            taxa
+            names
             |> Array.map(fun taxon ->
                 withClosestRealDepth
                 |> Array.tryFind(fun (row,d2) -> d2 = depth && row.Morphotype = taxon )
@@ -106,7 +113,10 @@ let stacked =
     )
     |> Array.toList
 
+// Save taxon table:
 let header = sprintf "depth\t%s" (taxa |> String.concat "\t")
+System.IO.File.WriteAllLines("formatted-morphotypes.tsv", header :: stacked taxa)
 
-System.IO.File.WriteAllLines("processed-depth-data.csv", header :: stacked)
-
+// Save dimensions table:
+let headerDim = sprintf "depth\t%s" (dimensions |> String.concat "\t")
+System.IO.File.WriteAllLines("formatted-dimensions.tsv", headerDim :: stacked dimensions)

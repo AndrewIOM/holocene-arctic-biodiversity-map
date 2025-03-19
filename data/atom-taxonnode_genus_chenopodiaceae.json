@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_chenopodiaceae"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Genus": {
+            "item": "Chenopodiaceae"
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_chenopodiaceae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "kingdom_plantae"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

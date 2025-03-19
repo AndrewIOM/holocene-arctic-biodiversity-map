@@ -1,0 +1,81 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "ce88e290-3656-4fc7-b41a-d2eff72466f3"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 8540.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 120.0
+          },
+          "MaterialDated": {
+            "item": "gytta"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 100.0
+              },
+              {
+                "_depth": 98.5
+              }
+            ]
+          },
+          "LabNumber": {
+            "item": "K-3276"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "ce88e290-3656-4fc7-b41a-d2eff72466f3"
+        ]
+      },
+      {
+        "UUID": [
+          "datecalibrationinstancenode",
+          "d8f10727-c7f0-4448-92cd-4aedb7fda0a7"
+        ]
+      },
+      1,
+      {
+        "Exposure": "UsedInCalibration"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "ce88e290-3656-4fc7-b41a-d2eff72466f3"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8540ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 8540.0
+          }
+        }
+      }
+    ]
+  ]
+]

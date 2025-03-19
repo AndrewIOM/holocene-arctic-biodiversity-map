@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_papaver"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Genus": {
+            "item": "Papaver"
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_papaver"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "kingdom_plantae"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

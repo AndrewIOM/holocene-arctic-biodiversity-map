@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_funder_hsavhitssaeg_1978"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Included": [
+          {
+            "PublishedSource": {
+              "JournalArticle": {
+                "FirstAuthor": {
+                  "item1": [
+                    "S"
+                  ],
+                  "item2": "Funder"
+                },
+                "AdditionalAuthors": [],
+                "Title": {
+                  "item": "Holocene stratigraphy and vegetation history in the Scoresby Sund area, East Greenland"
+                },
+                "Journal": {
+                  "item": "Bulletin Grønlands Geologiske Undersøgelse"
+                },
+                "Year": 1978,
+                "Volume": 129,
+                "Month": "Jan",
+                "DOI": {
+                  "item": "10.34194/bullggu.v129.6671"
+                }
+              }
+            }
+          },
+          "CompletedNone"
+        ]
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_funder_hsavhitssaeg_1978"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "b86f07d2-ba4f-4eca-ad1c-ab8e318b84e3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_funder_hsavhitssaeg_1978"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e06161db-714f-4b29-a5ae-44dabdcafdd9"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_funder_hsavhitssaeg_1978"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "3352b20d-b9f3-44f2-bb22-eb50738aa32f"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_funder_hsavhitssaeg_1978"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "7ad29507-799c-4376-b56f-1351f3b39160"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_funder_hsavhitssaeg_1978"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "015e7414-40a9-4342-b7f0-fba2c03dda73"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
+]

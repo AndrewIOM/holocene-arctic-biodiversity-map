@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_livingstone_sppfaa_1955"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "D",
+                  "A"
+                ],
+                "item2": "Livingstone"
+              },
+              "AdditionalAuthors": [],
+              "Title": {
+                "item": "Some Pollen Profiles from Arctic Alaska"
+              },
+              "Journal": {
+                "item": "Ecology"
+              },
+              "Year": 1955,
+              "Volume": 36,
+              "Number": 4,
+              "Month": "Oct",
+              "DOI": {
+                "item": "10.2307/1931297"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

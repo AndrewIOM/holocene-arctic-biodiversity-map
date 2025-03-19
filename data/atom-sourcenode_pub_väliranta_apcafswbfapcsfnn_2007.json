@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Väliranta, M.; Weckström, J."
-            },
-            "Title": {
-              "item": "Applying principal components analysis (PCA) for separating wingless birch fruits - A palaeoecological case study from northern Norway"
-            },
-            "Journal": {
-              "item": "Annales Botanici Fennici"
-            },
-            "Year": 2007,
-            "Volume": 44,
-            "Pages": [
-              213,
-              218
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Väliranta, M.; Weckström, J."
+              },
+              "Title": {
+                "item": "Applying principal components analysis (PCA) for separating wingless birch fruits - A palaeoecological case study from northern Norway"
+              },
+              "Journal": {
+                "item": "Annales Botanici Fennici"
+              },
+              "Year": 2007,
+              "Volume": 44,
+              "Pages": [
+                213,
+                218
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Not dated"
           }
-        }
+        ]
       }
     }
   ],

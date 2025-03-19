@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "3ca53673-42e7-4f51-bb34-868db7984004"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Potamogentonsø"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "70°57'00\"N,27°44'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 205.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

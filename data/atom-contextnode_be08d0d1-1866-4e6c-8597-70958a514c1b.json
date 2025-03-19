@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "be08d0d1-1866-4e6c-8597-70958a514c1b"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Munin Sø"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "71°08'00\"N,24°22'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 105.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
