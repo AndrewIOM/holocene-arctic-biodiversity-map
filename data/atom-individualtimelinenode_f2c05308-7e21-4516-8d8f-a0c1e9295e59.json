@@ -24,6 +24,24 @@
       },
       {
         "UUID": [
+          "digitiseddatasetnode",
+          "ba84582f-c30a-4da4-b55a-6cb86cb038f7"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasRawData"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f2c05308-7e21-4516-8d8f-a0c1e9295e59"
+        ]
+      },
+      {
+        "UUID": [
           "individualdatenode",
           "ce88e290-3656-4fc7-b41a-d2eff72466f3"
         ]
