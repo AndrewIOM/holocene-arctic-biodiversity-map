@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "subspecies_armeria_scabra_sibirica_(turcz.) hyl."
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Subspecies": [
+            {
+              "item": "Armeria"
+            },
+            {
+              "item": "scabra"
+            },
+            {
+              "item": "sibirica"
+            },
+            {
+              "item": "(Turcz.) Hyl."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subspecies_armeria_scabra_sibirica_(turcz.) hyl."
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "kingdom_plantae"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
