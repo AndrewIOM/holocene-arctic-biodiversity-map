@@ -1,0 +1,213 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence_absence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_sibbaldia_procumbens_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_comarum_palustre_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_anserina_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_hyparctica_malte"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_nivea_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_hookeriana_lehm"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_pulchella_r br"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_egedii_wormsk"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_lookup_fbsitvhogpioshlabdmog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4f265c07-cc85-4e30-a882-e3ef29d18f37"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_potentilla-comarum type"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]
