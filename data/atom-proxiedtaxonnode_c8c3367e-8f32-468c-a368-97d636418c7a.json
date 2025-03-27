@@ -1,0 +1,141 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "c8c3367e-8f32-468c-a368-97d636418c7a"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c8c3367e-8f32-468c-a368-97d636418c7a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence_absence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c8c3367e-8f32-468c-a368-97d636418c7a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_paniculata_mill"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c8c3367e-8f32-468c-a368-97d636418c7a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_aizoides_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c8c3367e-8f32-468c-a368-97d636418c7a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_tricuspidata_rottb"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c8c3367e-8f32-468c-a368-97d636418c7a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_oppositifolia_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c8c3367e-8f32-468c-a368-97d636418c7a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_lookup_fbsitvhogpioshlabdmog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c8c3367e-8f32-468c-a368-97d636418c7a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_saxifraga oppositifolia type"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

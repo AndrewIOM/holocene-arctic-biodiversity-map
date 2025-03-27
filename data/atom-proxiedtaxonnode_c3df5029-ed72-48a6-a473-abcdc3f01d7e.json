@@ -1,0 +1,123 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "c3df5029-ed72-48a6-a473-abcdc3f01d7e"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c3df5029-ed72-48a6-a473-abcdc3f01d7e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence_absence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c3df5029-ed72-48a6-a473-abcdc3f01d7e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_hieraciifolia_w amp k"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c3df5029-ed72-48a6-a473-abcdc3f01d7e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_tenuis_wbg h sm"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c3df5029-ed72-48a6-a473-abcdc3f01d7e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_saxifraga_nivalis_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c3df5029-ed72-48a6-a473-abcdc3f01d7e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_lookup_fbsitvhogpioshlabdmog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c3df5029-ed72-48a6-a473-abcdc3f01d7e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_saxifraga nivalis type"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]
