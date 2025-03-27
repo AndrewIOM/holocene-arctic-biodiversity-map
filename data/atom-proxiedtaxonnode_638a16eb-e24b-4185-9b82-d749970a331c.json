@@ -1,0 +1,105 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "638a16eb-e24b-4185-9b82-d749970a331c"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "638a16eb-e24b-4185-9b82-d749970a331c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence_absence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "638a16eb-e24b-4185-9b82-d749970a331c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_tridentata_ait"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "638a16eb-e24b-4185-9b82-d749970a331c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_crantzii_cr g beck"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "638a16eb-e24b-4185-9b82-d749970a331c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_lookup_fbsitvhogpioshlabdmog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "638a16eb-e24b-4185-9b82-d749970a331c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_potentilla crantzii type"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

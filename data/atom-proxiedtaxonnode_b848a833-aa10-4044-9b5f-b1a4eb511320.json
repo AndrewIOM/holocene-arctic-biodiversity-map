@@ -1,0 +1,123 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "b848a833-aa10-4044-9b5f-b1a4eb511320"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b848a833-aa10-4044-9b5f-b1a4eb511320"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence_absence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b848a833-aa10-4044-9b5f-b1a4eb511320"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_rhinanthus"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b848a833-aa10-4044-9b5f-b1a4eb511320"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_euphrasia"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b848a833-aa10-4044-9b5f-b1a4eb511320"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_bartsia"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b848a833-aa10-4044-9b5f-b1a4eb511320"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_lookup_fbsitvhogpioshlabdmog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b848a833-aa10-4044-9b5f-b1a4eb511320"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_euphrasia type"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]
