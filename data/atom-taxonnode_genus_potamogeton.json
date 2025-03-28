@@ -26,6 +26,28 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000031022"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_potamogeton"
+        ]
+      },
+      {
+        "FriendlyKey": [
           "taxonnode",
           "family_potamogetonaceae"
         ]

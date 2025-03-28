@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000003077"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_plumbaginaceae"
+          "genus_armeria"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "tribe_limonieae"
         ]
       },
       1,

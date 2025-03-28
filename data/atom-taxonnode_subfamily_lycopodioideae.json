@@ -56,6 +56,28 @@
       {
         "Population": "IsA"
       }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subfamily_lycopodioideae"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-6500000515"
+          }
+        }
+      }
     ]
   ]
 ]

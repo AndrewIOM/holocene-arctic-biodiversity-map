@@ -3,14 +3,14 @@
     {
       "FriendlyKey": [
         "taxonnode",
-        "genus_papaver"
+        "family_isoetaceae"
       ]
     },
     {
       "PopulationNode": {
         "TaxonomyNode": {
-          "Genus": {
-            "item": "Papaver"
+          "Family": {
+            "item": "Isoetaceae"
           }
         }
       }
@@ -21,7 +21,7 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "genus_papaver"
+          "family_isoetaceae"
         ]
       },
       {
@@ -34,7 +34,7 @@
       {
         "Population": {
           "HasIdentifier": {
-            "item": "wfo-4000027914"
+            "item": "wfo-7000000301"
           }
         }
       }
@@ -43,13 +43,13 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "genus_papaver"
+          "family_isoetaceae"
         ]
       },
       {
         "FriendlyKey": [
           "taxonnode",
-          "tribe_papavereae"
+          "order_isoetales"
         ]
       },
       1,

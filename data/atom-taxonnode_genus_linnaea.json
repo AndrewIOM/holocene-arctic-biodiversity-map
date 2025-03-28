@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000021877"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "order_dipsacales"
+          "genus_linnaea"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "family_caprifoliaceae"
         ]
       },
       1,

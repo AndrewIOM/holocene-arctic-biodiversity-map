@@ -26,6 +26,28 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000000038"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_abies"
+        ]
+      },
+      {
+        "FriendlyKey": [
           "taxonnode",
           "family_pinaceae"
         ]

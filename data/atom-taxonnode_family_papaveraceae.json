@@ -3,14 +3,14 @@
     {
       "FriendlyKey": [
         "taxonnode",
-        "genus_papaver"
+        "family_papaveraceae"
       ]
     },
     {
       "PopulationNode": {
         "TaxonomyNode": {
-          "Genus": {
-            "item": "Papaver"
+          "Family": {
+            "item": "Papaveraceae"
           }
         }
       }
@@ -21,7 +21,7 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "genus_papaver"
+          "family_papaveraceae"
         ]
       },
       {
@@ -34,7 +34,7 @@
       {
         "Population": {
           "HasIdentifier": {
-            "item": "wfo-4000027914"
+            "item": "wfo-7000000440"
           }
         }
       }
@@ -43,13 +43,13 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "genus_papaver"
+          "family_papaveraceae"
         ]
       },
       {
         "FriendlyKey": [
           "taxonnode",
-          "tribe_papavereae"
+          "order_ranunculales"
         ]
       },
       1,

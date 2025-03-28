@@ -3,14 +3,14 @@
     {
       "FriendlyKey": [
         "taxonnode",
-        "genus_papaver"
+        "subfamily_huperzioideae"
       ]
     },
     {
       "PopulationNode": {
         "TaxonomyNode": {
-          "Genus": {
-            "item": "Papaver"
+          "Subfamily": {
+            "item": "Huperzioideae"
           }
         }
       }
@@ -21,7 +21,7 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "genus_papaver"
+          "subfamily_huperzioideae"
         ]
       },
       {
@@ -34,7 +34,7 @@
       {
         "Population": {
           "HasIdentifier": {
-            "item": "wfo-4000027914"
+            "item": "wfo-6500000511"
           }
         }
       }
@@ -43,13 +43,13 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "genus_papaver"
+          "subfamily_huperzioideae"
         ]
       },
       {
         "FriendlyKey": [
           "taxonnode",
-          "tribe_papavereae"
+          "family_lycopodiaceae"
         ]
       },
       1,

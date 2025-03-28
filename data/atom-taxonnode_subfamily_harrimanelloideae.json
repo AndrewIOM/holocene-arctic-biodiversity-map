@@ -3,14 +3,14 @@
     {
       "FriendlyKey": [
         "taxonnode",
-        "genus_papaver"
+        "subfamily_harrimanelloideae"
       ]
     },
     {
       "PopulationNode": {
         "TaxonomyNode": {
-          "Genus": {
-            "item": "Papaver"
+          "Subfamily": {
+            "item": "Harrimanelloideae"
           }
         }
       }
@@ -21,7 +21,7 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "genus_papaver"
+          "subfamily_harrimanelloideae"
         ]
       },
       {
@@ -34,7 +34,7 @@
       {
         "Population": {
           "HasIdentifier": {
-            "item": "wfo-4000027914"
+            "item": "wfo-1000002339"
           }
         }
       }
@@ -43,13 +43,13 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "genus_papaver"
+          "subfamily_harrimanelloideae"
         ]
       },
       {
         "FriendlyKey": [
           "taxonnode",
-          "tribe_papavereae"
+          "family_ericaceae"
         ]
       },
       1,
