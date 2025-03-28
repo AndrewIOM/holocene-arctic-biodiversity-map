@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_oreomecon_radicata_rottb banfi bartolucci j-mtison amp galasso"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Oreomecon"
+            },
+            {
+              "item": "radicata"
+            },
+            {
+              "item": "(Rottb.) Banfi, Bartolucci, J.-M.Tison & Galasso"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

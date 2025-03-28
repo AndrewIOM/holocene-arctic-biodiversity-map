@@ -34,8 +34,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000374863"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "kingdom_plantae"
+          "species_minuartia_stricta_sw hiern"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_minuartia"
         ]
       },
       1,

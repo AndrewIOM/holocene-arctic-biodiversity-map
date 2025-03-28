@@ -24,5 +24,46 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_gymnocarpium_dryopteris_l newman"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001107317"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_gymnocarpium_dryopteris_l newman"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_gymnocarpium"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "subspecies_diphasiastrum_complanatum_complanatum_(l.) holub"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Subspecies": [
+            {
+              "item": "Diphasiastrum"
+            },
+            {
+              "item": "complanatum"
+            },
+            {
+              "item": "complanatum"
+            },
+            {
+              "item": "(L.) Holub"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

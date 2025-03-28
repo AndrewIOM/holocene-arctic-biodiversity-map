@@ -34,8 +34,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000715877"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "kingdom_plantae"
+          "species_harrimanella_hypnoides_l coville"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_harrimanella"
         ]
       },
       1,
