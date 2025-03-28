@@ -1,0 +1,105 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "bd8bcac1-2310-4bc6-962d-dc3b4dd33a30"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "bd8bcac1-2310-4bc6-962d-dc3b4dd33a30"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence_absence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "bd8bcac1-2310-4bc6-962d-dc3b4dd33a30"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_harrimanella_hypnoides_l coville"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "bd8bcac1-2310-4bc6-962d-dc3b4dd33a30"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_cassiope_tetragona_l ddon"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "bd8bcac1-2310-4bc6-962d-dc3b4dd33a30"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_lookup_fbsitvhogpioshlabdmog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "bd8bcac1-2310-4bc6-962d-dc3b4dd33a30"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_harrimanella type"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]
