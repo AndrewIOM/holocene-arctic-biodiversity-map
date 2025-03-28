@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "subspecies_pseudathyrium_alpestre_alpestre_(hoppe) newman"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Subspecies": [
+            {
+              "item": "Pseudathyrium"
+            },
+            {
+              "item": "alpestre"
+            },
+            {
+              "item": "alpestre"
+            },
+            {
+              "item": "(Hoppe) Newman"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

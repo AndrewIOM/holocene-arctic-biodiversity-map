@@ -35,6 +35,55 @@
       {
         "FriendlyKey": [
           "taxonnode",
+          "species_straminergon_stramineum_dicks ex brid heden195164s"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_calliergon_stramineum_dicks ex brid kindb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001177725"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_calliergon_stramineum_dicks ex brid kindb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
           "genus_calliergon"
         ]
       },

@@ -35,6 +35,55 @@
       {
         "FriendlyKey": [
           "taxonnode",
+          "species_pulsatilla_vulgaris_mill"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_anemone_pulsatilla_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000535689"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_anemone_pulsatilla_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
           "genus_anemone"
         ]
       },

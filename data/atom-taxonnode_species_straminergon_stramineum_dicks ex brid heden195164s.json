@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_straminergon_stramineum_dicks ex brid heden195164s"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Straminergon"
+            },
+            {
+              "item": "stramineum"
+            },
+            {
+              "item": "(Dicks. ex Brid.) HedenÃ¤s"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]
