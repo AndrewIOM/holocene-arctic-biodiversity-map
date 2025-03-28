@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_selaginella_spinulosa_abraun ex d195182ll"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Selaginella"
+            },
+            {
+              "item": "spinulosa"
+            },
+            {
+              "item": "A.Braun ex DÃ¶ll"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

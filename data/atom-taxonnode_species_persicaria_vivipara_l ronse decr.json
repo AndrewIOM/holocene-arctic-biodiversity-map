@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_persicaria_vivipara_l ronse decr"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Persicaria"
+            },
+            {
+              "item": "vivipara"
+            },
+            {
+              "item": "(L.) Ronse Decr."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

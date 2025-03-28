@@ -34,6 +34,28 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000461067"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_ranunculus_hyperboreus_rottb"
+        ]
+      },
+      {
+        "FriendlyKey": [
           "taxonnode",
           "genus_ranunculus"
         ]

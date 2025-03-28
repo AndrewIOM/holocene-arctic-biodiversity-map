@@ -35,7 +35,56 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "kingdom_plantae"
+          "species_persicaria_vivipara_l ronse decr"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_polygonum_viviparum_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000489398"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_polygonum_viviparum_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_polygonum"
         ]
       },
       1,

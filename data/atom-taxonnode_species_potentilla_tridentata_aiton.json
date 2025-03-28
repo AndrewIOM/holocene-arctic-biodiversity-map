@@ -1,0 +1,96 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_potentilla_tridentata_aiton"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Potentilla"
+            },
+            {
+              "item": "tridentata"
+            },
+            {
+              "item": "Aiton"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_tridentata_aiton"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_sibbaldia_tridentata_aiton paule amp soj195161k"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_tridentata_aiton"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001015054"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_potentilla_tridentata_aiton"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_potentilla"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

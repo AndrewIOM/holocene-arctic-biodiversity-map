@@ -1,0 +1,69 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_sphagnum_fuscum_schimp hklinggr"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Sphagnum"
+            },
+            {
+              "item": "fuscum"
+            },
+            {
+              "item": "(Schimp.) H.Klinggr."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_sphagnum_fuscum_schimp hklinggr"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001185809"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_sphagnum_fuscum_schimp hklinggr"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_sphagnum"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

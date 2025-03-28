@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_sibbaldia_tridentata_aiton paule amp soj195161k"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Sibbaldia"
+            },
+            {
+              "item": "tridentata"
+            },
+            {
+              "item": "(Aiton) Paule & SojÃ¡k"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]
