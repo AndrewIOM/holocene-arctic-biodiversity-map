@@ -1,0 +1,123 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "fc8cd44c-3f87-4d0f-9418-b1a0a76430a2"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "fc8cd44c-3f87-4d0f-9418-b1a0a76430a2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence_absence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "fc8cd44c-3f87-4d0f-9418-b1a0a76430a2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_oxycoccus"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "fc8cd44c-3f87-4d0f-9418-b1a0a76430a2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_vaccinium_uliginosum_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "fc8cd44c-3f87-4d0f-9418-b1a0a76430a2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_vaccinium_vitis-idaea_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "fc8cd44c-3f87-4d0f-9418-b1a0a76430a2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_lookup_fbsitvhogpioshlabdmog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "fc8cd44c-3f87-4d0f-9418-b1a0a76430a2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_vaccinium type"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]
