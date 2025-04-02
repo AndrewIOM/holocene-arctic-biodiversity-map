@@ -21,7 +21,7 @@
       {
         "FriendlyKey": [
           "biodiversitydimensionnode",
-          "presence_absence"
+          "abundance"
         ]
       },
       1,
@@ -39,7 +39,7 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "kingdom_problematic placeholder"
+          "family_juncaceae"
         ]
       },
       1,
@@ -57,7 +57,7 @@
       {
         "FriendlyKey": [
           "inferencemethodnode",
-          "implicit"
+          "nomenclature_bhjtfog"
         ]
       },
       1,
