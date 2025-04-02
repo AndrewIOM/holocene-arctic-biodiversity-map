@@ -1,0 +1,123 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "cfb1a7a0-8a10-4ed8-9d7a-e4f093da90ca"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cfb1a7a0-8a10-4ed8-9d7a-e4f093da90ca"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_other_chironomid"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cfb1a7a0-8a10-4ed8-9d7a-e4f093da90ca"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_diatom"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cfb1a7a0-8a10-4ed8-9d7a-e4f093da90ca"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "ba039e75-420f-4dfb-9c33-2dfaf06fb795"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cfb1a7a0-8a10-4ed8-9d7a-e4f093da90ca"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "0ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentLatestSpecified": {
+            "CalYrBP": [
+              0.0,
+              null
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cfb1a7a0-8a10-4ed8-9d7a-e4f093da90ca"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "6800ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestSpecified": {
+            "CalYrBP": [
+              6800.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]
