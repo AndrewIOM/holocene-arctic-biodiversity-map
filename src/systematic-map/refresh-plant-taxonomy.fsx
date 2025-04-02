@@ -13,8 +13,10 @@ open BiodiversityCoder.Core
 /// ----
 module Options =
 
-    let dataFolder = "../../data/"
+    let dataFolder = "/Users/andrewmartin/Documents/GitHub Projects/holocene-arctic-biodiversity-map/data"
 
+    let skipWfoLinkedTaxa = true
+    
 
 module WorldFloraOnline =
 
@@ -62,6 +64,10 @@ module WorldFloraOnline =
         let forceOkTxtFirstWord (s:string) = (s.Split(" ").[0] |> FieldDataTypes.Text.createShort |> forceOk)
         let currentWfoId = name.About.Replace("https://list.worldfloraonline.org/", "")
         match name.Rank.Resource with
+        | "https://list.worldfloraonline.org/terms/subspecies"
+        | "https://list.worldfloraonline.org/terms/variety" ->
+            printfn "Skipping variety / spp. - TODO"
+            tree
         | "https://list.worldfloraonline.org/terms/species" ->
             let genus = Population.Taxonomy.Genus(name.GenusName.Value |> forceOkTxt)
             let matchedParent =
@@ -92,14 +98,17 @@ module WorldFloraOnline =
                 | "https://list.worldfloraonline.org/terms/subtribe" -> Some <| Population.Taxonomy.Subtribe(name.FullName |> forceOkTxtFirstWord)
                 | "https://list.worldfloraonline.org/terms/subkingdom"
                 | "https://list.worldfloraonline.org/terms/subclass"
+                | "https://list.worldfloraonline.org/terms/subgenus"
                 | "https://list.worldfloraonline.org/terms/superorder"
                 | "https://list.worldfloraonline.org/terms/suborder" 
                 | "https://list.worldfloraonline.org/terms/supertribe" 
                 | "https://list.worldfloraonline.org/terms/section" 
                 | "https://list.worldfloraonline.org/terms/subsection" 
                 | "https://list.worldfloraonline.org/terms/series" 
+                | "https://list.worldfloraonline.org/terms/unranked"
                 | "https://list.worldfloraonline.org/terms/subseries" -> None
-                | _ -> failwithf "Unknown rank %s" name.Rank.Resource
+                // | _ -> failwithf "Unknown rank %s" name.Rank.Resource
+                | _ -> printfn "Unknown rank %s" name.Rank.Resource; None
             let tree =
                 match thisTaxon with
                 | None -> tree
@@ -107,7 +116,7 @@ module WorldFloraOnline =
             match parent with
             | Some p ->
                 let wfoId = p.Resource.Replace("https://list.worldfloraonline.org/", "")
-                printfn "Accessing [%s]..." (sprintf "https://list.worldfloraonline.org/sw_data.php?wfo=%s&format=rdfxml" wfoId)
+                // printfn "Accessing [%s]..." (sprintf "https://list.worldfloraonline.org/sw_data.php?wfo=%s&format=rdfxml" wfoId)
                 let parentData = stableCache.Load (sprintf "https://list.worldfloraonline.org/sw_data.php?wfo=%s&format=rdfxml" wfoId)
                 heirarchyFor' parentData.TaxonConcept.IsPartOf parentData.TaxonConcept.HasName.TaxonName tree
             | None -> tree
@@ -127,6 +136,22 @@ module WorldFloraOnline =
         with e ->
             printfn "Problem parsing JSON server result at %s ! Skipping." query
             None
+
+    let candidates (query:string) =
+        try
+            let result = WFOMatchService.Load query
+            result.Candidates
+            |> Seq.truncate 5
+            |> Seq.choose(fun c ->
+                let heirarchy = heirarchyFor c.WfoId |> List.rev
+                if heirarchy.Length = 0
+                then
+                    printfn "Problem with candidate? %A" c
+                    None
+                else Some (heirarchy.Head, heirarchy.Tail))
+        with e ->
+            printfn "Problem parsing JSON server result at %s ! Skipping." query
+            []
 
     type WorldFloraResult = {
         OriginalId: string
@@ -261,7 +286,6 @@ module TaxonomyTools =
 
             // Process synonyms for lower taxon - what is the preferred usage of this name?
             let synonymResult = WorldFloraOnline.lookupSynonymsById (snd restOfTree.Head)
-            printfn "Synonym result was %A" synonymResult
             let synonymNodes =
                 synonymResult.IsASynonymOf
                 |> List.choose(fun s -> s.LatinName)
@@ -338,9 +362,7 @@ module TaxonomyTools =
                         WorldFloraOnline.matchQueryString t
                         |> WorldFloraOnline.tryMatch
 
-                    // Found a plant taxon match online.
-                    match isMatch with
-                    | Some ((m, matchWfoId),mTree) ->
+                    let addMatch m matchWfoId mTree =
                         let trueWfoId = matchWfoId |> FieldDataTypes.Text.createShort |> forceOk
                         printfn "Matched to %s (%A)" trueWfoId.Value m
                         let mTree = (m,matchWfoId) :: mTree
@@ -352,9 +374,23 @@ module TaxonomyTools =
                         | _ ->
                             printfn "There was an incomplete tree for %A. Skipping update." t
                             Ok graph
+
+                    // Found a plant taxon match online.
+                    match isMatch with
+                    | Some ((m, matchWfoId),mTree) -> addMatch m matchWfoId mTree
                     | None ->
-                        printfn "No match on WFO for %A" t
-                        Ok graph
+                        printfn "No match on WFO for %A. Looking at candidates..." t
+                        let c = WorldFloraOnline.candidates <| WorldFloraOnline.matchQueryString t
+                        c |> Seq.iteri(fun i c -> printfn "[%i] %A" i c)
+                        printfn "Enter a number or don't to skip."
+                        match System.Console.ReadLine() |> Int.tryParse with
+                        | Some i ->
+                            c |> Seq.tryItem i
+                            |> Option.map(fun ((m, matchWfoId), mTree) -> addMatch m matchWfoId mTree)
+                            |> Option.defaultValue (Ok graph)
+                        | None ->
+                            printfn "Skipping."
+                            Ok graph
             else
                 printfn "Skipping %A (not a plant)" taxon
                 Ok graph
@@ -380,9 +416,22 @@ let run () = result {
         |> Seq.toList
         |> Storage.loadAtoms graph.Directory "TaxonomyNode"
 
+    let taxonomyAtomsFiltered =
+        if Options.skipWfoLinkedTaxa then
+            taxonomyAtoms
+            |> List.filter(fun t ->
+                t |> snd |> Seq.exists(fun (_,_,_,r) ->
+                    match r with
+                    | GraphStructure.Relation.Population p ->
+                        match p with
+                        | Population.PopulationRelation.HasIdentifier _ -> true
+                        | _ -> false
+                    | _ -> false ) |> not)
+        else taxonomyAtoms
+
     let! updatedGraph =
         List.fold (fun s t ->
-            s |> Result.bind(fun s -> TaxonomyTools.updateTaxon wfoNodeId s t)) (Ok graph) taxonomyAtoms
+            s |> Result.bind(fun s -> TaxonomyTools.updateTaxon wfoNodeId s t)) (Ok graph) taxonomyAtomsFiltered
 
     return updatedGraph
 
