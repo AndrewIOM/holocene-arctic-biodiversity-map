@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "aadf5482-a907-4629-bf20-9dc2092414d6"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Helgadalur"
+          },
+          "SamplingLocation": {
+            "Site": [
+              {
+                "item": 65.51
+              },
+              {
+                "item": -20.58
+              }
+            ]
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 3.0
+                },
+                {
+                  "_depth": 49.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

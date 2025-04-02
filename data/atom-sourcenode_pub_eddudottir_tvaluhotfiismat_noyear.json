@@ -20,10 +20,53 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_eddudottir_tvaluhotfiismat_noyear"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f3511542-ce6c-4825-a208-9b92489d39cc"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_eddudottir_tvaluhotfiismat_noyear"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "5bbeff81-99c5-43b6-8018-56ba3cda7c4f"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
