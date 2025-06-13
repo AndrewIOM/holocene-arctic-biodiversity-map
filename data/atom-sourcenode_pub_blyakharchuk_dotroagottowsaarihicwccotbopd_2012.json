@@ -8,28 +8,50 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Blyakharchuk, T. A.; Amel'chenko, V. P."
-            },
-            "Title": {
-              "item": "Dynamics of the range of Artemisia genus over the territory of Western Siberia and adjacent regions in holocene in connection with climate change on the basis of pollen data"
-            },
-            "Journal": {
-              "item": "Contemporary Problems of Ecology"
-            },
-            "Year": 2012,
-            "Volume": 5,
-            "Pages": [
-              136,
-              145
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Blyakharchuk, T. A.; Amel'chenko, V. P."
+              },
+              "Title": {
+                "item": "Dynamics of the range of Artemisia genus over the territory of Western Siberia and adjacent regions in holocene in connection with climate change on the basis of pollen data"
+              },
+              "Journal": {
+                "item": "Contemporary Problems of Ecology"
+              },
+              "Year": 2012,
+              "Volume": 5,
+              "Pages": [
+                136,
+                145
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_blyakharchuk_dotroagottowsaarihicwccotbopd_2012"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "dissertation_blyakharchuk_ta_2010_pdogvowspaamldobasaobals"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

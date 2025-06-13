@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Golosova, L. D.; Druk, A. Y.; Karppinen, E.; Kiselyov, S. V."
-            },
-            "Title": {
-              "item": "Subfossil Oribatid Mites Acarina Oribatei of Northern Siberia Ussr"
-            },
-            "Journal": {
-              "item": "Annales Entomologici Fennici"
-            },
-            "Year": 1985,
-            "Volume": 51,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Golosova, L. D.; Druk, A. Y.; Karppinen, E.; Kiselyov, S. V."
+              },
+              "Title": {
+                "item": "Subfossil Oribatid Mites Acarina Oribatei of Northern Siberia Ussr"
+              },
+              "Journal": {
+                "item": "Annales Entomologici Fennici"
+              },
+              "Year": 1985,
+              "Volume": 51,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Oribatid mites not in taxonomic scope"
           }
-        }
+        ]
       }
     }
   ],

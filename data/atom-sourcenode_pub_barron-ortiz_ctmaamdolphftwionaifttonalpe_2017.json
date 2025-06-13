@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Barron-Ortiz, C. I.; Rodrigues, A. T.; Theodor, J. M.; Kooyman, B. P.; Yang, D. Y.; Speller, C. F."
-            },
-            "Title": {
-              "item": "Cheek tooth morphology and ancient mitochondrial DNA of late Pleistocene horses from the western interior of North America: Implications for the taxonomy of North American Late Pleistocene Equus"
-            },
-            "Journal": {
-              "item": "PLoS One"
-            },
-            "Year": 2017,
-            "Volume": 12,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Barron-Ortiz, C. I.; Rodrigues, A. T.; Theodor, J. M.; Kooyman, B. P.; Yang, D. Y.; Speller, C. F."
+              },
+              "Title": {
+                "item": "Cheek tooth morphology and ancient mitochondrial DNA of late Pleistocene horses from the western interior of North America: Implications for the taxonomy of North American Late Pleistocene Equus"
+              },
+              "Journal": {
+                "item": "PLoS One"
+              },
+              "Year": 2017,
+              "Volume": 12,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Only Bluefish Caves is Arctic, and is circa 24k years age"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,28 +8,212 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Mode, W. N."
-            },
-            "Title": {
-              "item": "The terrestrial record of postglacial vegetation and climate from the Arctic/Subarctic of eastern Canada and west Greenland"
-            },
-            "Journal": {
-              "item": "Geoscience Canada"
-            },
-            "Year": 1996,
-            "Volume": 23,
-            "Pages": [
-              213,
-              216
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Mode, W. N."
+              },
+              "Title": {
+                "item": "The terrestrial record of postglacial vegetation and climate from the Arctic/Subarctic of eastern Canada and west Greenland"
+              },
+              "Journal": {
+                "item": "Geoscience Canada"
+              },
+              "Year": 1996,
+              "Volume": 23,
+              "Pages": [
+                213,
+                216
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mode_ttropvacftaoecawg_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book-chapter_williams_b_potbbr_741"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mode_ttropvacftaoecawg_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book-chapter_webb_bha_vllacienaftp1y_415"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mode_ttropvacftaoecawg_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book-chapter_short_md_thrfbimafps_608"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mode_ttropvacftaoecawg_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book_ritchie_r_pvoc_1987"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mode_ttropvacftaoecawg_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book-chapter_ritchie_r_qprftwioc_327"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mode_ttropvacftaoecawg_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book-chapter_lamb_e_ta_517"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mode_ttropvacftaoecawg_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book-chapter_fredskild_f_hprfwg_643"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mode_ttropvacftaoecawg_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bradley_hpotqeicha_1990"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mode_ttropvacftaoecawg_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book-chapter_anderson_a_lqprfeoqaac_281"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mode_ttropvacftaoecawg_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andrews_tpoalaegaroairp_1994"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

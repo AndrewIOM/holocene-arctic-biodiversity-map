@@ -1,0 +1,48 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_andrews_tpoalaegaroairp_1994"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "J",
+                  "T"
+                ],
+                "item2": "Andrews"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "L"
+                  ],
+                  "item2": "Brubaker"
+                }
+              ],
+              "Title": {
+                "item": "The Paleoclimates of Arctic Lakes and Estuaries (PALE): goals and rationale of an international research program"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 1994,
+              "Volume": 10,
+              "Number": 2,
+              "DOI": {
+                "item": "10.1007/BF00682514"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

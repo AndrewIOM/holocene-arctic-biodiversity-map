@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Buvit, I.; Rasic, J. T.; Kuehn, S. R.; Hedman, W. H."
-            },
-            "Title": {
-              "item": "Fluted projectile points in a stratified context at the Raven Bluff site document a late arrival of Paleoindian technology in northwest Alaska"
-            },
-            "Journal": {
-              "item": "Geoarchaeology-an International Journal"
-            },
-            "Year": 2019,
-            "Volume": 34,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Buvit, I.; Rasic, J. T.; Kuehn, S. R.; Hedman, W. H."
+              },
+              "Title": {
+                "item": "Fluted projectile points in a stratified context at the Raven Bluff site document a late arrival of Paleoindian technology in northwest Alaska"
+              },
+              "Journal": {
+                "item": "Geoarchaeology-an International Journal"
+              },
+              "Year": 2019,
+              "Volume": 34,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Preliminary bone information included, but methods and results focus on constructing time-series with no further analysis to place assemblage in series"
           }
-        }
+        ]
       }
     }
   ],

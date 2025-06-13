@@ -8,28 +8,68 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Larocque, I.; Velle, G.; Rolland, N."
-            },
-            "Title": {
-              "item": "Effect of removing small (< 150 mu m) chironomids on inferring temperature in cold lakes"
-            },
-            "Journal": {
-              "item": "Journal of Paleolimnology"
-            },
-            "Year": 2010,
-            "Volume": 44,
-            "Pages": [
-              709,
-              719
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Larocque, I.; Velle, G.; Rolland, N."
+              },
+              "Title": {
+                "item": "Effect of removing small (< 150 mu m) chironomids on inferring temperature in cold lakes"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 2010,
+              "Volume": 44,
+              "Pages": [
+                709,
+                719
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_larocque_eors1mmcoiticl_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_rolland_efawpdt1a1cafcaisinc_2009"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_larocque_eors1mmcoiticl_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_rolland_hcifbcaiasicl_2008"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

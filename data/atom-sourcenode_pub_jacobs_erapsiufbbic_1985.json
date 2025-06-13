@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Jacobs, J. D.; Stenton, D. R."
-            },
-            "Title": {
-              "item": "Environment Resources and Prehistoric Settlement in Upper Frobisher Bay Baffin Island Canada"
-            },
-            "Journal": {
-              "item": "Arctic Anthropology"
-            },
-            "Year": 1985,
-            "Volume": 22,
-            "Pages": [
-              59,
-              76
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Jacobs, J. D.; Stenton, D. R."
+              },
+              "Title": {
+                "item": "Environment Resources and Prehistoric Settlement in Upper Frobisher Bay Baffin Island Canada"
+              },
+              "Journal": {
+                "item": "Arctic Anthropology"
+              },
+              "Year": 1985,
+              "Volume": 22,
+              "Pages": [
+                59,
+                76
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

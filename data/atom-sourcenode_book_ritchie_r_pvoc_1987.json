@@ -1,0 +1,44 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "book_ritchie_r_pvoc_1987"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "Book": {
+              "BookTitle": {
+                "item": "Postglacial vegetation of Canada"
+              },
+              "BookFirstAuthor": {
+                "item1": [
+                  "J",
+                  "C"
+                ],
+                "item2": "Ritchie"
+              },
+              "BookAdditionalAuthors": [
+                {
+                  "item1": [
+                    "J",
+                    "C"
+                  ],
+                  "item2": "Ritchie"
+                }
+              ],
+              "BookCopyrightYear": 1987,
+              "Publisher": {
+                "item": "Cambridge University Press"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

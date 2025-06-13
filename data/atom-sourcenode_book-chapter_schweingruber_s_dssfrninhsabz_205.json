@@ -1,0 +1,41 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "book-chapter_schweingruber_s_dssfrninhsabz_205"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "BookChapter": {
+              "ChapterFirstAuthor": {
+                "item1": [
+                  "F",
+                  "H"
+                ],
+                "item2": "Schweingruber"
+              },
+              "ChapterAdditionalAuthors": [
+                {
+                  "item1": [
+                    "F",
+                    "H"
+                  ],
+                  "item2": "Schweingruber"
+                }
+              ],
+              "ChapterTitle": {
+                "item": "Dendrochronological sampling strategies for radiodensitometric networks in northern hemisphere Subalpine and Boreal zones"
+              },
+              "FirstPage": 205
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

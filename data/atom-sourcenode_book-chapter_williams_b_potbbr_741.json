@@ -1,0 +1,41 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "book-chapter_williams_b_potbbr_741"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "BookChapter": {
+              "ChapterFirstAuthor": {
+                "item1": [
+                  "L",
+                  "D"
+                ],
+                "item2": "Williams"
+              },
+              "ChapterAdditionalAuthors": [
+                {
+                  "item1": [
+                    "R",
+                    "S"
+                  ],
+                  "item2": "Bradley"
+                }
+              ],
+              "ChapterTitle": {
+                "item": "Paleoclimatology of the Baffin Bay region"
+              },
+              "FirstPage": 741
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

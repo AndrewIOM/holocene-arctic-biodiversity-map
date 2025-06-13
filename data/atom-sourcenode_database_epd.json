@@ -1,0 +1,29 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "database_epd"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Included": [
+          {
+            "Database": {
+              "Abbreviation": {
+                "item": "EPD"
+              },
+              "FullName": {
+                "item": "European Pollen Database"
+              },
+              "Location": "http://epd.imbe.fr/index.php"
+            }
+          },
+          "CompletedAll"
+        ]
+      }
+    }
+  ],
+  []
+]

@@ -8,28 +8,50 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Saurer, M.; Schweingruber, F.; Vaganov, E. A.; Shiyatov, S. G.; Siegwolf, R."
-            },
-            "Title": {
-              "item": "Spatial and temporal oxygen isotope trends at the northern tree-line in Eurasia"
-            },
-            "Journal": {
-              "item": "Geophysical Research Letters"
-            },
-            "Year": 2002,
-            "Volume": 29,
-            "Pages": [
-              7,
-              1
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Saurer, M.; Schweingruber, F.; Vaganov, E. A.; Shiyatov, S. G.; Siegwolf, R."
+              },
+              "Title": {
+                "item": "Spatial and temporal oxygen isotope trends at the northern tree-line in Eurasia"
+              },
+              "Journal": {
+                "item": "Geophysical Research Letters"
+              },
+              "Year": 2002,
+              "Volume": 29,
+              "Pages": [
+                7,
+                1
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_saurer_satoitatntie_2002"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book-chapter_schweingruber_s_dssfrninhsabz_205"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

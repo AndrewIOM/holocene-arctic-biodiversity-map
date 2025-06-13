@@ -1,0 +1,35 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "dissertation_blyakharchuk_ta_2010_pdogvowspaamldobasaobals"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "Dissertation": {
+              "Author": {
+                "item1": [
+                  "T",
+                  "A"
+                ],
+                "item2": "Blyakharchuk"
+              },
+              "Title": {
+                "item": "Post-Glacial Dynamics of Ground Vegetation of West Siberian Plain and AltaiSayan Mountain Land (by Data of Botanical and Spore-Pollen Analysis of Bog and Lake Sediments)"
+              },
+              "Institution": {
+                "item": "Tomsk"
+              },
+              "CompletionYear": 2010
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

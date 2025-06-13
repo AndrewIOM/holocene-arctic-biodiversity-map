@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Vasilevich, R. S.; Lodygin, E. D."
-            },
-            "Title": {
-              "item": "Transformation of high molecular weight organic compounds in Arctic peatlands under climate change C3 - IOP Conference Series: Earth and Environmental Science"
-            },
-            "Year": 2021,
-            "Volume": 862,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Vasilevich, R. S.; Lodygin, E. D."
+              },
+              "Title": {
+                "item": "Transformation of high molecular weight organic compounds in Arctic peatlands under climate change C3 - IOP Conference Series: Earth and Environmental Science"
+              },
+              "Year": 2021,
+              "Volume": 862,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Undated time-series of likely Holocene age"
           }
-        }
+        ]
       }
     }
   ],

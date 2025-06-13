@@ -1,0 +1,54 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "book-chapter_webb_bha_vllacienaftp1y_415"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "BookChapter": {
+              "ChapterFirstAuthor": {
+                "item1": [
+                  "T"
+                ],
+                "item2": "Webb"
+              },
+              "ChapterAdditionalAuthors": [
+                {
+                  "item1": [
+                    "P",
+                    "J"
+                  ],
+                  "item2": "Bartlein"
+                },
+                {
+                  "item1": [
+                    "S",
+                    "P"
+                  ],
+                  "item2": "Harrison"
+                },
+                {
+                  "item1": [
+                    "K",
+                    "H"
+                  ],
+                  "item2": "Anderson"
+                }
+              ],
+              "ChapterTitle": {
+                "item": "Vegetation, lake levels, and climate in eastern North America for the past 18,000 years"
+              },
+              "FirstPage": 415
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
