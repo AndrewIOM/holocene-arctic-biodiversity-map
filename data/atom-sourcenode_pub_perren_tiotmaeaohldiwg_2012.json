@@ -1,0 +1,65 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_perren_tiotmaeaohldiwg_2012"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "B",
+                  "B"
+                ],
+                "item2": "Perren"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "N",
+                    "J"
+                  ],
+                  "item2": "Anderson"
+                },
+                {
+                  "item1": [
+                    "M",
+                    "S",
+                    "V"
+                  ],
+                  "item2": "Douglas"
+                },
+                {
+                  "item1": [
+                    "S",
+                    "C"
+                  ],
+                  "item2": "Fritz"
+                }
+              ],
+              "Title": {
+                "item": "The influence of temperature, moisture, and eolian activity on Holocene lake development in West Greenland"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 2012,
+              "Volume": 48,
+              "Number": 1,
+              "Month": "Apr",
+              "DOI": {
+                "item": "10.1007/s10933-012-9613-6"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

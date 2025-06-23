@@ -1,0 +1,34 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "dissertation_liversidge_a_2012_trocidtotolalsg"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "Dissertation": {
+              "Author": {
+                "item1": [
+                  "A"
+                ],
+                "item2": "Liversidge"
+              },
+              "Title": {
+                "item": "The role of climate in determining the ontogeny trends of low Arctic lakes, south-western Greenland"
+              },
+              "Institution": {
+                "item": "Loughborough University"
+              },
+              "CompletionYear": 2012
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

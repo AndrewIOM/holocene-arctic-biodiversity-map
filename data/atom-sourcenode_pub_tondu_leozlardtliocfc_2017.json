@@ -8,7 +8,7 @@
     },
     {
       "SourceNode": {
-        "Included": [
+        "Excluded": [
           {
             "Bibliographic": {
               "Author": {
@@ -29,7 +29,10 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedAll"
+          "BiotaNotPresent",
+          {
+            "item": "pigments only roughly inferred as productivity of certain groups e.g. diatoms."
+          }
         ]
       }
     }

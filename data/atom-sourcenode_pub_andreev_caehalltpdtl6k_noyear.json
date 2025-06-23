@@ -8,17 +8,20 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andreev, A.; Fedorov, G.; Gromig, R.; Krastel, S.; Lebas, E.; Lenz, M.; Lenz, M. M.; Melles, M.; Scheidt, S.; Wagner, B."
-            },
-            "Title": {
-              "item": "Climate and environmental history at Lake Levinson-Lessing, Taymyr Peninsula, during the last 62 kyr"
-            },
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andreev, A.; Fedorov, G.; Gromig, R.; Krastel, S.; Lebas, E.; Lenz, M.; Lenz, M. M.; Melles, M.; Scheidt, S.; Wagner, B."
+              },
+              "Title": {
+                "item": "Climate and environmental history at Lake Levinson-Lessing, Taymyr Peninsula, during the last 62 kyr"
+              },
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

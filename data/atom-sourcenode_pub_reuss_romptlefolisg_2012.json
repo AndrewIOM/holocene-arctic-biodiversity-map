@@ -1,0 +1,64 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_reuss_romptlefolisg_2012"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "N",
+                  "S"
+                ],
+                "item2": "REUSS"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "N",
+                    "J"
+                  ],
+                  "item2": "ANDERSON"
+                },
+                {
+                  "item1": [
+                    "S",
+                    "C"
+                  ],
+                  "item2": "FRITZ"
+                },
+                {
+                  "item1": [
+                    "G",
+                    "L"
+                  ],
+                  "item2": "SIMPSON"
+                }
+              ],
+              "Title": {
+                "item": "Responses of microbial phototrophs to late‐Holocene environmental forcing of lakes in south‐west Greenland"
+              },
+              "Journal": {
+                "item": "Freshwater Biology"
+              },
+              "Year": 2012,
+              "Volume": 58,
+              "Number": 4,
+              "Month": "Dec",
+              "DOI": {
+                "item": "10.1111/fwb.12073"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

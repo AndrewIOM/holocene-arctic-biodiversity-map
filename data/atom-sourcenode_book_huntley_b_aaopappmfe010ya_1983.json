@@ -1,0 +1,44 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "book_huntley_b_aaopappmfe010ya_1983"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "Book": {
+              "BookTitle": {
+                "item": "An atlas of past and present pollen maps for Europe 0 - 13 000 years ago"
+              },
+              "BookFirstAuthor": {
+                "item1": [
+                  "B"
+                ],
+                "item2": "Huntley"
+              },
+              "BookAdditionalAuthors": [
+                {
+                  "item1": [
+                    "H",
+                    "J",
+                    "B"
+                  ],
+                  "item2": "Birks"
+                }
+              ],
+              "BookCopyrightYear": 1983,
+              "Publisher": {
+                "item": "Cambridge University Press"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
