@@ -1,0 +1,56 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_weidick_ngcasng_1996"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "A"
+                ],
+                "item2": "Weidick"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "C"
+                  ],
+                  "item2": "Andreasen"
+                },
+                {
+                  "item1": [
+                    "H"
+                  ],
+                  "item2": "Oerter"
+                },
+                {
+                  "item1": [
+                    "N"
+                  ],
+                  "item2": "Reeh"
+                }
+              ],
+              "Title": {
+                "item": "Neoglacial Glacier Changes around Storstremmen, North-East Greenland"
+              },
+              "Journal": {
+                "item": "Polarforschung"
+              },
+              "Year": 1996,
+              "Volume": 64,
+              "Number": 3
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

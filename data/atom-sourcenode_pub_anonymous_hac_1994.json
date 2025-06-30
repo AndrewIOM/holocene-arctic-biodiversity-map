@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Anonymous"
-            },
-            "Title": {
-              "item": "Hot and cold"
-            },
-            "Journal": {
-              "item": "Eos, Transactions American Geophysical Union"
-            },
-            "Year": 1994,
-            "Volume": 75,
-            "Pages": [
-              514,
-              514
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Anonymous"
+              },
+              "Title": {
+                "item": "Hot and cold"
+              },
+              "Journal": {
+                "item": "Eos, Transactions American Geophysical Union"
+              },
+              "Year": 1994,
+              "Volume": 75,
+              "Pages": [
+                514,
+                514
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Interglacial"
           }
-        }
+        ]
       }
     }
   ],

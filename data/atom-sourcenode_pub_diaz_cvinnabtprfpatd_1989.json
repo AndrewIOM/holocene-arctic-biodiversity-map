@@ -1,0 +1,57 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_diaz_cvinnabtprfpatd_1989"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "H",
+                  "F"
+                ],
+                "item2": "Diaz"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "J",
+                    "T"
+                  ],
+                  "item2": "Andrews"
+                },
+                {
+                  "item1": [
+                    "S",
+                    "K"
+                  ],
+                  "item2": "Short"
+                }
+              ],
+              "Title": {
+                "item": "Climate Variations in Northern North America (6000 BP to Present) Reconstructed from Pollen and Tree-Ring Data"
+              },
+              "Journal": {
+                "item": "Arctic and Alpine Research"
+              },
+              "Year": 1989,
+              "Volume": 21,
+              "Number": 1,
+              "Month": "Feb",
+              "DOI": {
+                "item": "10.1080/00040851.1989.12002709"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

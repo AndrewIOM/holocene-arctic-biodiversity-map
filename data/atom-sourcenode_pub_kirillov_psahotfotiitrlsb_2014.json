@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kirillov, A. F.; Knizhin, I. B."
-            },
-            "Title": {
-              "item": "Present-day structure and history of the formation of the ichthyofauna in the River Lena (Laptev Sea basin)"
-            },
-            "Journal": {
-              "item": "Voprosy Ikhtiologii"
-            },
-            "Year": 2014,
-            "Volume": 54,
-            "Pages": [
-              413,
-              425
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kirillov, A. F.; Knizhin, I. B."
+              },
+              "Title": {
+                "item": "Present-day structure and history of the formation of the ichthyofauna in the River Lena (Laptev Sea basin)"
+              },
+              "Journal": {
+                "item": "Voprosy Ikhtiologii"
+              },
+              "Year": 2014,
+              "Volume": 54,
+              "Pages": [
+                413,
+                425
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Observational"
           }
-        }
+        ]
       }
     }
   ],

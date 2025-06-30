@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Sheremet'ev, I. S.; Rosenfel'd, S. B.; Sipko, T. P.; Gruzdev, A. R."
-            },
-            "Title": {
-              "item": "Extinction of large herbivore mammals: niche characteristics of musk ox Ovibos moschatus and reindeer Rangifer tarandus coexisting in isolation"
-            },
-            "Journal": {
-              "item": "Zhurnal obshcheĭ biologii"
-            },
-            "Year": 2014,
-            "Volume": 75,
-            "Pages": [
-              62,
-              73
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Sheremet'ev, I. S.; Rosenfel'd, S. B.; Sipko, T. P.; Gruzdev, A. R."
+              },
+              "Title": {
+                "item": "Extinction of large herbivore mammals: niche characteristics of musk ox Ovibos moschatus and reindeer Rangifer tarandus coexisting in isolation"
+              },
+              "Journal": {
+                "item": "Zhurnal obshcheĭ biologii"
+              },
+              "Year": 2014,
+              "Volume": 75,
+              "Pages": [
+                62,
+                73
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Method based on modern relationships"
           }
-        }
+        ]
       }
     }
   ],

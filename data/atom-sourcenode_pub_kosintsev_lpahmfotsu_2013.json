@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_kosintsev_lpahmfotsu_2013"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "P"
+                ],
+                "item2": "Kosintsev"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "O"
+                  ],
+                  "item2": "Bachura"
+                }
+              ],
+              "Title": {
+                "item": "Late Pleistocene and Holocene mammal fauna of the Southern Urals"
+              },
+              "Journal": {
+                "item": "Quaternary International"
+              },
+              "Year": 2013,
+              "Volume": 284,
+              "Month": "Jan",
+              "DOI": {
+                "item": "10.1016/j.quaint.2012.06.022"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

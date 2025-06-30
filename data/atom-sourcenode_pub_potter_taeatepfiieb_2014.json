@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Potter, B. A.; Holmes, C. E.; Yesner, D. R."
-            },
-            "Title": {
-              "item": "Technology and economy among the earliest prehistoric foragers in interior Eastern Beringia"
-            },
-            "Journal": {
-              "item": "Paleoamerican Odyssey"
-            },
-            "Year": 2014,
-            "Pages": [
-              81,
-              104
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Potter, B. A.; Holmes, C. E.; Yesner, D. R."
+              },
+              "Title": {
+                "item": "Technology and economy among the earliest prehistoric foragers in interior Eastern Beringia"
+              },
+              "Journal": {
+                "item": "Paleoamerican Odyssey"
+              },
+              "Year": 2014,
+              "Pages": [
+                81,
+                104
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Near Fairbanks, AK"
           }
-        }
+        ]
       }
     }
   ],

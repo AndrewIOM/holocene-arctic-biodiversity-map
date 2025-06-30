@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Crawford, R. M. M.; Balfour, J."
-            },
-            "Title": {
-              "item": "Female-Biased Sex Ratios and Differential Growth in Arctic Willows"
-            },
-            "Journal": {
-              "item": "Flora (Jena)"
-            },
-            "Year": 1990,
-            "Volume": 184,
-            "Pages": [
-              291,
-              302
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Crawford, R. M. M.; Balfour, J."
+              },
+              "Title": {
+                "item": "Female-Biased Sex Ratios and Differential Growth in Arctic Willows"
+              },
+              "Journal": {
+                "item": "Flora (Jena)"
+              },
+              "Year": 1990,
+              "Volume": 184,
+              "Pages": [
+                291,
+                302
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Post-1950"
           }
-        }
+        ]
       }
     }
   ],

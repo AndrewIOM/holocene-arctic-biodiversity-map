@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Raup, H. M."
-            },
-            "Title": {
-              "item": "The vegetation of the Fort Reliance sand plains Mackenzie, Canada"
-            },
-            "Journal": {
-              "item": "Univ Pittsburgh Bull"
-            },
-            "Year": 1928,
-            "Volume": 25,
-            "Pages": [
-              79,
-              83
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Raup, H. M."
+              },
+              "Title": {
+                "item": "The vegetation of the Fort Reliance sand plains Mackenzie, Canada"
+              },
+              "Journal": {
+                "item": "Univ Pittsburgh Bull"
+              },
+              "Year": 1928,
+              "Volume": 25,
+              "Pages": [
+                79,
+                83
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Succession"
           }
-        }
+        ]
       }
     }
   ],

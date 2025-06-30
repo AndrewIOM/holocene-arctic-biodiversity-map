@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Serebryanny, L. R.; Solomina, O. N."
-            },
-            "Title": {
-              "item": "Glaciers and climate of the mountains of the former USSR during the Neoglacial"
-            },
-            "Journal": {
-              "item": "Izvestiya - Akademiya Nauk, Seriya Geograficheskaya"
-            },
-            "Year": 1995,
-            "Volume": 5,
-            "Pages": [
-              38,
-              49
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Serebryanny, L. R.; Solomina, O. N."
+              },
+              "Title": {
+                "item": "Glaciers and climate of the mountains of the former USSR during the Neoglacial"
+              },
+              "Journal": {
+                "item": "Izvestiya - Akademiya Nauk, Seriya Geograficheskaya"
+              },
+              "Year": 1995,
+              "Volume": 5,
+              "Pages": [
+                38,
+                49
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Sannikov, S. N.; Sannikova, N. S."
-            },
-            "Title": {
-              "item": "Pathways and rates of Pinus sylvestris L. and Picea species recolonization into Scandinavia in Holocene"
-            },
-            "Journal": {
-              "item": "Zhurnal Obshchei Biologii"
-            },
-            "Year": 2015,
-            "Volume": 76,
-            "Pages": [
-              475,
-              481
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Sannikov, S. N.; Sannikova, N. S."
+              },
+              "Title": {
+                "item": "Pathways and rates of Pinus sylvestris L. and Picea species recolonization into Scandinavia in Holocene"
+              },
+              "Journal": {
+                "item": "Zhurnal Obshchei Biologii"
+              },
+              "Year": 2015,
+              "Volume": 76,
+              "Pages": [
+                475,
+                481
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
