@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Martin, A. J."
-            },
-            "Title": {
-              "item": "Neoichnology of an Arctic fluvial point bar, North Slope, Alaska (USA)"
-            },
-            "Journal": {
-              "item": "Geological Quarterly"
-            },
-            "Year": 2009,
-            "Volume": 53,
-            "Pages": [
-              383,
-              396
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Martin, A. J."
+              },
+              "Title": {
+                "item": "Neoichnology of an Arctic fluvial point bar, North Slope, Alaska (USA)"
+              },
+              "Journal": {
+                "item": "Geological Quarterly"
+              },
+              "Year": 2009,
+              "Volume": 53,
+              "Pages": [
+                383,
+                396
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

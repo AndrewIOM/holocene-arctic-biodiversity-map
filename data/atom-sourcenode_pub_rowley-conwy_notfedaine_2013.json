@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rowley-Conwy, P."
-            },
-            "Title": {
-              "item": "North of the Frontier: Early Domestic Animals in Northern Europe"
-            },
-            "Journal": {
-              "item": "Origins and Spread of Domestic Animals in Southwest Asia and Europe"
-            },
-            "Year": 2013,
-            "Volume": 59,
-            "Pages": [
-              283,
-              311
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rowley-Conwy, P."
+              },
+              "Title": {
+                "item": "North of the Frontier: Early Domestic Animals in Northern Europe"
+              },
+              "Journal": {
+                "item": "Origins and Spread of Domestic Animals in Southwest Asia and Europe"
+              },
+              "Year": 2013,
+              "Volume": 59,
+              "Pages": [
+                283,
+                311
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

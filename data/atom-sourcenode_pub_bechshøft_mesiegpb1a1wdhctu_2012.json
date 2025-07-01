@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bechshøft, T. Ø; Rigét, F. F.; Sonne, C.; Letcher, R. J.; Muir, D. C. G.; Novak, M. A.; Henchey, E.; Meyer, J. S.; Eulaers, I.; Jaspers, V. L. B.; Eens, M.; Covaci, A.; Dietz, R."
-            },
-            "Title": {
-              "item": "Measuring environmental stress in East Greenland polar bears, 1892-1927 and 1988-2009: What does hair cortisol tell us?"
-            },
-            "Journal": {
-              "item": "Environment International"
-            },
-            "Year": 2012,
-            "Volume": 45,
-            "Pages": [
-              15,
-              21
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bechshøft, T. Ø; Rigét, F. F.; Sonne, C.; Letcher, R. J.; Muir, D. C. G.; Novak, M. A.; Henchey, E.; Meyer, J. S.; Eulaers, I.; Jaspers, V. L. B.; Eens, M.; Covaci, A.; Dietz, R."
+              },
+              "Title": {
+                "item": "Measuring environmental stress in East Greenland polar bears, 1892-1927 and 1988-2009: What does hair cortisol tell us?"
+              },
+              "Journal": {
+                "item": "Environment International"
+              },
+              "Year": 2012,
+              "Volume": 45,
+              "Pages": [
+                15,
+                21
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoBiodiversityMeasure",
+          {
+            "item": "hair cortisol analysis"
           }
-        }
+        ]
       }
     }
   ],

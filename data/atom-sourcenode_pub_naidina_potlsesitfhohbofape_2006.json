@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Naidina, O. D."
-            },
-            "Title": {
-              "item": "Paleogeography of the Laptev Sea eastern shelf in the first half of Holocene based on faunal and palynological evidence"
-            },
-            "Journal": {
-              "item": "Stratigraphy and Geological Correlation"
-            },
-            "Year": 2006,
-            "Volume": 14,
-            "Pages": [
-              331,
-              340
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Naidina, O. D."
+              },
+              "Title": {
+                "item": "Paleogeography of the Laptev Sea eastern shelf in the first half of Holocene based on faunal and palynological evidence"
+              },
+              "Journal": {
+                "item": "Stratigraphy and Geological Correlation"
+              },
+              "Year": 2006,
+              "Volume": 14,
+              "Pages": [
+                331,
+                340
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

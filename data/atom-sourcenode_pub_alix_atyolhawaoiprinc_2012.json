@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Alix, C.; Hare, P. G.; Andrews, T. D.; MacKay, G."
-            },
-            "Title": {
-              "item": "A Thousand Years of Lost Hunting Arrows: Wood Analysis of Ice Patch Remains in Northwestern Canada"
-            },
-            "Journal": {
-              "item": "Arctic"
-            },
-            "Year": 2012,
-            "Volume": 65,
-            "Pages": [
-              95,
-              117
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Alix, C.; Hare, P. G.; Andrews, T. D.; MacKay, G."
+              },
+              "Title": {
+                "item": "A Thousand Years of Lost Hunting Arrows: Wood Analysis of Ice Patch Remains in Northwestern Canada"
+              },
+              "Journal": {
+                "item": "Arctic"
+              },
+              "Year": 2012,
+              "Volume": 65,
+              "Pages": [
+                95,
+                117
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "analysis of arrowhead wood (could have been moved/traded)"
           }
-        }
+        ]
       }
     }
   ],

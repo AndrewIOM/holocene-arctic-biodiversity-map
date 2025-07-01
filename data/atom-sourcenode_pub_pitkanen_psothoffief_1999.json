@@ -8,21 +8,27 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pitkanen, A."
-            },
-            "Title": {
-              "item": "Palaeoecological study of the history of forest fires in eastern Finland"
-            },
-            "Journal": {
-              "item": "Joensuun Yliopiston Luonnontieteellisia Julkaisuja"
-            },
-            "Year": 1999,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pitkanen, A."
+              },
+              "Title": {
+                "item": "Palaeoecological study of the history of forest fires in eastern Finland"
+              },
+              "Journal": {
+                "item": "Joensuun Yliopiston Luonnontieteellisia Julkaisuja"
+              },
+              "Year": 1999,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "63.266667, 30.750000"
           }
-        }
+        ]
       }
     }
   ],

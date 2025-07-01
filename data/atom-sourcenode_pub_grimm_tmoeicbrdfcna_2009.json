@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Grimm, E. C.; Maher, L. J.; Nelson, D. M."
-            },
-            "Title": {
-              "item": "The magnitude of error in conventional bulk-sediment radiocarbon dates from central North America"
-            },
-            "Journal": {
-              "item": "Quaternary Research"
-            },
-            "Year": 2009,
-            "Volume": 72,
-            "Pages": [
-              301,
-              308
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Grimm, E. C.; Maher, L. J.; Nelson, D. M."
+              },
+              "Title": {
+                "item": "The magnitude of error in conventional bulk-sediment radiocarbon dates from central North America"
+              },
+              "Journal": {
+                "item": "Quaternary Research"
+              },
+              "Year": 2009,
+              "Volume": 72,
+              "Pages": [
+                301,
+                308
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Lo\u0000c\u0000a\u0000t\u0000e\u0000d\u0000 \u0000i\u0000n\u0000 \u0000N\u0000o\u0000r\u0000t\u0000h\u0000 \u0000D\u0000a\u0000k\u0000o\u0000t\u0000a\u0000,\u0000 \u0000S\u0000o\u0000u\u0000t\u0000h\u0000 \u0000D\u0000a\u0000k\u0000o\u0000t\u0000a\u0000,\u0000 \u0000W\u0000i\u0000s\u0000c\u0000o\u0000n\u0000s\u0000i\u0000n\u0000 \u0000a\u0000n\u0000d\u0000 \u0000I\u0000l\u0000l\u0000i\u0000n\u0000o\u0000i\u0000s\u0000"
           }
-        }
+        ]
       }
     }
   ],

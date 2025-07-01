@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Abbott, M. B.; Finney, B. P.; Edwards, M. E.; Kelts, K. R."
-            },
-            "Title": {
-              "item": "Lake-level reconstructions and paleohydrology of Birch Lake, Central Alaska, based on seismic reflection profiles and core transects"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2000,
-            "Volume": 53,
-            "Pages": [
-              154,
-              166
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Abbott, M. B.; Finney, B. P.; Edwards, M. E.; Kelts, K. R."
+              },
+              "Title": {
+                "item": "Lake-level reconstructions and paleohydrology of Birch Lake, Central Alaska, based on seismic reflection profiles and core transects"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2000,
+              "Volume": 53,
+              "Pages": [
+                154,
+                166
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

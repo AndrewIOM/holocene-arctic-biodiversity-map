@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Swanson, D. K."
-            },
-            "Title": {
-              "item": "Biogeographical evidence for the grass (Poaceae) species of Pleistocene Beringian lowlands"
-            },
-            "Journal": {
-              "item": "Arctic"
-            },
-            "Year": 2006,
-            "Volume": 59,
-            "Pages": [
-              191,
-              200
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Swanson, D. K."
+              },
+              "Title": {
+                "item": "Biogeographical evidence for the grass (Poaceae) species of Pleistocene Beringian lowlands"
+              },
+              "Journal": {
+                "item": "Arctic"
+              },
+              "Year": 2006,
+              "Volume": 59,
+              "Pages": [
+                191,
+                200
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

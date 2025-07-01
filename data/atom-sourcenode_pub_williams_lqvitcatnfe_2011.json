@@ -8,22 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Williams, J. W.; Tarasov, P.; Brewer, S.; Notaro, M."
-            },
-            "Title": {
-              "item": "Late Quaternary variations in tree cover at the northern forest-tundra ecotone"
-            },
-            "Journal": {
-              "item": "Journal of Geophysical Research-Biogeosciences"
-            },
-            "Year": 2011,
-            "Volume": 116,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Williams, J. W.; Tarasov, P.; Brewer, S.; Notaro, M."
+              },
+              "Title": {
+                "item": "Late Quaternary variations in tree cover at the northern forest-tundra ecotone"
+              },
+              "Journal": {
+                "item": "Journal of Geophysical Research-Biogeosciences"
+              },
+              "Year": 2011,
+              "Volume": 116,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

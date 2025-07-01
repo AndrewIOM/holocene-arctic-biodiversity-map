@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dering, M.; Latalowa, M.; Boratynska, K.; Kosinski, P.; Boratynski, A."
-            },
-            "Title": {
-              "item": "Could clonality contribute to the northern survival of grey alder Alnus incana (L.) Moench during the Last Glacial Maximum?"
-            },
-            "Journal": {
-              "item": "Acta Societatis Botanicorum Poloniae"
-            },
-            "Year": 2017,
-            "Volume": 86,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dering, M.; Latalowa, M.; Boratynska, K.; Kosinski, P.; Boratynski, A."
+              },
+              "Title": {
+                "item": "Could clonality contribute to the northern survival of grey alder Alnus incana (L.) Moench during the Last Glacial Maximum?"
+              },
+              "Journal": {
+                "item": "Acta Societatis Botanicorum Poloniae"
+              },
+              "Year": 2017,
+              "Volume": 86,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

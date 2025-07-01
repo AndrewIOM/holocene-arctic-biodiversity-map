@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ross, J. M.; Zutter, C."
-            },
-            "Title": {
-              "item": "Comparing Norse animal husbandry practices: Paleoethnobotanical analyses from Iceland and Greenland"
-            },
-            "Journal": {
-              "item": "Arctic Anthropology"
-            },
-            "Year": 2007,
-            "Volume": 44,
-            "Pages": [
-              62,
-              86
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ross, J. M.; Zutter, C."
+              },
+              "Title": {
+                "item": "Comparing Norse animal husbandry practices: Paleoethnobotanical analyses from Iceland and Greenland"
+              },
+              "Journal": {
+                "item": "Arctic Anthropology"
+              },
+              "Year": 2007,
+              "Volume": 44,
+              "Pages": [
+                62,
+                86
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Not dated"
           }
-        }
+        ]
       }
     }
   ],

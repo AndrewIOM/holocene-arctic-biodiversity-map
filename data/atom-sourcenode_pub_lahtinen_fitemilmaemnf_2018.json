@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lahtinen, M.; Salmi, A. K."
-            },
-            "Title": {
-              "item": "Farming in the Extreme-Animal Management in Late Medieval and Early Modern Northern Finland"
-            },
-            "Journal": {
-              "item": "Arctic Anthropology"
-            },
-            "Year": 2018,
-            "Volume": 55,
-            "Pages": [
-              76,
-              96
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lahtinen, M.; Salmi, A. K."
+              },
+              "Title": {
+                "item": "Farming in the Extreme-Animal Management in Late Medieval and Early Modern Northern Finland"
+              },
+              "Journal": {
+                "item": "Arctic Anthropology"
+              },
+              "Year": 2018,
+              "Volume": 55,
+              "Pages": [
+                76,
+                96
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

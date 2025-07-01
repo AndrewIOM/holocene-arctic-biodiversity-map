@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andersen, O."
-            },
-            "Title": {
-              "item": "The settlement mounds in Divtasvuona/Tysfjord, North Norway. Traces of a Sami fisher-farmer economy"
-            },
-            "Journal": {
-              "item": "Acta Borealia"
-            },
-            "Year": 2019,
-            "Volume": 36,
-            "Pages": [
-              93,
-              116
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andersen, O."
+              },
+              "Title": {
+                "item": "The settlement mounds in Divtasvuona/Tysfjord, North Norway. Traces of a Sami fisher-farmer economy"
+              },
+              "Journal": {
+                "item": "Acta Borealia"
+              },
+              "Year": 2019,
+              "Volume": 36,
+              "Pages": [
+                93,
+                116
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

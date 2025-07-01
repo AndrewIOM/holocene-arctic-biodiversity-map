@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Mosbech, A.; Johansen, K. L.; Davidson, T. A.; Appelt, M.; Gronnow, B.; Cuyler, C.; Lyngs, P.; Flora, J."
-            },
-            "Title": {
-              "item": "On the crucial importance of a small bird: The ecosystem services of the little auk (Alle alle) population in Northwest Greenland in a long-term perspective"
-            },
-            "Journal": {
-              "item": "Ambio"
-            },
-            "Year": 2018,
-            "Volume": 47,
-            "Pages": [
-              226,
-              243
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Mosbech, A.; Johansen, K. L.; Davidson, T. A.; Appelt, M.; Gronnow, B.; Cuyler, C.; Lyngs, P.; Flora, J."
+              },
+              "Title": {
+                "item": "On the crucial importance of a small bird: The ecosystem services of the little auk (Alle alle) population in Northwest Greenland in a long-term perspective"
+              },
+              "Journal": {
+                "item": "Ambio"
+              },
+              "Year": 2018,
+              "Volume": 47,
+              "Pages": [
+                226,
+                243
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

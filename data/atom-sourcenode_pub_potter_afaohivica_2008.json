@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Potter, B. A."
-            },
-            "Title": {
-              "item": "A First Approximation of Holocene Inter-Assemblage Variability in Central Alaska"
-            },
-            "Journal": {
-              "item": "Arctic Anthropology"
-            },
-            "Year": 2008,
-            "Volume": 45,
-            "Pages": [
-              89,
-              113
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Potter, B. A."
+              },
+              "Title": {
+                "item": "A First Approximation of Holocene Inter-Assemblage Variability in Central Alaska"
+              },
+              "Journal": {
+                "item": "Arctic Anthropology"
+              },
+              "Year": 2008,
+              "Volume": 45,
+              "Pages": [
+                89,
+                113
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

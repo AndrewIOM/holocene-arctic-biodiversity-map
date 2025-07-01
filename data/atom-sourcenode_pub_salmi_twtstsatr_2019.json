@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Salmi, A. K.; Heino, M. T."
-            },
-            "Title": {
-              "item": "Tangled Worlds: The Swedish, the Sami, and the Reindeer"
-            },
-            "Journal": {
-              "item": "International Journal of Historical Archaeology"
-            },
-            "Year": 2019,
-            "Volume": 23,
-            "Pages": [
-              260,
-              282
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Salmi, A. K.; Heino, M. T."
+              },
+              "Title": {
+                "item": "Tangled Worlds: The Swedish, the Sami, and the Reindeer"
+              },
+              "Journal": {
+                "item": "International Journal of Historical Archaeology"
+              },
+              "Year": 2019,
+              "Volume": 23,
+              "Pages": [
+                260,
+                282
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

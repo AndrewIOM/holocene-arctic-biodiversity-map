@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kutzbach, J. E.; Bartlein, P. J.; Foley, J. A.; Harrison, S. P.; Hostetler, S. W.; Liu, Z.; Prentice, I. C.; Webb, T."
-            },
-            "Title": {
-              "item": "Potential role of vegetation feedback in the climate sensitivity of high-latitude regions: A case study at 6000 years BP"
-            },
-            "Journal": {
-              "item": "Global Biogeochemical Cycles"
-            },
-            "Year": 1996,
-            "Volume": 10,
-            "Pages": [
-              727,
-              736
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kutzbach, J. E.; Bartlein, P. J.; Foley, J. A.; Harrison, S. P.; Hostetler, S. W.; Liu, Z.; Prentice, I. C.; Webb, T."
+              },
+              "Title": {
+                "item": "Potential role of vegetation feedback in the climate sensitivity of high-latitude regions: A case study at 6000 years BP"
+              },
+              "Journal": {
+                "item": "Global Biogeochemical Cycles"
+              },
+              "Year": 1996,
+              "Volume": 10,
+              "Pages": [
+                727,
+                736
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Modelling study"
           }
-        }
+        ]
       }
     }
   ],

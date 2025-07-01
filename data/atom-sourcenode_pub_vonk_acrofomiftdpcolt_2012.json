@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Vonk, J. E.; Alling, V.; Rahm, L.; Morth, C. M.; Humborg, C.; Gustafsson, O."
-            },
-            "Title": {
-              "item": "A centennial record of fluvial organic matter input from the discontinuous permafrost catchment of Lake Tornetrask"
-            },
-            "Journal": {
-              "item": "Journal of Geophysical Research-Biogeosciences"
-            },
-            "Year": 2012,
-            "Volume": 117,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Vonk, J. E.; Alling, V.; Rahm, L.; Morth, C. M.; Humborg, C.; Gustafsson, O."
+              },
+              "Title": {
+                "item": "A centennial record of fluvial organic matter input from the discontinuous permafrost catchment of Lake Tornetrask"
+              },
+              "Journal": {
+                "item": "Journal of Geophysical Research-Biogeosciences"
+              },
+              "Year": 2012,
+              "Volume": 117,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Geochemical only"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Zelikson, E. M.; Borisova, O. K.; Kremenetsky, C. V.; Velichko, A. A."
-            },
-            "Title": {
-              "item": "Phytomass and carbon storage during the Eemian optimum, late weichselian maximum and Holocene optimum in Eastern Europe"
-            },
-            "Journal": {
-              "item": "Global and Planetary Change"
-            },
-            "Year": 1998,
-            "Pages": [
-              181,
-              195
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Zelikson, E. M.; Borisova, O. K.; Kremenetsky, C. V.; Velichko, A. A."
+              },
+              "Title": {
+                "item": "Phytomass and carbon storage during the Eemian optimum, late weichselian maximum and Holocene optimum in Eastern Europe"
+              },
+              "Journal": {
+                "item": "Global and Planetary Change"
+              },
+              "Year": 1998,
+              "Pages": [
+                181,
+                195
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

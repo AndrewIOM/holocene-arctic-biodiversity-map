@@ -8,22 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hudspith, V. A.; Belcher, C. M.; Kelly, R.; Hu, F."
-            },
-            "Title": {
-              "item": "Charcoal reflectance reveals early Holocene boreal deciduous forests burned at high intensities"
-            },
-            "Journal": {
-              "item": "PLoS ONE"
-            },
-            "Year": 2015,
-            "Volume": 10,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hudspith, V. A.; Belcher, C. M.; Kelly, R.; Hu, F."
+              },
+              "Title": {
+                "item": "Charcoal reflectance reveals early Holocene boreal deciduous forests burned at high intensities"
+              },
+              "Journal": {
+                "item": "PLoS ONE"
+              },
+              "Year": 2015,
+              "Volume": 10,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

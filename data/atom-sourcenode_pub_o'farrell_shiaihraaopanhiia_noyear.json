@@ -8,17 +8,23 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "O'Farrell, T. P."
-            },
-            "Title": {
-              "item": "Snowshoe hares in Alaska I. Home range and aspects of population and natural history in interior Alaska"
-            },
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "O'Farrell, T. P."
+              },
+              "Title": {
+                "item": "Snowshoe hares in Alaska I. Home range and aspects of population and natural history in interior Alaska"
+              },
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

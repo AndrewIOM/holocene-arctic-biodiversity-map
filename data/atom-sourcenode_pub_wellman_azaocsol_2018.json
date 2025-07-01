@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Wellman, H. P."
-            },
-            "Title": {
-              "item": "Applied zooarchaeology and Oregon Coast sea otters (Enhydra lutris)"
-            },
-            "Journal": {
-              "item": "Marine Mammal Science"
-            },
-            "Year": 2018,
-            "Volume": 34,
-            "Pages": [
-              806,
-              822
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Wellman, H. P."
+              },
+              "Title": {
+                "item": "Applied zooarchaeology and Oregon Coast sea otters (Enhydra lutris)"
+              },
+              "Journal": {
+                "item": "Marine Mammal Science"
+              },
+              "Year": 2018,
+              "Volume": 34,
+              "Pages": [
+                806,
+                822
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

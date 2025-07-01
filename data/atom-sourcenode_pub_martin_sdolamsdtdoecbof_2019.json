@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Martin, M.; Morin, H.; Fenton, N. J."
-            },
-            "Title": {
-              "item": "Secondary disturbances of low and moderate severity drive the dynamics of eastern Canadian boreal old-growth forests"
-            },
-            "Journal": {
-              "item": "Annals of Forest Science"
-            },
-            "Year": 2019,
-            "Volume": 76,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Martin, M.; Morin, H.; Fenton, N. J."
+              },
+              "Title": {
+                "item": "Secondary disturbances of low and moderate severity drive the dynamics of eastern Canadian boreal old-growth forests"
+              },
+              "Journal": {
+                "item": "Annals of Forest Science"
+              },
+              "Year": 2019,
+              "Volume": 76,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

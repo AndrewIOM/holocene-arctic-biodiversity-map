@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Sinclair, A. R. E."
-            },
-            "Title": {
-              "item": "Can the solar cycle and climate synchronize the snowshoe hare cycle in Canada? Evidence from tree rings and ice cores"
-            },
-            "Journal": {
-              "item": "American Naturalist"
-            },
-            "Year": 1993,
-            "Volume": 141,
-            "Pages": [
-              173,
-              198
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Sinclair, A. R. E."
+              },
+              "Title": {
+                "item": "Can the solar cycle and climate synchronize the snowshoe hare cycle in Canada? Evidence from tree rings and ice cores"
+              },
+              "Journal": {
+                "item": "American Naturalist"
+              },
+              "Year": 1993,
+              "Volume": 141,
+              "Pages": [
+                173,
+                198
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],
