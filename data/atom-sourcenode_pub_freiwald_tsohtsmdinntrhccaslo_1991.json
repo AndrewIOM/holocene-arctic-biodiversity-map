@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Freiwald, A.; Henrich, R.; Schäfer, P.; Willkomm, H."
-            },
-            "Title": {
-              "item": "The significance of high-boreal to subarctic maerl deposits in northern Norway to reconstruct holocene climatic changes and sea level oscillations"
-            },
-            "Journal": {
-              "item": "Facies"
-            },
-            "Year": 1991,
-            "Volume": 25,
-            "Pages": [
-              315,
-              339
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Freiwald, A.; Henrich, R.; Schäfer, P.; Willkomm, H."
+              },
+              "Title": {
+                "item": "The significance of high-boreal to subarctic maerl deposits in northern Norway to reconstruct holocene climatic changes and sea level oscillations"
+              },
+              "Journal": {
+                "item": "Facies"
+              },
+              "Year": 1991,
+              "Volume": 25,
+              "Pages": [
+                315,
+                339
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

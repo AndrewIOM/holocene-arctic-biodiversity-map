@@ -8,18 +8,21 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Fritz, S. C.; Stone, J. R."
-            },
-            "Title": {
-              "item": "North America"
-            },
-            "Year": 2013,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Fritz, S. C.; Stone, J. R."
+              },
+              "Title": {
+                "item": "North America"
+              },
+              "Year": 2013,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

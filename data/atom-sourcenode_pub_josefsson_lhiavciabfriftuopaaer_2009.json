@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Josefsson, T.; Hornberg, G.; Ostlund, L."
-            },
-            "Title": {
-              "item": "Long-Term Human Impact and Vegetation Changes in a Boreal Forest Reserve: Implications for the Use of Protected Areas as Ecological References"
-            },
-            "Journal": {
-              "item": "Ecosystems"
-            },
-            "Year": 2009,
-            "Volume": 12,
-            "Pages": [
-              1017,
-              1036
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Josefsson, T.; Hornberg, G.; Ostlund, L."
+              },
+              "Title": {
+                "item": "Long-Term Human Impact and Vegetation Changes in a Boreal Forest Reserve: Implications for the Use of Protected Areas as Ecological References"
+              },
+              "Journal": {
+                "item": "Ecosystems"
+              },
+              "Year": 2009,
+              "Volume": 12,
+              "Pages": [
+                1017,
+                1036
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

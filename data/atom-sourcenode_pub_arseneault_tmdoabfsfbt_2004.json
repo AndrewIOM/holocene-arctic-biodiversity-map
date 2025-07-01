@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Arseneault, D.; Sirois, L."
-            },
-            "Title": {
-              "item": "The millennial dynamics of a boreal forest stand from buried trees"
-            },
-            "Journal": {
-              "item": "Journal of Ecology"
-            },
-            "Year": 2004,
-            "Volume": 92,
-            "Pages": [
-              490,
-              504
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Arseneault, D.; Sirois, L."
+              },
+              "Title": {
+                "item": "The millennial dynamics of a boreal forest stand from buried trees"
+              },
+              "Journal": {
+                "item": "Journal of Ecology"
+              },
+              "Year": 2004,
+              "Volume": 92,
+              "Pages": [
+                490,
+                504
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

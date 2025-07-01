@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hornberg, G.; Staland, H.; Nordstrom, E. M.; Korsman, T.; Segerstrom, U."
-            },
-            "Title": {
-              "item": "Fire as an important factor for the genesis of boreal Picea abies swamp forests in Fennoscandia"
-            },
-            "Journal": {
-              "item": "Holocene"
-            },
-            "Year": 2012,
-            "Volume": 22,
-            "Pages": [
-              203,
-              214
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hornberg, G.; Staland, H.; Nordstrom, E. M.; Korsman, T.; Segerstrom, U."
+              },
+              "Title": {
+                "item": "Fire as an important factor for the genesis of boreal Picea abies swamp forests in Fennoscandia"
+              },
+              "Journal": {
+                "item": "Holocene"
+              },
+              "Year": 2012,
+              "Volume": 22,
+              "Pages": [
+                203,
+                214
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

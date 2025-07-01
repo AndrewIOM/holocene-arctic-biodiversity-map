@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Moller, P.; Stubdrup, O. P.; Kronborg, C."
-            },
-            "Title": {
-              "item": "Late Weichselian to early Holocene sedimentation in a steep fjord/valley setting, Visdalen, Edgeoya, eastern Svalbard: Glacial deposits, alluvial/colluvial-fan deltas and spit-platforms"
-            },
-            "Journal": {
-              "item": "Polar Research"
-            },
-            "Year": 1995,
-            "Volume": 14,
-            "Pages": [
-              181,
-              203
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Moller, P.; Stubdrup, O. P.; Kronborg, C."
+              },
+              "Title": {
+                "item": "Late Weichselian to early Holocene sedimentation in a steep fjord/valley setting, Visdalen, Edgeoya, eastern Svalbard: Glacial deposits, alluvial/colluvial-fan deltas and spit-platforms"
+              },
+              "Journal": {
+                "item": "Polar Research"
+              },
+              "Year": 1995,
+              "Volume": 14,
+              "Pages": [
+                181,
+                203
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hornberg, G.; Ostlund, L.; Zackrisson, O.; Bergman, I."
-            },
-            "Title": {
-              "item": "The genesis of two Picea-Cladina forests in northern Sweden"
-            },
-            "Journal": {
-              "item": "Journal of Ecology"
-            },
-            "Year": 1999,
-            "Volume": 87,
-            "Pages": [
-              800,
-              814
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hornberg, G.; Ostlund, L.; Zackrisson, O.; Bergman, I."
+              },
+              "Title": {
+                "item": "The genesis of two Picea-Cladina forests in northern Sweden"
+              },
+              "Journal": {
+                "item": "Journal of Ecology"
+              },
+              "Year": 1999,
+              "Volume": 87,
+              "Pages": [
+                800,
+                814
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

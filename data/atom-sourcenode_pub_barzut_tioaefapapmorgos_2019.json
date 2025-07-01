@@ -8,22 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Barzut, O. S.; Surso, M. V."
-            },
-            "Title": {
-              "item": "The influence of atmospheric emissions from Arkhangelsk pulp and paper mill on radial growth of spruce"
-            },
-            "Journal": {
-              "item": "Arctic Biomonitoring"
-            },
-            "Year": 2019,
-            "Volume": 263,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Barzut, O. S.; Surso, M. V."
+              },
+              "Title": {
+                "item": "The influence of atmospheric emissions from Arkhangelsk pulp and paper mill on radial growth of spruce"
+              },
+              "Journal": {
+                "item": "Arctic Biomonitoring"
+              },
+              "Year": 2019,
+              "Volume": 263,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

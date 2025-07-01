@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Desponts, M.; Payette, S."
-            },
-            "Title": {
-              "item": "The holocene dynamics of jack pine at its northern range limit in Quebec"
-            },
-            "Journal": {
-              "item": "Journal of Ecology"
-            },
-            "Year": 1993,
-            "Volume": 81,
-            "Pages": [
-              719,
-              727
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Desponts, M.; Payette, S."
+              },
+              "Title": {
+                "item": "The holocene dynamics of jack pine at its northern range limit in Quebec"
+              },
+              "Journal": {
+                "item": "Journal of Ecology"
+              },
+              "Year": 1993,
+              "Volume": 81,
+              "Pages": [
+                719,
+                727
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

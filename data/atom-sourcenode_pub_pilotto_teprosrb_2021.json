@@ -8,22 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pilotto, F.; Dynesius, M.; Lemdahl, G.; Buckland, P. C.; Buckland, P. I."
-            },
-            "Title": {
-              "item": "The European palaeoecological record of Swedish red-listed beetles"
-            },
-            "Journal": {
-              "item": "Biological Conservation"
-            },
-            "Year": 2021,
-            "Volume": 260,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pilotto, F.; Dynesius, M.; Lemdahl, G.; Buckland, P. C.; Buckland, P. I."
+              },
+              "Title": {
+                "item": "The European palaeoecological record of Swedish red-listed beetles"
+              },
+              "Journal": {
+                "item": "Biological Conservation"
+              },
+              "Year": 2021,
+              "Volume": 260,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

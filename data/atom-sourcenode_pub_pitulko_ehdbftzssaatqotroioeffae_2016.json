@@ -8,25 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pitulko, V.; Kasparov, A."
-            },
-            "Title": {
-              "item": "Early Holocene Dog Bones from the Zhokhov Site (East Siberian Arctic) and the Question of the Reliability of Identification of Early <i>Canis familiaris</i> from Archaeological Excavations"
-            },
-            "Journal": {
-              "item": "Stratum plus: Archaeology and Cultural Anthropology"
-            },
-            "Year": 2016,
-            "Pages": [
-              171,
-              207
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pitulko, V.; Kasparov, A."
+              },
+              "Title": {
+                "item": "Early Holocene Dog Bones from the Zhokhov Site (East Siberian Arctic) and the Question of the Reliability of Identification of Early <i>Canis familiaris</i> from Archaeological Excavations"
+              },
+              "Journal": {
+                "item": "Stratum plus: Archaeology and Cultural Anthropology"
+              },
+              "Year": 2016,
+              "Pages": [
+                171,
+                207
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
