@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_bradley_hpotqeicha_1990"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "R",
+                  "S"
+                ],
+                "item2": "Bradley"
+              },
+              "AdditionalAuthors": [],
+              "Title": {
+                "item": "Holocene paleoclimatology of the Queen Elizabeth Islands, Canadian High Arctic"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 1990,
+              "Volume": 9,
+              "Number": 4,
+              "Month": "Jan",
+              "DOI": {
+                "item": "10.1016/0277-3791(90)90028-9"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

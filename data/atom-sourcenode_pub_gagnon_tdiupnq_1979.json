@@ -8,19 +8,22 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gagnon, R.; Payette, S."
-            },
-            "Title": {
-              "item": "Tree‚Äêline dynamics in Ungava peninsula, northern Quebec"
-            },
-            "Year": 1979,
-            "Volume": 2,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gagnon, R.; Payette, S."
+              },
+              "Title": {
+                "item": "Tree‚Äêline dynamics in Ungava peninsula, northern Quebec"
+              },
+              "Year": 1979,
+              "Volume": 2,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

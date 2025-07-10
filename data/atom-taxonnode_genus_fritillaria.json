@@ -26,6 +26,28 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000015067"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_fritillaria"
+        ]
+      },
+      {
+        "FriendlyKey": [
           "taxonnode",
           "family_liliaceae"
         ]

@@ -1,0 +1,195 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence_absence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_minuartia_stricta_sw hiern"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_minuartia_groenlandica_retz"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_stellaria_calycantha_led bong"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_stellaria_longipes_goldie"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_cerastium_fontanum_baumg"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_cerastium_arcticum_lge"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_cerastium_alpinum_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_lookup_fbsitvhogpioshlabdmog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "258ab7d5-6f41-4739-92ce-5e518dad1e38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_cerastium-stellaria type"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

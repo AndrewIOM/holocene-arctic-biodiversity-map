@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Vartanyan, S. L.; Garutt, V. E.; Sher, A. V."
-            },
-            "Title": {
-              "item": "Holocene dwarf mammoths from Wrangle Islands in the Siberian Arctic"
-            },
-            "Journal": {
-              "item": "Nature (London)"
-            },
-            "Year": 1993,
-            "Volume": 362,
-            "Pages": [
-              337,
-              340
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Vartanyan, S. L.; Garutt, V. E.; Sher, A. V."
+              },
+              "Title": {
+                "item": "Holocene dwarf mammoths from Wrangle Islands in the Siberian Arctic"
+              },
+              "Journal": {
+                "item": "Nature (London)"
+              },
+              "Year": 1993,
+              "Volume": 362,
+              "Pages": [
+                337,
+                340
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

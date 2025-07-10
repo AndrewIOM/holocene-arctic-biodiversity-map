@@ -8,24 +8,51 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Doughty, C. E.; Wolf, A.; Field, C. B."
-            },
-            "Title": {
-              "item": "Biophysical feedbacks between the Pleistocene megafauna extinction and climate: The first human-induced global warming?"
-            },
-            "Journal": {
-              "item": "Geophysical Research Letters"
-            },
-            "Year": 2010,
-            "Volume": 37,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Doughty, C. E.; Wolf, A.; Field, C. B."
+              },
+              "Title": {
+                "item": "Biophysical feedbacks between the Pleistocene megafauna extinction and climate: The first human-induced global warming?"
+              },
+              "Journal": {
+                "item": "Geophysical Research Letters"
+              },
+              "Year": 2010,
+              "Volume": 37,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_doughty_bfbtpmeactfhgw_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "database_gpd"
+        ]
+      },
+      1,
+      {
+        "Source": {
+          "UsedDatabase": [
+            null,
+            "AllRecordsInStudyScope"
+          ]
+        }
+      }
+    ]
+  ]
 ]

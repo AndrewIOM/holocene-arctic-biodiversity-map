@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "variety_betula_pubescens_pumila_(zanoni ex murray) govaerts"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Variety": [
+            {
+              "item": "Betula"
+            },
+            {
+              "item": "pubescens"
+            },
+            {
+              "item": "pumila"
+            },
+            {
+              "item": "(Zanoni ex Murray) Govaerts"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

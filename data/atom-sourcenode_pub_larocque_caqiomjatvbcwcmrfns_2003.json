@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Larocque, I.; Hall, R. I."
-            },
-            "Title": {
-              "item": "Chironomids as quantitative indicators of mean July air temperature: Validation by comparison with century-long meteorological records from northern Sweden"
-            },
-            "Journal": {
-              "item": "Journal of Paleolimnology"
-            },
-            "Year": 2003,
-            "Volume": 29,
-            "Pages": [
-              475,
-              493
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Larocque, I.; Hall, R. I."
+              },
+              "Title": {
+                "item": "Chironomids as quantitative indicators of mean July air temperature: Validation by comparison with century-long meteorological records from northern Sweden"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 2003,
+              "Volume": 29,
+              "Pages": [
+                475,
+                493
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

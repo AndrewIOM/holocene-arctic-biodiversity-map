@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Wasowicz, P."
-            },
-            "Title": {
-              "item": "Non-native species in the vascular flora of highlands and mountains of Iceland"
-            },
-            "Journal": {
-              "item": "PeerJ"
-            },
-            "Year": 2016,
-            "Volume": 4,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Wasowicz, P."
+              },
+              "Title": {
+                "item": "Non-native species in the vascular flora of highlands and mountains of Iceland"
+              },
+              "Journal": {
+                "item": "PeerJ"
+              },
+              "Year": 2016,
+              "Volume": 4,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Direct observations"
           }
-        }
+        ]
       }
     }
   ],

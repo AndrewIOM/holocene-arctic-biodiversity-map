@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Crompton, C. W.; Hall, I. V.; Jensen, K. I. N.; Hildebrand, P. D."
-            },
-            "Title": {
-              "item": "The biology of Canadian weeds. 83. Hypericum perforatum L"
-            },
-            "Journal": {
-              "item": "Canadian Journal of Plant Science"
-            },
-            "Year": 1988,
-            "Volume": 68,
-            "Pages": [
-              149,
-              162
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Crompton, C. W.; Hall, I. V.; Jensen, K. I. N.; Hildebrand, P. D."
+              },
+              "Title": {
+                "item": "The biology of Canadian weeds. 83. Hypericum perforatum L"
+              },
+              "Journal": {
+                "item": "Canadian Journal of Plant Science"
+              },
+              "Year": 1988,
+              "Volume": 68,
+              "Pages": [
+                149,
+                162
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Overview of biology"
           }
-        }
+        ]
       }
     }
   ],

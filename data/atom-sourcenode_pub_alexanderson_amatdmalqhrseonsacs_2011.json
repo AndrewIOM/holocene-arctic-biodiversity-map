@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Alexanderson, H.; Landvik, J. Y.; Molodkov, A.; Murray, A. S."
-            },
-            "Title": {
-              "item": "A multi-method approach to dating middle and late Quaternary high relative sea-level events on NW Svalbard - A case study"
-            },
-            "Journal": {
-              "item": "Quaternary Geochronology"
-            },
-            "Year": 2011,
-            "Volume": 6,
-            "Pages": [
-              326,
-              340
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Alexanderson, H.; Landvik, J. Y.; Molodkov, A.; Murray, A. S."
+              },
+              "Title": {
+                "item": "A multi-method approach to dating middle and late Quaternary high relative sea-level events on NW Svalbard - A case study"
+              },
+              "Journal": {
+                "item": "Quaternary Geochronology"
+              },
+              "Year": 2011,
+              "Volume": 6,
+              "Pages": [
+                326,
+                340
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "Taxa only used for radiocarbon dating"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,25 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Higuera, P. E.; Brubaker, L. B.; Anderson, P. M.; Brown, T. A.; Kennedy, A. T.; Hu, F. S."
-            },
-            "Title": {
-              "item": "Frequent Fires in Ancient Shrub Tundra"
-            },
-            "Journal": {
-              "item": "Vascular Plants and Paleobotany"
-            },
-            "Year": 2012,
-            "Pages": [
-              158,
-              168
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Higuera, P. E.; Brubaker, L. B.; Anderson, P. M.; Brown, T. A.; Kennedy, A. T.; Hu, F. S."
+              },
+              "Title": {
+                "item": "Frequent Fires in Ancient Shrub Tundra"
+              },
+              "Journal": {
+                "item": "Vascular Plants and Paleobotany"
+              },
+              "Year": 2012,
+              "Pages": [
+                158,
+                168
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_aarnes_vrtrccdtld1yaosaan_2012"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "624d6a70-dcc3-4ec3-adea-be8e4da439a0"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Myers-Smith, I. H.; Harden, J. W.; Wilmking, M.; Fuller, C. C.; McGuire, A. D.; Chapin, F. S., III"
-            },
-            "Title": {
-              "item": "Wetland succession in a permafrost collapse: interactions between fire and thermokarst"
-            },
-            "Journal": {
-              "item": "Biogeosciences"
-            },
-            "Year": 2008,
-            "Volume": 5,
-            "Pages": [
-              1273,
-              1286
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Myers-Smith, I. H.; Harden, J. W.; Wilmking, M.; Fuller, C. C.; McGuire, A. D.; Chapin, F. S., III"
+              },
+              "Title": {
+                "item": "Wetland succession in a permafrost collapse: interactions between fire and thermokarst"
+              },
+              "Journal": {
+                "item": "Biogeosciences"
+              },
+              "Year": 2008,
+              "Volume": 5,
+              "Pages": [
+                1273,
+                1286
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

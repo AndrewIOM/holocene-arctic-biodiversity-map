@@ -1,0 +1,83 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_maguire_ccosacmancac_2016"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "K",
+                  "C"
+                ],
+                "item2": "Maguire"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "D"
+                  ],
+                  "item2": "Nieto-Lugilde"
+                },
+                {
+                  "item1": [
+                    "J",
+                    "L"
+                  ],
+                  "item2": "Blois"
+                },
+                {
+                  "item1": [
+                    "M",
+                    "C"
+                  ],
+                  "item2": "Fitzpatrick"
+                },
+                {
+                  "item1": [
+                    "J",
+                    "W"
+                  ],
+                  "item2": "Williams"
+                },
+                {
+                  "item1": [
+                    "S"
+                  ],
+                  "item2": "Ferrier"
+                },
+                {
+                  "item1": [
+                    "D",
+                    "J"
+                  ],
+                  "item2": "Lorenz"
+                }
+              ],
+              "Title": {
+                "item": "Controlled comparison of species- and community-level models across novel climates and communities"
+              },
+              "Journal": {
+                "item": "Proceedings of the Royal Society B: Biological Sciences"
+              },
+              "Year": 2016,
+              "Volume": 283,
+              "Number": 1826,
+              "Month": "Mar",
+              "DOI": {
+                "item": "10.1098/rspb.2015.2817"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

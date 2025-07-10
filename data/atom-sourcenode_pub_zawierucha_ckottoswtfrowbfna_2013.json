@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Zawierucha, K.; Coulson, S. J.; Michalczyk, L.; Kaczmarek, L."
-            },
-            "Title": {
-              "item": "Current knowledge of the Tardigrada of Svalbard with the first records of water bears from nordaustlandet (High Arctic)"
-            },
-            "Journal": {
-              "item": "Polar Research"
-            },
-            "Year": 2013,
-            "Volume": 32,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Zawierucha, K.; Coulson, S. J.; Michalczyk, L.; Kaczmarek, L."
+              },
+              "Title": {
+                "item": "Current knowledge of the Tardigrada of Svalbard with the first records of water bears from nordaustlandet (High Arctic)"
+              },
+              "Journal": {
+                "item": "Polar Research"
+              },
+              "Year": 2013,
+              "Volume": 32,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Modern"
           }
-        }
+        ]
       }
     }
   ],

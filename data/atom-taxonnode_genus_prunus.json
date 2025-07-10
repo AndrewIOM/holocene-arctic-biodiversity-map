@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000031284"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "order_rosales"
+          "genus_prunus"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "family_rosaceae"
         ]
       },
       1,

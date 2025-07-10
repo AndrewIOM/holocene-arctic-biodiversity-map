@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Corcoran, M. C.; Thomas, E. K.; Morrill, C."
-            },
-            "Title": {
-              "item": "Using a Paired Chironomid delta O-18 and Aquatic Leaf Wax delta H-2 Approach to Reconstruct Seasonality on Western Greenland During the Holocene"
-            },
-            "Journal": {
-              "item": "Paleoceanography and Paleoclimatology"
-            },
-            "Year": 2021,
-            "Volume": 36,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Corcoran, M. C.; Thomas, E. K.; Morrill, C."
+              },
+              "Title": {
+                "item": "Using a Paired Chironomid delta O-18 and Aquatic Leaf Wax delta H-2 Approach to Reconstruct Seasonality on Western Greenland During the Holocene"
+              },
+              "Journal": {
+                "item": "Paleoceanography and Paleoclimatology"
+              },
+              "Year": 2021,
+              "Volume": 36,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "p\u0000l\u0000a\u0000n\u0000t\u0000 \u0000l\u0000e\u0000a\u0000f\u0000 \u0000w\u0000a\u0000x\u0000 \u0000d\u0000D\u0000 \u0000a\u0000n\u0000d\u0000 \u0000c\u0000h\u0000i\u0000r\u0000o\u0000n\u0000o\u0000m\u0000i\u0000d\u0000 \u0000h\u0000e\u0000a\u0000d\u0000 \u0000d\u00001\u00008\u0000O\u0000 \u0000-\u0000 \u0000n\u0000o\u0000 \u0000t\u0000a\u0000x\u0000a\u0000"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gamache, I.; Payette, S."
-            },
-            "Title": {
-              "item": "Latitudinal response of subarctic tree lines to recent climate change in eastern Canada"
-            },
-            "Journal": {
-              "item": "Journal of Biogeography"
-            },
-            "Year": 2005,
-            "Volume": 32,
-            "Pages": [
-              849,
-              862
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gamache, I.; Payette, S."
+              },
+              "Title": {
+                "item": "Latitudinal response of subarctic tree lines to recent climate change in eastern Canada"
+              },
+              "Journal": {
+                "item": "Journal of Biogeography"
+              },
+              "Year": 2005,
+              "Volume": 32,
+              "Pages": [
+                849,
+                862
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

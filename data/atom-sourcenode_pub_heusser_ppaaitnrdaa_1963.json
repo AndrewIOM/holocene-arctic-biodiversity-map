@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Heusser, C. J."
-            },
-            "Title": {
-              "item": "Postglacial Palynology and Archaeology in the Naknek River Drainage Area, Alaska"
-            },
-            "Journal": {
-              "item": "American Antiquity"
-            },
-            "Year": 1963,
-            "Volume": 29,
-            "Pages": [
-              74,
-              81
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Heusser, C. J."
+              },
+              "Title": {
+                "item": "Postglacial Palynology and Archaeology in the Naknek River Drainage Area, Alaska"
+              },
+              "Journal": {
+                "item": "American Antiquity"
+              },
+              "Year": 1963,
+              "Volume": 29,
+              "Pages": [
+                74,
+                81
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

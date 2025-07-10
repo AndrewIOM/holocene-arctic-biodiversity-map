@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Jessen, C. A.; Rundgren, M.; Bjorck, S.; Muscheler, R."
-            },
-            "Title": {
-              "item": "Climate forced atmospheric CO2 variability in the early Holocene: A stomatal frequency reconstruction"
-            },
-            "Journal": {
-              "item": "Global and Planetary Change"
-            },
-            "Year": 2007,
-            "Volume": 57,
-            "Pages": [
-              247,
-              260
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Jessen, C. A.; Rundgren, M.; Bjorck, S.; Muscheler, R."
+              },
+              "Title": {
+                "item": "Climate forced atmospheric CO2 variability in the early Holocene: A stomatal frequency reconstruction"
+              },
+              "Journal": {
+                "item": "Global and Planetary Change"
+              },
+              "Year": 2007,
+              "Volume": 57,
+              "Pages": [
+                247,
+                260
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Childe, V. G."
-            },
-            "Title": {
-              "item": "Archaeology in the U.S.S.R. The forest zones"
-            },
-            "Journal": {
-              "item": "Man"
-            },
-            "Year": 1943,
-            "Volume": 43,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Childe, V. G."
+              },
+              "Title": {
+                "item": "Archaeology in the U.S.S.R. The forest zones"
+              },
+              "Journal": {
+                "item": "Man"
+              },
+              "Year": 1943,
+              "Volume": 43,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

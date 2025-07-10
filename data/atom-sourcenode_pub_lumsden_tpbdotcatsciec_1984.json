@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lumsden, H. G."
-            },
-            "Title": {
-              "item": "The Pre-Settlement Breeding Distribution of Trumpeter Cygnus-Buccinator and Tundra Swans Cygnus-Columbianus in Eastern Canada"
-            },
-            "Journal": {
-              "item": "Canadian Field-Naturalist"
-            },
-            "Year": 1984,
-            "Volume": 98,
-            "Pages": [
-              415,
-              424
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lumsden, H. G."
+              },
+              "Title": {
+                "item": "The Pre-Settlement Breeding Distribution of Trumpeter Cygnus-Buccinator and Tundra Swans Cygnus-Columbianus in Eastern Canada"
+              },
+              "Journal": {
+                "item": "Canadian Field-Naturalist"
+              },
+              "Year": 1984,
+              "Volume": 98,
+              "Pages": [
+                415,
+                424
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

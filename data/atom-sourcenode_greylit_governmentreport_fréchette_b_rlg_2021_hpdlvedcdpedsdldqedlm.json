@@ -1,0 +1,56 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "greylit_governmentreport_fréchette_b_rlg_2021_hpdlvedcdpedsdldqedlm"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "GreyLiteratureSource": {
+            "Format": "GovernmentReport",
+            "Contributors": [
+              {
+                "item1": [
+                  "B"
+                ],
+                "item2": "Fréchette"
+              },
+              {
+                "item1": [
+                  "P",
+                  "J",
+                  "H"
+                ],
+                "item2": "Richard"
+              },
+              {
+                "item1": [
+                  "M"
+                ],
+                "item2": "Lavoie"
+              },
+              {
+                "item1": [
+                  "P"
+                ],
+                "item2": "Grondin"
+              }
+            ],
+            "Title": {
+              "item": "Histoire postglaciaire de la végétation et du climat des pessières et des sapinières de l’est du Québec et du Labrador méridional"
+            },
+            "Institution": {
+              "item": "Ministère des Forêts, de la Faune et des Parcs"
+            },
+            "License": "No license specified",
+            "PostedYear": 2021
+          }
+        }
+      }
+    }
+  ],
+  []
+]

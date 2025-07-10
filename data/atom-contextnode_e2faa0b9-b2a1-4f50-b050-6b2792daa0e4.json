@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "e2faa0b9-b2a1-4f50-b050-6b2792daa0e4"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Boundary Creek Kettle"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "57°33'08\"N,154°26'05\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 95.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Tammelin, M.; Kauppila, T."
-            },
-            "Title": {
-              "item": "Quaternary Landforms and Basin Morphology Control the Natural Eutrophy of Boreal Lakes and Their Sensitivity to Anthropogenic Forcing"
-            },
-            "Journal": {
-              "item": "Frontiers in Ecology and Evolution"
-            },
-            "Year": 2018,
-            "Volume": 6,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Tammelin, M.; Kauppila, T."
+              },
+              "Title": {
+                "item": "Quaternary Landforms and Basin Morphology Control the Natural Eutrophy of Boreal Lakes and Their Sensitivity to Anthropogenic Forcing"
+              },
+              "Journal": {
+                "item": "Frontiers in Ecology and Evolution"
+              },
+              "Year": 2018,
+              "Volume": 6,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

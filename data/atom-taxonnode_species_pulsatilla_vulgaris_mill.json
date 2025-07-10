@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_pulsatilla_vulgaris_mill"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Pulsatilla"
+            },
+            {
+              "item": "vulgaris"
+            },
+            {
+              "item": "Mill."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

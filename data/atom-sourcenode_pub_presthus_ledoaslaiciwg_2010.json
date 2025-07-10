@@ -1,0 +1,57 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_presthus_ledoaslaiciwg_2010"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "M"
+                ],
+                "item2": "Presthus",
+                "item3": "Heggen"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "H",
+                    "H"
+                  ],
+                  "item2": "Birks"
+                },
+                {
+                  "item1": [
+                    "N",
+                    "J"
+                  ],
+                  "item2": "Anderson"
+                }
+              ],
+              "Title": {
+                "item": "Long-term ecosystem dynamics of a small lake and its catchment in west Greenland"
+              },
+              "Journal": {
+                "item": "The Holocene"
+              },
+              "Year": 2010,
+              "Volume": 20,
+              "Number": 8,
+              "Month": "Oct",
+              "DOI": {
+                "item": "10.1177/0959683610371995"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

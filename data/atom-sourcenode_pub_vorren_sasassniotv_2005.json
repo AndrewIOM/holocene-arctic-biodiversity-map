@@ -8,22 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Vorren, K. D."
-            },
-            "Title": {
-              "item": "Stone Age settlements at Soroya, sub-arctic Norway: impact on the vegetation"
-            },
-            "Journal": {
-              "item": "Vegetation History and Archaeobotany"
-            },
-            "Year": 2005,
-            "Volume": 14,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Vorren, K. D."
+              },
+              "Title": {
+                "item": "Stone Age settlements at Soroya, sub-arctic Norway: impact on the vegetation"
+              },
+              "Journal": {
+                "item": "Vegetation History and Archaeobotany"
+              },
+              "Year": 2005,
+              "Volume": 14,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

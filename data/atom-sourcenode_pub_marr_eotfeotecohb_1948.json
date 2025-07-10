@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Marr, J. W."
-            },
-            "Title": {
-              "item": "Ecology of the forest-tundra ecotone on the east coast of Hudson Bay"
-            },
-            "Journal": {
-              "item": "Ecol Monogr"
-            },
-            "Year": 1948,
-            "Volume": 18,
-            "Pages": [
-              117,
-              144
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Marr, J. W."
+              },
+              "Title": {
+                "item": "Ecology of the forest-tundra ecotone on the east coast of Hudson Bay"
+              },
+              "Journal": {
+                "item": "Ecol Monogr"
+              },
+              "Year": 1948,
+              "Volume": 18,
+              "Pages": [
+                117,
+                144
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

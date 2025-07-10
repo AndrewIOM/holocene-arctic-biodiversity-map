@@ -35,7 +35,56 @@
       {
         "FriendlyKey": [
           "taxonnode",
-          "kingdom_plantae"
+          "species_arctous_alpina_l nied"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_arctostaphylos_alpina_l spreng"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000543430"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_arctostaphylos_alpina_l spreng"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_arctostaphylos"
         ]
       },
       1,

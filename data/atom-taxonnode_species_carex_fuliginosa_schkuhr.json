@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_carex_fuliginosa_schkuhr"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Carex"
+            },
+            {
+              "item": "fuliginosa"
+            },
+            {
+              "item": "Schkuhr"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

@@ -311,3 +311,15 @@ taxonnode_species_picea_glauca_moench,Pinaceae,Picea,Picea glauca,(Moench) Voss
 taxonnode_genus_arctostaphylos ,Ericaceae,Arctostaphylos,,
 taxonnode_genus_ledum,Ericaceae,Ledum,,
 taxonnode_species_alnus_viridis_chaix dc,Betulaceae,Alnus,Alnus alnobetula,(Ehrh.) K.Koch
+taxonnode_genus_papaver,Papaveraceae,Papaver,,
+taxonnode_genus_phyllodoce,Ericaceae,Phyllodoce,,
+taxonnode_genus_cassiope,Ericaceae,Cassiope,,
+taxonnode_species_salix_herbacea_l,Salicaceae,Salix,Salix herbacea,L.
+taxonnode_genus_pedicularis,Orobanchaceae,Pedicularis,,
+taxonnode_species_ranunculus_hyperboreus_rottb,Ranunculaceae,Ranunculus,Ranunculus hyperboreus,Rottb.
+taxonnode_species_potamogeton_pusillus_l,Potamogetonaceae,Potamogeton,Potamogeton pusillus,L.
+taxonnode_species_carex_gynocrates_wormsk,Cyperaceae,Carex,Carex gynocrates,Wormsk.
+taxonnode_species_carex_capillaris_l,Cyperaceae,Carex,Carex capillaris,L.
+taxonnode_species_alchemilla_alpina_l,Rosaceae,Alchemilla,Alchemilla alpina,L.
+taxonnode_species_polypodium_vulgare_l,Polypodiaceae,Polypodium,Polypodium vulgare,L.
+taxonnode_genus_arctostaphylos,Ericaceae,Arctostaphylos,,

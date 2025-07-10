@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_nelson_apprfwkiau_1988"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "37516f1b-35ca-44e6-8be4-3428c92a9885"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,96 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_diphasium_complanatum_l rothm"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Diphasium"
+            },
+            {
+              "item": "complanatum"
+            },
+            {
+              "item": "(L.) Rothm."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_diphasium_complanatum_l rothm"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subspecies_diphasiastrum_complanatum_complanatum_(l.) holub"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_diphasium_complanatum_l rothm"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001110252"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_diphasium_complanatum_l rothm"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_diphasium"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

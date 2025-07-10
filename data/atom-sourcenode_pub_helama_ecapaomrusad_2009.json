@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Helama, S.; Nielsen, J. K.; Valovirta, I."
-            },
-            "Title": {
-              "item": "Evaluating Contemporaneity and Post-Mortem Age of Malacological Remains Using Sclerochronology and Dendrochronology*"
-            },
-            "Journal": {
-              "item": "Archaeometry"
-            },
-            "Year": 2009,
-            "Volume": 51,
-            "Pages": [
-              861,
-              877
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Helama, S.; Nielsen, J. K.; Valovirta, I."
+              },
+              "Title": {
+                "item": "Evaluating Contemporaneity and Post-Mortem Age of Malacological Remains Using Sclerochronology and Dendrochronology*"
+              },
+              "Journal": {
+                "item": "Archaeometry"
+              },
+              "Year": 2009,
+              "Volume": 51,
+              "Pages": [
+                861,
+                877
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Heaton, T. H."
-            },
-            "Title": {
-              "item": "Interpretation of delta 13C values from vertebrate remains of the Alexander Archipelago, S.E. Alaska"
-            },
-            "Journal": {
-              "item": "Current Research in the Pleistocene"
-            },
-            "Year": 1995,
-            "Volume": 12,
-            "Pages": [
-              95,
-              97
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Heaton, T. H."
+              },
+              "Title": {
+                "item": "Interpretation of delta 13C values from vertebrate remains of the Alexander Archipelago, S.E. Alaska"
+              },
+              "Journal": {
+                "item": "Current Research in the Pleistocene"
+              },
+              "Year": 1995,
+              "Volume": 12,
+              "Pages": [
+                95,
+                97
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Alexander islands"
           }
-        }
+        ]
       }
     }
   ],

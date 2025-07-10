@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pennisi, E."
-            },
-            "Title": {
-              "item": "Lost worlds"
-            },
-            "Journal": {
-              "item": "Science"
-            },
-            "Year": 2015,
-            "Volume": 349,
-            "Pages": [
-              367,
-              369
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pennisi, E."
+              },
+              "Title": {
+                "item": "Lost worlds"
+              },
+              "Journal": {
+                "item": "Science"
+              },
+              "Year": 2015,
+              "Volume": 349,
+              "Pages": [
+                367,
+                369
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "Press article"
           }
-        }
+        ]
       }
     }
   ],

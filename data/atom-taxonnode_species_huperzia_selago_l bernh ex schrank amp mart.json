@@ -34,8 +34,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001110254"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "kingdom_plantae"
+          "species_huperzia_selago_l bernh ex schrank amp mart"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_huperzia"
         ]
       },
       1,

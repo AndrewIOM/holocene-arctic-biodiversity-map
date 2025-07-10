@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rausch, V. R.; Rausch, R. L."
-            },
-            "Title": {
-              "item": "The Karyotype of the Eurasian Flying Squirrel Pteromys-Volans with a Consideration of Karyotypic and Other Distinctions in Glaucomys-Spp Rodentia Sciuridae"
-            },
-            "Journal": {
-              "item": "Proceedings of the Biological Society of Washington"
-            },
-            "Year": 1982,
-            "Volume": 95,
-            "Pages": [
-              58,
-              66
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rausch, V. R.; Rausch, R. L."
+              },
+              "Title": {
+                "item": "The Karyotype of the Eurasian Flying Squirrel Pteromys-Volans with a Consideration of Karyotypic and Other Distinctions in Glaucomys-Spp Rodentia Sciuridae"
+              },
+              "Journal": {
+                "item": "Proceedings of the Biological Society of Washington"
+              },
+              "Year": 1982,
+              "Volume": 95,
+              "Pages": [
+                58,
+                66
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

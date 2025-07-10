@@ -8,17 +8,23 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kosintsev, P. A.; Losey, R. J.; Nomokonova, T.; Plekhanov, A. V."
-            },
-            "Title": {
-              "item": "Reindeer Demographics at Iarte VI, Iamal Peninsula, Arctic Siberia"
-            },
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kosintsev, P. A.; Losey, R. J.; Nomokonova, T.; Plekhanov, A. V."
+              },
+              "Title": {
+                "item": "Reindeer Demographics at Iarte VI, Iamal Peninsula, Arctic Siberia"
+              },
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

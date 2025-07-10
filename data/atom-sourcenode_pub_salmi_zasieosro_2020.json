@@ -8,22 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Salmi, A. K.; Fjellstrom, M.; Aikas, T.; Spangen, M.; Nunez, M.; Liden, K."
-            },
-            "Title": {
-              "item": "Zooarchaeological and stable isotope evidence of Sami reindeer offerings"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science-Reports"
-            },
-            "Year": 2020,
-            "Volume": 29,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Salmi, A. K.; Fjellstrom, M.; Aikas, T.; Spangen, M.; Nunez, M.; Liden, K."
+              },
+              "Title": {
+                "item": "Zooarchaeological and stable isotope evidence of Sami reindeer offerings"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science-Reports"
+              },
+              "Year": 2020,
+              "Volume": 29,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

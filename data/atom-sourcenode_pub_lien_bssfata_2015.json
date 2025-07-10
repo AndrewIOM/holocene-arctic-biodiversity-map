@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lien, M. E.; Lien, M. E."
-            },
-            "Title": {
-              "item": "BECOMING SCALABLE Speed, Feed, and Temporal Alignments"
-            },
-            "Journal": {
-              "item": "Becoming Salmon: Aquaculture and the Domestication of a Fish"
-            },
-            "Year": 2015,
-            "Volume": 55,
-            "Pages": [
-              104,
-              125
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lien, M. E.; Lien, M. E."
+              },
+              "Title": {
+                "item": "BECOMING SCALABLE Speed, Feed, and Temporal Alignments"
+              },
+              "Journal": {
+                "item": "Becoming Salmon: Aquaculture and the Domestication of a Fish"
+              },
+              "Year": 2015,
+              "Volume": 55,
+              "Pages": [
+                104,
+                125
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Ethnographic"
           }
-        }
+        ]
       }
     }
   ],

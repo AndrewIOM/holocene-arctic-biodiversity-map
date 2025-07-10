@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bernhardson, M."
-            },
-            "Title": {
-              "item": "Aeolian dunes of central Sweden"
-            },
-            "Journal": {
-              "item": "Lundqua Thesis"
-            },
-            "Year": 2018,
-            "Volume": 2018,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bernhardson, M."
+              },
+              "Title": {
+                "item": "Aeolian dunes of central Sweden"
+              },
+              "Journal": {
+                "item": "Lundqua Thesis"
+              },
+              "Year": 2018,
+              "Volume": 2018,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Sand dunes"
           }
-        }
+        ]
       }
     }
   ],

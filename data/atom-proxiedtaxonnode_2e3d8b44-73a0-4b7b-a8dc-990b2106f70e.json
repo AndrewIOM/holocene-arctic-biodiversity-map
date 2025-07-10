@@ -1,0 +1,141 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "2e3d8b44-73a0-4b7b-a8dc-990b2106f70e"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "2e3d8b44-73a0-4b7b-a8dc-990b2106f70e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence_absence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "2e3d8b44-73a0-4b7b-a8dc-990b2106f70e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_lycopodium_clavatum_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "2e3d8b44-73a0-4b7b-a8dc-990b2106f70e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_diphasium_complanatum_l rothm"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "2e3d8b44-73a0-4b7b-a8dc-990b2106f70e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_diphasium_alpinum_l rothm"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "2e3d8b44-73a0-4b7b-a8dc-990b2106f70e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_lycopodium_dubium_zoega"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "2e3d8b44-73a0-4b7b-a8dc-990b2106f70e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_lookup_fbsitvhogpioshlabdmog"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "2e3d8b44-73a0-4b7b-a8dc-990b2106f70e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_lycopodium dubium"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

@@ -1,0 +1,65 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_nigamatzyanova_pdfbsoatlityrbotyp_2022"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "G"
+                ],
+                "item2": "Nigamatzyanova"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "N"
+                  ],
+                  "item2": "Nigmatullin"
+                },
+                {
+                  "item1": [
+                    "O"
+                  ],
+                  "item2": "Tumanov"
+                },
+                {
+                  "item1": [
+                    "B"
+                  ],
+                  "item2": "Gareev"
+                },
+                {
+                  "item1": [
+                    "L"
+                  ],
+                  "item2": "Frolova"
+                }
+              ],
+              "Title": {
+                "item": "Pollen data from bottom sediments of a tundra lake in the Yerkuta River basin on the Yamal Peninsula"
+              },
+              "Journal": {
+                "item": "Data in Brief"
+              },
+              "Year": 2022,
+              "Volume": 44,
+              "Month": "Oct",
+              "DOI": {
+                "item": "10.1016/j.dib.2022.108539"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

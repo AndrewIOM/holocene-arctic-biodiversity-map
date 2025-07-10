@@ -1,0 +1,41 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "book-chapter_anderson_a_lqprfeoqaac_281"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "BookChapter": {
+              "ChapterFirstAuthor": {
+                "item1": [
+                  "T",
+                  "W"
+                ],
+                "item2": "Anderson"
+              },
+              "ChapterAdditionalAuthors": [
+                {
+                  "item1": [
+                    "T",
+                    "W"
+                  ],
+                  "item2": "Anderson"
+                }
+              ],
+              "ChapterTitle": {
+                "item": "Late Quaternary pollen records from eastern Ontario, Qubec, and Atlantic Canada"
+              },
+              "FirstPage": 281
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

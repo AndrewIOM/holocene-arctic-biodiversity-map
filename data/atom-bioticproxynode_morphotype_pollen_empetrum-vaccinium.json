@@ -1,0 +1,25 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_empetrum-vaccinium"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyNode": {
+          "Morphotype": {
+            "Microfossil": [
+              "Pollen",
+              {
+                "item": "Empetrum-Vaccinium"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

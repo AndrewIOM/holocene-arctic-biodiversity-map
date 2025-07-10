@@ -11,7 +11,11 @@ open BiodiversityCoder.Core
 module Options =
 
     /// The timeline for which data should be added
-    let timeline = System.Guid "9a793e68-13ff-4595-b5aa-5ff8905e44a5" // Bugt Sø
+    let timeline = System.Guid "48d66bcb-89ff-4d3f-8713-057de0eb592b"
+
+    /// If there are more than one raw dataset for the timeline,
+    /// specify the raw data to use here.
+    let specifiedRawDataset: string option = Some "349ce8bf-9f08-4ce7-87ec-bd703e97f1b4"
 
     /// Stops processing if some morphotypes are not matched
     /// within the specified key.
@@ -20,9 +24,8 @@ module Options =
     /// Adds unmatched taxa with a placeholder to the 'Problematic' kingdom if true.
     let addUnmatchedTaxa = true
 
-    /// If there are more than one raw dataset for the timeline,
-    /// specify the raw data to use here.
-    let specifiedRawDataset = None
+    /// If 'problematic' taxon is present in proxies, try and override with correct information.
+    let tryFixProblematic = true
 
     let proxyGroup = Population.BioticProxies.MicrofossilGroup.Pollen
 
@@ -33,20 +36,28 @@ module Options =
     /// For a list of atlases, work from newest to oldest finding
     /// the first match for a morphotype. For pollen lookup, this will
     /// just be the one inference node.
-    let inferenceAtlases = [ // List newest to oldest
-        "atlas_lookup_fshsavhitssaegbggu"
-        // "atlas_lookup_fbsitvhogpioshlabdmog"
-    ]
+    let inferenceAtlases =
+        [ // List newest to oldest
+        "atlas_lookup_fshsavhitssaegbggu" // Funder 1978
+        "atlas_lookup_fbsitvhogpioshlabdmog" // Fredskild 1973
+        // "atlas_ghnhmd" // Greenland herbarium (Denmark)
+        ]
 
     /// If a morphotype has been used with a different interchangable name for an
     /// identical morphotype, enter the names here.
     /// Key name -> this data name
-    let morphotypeSynonyms = Map.ofList [
-        "Saxifraga caespitosa type", "Saxifraga ceruna type"
-    ]
+    let morphotypeSynonyms = 
+        Map.ofList [
+            "Cassiope type", "Cassiope-Harrimanella"
+            "Angelica archangelica ssp. norvegica", "Angelica archangelica"
+            "Alopecurus alpinus type", "Alopecurus alpinus"
+            "Gymnocarpium dryopteris", "Gymnocarpium dryoptype"
+            "Erigeron type", "Erigeron-Gnaphalium"
+        ]
 
     /// If botanical naming scheme has been defined, state it here.
     /// e.g. Bocher (1965) Flora of Greenland.
+    /// You must enter the lookup in the nomenclature.fsx file.
     let inferenceNomenclature = Some Nomenclatures.Floras.``Flora of Greenland (Böcher et al., 1968)``
 
     // /// If a specific convention on naming morphotypes has been applied,
@@ -112,7 +123,7 @@ module WorldFloraOnline =
                     None
             | Population.Taxonomy.Genus _ ->
                 let regexMatch = System.Text.RegularExpressions.Regex.Match(m.FullNameHtml, "<span class=\"wfo-name-full\" ><span class=\"wfo-name\"><i>(.*)<\/i><\/span> <span class=\"wfo-name-authors\" >(.*)<\/span><\/span>")
-                if tree.[1].EndsWith "aceae"
+                if tree.[1].EndsWith "eae"
                 then
                     Some (Population.Taxonomy.Genus(regexMatch.Groups.[1].Value |> FieldDataTypes.Text.createShort |> forceOk),
                     [
@@ -171,7 +182,10 @@ let run () =
                 match r with
                 | GraphStructure.Relation.Exposure e ->
                     match e with
-                    | Exposure.ExposureRelation.HasRawData -> Some sink
+                    | Exposure.ExposureRelation.HasRawData ->
+                        match Options.specifiedRawDataset with
+                        | None -> Some sink
+                        | Some rawDs -> if sink.AsString.Contains rawDs then Some sink else None
                     | _ -> None
                 | _ -> None )
             |> Option.bind(fun dId -> Storage.atomByKey dId graph )
@@ -189,6 +203,8 @@ let run () =
                 rawData.DataTable.Morphotypes ()
                 |> List.map(fun morphotype -> System.Text.RegularExpressions.Regex.Replace(morphotype, " \(.*\)$", ""))
             | _ -> rawData.DataTable.Morphotypes ()
+            |> List.filter(fun n -> n.Contains "pollen sum" |> not)
+            |> List.filter(fun n -> n.Contains "depth" |> not)
 
             // |> List.map(fun x -> Options.morphotypeSynonyms |> Map.tryFind x |> Option.defaultValue x)
         do!
@@ -216,6 +232,7 @@ let run () =
                 Ok ()
 
         // Only assign morphotypes not already added as proxied taxa.
+        // Key in fst is the key of the proxiedtaxonnode
         let! proxiesAlreadyEntered =
             timeline |> snd
             |> List.choose(fun (_,sink,_,r) ->
@@ -226,23 +243,34 @@ let run () =
                     | _ -> None
                 | _ -> None )
             |> Storage.loadAtoms graph.Directory "PopulationNode"
-            |> Result.bind(fun r ->
-                r |> List.map(fun r ->
-                    r |> snd |> Seq.pick(fun (_,sink,_,r) ->
-                    match r with
-                    | GraphStructure.Relation.Population e ->
-                        match e with
-                        | Population.PopulationRelation.InferredFrom -> Some sink
-                        | _ -> None
-                    | _ -> None )
+            |> Result.bind(fun proxyAtoms ->
+                proxyAtoms |> List.map(fun proxyAtom ->
+                    let inferredFrom =
+                        proxyAtom |> snd |> Seq.pick(fun (_,sink,_,r) ->
+                        match r with
+                        | GraphStructure.Relation.Population e ->
+                            match e with
+                            | Population.PopulationRelation.InferredFrom -> Some (proxyAtom |> fst |> fst, sink)
+                            | _ -> None
+                        | _ -> None )
+                    let inferredAs =
+                        proxyAtom |> snd |> Seq.pick(fun (_,sink,_,r) ->
+                        match r with
+                        | GraphStructure.Relation.Population e ->
+                            match e with
+                            | Population.PopulationRelation.InferredAs -> Some sink
+                            | _ -> None
+                        | _ -> None )
+                    inferredFrom, inferredAs
                 )
-                |> Storage.loadAtoms graph.Directory "PopulationNode"
+                |> List.map(fun ((k,s),inferredAs) -> Storage.loadAtom graph.Directory "PopulationNode" s |> Result.map(fun r -> k,r,inferredAs))
+                |> Result.ofList
                 |> Result.map(fun r ->
-                    r |> List.choose(fun r ->
+                    r |> List.choose(fun (key,r,inferredAs) ->
                         match r |> fst |> snd with
                         | GraphStructure.Node.PopulationNode p ->
                             match p with
-                            | GraphStructure.BioticProxyNode p -> Some p
+                            | GraphStructure.BioticProxyNode p -> Some {| From = key; BioticProxy = p; InferredAsKey = inferredAs |}
                             | _ -> None
                         | _ -> None
                         )
@@ -275,13 +303,10 @@ let run () =
                 | false -> stackedAtlas |> List.map(fun (a,b) -> a.MorphotypeName.Value, b, a.Taxa)
                 | true -> Options.manualLookup) nomenclatureForLookup
 
-        printfn "Lookup = ..."
-        lookupToUse |> List.iter(fun i -> printfn "%A" i)
-        System.Console.ReadLine() |> ignore
-
-
         let proxiedTaxa =
             dataMorphotypes
+            |> List.filter(fun n -> n.Contains "pollen sum" |> not)
+            |> List.filter(fun (n: string) -> n.Contains "depth" |> not)
             |> List.map(fun m ->
                 lookupToUse 
                 |> List.tryFind(fun (a,_,_) ->
@@ -306,13 +331,30 @@ let run () =
                     |> Population.BioticProxies.BioticProxyNode.Morphotype
                 morphotypeNode, inferNode, taxa
             )
-            |> List.filter(fun (m,_,_) -> proxiesAlreadyEntered |> List.contains m |> not)
+            |> List.choose(fun (m1,m2,m3) ->
+                if Options.tryFixProblematic
+                then
+                    let existingProblem = 
+                        proxiesAlreadyEntered
+                        |> List.tryFind(fun n -> n.BioticProxy = m1 && n.InferredAsKey = Graph.FriendlyKey("taxonnode","kingdom_problematic placeholder"))
+                    let existingOk = 
+                        proxiesAlreadyEntered
+                        |> List.tryFind(fun n -> n.BioticProxy = m1 && n.InferredAsKey <> Graph.FriendlyKey("taxonnode","kingdom_problematic placeholder"))
+                    printfn "Existing problem: %A" existingProblem
+                    printfn "Existing OK: %A" existingOk
+                    if existingProblem.IsSome then Some (Some existingProblem.Value.From, m1, m2, m3)
+                    else if existingOk.IsSome then None
+                    else Some (None, m1, m2, m3)
+                else
+                    match proxiesAlreadyEntered |> List.map (fun e -> e.BioticProxy) |> List.contains m1 with
+                    | true -> None
+                    | false -> Some (None, m1, m2, m3) )
 
         printfn "%i proxies remain to be entered" proxiedTaxa.Length
 
         let taxa =
             proxiedTaxa
-            |> List.collect(fun (_,_,t) -> t)
+            |> List.collect(fun (_,_,_,t) -> t)
             |> List.distinct
             |> List.choose(fun t ->
                 WorldFloraOnline.query t 
@@ -359,23 +401,39 @@ let run () =
         printfn "(adding nodes for biotic proxies if they don't already exist)"
 
         let! graphWithProxied =
-            List.fold(fun state (morpho, inferNode,taxa) -> 
+            List.fold(fun state (existingProxyKey, morpho, inferNode,taxa) -> 
                 state 
                 |> Result.bind(fun s -> Storage.addOrSkipNodes s [ GraphStructure.PopulationNode <| GraphStructure.BioticProxyNode morpho ])
                 |> Result.bind(fun (s,_) ->
-                    printfn "Taxa are %A. %A" (List.head taxa) (List.tail taxa)
-                    Storage.addProxiedTaxon
-                        morpho
-                        (taxa |> List.head)
-                        (taxa |> List.tail)
-                        inferNode
-                        ([] |> List.choose id)
-                        s
-                    |> Result.bind(fun (g, proxiedKey) -> 
-                        Storage.addRelationByKey g (timeline |> fst |> fst) proxiedKey (GraphStructure.ProposedRelation.Exposure Exposure.ExposureRelation.HasProxyInfo)
-                        |> Result.lift(fun r -> r, proxiedKey))
-                    |> Result.bind(fun (g, proxiedKey) -> 
-                        Storage.addRelationByKey g proxiedKey (measureNode |> fst |> fst) (GraphStructure.ProposedRelation.Population <| Population.PopulationRelation.MeasuredBy) )
+                    match existingProxyKey with
+                    | Some existing ->
+                        printfn "Overwriting problematic proxy relation: %A" taxa
+                        Storage.loadAtom graph.Directory "PopulationNode" existing
+                        |> Result.map(fun atom ->
+                            let newRelations = seq {
+                                let source = (atom |> fst |> fst)
+                                yield source, (Options.outcome |> GraphStructure.MeasureNode |> GraphStructure.OutcomeNode) |> GraphStructure.makeUniqueKey, 1, Population.PopulationRelation.MeasuredBy |> GraphStructure.Relation.Population
+                                for t in taxa do
+                                    yield source, (t |> GraphStructure.TaxonomyNode |> GraphStructure.PopulationNode) |> GraphStructure.makeUniqueKey, 1, Population.PopulationRelation.InferredAs |> GraphStructure.Relation.Population
+                                yield source, (inferNode |> GraphStructure.InferenceMethodNode |> GraphStructure.PopulationNode) |> GraphStructure.makeUniqueKey, 1, Population.PopulationRelation.InferredUsing |> GraphStructure.Relation.Population
+                                yield source, (morpho |> GraphStructure.BioticProxyNode |> GraphStructure.PopulationNode) |> GraphStructure.makeUniqueKey, 1, Population.PopulationRelation.InferredFrom |> GraphStructure.Relation.Population
+                            } 
+                            Storage.saveAtom graph.Directory "PopulationNode" (atom |> fst |> fst) (fst atom, Seq.toList newRelations) |> forceOk
+                            graph )
+                    | None ->
+                        printfn "Taxa are %A. %A" (List.head taxa) (List.tail taxa)
+                        Storage.addProxiedTaxon
+                            morpho
+                            (taxa |> List.head)
+                            (taxa |> List.tail)
+                            inferNode
+                            ([] |> List.choose id)
+                            s
+                        |> Result.bind(fun (g, proxiedKey) -> 
+                            Storage.addRelationByKey g (timeline |> fst |> fst) proxiedKey (GraphStructure.ProposedRelation.Exposure Exposure.ExposureRelation.HasProxyInfo)
+                            |> Result.lift(fun r -> r, proxiedKey))
+                        |> Result.bind(fun (g, proxiedKey) -> 
+                            Storage.addRelationByKey g proxiedKey (measureNode |> fst |> fst) (GraphStructure.ProposedRelation.Population <| Population.PopulationRelation.MeasuredBy) )
                     )
             ) (Ok graphWithTaxa) proxiedTaxa
 

@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Saulnier-Talbot, E.; Pienitz, R."
-            },
-            "Title": {
-              "item": "Postglacial isolation of a coastal basin near Kuujjuaraapik-Whapmagoostui, Hudsonie: A diatom biostratigraphical investigation"
-            },
-            "Journal": {
-              "item": "Geographie Physique Et Quaternaire"
-            },
-            "Year": 2001,
-            "Volume": 55,
-            "Pages": [
-              63,
-              74
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Saulnier-Talbot, E.; Pienitz, R."
+              },
+              "Title": {
+                "item": "Postglacial isolation of a coastal basin near Kuujjuaraapik-Whapmagoostui, Hudsonie: A diatom biostratigraphical investigation"
+              },
+              "Journal": {
+                "item": "Geographie Physique Et Quaternaire"
+              },
+              "Year": 2001,
+              "Volume": 55,
+              "Pages": [
+                63,
+                74
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

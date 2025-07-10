@@ -1,0 +1,50 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "subspecies_cystopteris_fragilis_dickieana_(sim.) hyl."
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Subspecies": [
+            {
+              "item": "Cystopteris"
+            },
+            {
+              "item": "fragilis"
+            },
+            {
+              "item": "dickieana"
+            },
+            {
+              "item": "(Sim.) Hyl."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subspecies_cystopteris_fragilis_dickieana_(sim.) hyl."
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "kingdom_plantae"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

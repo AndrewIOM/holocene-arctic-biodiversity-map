@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Sauchyn, D. J.; Barrow, E. M.; Hopkinson, R. F.; Leavitt, P. R."
-            },
-            "Title": {
-              "item": "Aridity on the Canadian plains"
-            },
-            "Journal": {
-              "item": "Geographie Physique et Quaternaire"
-            },
-            "Year": 2002,
-            "Volume": 56,
-            "Pages": [
-              247,
-              259
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Sauchyn, D. J.; Barrow, E. M.; Hopkinson, R. F.; Leavitt, P. R."
+              },
+              "Title": {
+                "item": "Aridity on the Canadian plains"
+              },
+              "Journal": {
+                "item": "Geographie Physique et Quaternaire"
+              },
+              "Year": 2002,
+              "Volume": 56,
+              "Pages": [
+                247,
+                259
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

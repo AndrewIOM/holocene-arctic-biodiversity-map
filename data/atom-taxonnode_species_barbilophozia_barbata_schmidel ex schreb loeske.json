@@ -1,0 +1,69 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_barbilophozia_barbata_schmidel ex schreb loeske"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Barbilophozia"
+            },
+            {
+              "item": "barbata"
+            },
+            {
+              "item": "(Schmidel ex Schreb.) Loeske"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_barbilophozia_barbata_schmidel ex schreb loeske"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0001196138"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_barbilophozia_barbata_schmidel ex schreb loeske"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_barbilophozia"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

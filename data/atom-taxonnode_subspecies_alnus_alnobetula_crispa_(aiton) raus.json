@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "subspecies_alnus_alnobetula_crispa_(aiton) raus"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Subspecies": [
+            {
+              "item": "Alnus"
+            },
+            {
+              "item": "alnobetula"
+            },
+            {
+              "item": "crispa"
+            },
+            {
+              "item": "(Aiton) Raus"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

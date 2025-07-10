@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Flora, J.; Johansen, K. L.; Grønnow, B.; Andersen, A. O.; Mosbech, A."
-            },
-            "Title": {
-              "item": "Present and past dynamics of Inughuit resource spaces"
-            },
-            "Journal": {
-              "item": "Ambio"
-            },
-            "Year": 2018,
-            "Volume": 47,
-            "Pages": [
-              244,
-              264
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Flora, J.; Johansen, K. L.; Grønnow, B.; Andersen, A. O.; Mosbech, A."
+              },
+              "Title": {
+                "item": "Present and past dynamics of Inughuit resource spaces"
+              },
+              "Journal": {
+                "item": "Ambio"
+              },
+              "Year": 2018,
+              "Volume": 47,
+              "Pages": [
+                244,
+                264
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

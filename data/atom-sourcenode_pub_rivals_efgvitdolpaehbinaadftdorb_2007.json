@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rivals, F.; Solounias, N.; Mihlbachler, M. C."
-            },
-            "Title": {
-              "item": "Evidence for geographic variation in the diets of late Pleistocene and early Holocene Bison in North America, and differences from the diets of recent Bison"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2007,
-            "Volume": 68,
-            "Pages": [
-              338,
-              346
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rivals, F.; Solounias, N.; Mihlbachler, M. C."
+              },
+              "Title": {
+                "item": "Evidence for geographic variation in the diets of late Pleistocene and early Holocene Bison in North America, and differences from the diets of recent Bison"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2007,
+              "Volume": 68,
+              "Pages": [
+                338,
+                346
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

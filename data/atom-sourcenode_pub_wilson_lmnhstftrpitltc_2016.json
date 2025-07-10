@@ -1,0 +1,177 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_wilson_lmnhstftrpitltc_2016"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "R"
+                ],
+                "item2": "Wilson"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "K"
+                  ],
+                  "item2": "Anchukaitis"
+                },
+                {
+                  "item1": [
+                    "K",
+                    "R"
+                  ],
+                  "item2": "Briffa"
+                },
+                {
+                  "item1": [
+                    "U"
+                  ],
+                  "item2": "Büntgen"
+                },
+                {
+                  "item1": [
+                    "E"
+                  ],
+                  "item2": "Cook"
+                },
+                {
+                  "item1": [
+                    "R"
+                  ],
+                  "item2": "D'Arrigo"
+                },
+                {
+                  "item1": [
+                    "N"
+                  ],
+                  "item2": "Davi"
+                },
+                {
+                  "item1": [
+                    "J"
+                  ],
+                  "item2": "Esper"
+                },
+                {
+                  "item1": [
+                    "D"
+                  ],
+                  "item2": "Frank"
+                },
+                {
+                  "item1": [
+                    "B"
+                  ],
+                  "item2": "Gunnarson"
+                },
+                {
+                  "item1": [
+                    "G"
+                  ],
+                  "item2": "Hegerl"
+                },
+                {
+                  "item1": [
+                    "S"
+                  ],
+                  "item2": "Helama"
+                },
+                {
+                  "item1": [
+                    "S"
+                  ],
+                  "item2": "Klesse"
+                },
+                {
+                  "item1": [
+                    "P",
+                    "J"
+                  ],
+                  "item2": "Krusic"
+                },
+                {
+                  "item1": [
+                    "H",
+                    "W"
+                  ],
+                  "item2": "Linderholm"
+                },
+                {
+                  "item1": [
+                    "V"
+                  ],
+                  "item2": "Myglan"
+                },
+                {
+                  "item1": [
+                    "T",
+                    "J"
+                  ],
+                  "item2": "Osborn"
+                },
+                {
+                  "item1": [
+                    "M"
+                  ],
+                  "item2": "Rydval"
+                },
+                {
+                  "item1": [
+                    "L"
+                  ],
+                  "item2": "Schneider"
+                },
+                {
+                  "item1": [
+                    "A"
+                  ],
+                  "item2": "Schurer"
+                },
+                {
+                  "item1": [
+                    "G"
+                  ],
+                  "item2": "Wiles"
+                },
+                {
+                  "item1": [
+                    "P"
+                  ],
+                  "item2": "Zhang"
+                },
+                {
+                  "item1": [
+                    "E"
+                  ],
+                  "item2": "Zorita"
+                }
+              ],
+              "Title": {
+                "item": "Last millennium northern hemisphere summer temperatures from tree rings: Part I: The long term context"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2016,
+              "Volume": 134,
+              "Month": "Feb",
+              "DOI": {
+                "item": "10.1016/j.quascirev.2015.12.005"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

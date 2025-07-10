@@ -8,17 +8,23 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Cameron, A. W."
-            },
-            "Title": {
-              "item": "The mammals of Canada"
-            },
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Cameron, A. W."
+              },
+              "Title": {
+                "item": "The mammals of Canada"
+              },
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Unreferenced general reading"
           }
-        }
+        ]
       }
     }
   ],

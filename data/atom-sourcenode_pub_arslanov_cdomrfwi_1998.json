@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Arslanov, K. A.; Cook, G. T.; Gulliksen, S.; Harkness, D. D.; Kankainen, T.; Scott, E. M.; Vartanyan, S.; Zaitseva, G. I."
-            },
-            "Title": {
-              "item": "Consensus dating of mammoth remains from Wrangel Island"
-            },
-            "Journal": {
-              "item": "Radiocarbon"
-            },
-            "Year": 1998,
-            "Volume": 40,
-            "Pages": [
-              289,
-              294
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Arslanov, K. A.; Cook, G. T.; Gulliksen, S.; Harkness, D. D.; Kankainen, T.; Scott, E. M.; Vartanyan, S.; Zaitseva, G. I."
+              },
+              "Title": {
+                "item": "Consensus dating of mammoth remains from Wrangel Island"
+              },
+              "Journal": {
+                "item": "Radiocarbon"
+              },
+              "Year": 1998,
+              "Volume": 40,
+              "Pages": [
+                289,
+                294
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

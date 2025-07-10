@@ -8,18 +8,21 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bochkarev, Y.; Chernenkova, T.; Friedrich, M.; Boettger, T."
-            },
-            "Title": {
-              "item": "Impact of natural and man-made environmental factors on grown intensity of Scots pine and Siberian spruce in the central part of Murmansk region"
-            },
-            "Year": 2011,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bochkarev, Y.; Chernenkova, T.; Friedrich, M.; Boettger, T."
+              },
+              "Title": {
+                "item": "Impact of natural and man-made environmental factors on grown intensity of Scots pine and Siberian spruce in the central part of Murmansk region"
+              },
+              "Year": 2011,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

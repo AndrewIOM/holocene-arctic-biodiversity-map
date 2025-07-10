@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Barry, R. G.; Arundale, W. H.; Andrews, J. T.; Bradley, R. S.; Nichols, H."
-            },
-            "Title": {
-              "item": "Environmental Change and Cultural Change in the Eastern Canadian Arctic during the Last 5000 Years"
-            },
-            "Journal": {
-              "item": "Arctic and Alpine Research"
-            },
-            "Year": 1977,
-            "Volume": 9,
-            "Pages": [
-              193,
-              210
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Barry, R. G.; Arundale, W. H.; Andrews, J. T.; Bradley, R. S.; Nichols, H."
+              },
+              "Title": {
+                "item": "Environmental Change and Cultural Change in the Eastern Canadian Arctic during the Last 5000 Years"
+              },
+              "Journal": {
+                "item": "Arctic and Alpine Research"
+              },
+              "Year": 1977,
+              "Volume": 9,
+              "Pages": [
+                193,
+                210
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

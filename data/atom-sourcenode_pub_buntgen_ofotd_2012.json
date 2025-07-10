@@ -8,19 +8,22 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Buntgen, U.; Esper, J.; Fischer, N.; Frank, D. C.; Holzkamper, S.; Luterbacher, J.; Nievergelt, D.; Timonen, M.; Verstege, A.; Wagner, S.; Wilson, R. J. S.; Zorita, E."
-            },
-            "Title": {
-              "item": "Orbital forcing of tree-ring data"
-            },
-            "Year": 2012,
-            "Volume": 2,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Buntgen, U.; Esper, J.; Fischer, N.; Frank, D. C.; Holzkamper, S.; Luterbacher, J.; Nievergelt, D.; Timonen, M.; Verstege, A.; Wagner, S.; Wilson, R. J. S.; Zorita, E."
+              },
+              "Title": {
+                "item": "Orbital forcing of tree-ring data"
+              },
+              "Year": 2012,
+              "Volume": 2,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

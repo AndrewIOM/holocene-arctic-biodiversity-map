@@ -18,7 +18,14 @@
             "full_name_html": "<span class=\"wfo-name-full\" ><span class=\"wfo-name\"><i>Rhopalocarpus<\/i> <i>alternifolius<\/i><\/span> <span class=\"wfo-name-authors\" >(Baker) Capuron<\/span><\/span>",
             "placement": "Code\/Plantae\/Pteridobiotina\/Angiosperms\/Malvales\/Sphaerosepalaceae\/Rhopalocarpus\/alternifolius"
         },
-        "candidates": [],
+        "candidates": [
+            {
+                "wfo_id": "wfo-0000627675",
+                "full_name_plain": "Rhopalocarpus alternifolius (Baker) Capuron",
+                "full_name_html": "<span class=\"wfo-name-full\" ><span class=\"wfo-name\"><i>Rhopalocarpus<\/i> <i>alternifolius<\/i><\/span> <span class=\"wfo-name-authors\" >(Baker) Capuron<\/span><\/span>",
+                "placement": "Code\/Plantae\/Pteridobiotina\/Angiosperms\/Malvales\/Sphaerosepalaceae\/Rhopalocarpus\/alternifolius"
+            }
+        ],
         "error": false,
         "errorMessage": null,
         "parsedName": {

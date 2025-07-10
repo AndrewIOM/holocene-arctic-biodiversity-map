@@ -1,0 +1,25 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_pollen_minuartia-silene"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "BioticProxyNode": {
+          "Morphotype": {
+            "Microfossil": [
+              "Pollen",
+              {
+                "item": "Minuartia-Silene"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  []
+]

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hoecker, T. J.; Higuera, P. E."
-            },
-            "Title": {
-              "item": "Forest succession and climate variability interacted to control fire activity over the last four centuries in an Alaskan boreal landscape"
-            },
-            "Journal": {
-              "item": "Landscape Ecology"
-            },
-            "Year": 2019,
-            "Volume": 34,
-            "Pages": [
-              227,
-              241
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hoecker, T. J.; Higuera, P. E."
+              },
+              "Title": {
+                "item": "Forest succession and climate variability interacted to control fire activity over the last four centuries in an Alaskan boreal landscape"
+              },
+              "Journal": {
+                "item": "Landscape Ecology"
+              },
+              "Year": 2019,
+              "Volume": 34,
+              "Pages": [
+                227,
+                241
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

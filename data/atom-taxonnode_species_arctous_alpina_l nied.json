@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_arctous_alpina_l nied"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Arctous"
+            },
+            {
+              "item": "alpina"
+            },
+            {
+              "item": "(L.) Nied."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

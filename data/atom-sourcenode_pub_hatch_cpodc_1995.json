@@ -8,24 +8,46 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hatch, J. J."
-            },
-            "Title": {
-              "item": "Changing populations of Double-crested Cormorants"
-            },
-            "Journal": {
-              "item": "Colonial Waterbirds"
-            },
-            "Year": 1995,
-            "Volume": 18,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hatch, J. J."
+              },
+              "Title": {
+                "item": "Changing populations of Double-crested Cormorants"
+              },
+              "Journal": {
+                "item": "Colonial Waterbirds"
+              },
+              "Year": 1995,
+              "Volume": 18,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_hatch_cpodc_1995"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_siegel-causey_hdocasfaia_1991"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

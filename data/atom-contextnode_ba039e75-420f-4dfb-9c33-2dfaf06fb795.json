@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "ba039e75-420f-4dfb-9c33-2dfaf06fb795"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Vuolep Njakajaure"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "68°20'00\"N,18°47'00\"E"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 331.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

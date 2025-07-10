@@ -8,25 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hansen, L."
-            },
-            "Title": {
-              "item": "Landscape and coast development of a lowland fjord margin following deglaciation, East Greenland"
-            },
-            "Journal": {
-              "item": "Geografiska Annaler Series a-Physical Geography"
-            },
-            "Year": 2001,
-            "Pages": [
-              131,
-              144
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hansen, L."
+              },
+              "Title": {
+                "item": "Landscape and coast development of a lowland fjord margin following deglaciation, East Greenland"
+              },
+              "Journal": {
+                "item": "Geografiska Annaler Series a-Physical Geography"
+              },
+              "Year": 2001,
+              "Pages": [
+                131,
+                144
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

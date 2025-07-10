@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000035732"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "family_asteraceae"
+          "genus_solidago"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "subtribe_solidagininae"
         ]
       },
       1,

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Elias, S. A."
-            },
-            "Title": {
-              "item": "Mutual climatic range reconstructions of seasonal temperatures based on Late Pleistocene fossil beetle assemblages in Eastern Beringia"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2001,
-            "Volume": 20,
-            "Pages": [
-              77,
-              91
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Elias, S. A."
+              },
+              "Title": {
+                "item": "Mutual climatic range reconstructions of seasonal temperatures based on Late Pleistocene fossil beetle assemblages in Eastern Beringia"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2001,
+              "Volume": 20,
+              "Pages": [
+                77,
+                91
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Synthesis of individual time slices from disparate sample origins / depositional environments"
           }
-        }
+        ]
       }
     }
   ],

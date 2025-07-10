@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gajewski, K."
-            },
-            "Title": {
-              "item": "Environmental history of the northwestern Quebec Treeline"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2019,
-            "Volume": 206,
-            "Pages": [
-              29,
-              43
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gajewski, K."
+              },
+              "Title": {
+                "item": "Environmental history of the northwestern Quebec Treeline"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2019,
+              "Volume": 206,
+              "Pages": [
+                29,
+                43
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

@@ -8,26 +8,29 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Leng, M. J.; Wagner, B.; Anderson, N. J.; Bennike, O.; Woodley, E.; Kemp, S. J."
-            },
-            "Title": {
-              "item": "Deglaciation and catchment ontogeny in coastal south-west Greenland: implications for terrestrial and aquatic carbon cycling"
-            },
-            "Journal": {
-              "item": "Journal of Quaternary Science"
-            },
-            "Year": 2012,
-            "Volume": 27,
-            "Pages": [
-              575,
-              584
-            ],
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Leng, M. J.; Wagner, B.; Anderson, N. J.; Bennike, O.; Woodley, E.; Kemp, S. J."
+              },
+              "Title": {
+                "item": "Deglaciation and catchment ontogeny in coastal south-west Greenland: implications for terrestrial and aquatic carbon cycling"
+              },
+              "Journal": {
+                "item": "Journal of Quaternary Science"
+              },
+              "Year": 2012,
+              "Volume": 27,
+              "Pages": [
+                575,
+                584
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

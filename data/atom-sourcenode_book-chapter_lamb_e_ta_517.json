@@ -1,0 +1,41 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "book-chapter_lamb_e_ta_517"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "BookChapter": {
+              "ChapterFirstAuthor": {
+                "item1": [
+                  "H",
+                  "F"
+                ],
+                "item2": "Lamb"
+              },
+              "ChapterAdditionalAuthors": [
+                {
+                  "item1": [
+                    "M",
+                    "E"
+                  ],
+                  "item2": "Edwards"
+                }
+              ],
+              "ChapterTitle": {
+                "item": "The Arctic"
+              },
+              "FirstPage": 517
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

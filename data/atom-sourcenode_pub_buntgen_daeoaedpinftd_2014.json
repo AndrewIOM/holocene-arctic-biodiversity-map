@@ -8,19 +8,22 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Buntgen, U.; Esper, J.; Schneider, L.; Timonen, M."
-            },
-            "Title": {
-              "item": "Detection and evaluation of an early divergence problem in northern Fennoscandian tree-ring data"
-            },
-            "Year": 2014,
-            "Volume": 123,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Buntgen, U.; Esper, J.; Schneider, L.; Timonen, M."
+              },
+              "Title": {
+                "item": "Detection and evaluation of an early divergence problem in northern Fennoscandian tree-ring data"
+              },
+              "Year": 2014,
+              "Volume": 123,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],

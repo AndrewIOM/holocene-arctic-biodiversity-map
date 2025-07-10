@@ -26,8 +26,30 @@
       },
       {
         "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-4000036401"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
           "taxonnode",
-          "order_caryophyllales"
+          "genus_stellaria"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "family_caryophyllaceae"
         ]
       },
       1,

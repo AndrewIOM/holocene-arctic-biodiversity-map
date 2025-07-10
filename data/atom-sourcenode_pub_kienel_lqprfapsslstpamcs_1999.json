@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kienel_lqprfapsslstpamcs_1999"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "084ef492-8400-4267-81ad-3d77d6898713"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

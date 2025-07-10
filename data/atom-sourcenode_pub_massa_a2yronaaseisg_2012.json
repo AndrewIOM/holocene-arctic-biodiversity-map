@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_massa_a2yronaaseisg_2012"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "C"
+                ],
+                "item2": "Massa"
+              },
+              "AdditionalAuthors": [],
+              "Title": {
+                "item": "A 2500 year record of natural and anthropogenic soil erosion in South Greenland"
+              },
+              "Journal": {
+                "item": "Quaternary International"
+              },
+              "Year": 2012,
+              "Month": "Nov",
+              "DOI": {
+                "item": "10.1016/j.quaint.2012.08.864"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

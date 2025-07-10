@@ -1,0 +1,48 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "book-chapter_short_md_thrfbimafps_608"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "BookChapter": {
+              "ChapterFirstAuthor": {
+                "item1": [
+                  "S",
+                  "K"
+                ],
+                "item2": "Short"
+              },
+              "ChapterAdditionalAuthors": [
+                {
+                  "item1": [
+                    "W",
+                    "N"
+                  ],
+                  "item2": "Mode"
+                },
+                {
+                  "item1": [
+                    "P",
+                    "T"
+                  ],
+                  "item2": "Davis"
+                }
+              ],
+              "ChapterTitle": {
+                "item": "The Holocene record from Baffin Island: modern and fossil pollen studies"
+              },
+              "FirstPage": 608
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

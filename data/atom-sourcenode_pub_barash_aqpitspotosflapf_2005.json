@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Barash, M. S.; Chekhovskaya, M. P.; Biebow, N.; Nurnberg, D.; Tiedeman, R."
-            },
-            "Title": {
-              "item": "About Quaternary paleoceanography in the southeast part of the Okhotsk Sea, from lithology and planktic foraminifera"
-            },
-            "Journal": {
-              "item": "Okeanologiya"
-            },
-            "Year": 2005,
-            "Volume": 45,
-            "Pages": [
-              273,
-              285
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Barash, M. S.; Chekhovskaya, M. P.; Biebow, N.; Nurnberg, D.; Tiedeman, R."
+              },
+              "Title": {
+                "item": "About Quaternary paleoceanography in the southeast part of the Okhotsk Sea, from lithology and planktic foraminifera"
+              },
+              "Journal": {
+                "item": "Okeanologiya"
+              },
+              "Year": 2005,
+              "Volume": 45,
+              "Pages": [
+                273,
+                285
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Sea of Oshtosk"
           }
-        }
+        ]
       }
     }
   ],

@@ -1,0 +1,31 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "subspecies_betula_pendula_mandshurica_(regel) ashburner &amp; mcall."
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Subspecies": [
+            {
+              "item": "Betula"
+            },
+            {
+              "item": "pendula"
+            },
+            {
+              "item": "mandshurica"
+            },
+            {
+              "item": "(Regel) Ashburner & McAll."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

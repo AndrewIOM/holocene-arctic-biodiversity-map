@@ -29,10 +29,34 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          "CompletedAll"
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_brewer_tsodqtestlgp_2002"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "database_epd"
+        ]
+      },
+      1,
+      {
+        "Source": {
+          "UsedDatabase": [
+            null,
+            "AllRecordsInStudyScope"
+          ]
+        }
+      }
+    ]
+  ]
 ]

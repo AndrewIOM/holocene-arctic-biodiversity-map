@@ -1,0 +1,56 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "book_vasari_hhw_cciaadtltyashaoak4o1_1972"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "Book": {
+              "BookTitle": {
+                "item": "Climatic changes in Arctic areas during the last ten-thousand years : a symposium held at Oulanka and Kevo, 4-10 October, 1971"
+              },
+              "BookFirstAuthor": {
+                "item1": [
+                  "Y"
+                ],
+                "item2": "Vasari"
+              },
+              "BookAdditionalAuthors": [
+                {
+                  "item1": [
+                    "H"
+                  ],
+                  "item2": "Hyvarinen"
+                },
+                {
+                  "item1": [
+                    "S"
+                  ],
+                  "item2": "Hicks"
+                },
+                {
+                  "item1": [
+                    "J",
+                    "r"
+                  ],
+                  "item2": "Weston",
+                  "item3": "Blake"
+                }
+              ],
+              "BookCopyrightYear": 1972,
+              "Publisher": {
+                "item": "University of Oulu"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

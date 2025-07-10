@@ -1,0 +1,28 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_argentina_anserina_l rydb"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Argentina"
+            },
+            {
+              "item": "anserina"
+            },
+            {
+              "item": "(L.) Rydb."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  []
+]

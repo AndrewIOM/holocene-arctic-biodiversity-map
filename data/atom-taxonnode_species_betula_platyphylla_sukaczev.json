@@ -35,6 +35,55 @@
       {
         "FriendlyKey": [
           "taxonnode",
+          "subspecies_betula_pendula_mandshurica_(regel) ashburner &amp; mcall."
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "IsSynonymOf": [
+            {
+              "item": "World Flora Online"
+            },
+            {
+              "item": "2024-12-01"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_betula_platyphylla_sukaczev"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonomicnamesindexnode",
+          "nomenclature-index_world flora online"
+        ]
+      },
+      1,
+      {
+        "Population": {
+          "HasIdentifier": {
+            "item": "wfo-0000335660"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_betula_platyphylla_sukaczev"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
           "genus_betula"
         ]
       },

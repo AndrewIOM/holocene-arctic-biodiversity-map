@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bigler_heholvnnpnsrubpi_2006"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cfb1a7a0-8a10-4ed8-9d7a-e4f093da90ca"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Warinner, C.; Hendy, J.; Speller, C.; Cappellini, E.; Fischer, R.; Trachsel, C.; Arneborg, J.; Lynnerup, N.; Craig, O. E.; Swallow, D. M.; Fotakis, A.; Christensen, R. J.; Olsen, J. V.; Liebert, A.; Montalva, N.; Fiddyment, S.; Charlton, S.; Mackie, M.; Canci, A.; Bouwman, A.; Ruehli, F.; Gilbert, M. T. P.; Collins, M. J."
-            },
-            "Title": {
-              "item": "Direct evidence of milk consumption from ancient human dental calculus"
-            },
-            "Journal": {
-              "item": "Scientific Reports"
-            },
-            "Year": 2014,
-            "Volume": 4,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Warinner, C.; Hendy, J.; Speller, C.; Cappellini, E.; Fischer, R.; Trachsel, C.; Arneborg, J.; Lynnerup, N.; Craig, O. E.; Swallow, D. M.; Fotakis, A.; Christensen, R. J.; Olsen, J. V.; Liebert, A.; Montalva, N.; Fiddyment, S.; Charlton, S.; Mackie, M.; Canci, A.; Bouwman, A.; Ruehli, F.; Gilbert, M. T. P.; Collins, M. J."
+              },
+              "Title": {
+                "item": "Direct evidence of milk consumption from ancient human dental calculus"
+              },
+              "Journal": {
+                "item": "Scientific Reports"
+              },
+              "Year": 2014,
+              "Volume": 4,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Human dental"
           }
-        }
+        ]
       }
     }
   ],

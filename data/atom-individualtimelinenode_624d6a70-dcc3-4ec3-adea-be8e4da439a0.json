@@ -1,0 +1,127 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "624d6a70-dcc3-4ec3-adea-be8e4da439a0"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "624d6a70-dcc3-4ec3-adea-be8e4da439a0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_plantmacrofossil"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "624d6a70-dcc3-4ec3-adea-be8e4da439a0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "624d6a70-dcc3-4ec3-adea-be8e4da439a0"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "c72cc9a4-9465-4313-bc4d-1cb19a90af00"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "624d6a70-dcc3-4ec3-adea-be8e4da439a0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8060ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentLatestSpecified": {
+            "CalYrBP": [
+              8060.0,
+              {
+                "item": "IntCal09 (Clam)"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "624d6a70-dcc3-4ec3-adea-be8e4da439a0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "CalYrBP": [
+              13500.0,
+              {
+                "item": "IntCal09 (Clam)"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

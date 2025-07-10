@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Osborn, G.; McCarthy, D.; LaBrie, A.; Burke, R."
-            },
-            "Title": {
-              "item": "Lichenometric dating: Science or pseudo-science?"
-            },
-            "Journal": {
-              "item": "Quaternary Research"
-            },
-            "Year": 2015,
-            "Volume": 83,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Osborn, G.; McCarthy, D.; LaBrie, A.; Burke, R."
+              },
+              "Title": {
+                "item": "Lichenometric dating: Science or pseudo-science?"
+              },
+              "Journal": {
+                "item": "Quaternary Research"
+              },
+              "Year": 2015,
+              "Volume": 83,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],
