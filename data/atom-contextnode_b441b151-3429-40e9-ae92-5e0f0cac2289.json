@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b441b151-3429-40e9-ae92-5e0f0cac2289"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "BY-b"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "78°08'46\"N,80°00'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 202.0
+                }
+              ]
+            }
+          },
+          "SampleLocationDescription": {
+            "item": "Adjacent high-centre ice wedge polygons"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

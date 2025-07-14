@@ -30,5 +30,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_hahne_lapvachotstpcsarbpaoacfll_1997"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e104135d-d508-4560-bb48-49f766840411"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

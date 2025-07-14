@@ -1,0 +1,135 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "adf37f34-632a-4b82-92d9-81c6f3e06215"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "adf37f34-632a-4b82-92d9-81c6f3e06215"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "adf37f34-632a-4b82-92d9-81c6f3e06215"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "d51606d8-521f-4e13-8a81-8151bdcee5a2"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "adf37f34-632a-4b82-92d9-81c6f3e06215"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10260ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "adf37f34-632a-4b82-92d9-81c6f3e06215"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10540ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "adf37f34-632a-4b82-92d9-81c6f3e06215"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "0ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentLatestSpecified": {
+            "BP": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "adf37f34-632a-4b82-92d9-81c6f3e06215"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10400ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestSpecified": {
+            "BP": 10400.0
+          }
+        }
+      }
+    ]
+  ]
+]

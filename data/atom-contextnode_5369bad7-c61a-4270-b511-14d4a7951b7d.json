@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "5369bad7-c61a-4270-b511-14d4a7951b7d"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Yesterday Lake"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "56°46'00\"N,119°29'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 160.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

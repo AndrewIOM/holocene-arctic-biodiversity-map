@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "8bd93401-d1af-402d-8fec-1880dec88d2c"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lake Sokoch"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "53°15'00\"N,157°45'00\"E"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 92.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

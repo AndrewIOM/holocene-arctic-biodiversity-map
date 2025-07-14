@@ -20,10 +20,53 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_narancic_dsaahprftcaall_noyear"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_narancic_pesonlicaifbamp_2016"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_narancic_dsaahprftcaall_noyear"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "01aa50cd-482a-4786-8174-ce23c142d701"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

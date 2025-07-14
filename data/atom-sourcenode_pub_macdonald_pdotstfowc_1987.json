@@ -34,5 +34,60 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_macdonald_pdotstfowc_1987"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "adf37f34-632a-4b82-92d9-81c6f3e06215"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_macdonald_pdotstfowc_1987"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "63521a3a-9c64-4ca0-a64d-0aea40280d57"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_macdonald_pdotstfowc_1987"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "72ce26a8-d670-4ef6-a026-f0bac87d78f0"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

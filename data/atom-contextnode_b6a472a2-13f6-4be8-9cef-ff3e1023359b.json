@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b6a472a2-13f6-4be8-9cef-ff3e1023359b"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "PGl111, Lama Lake"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "69°33'00\"N,90°12'00\"E"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 1060.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

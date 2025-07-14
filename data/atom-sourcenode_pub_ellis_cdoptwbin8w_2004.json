@@ -40,5 +40,42 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ellis_cdoptwbin8w_2004"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4725a9b0-a6e6-42cd-9dad-116f6f6c39a9"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ellis_cdoptwbin8w_2004"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9556112d-730c-4eb8-a88d-fe6a1878af1f"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

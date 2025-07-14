@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_larsen_favdiajpabsfrufpac_1998"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e85e2a89-d8c0-4a03-9c2a-f6fee8d537e2"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

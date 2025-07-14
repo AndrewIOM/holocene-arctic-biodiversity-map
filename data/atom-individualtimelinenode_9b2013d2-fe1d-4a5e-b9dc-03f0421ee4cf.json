@@ -1,0 +1,109 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "9b2013d2-fe1d-4a5e-b9dc-03f0421ee4cf"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9b2013d2-fe1d-4a5e-b9dc-03f0421ee4cf"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_other_chironomid"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9b2013d2-fe1d-4a5e-b9dc-03f0421ee4cf"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "8bd93401-d1af-402d-8fec-1880dec88d2c"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9b2013d2-fe1d-4a5e-b9dc-03f0421ee4cf"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "0ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentLatestSpecified": {
+            "CalYrBP": [
+              0.0,
+              {
+                "item": "CALPAL (Danzeglocke et al. 2010)"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9b2013d2-fe1d-4a5e-b9dc-03f0421ee4cf"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9400ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestSpecified": {
+            "CalYrBP": [
+              9400.0,
+              {
+                "item": "CALPAL (Danzeglocke et al. 2010)"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

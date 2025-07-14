@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "08db773c-c7e8-4e64-a09b-7fcc2d4ad48d"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Fariya Lake"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "59°50'54\"N,111°17'28\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 95.0
+                }
+              ]
+            }
+          },
+          "SampleLocationDescription": {
+            "item": "Exact depths of samples not available"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

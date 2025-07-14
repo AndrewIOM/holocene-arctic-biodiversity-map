@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "ff088db9-a5d7-45b4-9c43-f108e85c961b"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Lone Fox Lake"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "56°43'00\"N,119°43'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 360.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

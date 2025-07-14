@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "d51606d8-521f-4e13-8a81-8151bdcee5a2"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Snowshoe Lake"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "57°27'00\"N,120°40'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 400.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

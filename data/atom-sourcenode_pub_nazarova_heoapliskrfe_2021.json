@@ -36,5 +36,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_nazarova_heoapliskrfe_2021"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9b2013d2-fe1d-4a5e-b9dc-03f0421ee4cf"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "3a56532e-dc87-4a1b-a065-77fbc29f2fba"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Nettilling Lake"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "65°53'00\"N,71°17'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 37.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
