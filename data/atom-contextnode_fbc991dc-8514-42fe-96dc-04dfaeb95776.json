@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "fbc991dc-8514-42fe-96dc-04dfaeb95776"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Col Pond"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "78°36'00\"N,74°39'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 75.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

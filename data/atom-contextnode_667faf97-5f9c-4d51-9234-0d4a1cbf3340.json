@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "667faf97-5f9c-4d51-9234-0d4a1cbf3340"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Char Lake"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "74°42'00\"N,94°50'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 13.5
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

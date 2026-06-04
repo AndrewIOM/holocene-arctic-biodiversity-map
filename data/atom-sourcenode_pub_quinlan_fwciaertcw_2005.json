@@ -40,5 +40,60 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_quinlan_fwciaertcw_2005"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "3d30bbdd-8750-4138-8e28-b33db52591e9"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_quinlan_fwciaertcw_2005"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "34c9191d-e069-42dd-9a3c-705f41bff799"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_quinlan_fwciaertcw_2005"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ca82afed-1758-4618-891f-a39537f2da17"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

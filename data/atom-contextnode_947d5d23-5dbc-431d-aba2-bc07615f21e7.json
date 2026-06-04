@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "947d5d23-5dbc-431d-aba2-bc07615f21e7"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Camp Pond"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "78°37'00\"N,74°40'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 110.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

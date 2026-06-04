@@ -35401,6 +35401,8 @@
 
 	{"NodeId":{"UUID":["contextnode","660cea3f-f8cc-43bf-bd78-3e5df9880956"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Black Spruce Wetland, Churchill MB"},
 
+	{"NodeId":{"UUID":["contextnode","667faf97-5f9c-4d51-9234-0d4a1cbf3340"]},"NodeTypeName":"ContextNode","PrettyName":"SiteDMS: Char Lake"},
+
 	{"NodeId":{"UUID":["contextnode","6686c392-4339-4748-97f9-4713ee17d9ca"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Lake Bolshoy Kharbey"},
 
 	{"NodeId":{"UUID":["contextnode","668cfebf-2bb7-41c2-ba3e-c3a9b0a8896e"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Khosedayu palsa mire - palsa (KhPa)"},
@@ -35911,6 +35913,8 @@
 
 	{"NodeId":{"UUID":["contextnode","942105cc-7564-417a-b14d-93d8296b6317"]},"NodeTypeName":"ContextNode","PrettyName":"SiteDMS: Sermermiut, western Greenland"},
 
+	{"NodeId":{"UUID":["contextnode","947d5d23-5dbc-431d-aba2-bc07615f21e7"]},"NodeTypeName":"ContextNode","PrettyName":"SiteDMS: Camp Pond"},
+
 	{"NodeId":{"UUID":["contextnode","947f0c1c-9fc5-442a-a2a1-151e8f4f1aba"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Lac Gras"},
 
 	{"NodeId":{"UUID":["contextnode","948c55df-aaf0-4e06-9426-d993a2e60e5c"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Lake Yarnyshnoe-1, Kola Peninsula"},
@@ -36308,6 +36312,8 @@
 	{"NodeId":{"UUID":["contextnode","b91f5bf2-e80d-444f-b5a2-f826c8aad5df"]},"NodeTypeName":"ContextNode","PrettyName":"SiteDMS: Lake Tasiriaq-sud, Northern Quebec."},
 
 	{"NodeId":{"UUID":["contextnode","b94624bb-de54-4dd2-a606-57e2747c03e6"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Poteryanny Zub Lake"},
+
+	{"NodeId":{"UUID":["contextnode","b961ed82-3298-4da8-9065-6433efcbbbde"]},"NodeTypeName":"ContextNode","PrettyName":"SiteDMS: Elison Lake"},
 
 	{"NodeId":{"UUID":["contextnode","b975d014-e92f-41db-9947-cee86e9f8531"]},"NodeTypeName":"ContextNode","PrettyName":"Area: Code Lake"},
 
@@ -37096,6 +37102,8 @@
 	{"NodeId":{"UUID":["contextnode","fb279e0d-55d6-43be-9d90-0cf47d97d425"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Smallwood Reservoir"},
 
 	{"NodeId":{"UUID":["contextnode","fbb40246-04f4-43d8-bb33-0857d4e38ba6"]},"NodeTypeName":"ContextNode","PrettyName":"Area: Screaming Lynx Lake"},
+
+	{"NodeId":{"UUID":["contextnode","fbc991dc-8514-42fe-96dc-04dfaeb95776"]},"NodeTypeName":"ContextNode","PrettyName":"SiteDMS: Col Pond"},
 
 	{"NodeId":{"UUID":["contextnode","fbd51657-607b-4af1-a83d-f2678c318c32"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Tura Experiment Forest NU"},
 
@@ -40717,6 +40725,8 @@
 
 	{"NodeId":{"UUID":["individualtimelinenode","34b556e4-ac51-4233-acc7-405202bee2f4"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
+	{"NodeId":{"UUID":["individualtimelinenode","34c9191d-e069-42dd-9a3c-705f41bff799"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
+
 	{"NodeId":{"UUID":["individualtimelinenode","34ca19f7-0d07-4493-8659-27a998f47e3a"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
 	{"NodeId":{"UUID":["individualtimelinenode","34dd48b5-04c7-421c-acae-0025f009dbfd"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
@@ -40736,6 +40746,8 @@
 	{"NodeId":{"UUID":["individualtimelinenode","3627ddbf-157c-4787-aeff-324b85e29bff"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
 	{"NodeId":{"UUID":["individualtimelinenode","36494e1e-1186-4e02-85c5-733f099e8d45"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
+
+	{"NodeId":{"UUID":["individualtimelinenode","36494f3a-f09b-41da-bc81-131a45c90bbd"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
 	{"NodeId":{"UUID":["individualtimelinenode","3666eba6-e76b-46d2-b833-a2882af8d3e1"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
@@ -40828,6 +40840,8 @@
 	{"NodeId":{"UUID":["individualtimelinenode","3cfabf5a-8782-4013-a8d5-b34750890f0f"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
 	{"NodeId":{"UUID":["individualtimelinenode","3d16e204-436f-4994-a9b1-617998f6a04e"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
+
+	{"NodeId":{"UUID":["individualtimelinenode","3d30bbdd-8750-4138-8e28-b33db52591e9"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
 	{"NodeId":{"UUID":["individualtimelinenode","3d32a77e-5390-4e30-a7e1-2a21046a4863"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
@@ -42398,6 +42412,8 @@
 	{"NodeId":{"UUID":["individualtimelinenode","ca6e1664-c69f-4e94-a104-d066de4970c3"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
 	{"NodeId":{"UUID":["individualtimelinenode","ca78e067-6d77-4a65-9063-4a9bb6686eea"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
+
+	{"NodeId":{"UUID":["individualtimelinenode","ca82afed-1758-4618-891f-a39537f2da17"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
 	{"NodeId":{"UUID":["individualtimelinenode","ca8eb074-bf8f-4f1c-a9cb-c00c71dc33b7"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
@@ -90118,6 +90134,8 @@
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_doughty_bfbtpmeactfhgw_2010"]},"NodeTypeName":"SourceNode","PrettyName":"Doughty, C. E.; Wolf, A.; Field, C. B. (2010). Biophysical feedbacks between the Pleistocene megafauna extinction and climate: The first human-induced global warming?"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_douglas_fdaioecitha_2010"]},"NodeTypeName":"SourceNode","PrettyName":"Douglas, M. S. V.; Smol, J. P. (2010). Freshwater diatoms as indicators of environmental change in the high arctic"},
+
+	{"NodeId":{"FriendlyKey":["sourcenode","pub_douglas_lohapheinwt_1994"]},"NodeTypeName":"SourceNode","PrettyName":"Douglas, M. S. V; Smol, J. P (1994). Limnology of high arctic ponds (Cape Herschel, Ellesmere Island, N. W. T.). Archiv für Hydrobiologie"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_douglas_mpcecihe_1994"]},"NodeTypeName":"SourceNode","PrettyName":"Douglas, M. S. V.; Smol, J. P.; Blake Jr, W. (1994). Marked post-18th century environmental change in high-arctic ecosystems"},
 

@@ -1,0 +1,37 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "b961ed82-3298-4da8-9065-6433efcbbbde"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Elison Lake"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "78°36'33\"N,74°44'00\"W"
+            }
+          },
+          "SampleOrigin": {
+            "LakeSediment": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 45.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

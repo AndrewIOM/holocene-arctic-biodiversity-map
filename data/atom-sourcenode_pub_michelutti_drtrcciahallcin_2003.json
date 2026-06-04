@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_michelutti_drtrcciahallcin_2003"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "36494f3a-f09b-41da-bc81-131a45c90bbd"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

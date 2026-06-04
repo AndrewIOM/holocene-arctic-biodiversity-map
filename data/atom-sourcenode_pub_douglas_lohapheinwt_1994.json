@@ -1,0 +1,51 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_douglas_lohapheinwt_1994"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "M",
+                  "S",
+                  "V"
+                ],
+                "item2": "Douglas"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "J",
+                    "P"
+                  ],
+                  "item2": "Smol"
+                }
+              ],
+              "Title": {
+                "item": "Limnology of high arctic ponds (Cape Herschel, Ellesmere Island, N. W. T.)"
+              },
+              "Journal": {
+                "item": "Archiv für Hydrobiologie"
+              },
+              "Year": 1994,
+              "Volume": 131,
+              "Number": 4,
+              "Month": "Nov",
+              "DOI": {
+                "item": "10.1127/archiv-hydrobiol/131/1994/401"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
