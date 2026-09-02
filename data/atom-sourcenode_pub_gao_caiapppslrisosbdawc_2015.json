@@ -40,5 +40,78 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_gao_caiapppslrisosbdawc_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4e3721b5-69a3-4f0e-b3c3-d050ef061312"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_gao_caiapppslrisosbdawc_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "25a7be46-93c3-4efa-9cac-e577794e1811"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_gao_caiapppslrisosbdawc_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "120becd7-5d11-4e69-bf94-384639a58a3d"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_gao_caiapppslrisosbdawc_2015"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "3de5dcb4-ed92-4ac1-aff9-cdcbeec92df0"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

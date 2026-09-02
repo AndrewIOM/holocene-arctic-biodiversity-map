@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "f818dd49-bbd7-47e9-99e3-8b754e2fc3f2"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Ice-wedge polygon Lc04 - profile q9"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "70°37'22\"N,147°54'36\"E"
+            }
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 24.5
+                }
+              ]
+            }
+          },
+          "SampleLocationDescription": {
+            "item": "Collapsed ridge"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

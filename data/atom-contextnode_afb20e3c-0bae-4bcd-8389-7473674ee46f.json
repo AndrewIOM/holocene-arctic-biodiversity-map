@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "afb20e3c-0bae-4bcd-8389-7473674ee46f"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Ice-wedge polygon Lc04 - profile e16"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "70°37'22\"N,147°54'36\"E"
+            }
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 21.5
+                }
+              ]
+            }
+          },
+          "SampleLocationDescription": {
+            "item": "Ridge centre"
+          }
+        }
+      }
+    }
+  ],
+  []
+]

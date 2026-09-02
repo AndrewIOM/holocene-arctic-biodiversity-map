@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "UUID": [
+        "contextnode",
+        "f85192f5-e14d-4b20-bfdb-e7e94f988516"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "ContextNode": {
+          "Name": {
+            "item": "Ice-wedge polygon Lc04 - profile h16"
+          },
+          "SamplingLocation": {
+            "SiteDMS": {
+              "item": "70°37'22\"N,147°54'36\"E"
+            }
+          },
+          "SampleOrigin": {
+            "PeatCore": {
+              "DepthRange": [
+                {
+                  "_depth": 0.0
+                },
+                {
+                  "_depth": 25.0
+                }
+              ]
+            }
+          },
+          "SampleLocationDescription": {
+            "item": "Ridge margin"
+          }
+        }
+      }
+    }
+  ],
+  []
+]
