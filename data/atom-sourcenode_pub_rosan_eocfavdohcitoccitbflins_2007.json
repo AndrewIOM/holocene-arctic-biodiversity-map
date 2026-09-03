@@ -29,10 +29,29 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          "CompletedAll"
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_rosan_eocfavdohcitoccitbflins_2007"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_korsman_ffalaiansbahcilqam_1998"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]
