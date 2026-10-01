@@ -88001,17 +88001,25 @@
 
 	{"NodeId":{"FriendlyKey":["sourcenode","database_neotoma_entry_811"]},"NodeTypeName":"SourceNode","PrettyName":"Database: neotoma - entry 811"},
 
+	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_alm_t_1986_eoeanepuaufc2btid"]},"NodeTypeName":"SourceNode","PrettyName":"Alm, T (1986). [dissertation] Einlctvatn og Erisvatn. Andaya. Nordland - en palynologisk undcrsakelse av utviklingen fra ca. 20000 BP til i dag."},
+
+	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_alm_t_1990_lwvateoannaps"]},"NodeTypeName":"SourceNode","PrettyName":"Alm, T (1990). [dissertation] Late Weichselian vegetation and terrestrial/lacustrine environments of Andoya. Northern Norway a paleoecological study"},
+
 	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_aronsson_kje_1991_frha1aaapsinsdauu"]},"NodeTypeName":"SourceNode","PrettyName":"Aronsson, K. j. e (1991). [dissertation] Forest Reindeer Herding A.D. 1-1800. An Archaeological and Palaeoecological Study in Northern Sweden. Dep. Archaeol., Univ. Umea"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_blyakharchuk_ta_2010_pdogvowspaamldobasaobals"]},"NodeTypeName":"SourceNode","PrettyName":"Blyakharchuk, T. A (2010). [dissertation] Post-Glacial Dynamics of Ground Vegetation of West Siberian Plain and AltaiSayan Mountain Land (by Data of Botanical and Spore-Pollen Analysis of Bog and Lake Sediments)"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_khantemirov_rm_2009_dowvaccitnowsith"]},"NodeTypeName":"SourceNode","PrettyName":"Khantemirov, R. M (2009). [dissertation] Dynamics of woody vegetation and climate change in the north of western Siberia in the Holocene"},
 
+	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_laframboise_c_2011_phdlrdwslcedlbd"]},"NodeTypeName":"SourceNode","PrettyName":"Laframboise, C (2011). [dissertation] Paléoenvironnements holocènes dans la région de Whapmagoostui-Kuujjuarapik sur la côte est de la baie d'Hudson"},
+
 	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_levkovskaya_tm_1967_rotpasditmahdows"]},"NodeTypeName":"SourceNode","PrettyName":"Levkovskaya, T. M (1967). [dissertation] Regularities of the Pollen and Spore Distribution in the Modern and Holocene Deposits of West Siberia"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_liversidge_a_2012_trocidtotolalsg"]},"NodeTypeName":"SourceNode","PrettyName":"Liversidge, A (2012). [dissertation] The role of climate in determining the ontogeny trends of low Arctic lakes, south-western Greenland"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_ovenden_l_1981_vhoappocfny"]},"NodeTypeName":"SourceNode","PrettyName":"Ovenden, L (1981). [dissertation] Vegetation history of a polygonal peatland, Old Crow Flats, northern Yukon"},
+
+	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_paître_c_2008_ddmfdmtdhqn"]},"NodeTypeName":"SourceNode","PrettyName":"Paître, C (2008). [dissertation] Dynamique des marges forestières de milieu tourbeux du haut-boréal, Québec nordique"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_waythomas_cf_1990_qgaleothlacmrisa"]},"NodeTypeName":"SourceNode","PrettyName":"Waythomas, C. F (1990). [dissertation] Quaternary geology and Late-Quaternary Environments of the Holitna Lowland and Chuilnuk-Kiokluk Mountains Region, Interior Southwestern Alaska"},
 
@@ -88499,6 +88507,8 @@
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_hprfnllrdar_2004"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A.; Tarasov, P.; Schwamborn, G.; Ilyashuk, B.; Ilyashuk, E.; Bobrov, A.; Klimanov, V.; Rachold, V.; Hubberten, H. W. (2004). Holocene paleoenvironmental records from Nikolay Lake, Lena River Delta, Arctic Russia"},
 
+	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_lahiesodomicy_2005"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A. A; Kilmanov, V. A (2005). Late-glacial and Holocene in east Siberia (based on data obtained mainly in central Yakutia). Geological Society of America, Bulletin"},
+
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_lpahvacotntpar_2003"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A. A.; Tarasov, P. E.; Siegert, C.; Ebel, T.; Klimanov, V. A.; Melles, M.; Bobrov, A. A.; Dereviagin, A. Y.; Lubinski, D. J.; Hubberten, H. W. (2003). Late Pleistocene and Holocene vegetation and climate on the northern Taymyr Peninsula, Arctic Russia"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_lpahvacottlns_2002"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A. A.; Siegert, C.; Klimanov, V. A.; Derevyagin, A. Y.; Shilova, G. N.; Melles, M. (2002). Late Pleistocene and Holocene vegetation and climate on the Taymyr lowland, northern Siberia"},
@@ -88519,6 +88529,8 @@
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_vaccatlltprdtlpah_2004"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A. A.; Tarasov, P. E.; Klimanov, V. A.; Melles, M.; Lisitsyna, O. M.; Hubberten, H. W. (2004). Vegetation and climate changes around the Lama Lake, Taymyr Peninsula, Russia during the Late Pleistocene and Holocene"},
 
+	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_vacciiouayrydth_1991"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A. A; Kilmanov, V. A (1991). Vegetation and climate changes in interfluvial of Ungra and Yakokit Rivers (southern Yakutia) during the Holocene. Botanicheskiy Zhurnal"},
+
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_vaccotntrdtupahrfpr_2003"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A.A., Tarasov, P.E., Siegert, Ch., Ebel, T., Klimanov, V.A., Bobrov, A.A, Melles, M., Derevyagin, A.Yu., Hubberten, H.-W. (2003). Vegetation and climate changes on the northern Taymyr, Russia during the Upper Pleistocene and Holocene reconstructed from pollen records"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_vachitlsrsdlqifpr_2011"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A. A.; Schirrmeister, L.; Tarasov, P. E.; Ganopolski, A.; Brovkin, V.; Siegert, C.; Wetterich, S.; Hubberten, H. W. (2011). Vegetation and climate history in the Laptev Sea region (Arctic Siberia) during Late Quaternary inferred from pollen records"},
@@ -88532,6 +88544,8 @@
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_votwcotbbateotlp_1998"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A. A.; Tarasov, P. E.; Romanenko, F. A.; Sulerzhitskii, L. D.; Terekhov, K. I. (1998). Vegetation of the western coast of the Baidaratskaya Bay at the end of the late Pleistocene"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_wahphotblinsaas_2009"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A.A., Grosse, G., Schirrmeister, L., Kuzmina, S.A., Kuznetsova, T.V., Bobrov, A.A., Tarasov, P.E., Novenko, E.Yu., Meyer, H., Kienast, F., Bryantseva, A., Derevyagin, A.Yu., Kunitsky, V.V. (2009). Weichselian and Holocene palaeoenvironmental history of the Bol’shoy Lyakhovsky Island, New Siberian Archipelago, Arctic Siberia"},
+
+	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_ydprfcasy_1997"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A; Klimanov, V; Sulerzhitsky, L (1997). Younger Dryas pollen records from central and southern Yakutia. Quaternary International"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_andreev_ydprfsis_1997"]},"NodeTypeName":"SourceNode","PrettyName":"Andreev, A; Tarasov, P; Romanenko, F; Sulerzhitsky, L (1997). Younger Dryas pollen records from Sverdrup Island (Kara Sea). Quaternary International"},
 
@@ -89578,6 +89592,8 @@
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_capo_ldimecapvbosd_2016"]},"NodeTypeName":"SourceNode","PrettyName":"Capo, E.; Debroas, D.; Arnaud, F.; Guillemot, T.; Bichet, V.; Millet, L.; Gauthier, E.; Massa, C.; Develle, A. L.; Pignol, C.; Lejzerowicz, F.; Domaizon, I. (2016). Long-term dynamics in microbial eukaryotes communities: a palaeolimnological view based on sedimentary DNA"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_carballeira_dipsop_2020"]},"NodeTypeName":"SourceNode","PrettyName":"Carballeira, R.; Pontevedra-Pombal, X. (2020). Diatoms in paleoenvironmental studies of Peatlands"},
+
+	{"NodeId":{"FriendlyKey":["sourcenode","pub_carcaillet_coffitecbfdthdvcocttfr_2001"]},"NodeTypeName":"SourceNode","PrettyName":"Carcaillet, C; Bergeron, Y; Richard, P. J; Fréchette, B; Gauthier, S et al. (2001). Change of fire frequency in the eastern Canadian boreal forests during the Holocene: does vegetation composition or climate trigger the fire regime?. Journal of Ecology"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_carcaillet_lsdbfitfod_2020"]},"NodeTypeName":"SourceNode","PrettyName":"Carcaillet, C.; Desponts, M.; Robin, V.; Bergeron, Y. (2020). Long-Term Steady-State Dry Boreal Forest in the Face of Disturbance"},
 
@@ -90929,6 +90945,8 @@
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_garneau_paaccitha_2000"]},"NodeTypeName":"SourceNode","PrettyName":"Garneau, M. (2000). Peat accumulation and climatic change in the High Arctic"},
 
+	{"NodeId":{"FriendlyKey":["sourcenode","pub_garralla_hvhotbfnccq_1992"]},"NodeTypeName":"SourceNode","PrettyName":"Garralla, S; Gajewski, K (1992). Holocene vegetation history of the boreal forest near Chibougamau, central Quebec. Canadian Journal of Botany"},
+
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_gashev_hftiwsatc_2017"]},"NodeTypeName":"SourceNode","PrettyName":"Gashev, S. N.; Aleshina, A. O.; Zuban, I. A.; Lupinos, M. Y.; Mardonova, L. B.; Mitropolskiy, M. G.; Selyukov, A. G.; Sorokina, N. V.; Stolbov, V. A.; Shapovalov, S. I. (2017). Holocene faunal trends in Western Siberia and their causes"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_gasilin_dofsohmiuah_2009"]},"NodeTypeName":"SourceNode","PrettyName":"Gasilin, V. V.; Kosintsev, P. A. (2009). Dynamics of fauna structure of hoofed mammals in Ural-Povolzhie at Holocene"},
@@ -91981,6 +91999,8 @@
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_jasinski_ealcifm_2002"]},"NodeTypeName":"SourceNode","PrettyName":"Jasinski, K. (2002). Ecological and landscape considerations in forest management"},
 
+	{"NodeId":{"FriendlyKey":["sourcenode","pub_jasinski_hehoapitlrvs_1998"]},"NodeTypeName":"SourceNode","PrettyName":"Jasinski, J; Warner, B. G; Andreev, A. A; Aravena, R; Gilbert, S. E et al. (1998). Holocene environmental history of a peatland in the Lena River valley, Siberia. Canadian Journal of Earth Sciences"},
+
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_jasinski_hoolpabsneappobfh_2007"]},"NodeTypeName":"SourceNode","PrettyName":"Jasinski, J. P. P.; Payette, S. (2007). Holocene occurrence of Lophodermium piceae, a black spruce needle endophyte and possible paleoindicator of boreal forest health"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_jasinski_lditdwanflcfm_2002"]},"NodeTypeName":"SourceNode","PrettyName":"Jasinski, K.; Angelstam, P. (2002). Long-term differences in the dynamics within a natural forest landscape - consequences for management"},
@@ -92210,6 +92230,8 @@
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_kasatkina_saiitrfnr_2019"]},"NodeTypeName":"SourceNode","PrettyName":"Kasatkina, E. A.; Shumilov, O. I.; Timonen, M. (2019). Solar activity imprints in tree ring-data from northwestern Russia"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_kasatkina_scitr_2007"]},"NodeTypeName":"SourceNode","PrettyName":"Kasatkina, E.; Shumijov, O.; Lukina, N. V.; Krapiec, M.; Jacoby, G. (2007). Stardust component in tree rings"},
+
+	{"NodeId":{"FriendlyKey":["sourcenode","pub_katamura_tfavdifapsicyesr_2006"]},"NodeTypeName":"SourceNode","PrettyName":"Katamura, F; Fukuda, M; Bosikov, N. P; Desyatkin, R. V; Nakamura, T et al. (2006). Thermokarst Formation and Vegetation Dynamics Inferred from A Palynological Study in Central Yakutia, Eastern Siberia, Russia. Arctic, Antarctic, and Alpine Research"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_kats_hotvobonsaaiocitpl_1946"]},"NodeTypeName":"SourceNode","PrettyName":"Kats, N. Y. a; Kats, S. V (1946). History of the vegetation of bogs of northern Siberia as an indicator of changes in the post-glacial landscape. Trudy, In-ta. geol. AN SSSR"},
 
@@ -95128,6 +95150,8 @@
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_rezsohazy_aaeotdpmmdtlcicae_2020"]},"NodeTypeName":"SourceNode","PrettyName":"Rezsohazy, J.; Goosse, H.; Guiot, J.; Gennaretti, F.; Boucher, E.; Andre, F.; Jonard, M. (2020). Application and evaluation of the dendroclimatic process-based model MAIDEN during the last century in Canada and Europe"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_ricard_doalssatrecohbisq_1999"]},"NodeTypeName":"SourceNode","PrettyName":"Ricard, B.; Begin, Y. (1999). Development of a lichen-white spruce stand along the rapidly emerging coast of Hudson Bay in subarctic Quebec"},
+
+	{"NodeId":{"FriendlyKey":["sourcenode","pub_richard_càlpdlvandljn_2011"]},"NodeTypeName":"SourceNode","PrettyName":"Richard, P (2011). Contribution à l’histoire postglaciaire de la végétation au nord-est de la Jamésie, Nouveau-Québec. Géographie physique et Quaternaire"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_richard_ropsitqr_1970"]},"NodeTypeName":"SourceNode","PrettyName":"Richard, P. (1970). Results of Palynological Studies in the Quebec Region"},
 

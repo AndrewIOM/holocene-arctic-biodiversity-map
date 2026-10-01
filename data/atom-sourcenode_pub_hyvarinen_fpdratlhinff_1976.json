@@ -29,10 +29,35 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_hyvarinen_fpdratlhinff_1976"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_hyvärinen_aarpdfnf_1975"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

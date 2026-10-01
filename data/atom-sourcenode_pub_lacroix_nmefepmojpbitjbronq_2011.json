@@ -29,10 +29,125 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lacroix_nmefepmojpbitjbronq_2011"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_richard_càlpdlvandljn_2011"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lacroix_nmefepmojpbitjbronq_2011"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "dissertation_paître_c_2008_ddmfdmtdhqn"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lacroix_nmefepmojpbitjbronq_2011"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "dissertation_laframboise_c_2011_phdlrdwslcedlbd"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lacroix_nmefepmojpbitjbronq_2011"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_garralla_hvhotbfnccq_1992"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lacroix_nmefepmojpbitjbronq_2011"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_gajewski_pvatnlolwinq_1996"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lacroix_nmefepmojpbitjbronq_2011"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_carcaillet_coffitecbfdthdvcocttfr_2001"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

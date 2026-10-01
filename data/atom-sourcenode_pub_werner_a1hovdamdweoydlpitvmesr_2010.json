@@ -29,10 +29,233 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_schirrmeister_lqhotapnotcrey_2003"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_pisaric_tlapvhotnlobbopsatse_2001"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_muller_lgtheitpcrotnhifaprolbvmns_2009"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_katamura_tfavdifapsicyesr_2006"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_jasinski_hehoapitlrvs_1998"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andreev_pcinsdtlqfprotbp_2000"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book-chapter_andreyev_ksk_colccicydth_116"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andreev_ydprfcasy_1997"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andreev_wahphotblinsaas_2009"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andreev_lahiesodomicy_2005"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andreev_vacciiouayrydth_1991"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_werner_a1hovdamdweoydlpitvmesr_2010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_anderson_ioa2prfaydcafbfdins_2002"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_carcaillet_coffitecbfdthdvcocttfr_2001"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "C"
+                ],
+                "item2": "Carcaillet"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "Y"
+                  ],
+                  "item2": "Bergeron"
+                },
+                {
+                  "item1": [
+                    "P",
+                    "J"
+                  ],
+                  "item2": "Richard"
+                },
+                {
+                  "item1": [
+                    "B"
+                  ],
+                  "item2": "Fréchette"
+                },
+                {
+                  "item1": [
+                    "S"
+                  ],
+                  "item2": "Gauthier"
+                },
+                {
+                  "item1": [
+                    "Y",
+                    "T"
+                  ],
+                  "item2": "Prairie"
+                }
+              ],
+              "Title": {
+                "item": "Change of fire frequency in the eastern Canadian boreal forests during the Holocene: does vegetation composition or climate trigger the fire regime?"
+              },
+              "Journal": {
+                "item": "Journal of Ecology"
+              },
+              "Year": 2001,
+              "Volume": 89,
+              "Number": 6,
+              "Month": "Dec",
+              "DOI": {
+                "item": "10.1111/j.1365-2745.2001.00614.x"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

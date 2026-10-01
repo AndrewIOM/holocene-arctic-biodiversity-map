@@ -1,0 +1,34 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "dissertation_alm_t_1990_lwvateoannaps"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "Dissertation": {
+              "Author": {
+                "item1": [
+                  "T"
+                ],
+                "item2": "Alm"
+              },
+              "Title": {
+                "item": "Late Weichselian vegetation and terrestrial/lacustrine environments of Andoya. Northern Norway a paleoecological study"
+              },
+              "Institution": {
+                "item": "University of Tromso"
+              },
+              "CompletionYear": 1990
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

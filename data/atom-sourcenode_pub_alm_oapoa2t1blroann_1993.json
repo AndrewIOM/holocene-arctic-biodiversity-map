@@ -29,10 +29,89 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_alm_oapoa2t1blroann_1993"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_vorren_lamwsoann_1978"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_alm_oapoa2t1blroann_1993"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "dissertation_alm_t_1990_lwvateoannaps"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_alm_oapoa2t1blroann_1993"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "dissertation_alm_t_1986_eoeanepuaufc2btid"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_alm_oapoa2t1blroann_1993"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_vorren_tld1biann_1988"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

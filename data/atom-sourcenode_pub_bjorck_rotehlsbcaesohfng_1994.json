@@ -29,12 +29,36 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
   [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bjorck_rotehlsbcaesohfng_1994"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_björck_lwafbacfhfng_1981"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
     [
       {
         "FriendlyKey": [

@@ -1,0 +1,52 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_andreev_ydprfcasy_1997"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "A"
+                ],
+                "item2": "Andreev"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "V"
+                  ],
+                  "item2": "Klimanov"
+                },
+                {
+                  "item1": [
+                    "L"
+                  ],
+                  "item2": "Sulerzhitsky"
+                }
+              ],
+              "Title": {
+                "item": "Younger Dryas pollen records from central and southern Yakutia"
+              },
+              "Journal": {
+                "item": "Quaternary International"
+              },
+              "Year": 1997,
+              "Month": "Jan",
+              "DOI": {
+                "item": "10.1016/s1040-6182(96)00042-0"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

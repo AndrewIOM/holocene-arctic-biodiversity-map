@@ -29,10 +29,35 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ovenden_vhoappnyc_1982"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "grey_cwynar_l_cl1alvhfhlnyduottoc"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

@@ -1,0 +1,44 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_andreev_lahiesodomicy_2005"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "A",
+                  "A"
+                ],
+                "item2": "Andreev"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "V",
+                    "A"
+                  ],
+                  "item2": "Kilmanov"
+                }
+              ],
+              "Title": {
+                "item": "Late-glacial and Holocene in east Siberia (based on data obtained mainly in central Yakutia)"
+              },
+              "Journal": {
+                "item": "Geological Society of America, Bulletin"
+              },
+              "Year": 2005
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

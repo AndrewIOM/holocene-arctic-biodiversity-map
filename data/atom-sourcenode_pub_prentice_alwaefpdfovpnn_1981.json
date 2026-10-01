@@ -29,10 +29,53 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_prentice_alwaefpdfovpnn_1981"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_hyvarinen_fpdratlhinff_1976"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_prentice_alwaefpdfovpnn_1981"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_hyvärinen_aarpdfnf_1975"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

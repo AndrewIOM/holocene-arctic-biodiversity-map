@@ -1,0 +1,44 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_andreev_vacciiouayrydth_1991"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "A",
+                  "A"
+                ],
+                "item2": "Andreev"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "V",
+                    "A"
+                  ],
+                  "item2": "Kilmanov"
+                }
+              ],
+              "Title": {
+                "item": "Vegetation and climate changes in interfluvial of Ungra and Yakokit Rivers (southern Yakutia) during the Holocene"
+              },
+              "Journal": {
+                "item": "Botanicheskiy Zhurnal"
+              },
+              "Year": 1991
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

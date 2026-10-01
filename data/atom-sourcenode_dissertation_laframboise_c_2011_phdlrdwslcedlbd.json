@@ -1,0 +1,34 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "dissertation_laframboise_c_2011_phdlrdwslcedlbd"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "Dissertation": {
+              "Author": {
+                "item1": [
+                  "C"
+                ],
+                "item2": "Laframboise"
+              },
+              "Title": {
+                "item": "Paléoenvironnements holocènes dans la région de Whapmagoostui-Kuujjuarapik sur la côte est de la baie d'Hudson"
+              },
+              "Institution": {
+                "item": "Université Laval"
+              },
+              "CompletionYear": 2011
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

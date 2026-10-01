@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_katamura_tfavdifapsicyesr_2006"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "F"
+                ],
+                "item2": "Katamura"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "M"
+                  ],
+                  "item2": "Fukuda"
+                },
+                {
+                  "item1": [
+                    "N",
+                    "P"
+                  ],
+                  "item2": "Bosikov"
+                },
+                {
+                  "item1": [
+                    "R",
+                    "V"
+                  ],
+                  "item2": "Desyatkin"
+                },
+                {
+                  "item1": [
+                    "T"
+                  ],
+                  "item2": "Nakamura"
+                },
+                {
+                  "item1": [
+                    "J"
+                  ],
+                  "item2": "Moriizumi"
+                }
+              ],
+              "Title": {
+                "item": "Thermokarst Formation and Vegetation Dynamics Inferred from A Palynological Study in Central Yakutia, Eastern Siberia, Russia"
+              },
+              "Journal": {
+                "item": "Arctic, Antarctic, and Alpine Research"
+              },
+              "Year": 2006,
+              "Volume": 38,
+              "Number": 4,
+              "Month": "Nov",
+              "DOI": {
+                "item": "10.1657/1523-0430(2006)38"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

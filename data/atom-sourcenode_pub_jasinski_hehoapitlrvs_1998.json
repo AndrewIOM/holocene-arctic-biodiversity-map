@@ -1,0 +1,90 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_jasinski_hehoapitlrvs_1998"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "J"
+                ],
+                "item2": "Jasinski"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "B",
+                    "G"
+                  ],
+                  "item2": "Warner"
+                },
+                {
+                  "item1": [
+                    "A",
+                    "A"
+                  ],
+                  "item2": "Andreev"
+                },
+                {
+                  "item1": [
+                    "R"
+                  ],
+                  "item2": "Aravena"
+                },
+                {
+                  "item1": [
+                    "S",
+                    "E"
+                  ],
+                  "item2": "Gilbert"
+                },
+                {
+                  "item1": [
+                    "B",
+                    "A"
+                  ],
+                  "item2": "Zeeb"
+                },
+                {
+                  "item1": [
+                    "J",
+                    "P"
+                  ],
+                  "item2": "Smol"
+                },
+                {
+                  "item1": [
+                    "A",
+                    "A"
+                  ],
+                  "item2": "Velichko"
+                }
+              ],
+              "Title": {
+                "item": "Holocene environmental history of a peatland in the Lena River valley, Siberia"
+              },
+              "Journal": {
+                "item": "Canadian Journal of Earth Sciences"
+              },
+              "Year": 1998,
+              "Volume": 35,
+              "Number": 6,
+              "Month": "Jun",
+              "DOI": {
+                "item": "10.1139/e98-015"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

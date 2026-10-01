@@ -1,0 +1,41 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_richard_càlpdlvandljn_2011"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "P"
+                ],
+                "item2": "Richard"
+              },
+              "AdditionalAuthors": [],
+              "Title": {
+                "item": "Contribution à l’histoire postglaciaire de la végétation au nord-est de la Jamésie, Nouveau-Québec"
+              },
+              "Journal": {
+                "item": "Géographie physique et Quaternaire"
+              },
+              "Year": 2011,
+              "Volume": 33,
+              "Number": 1,
+              "Month": "Jan",
+              "DOI": {
+                "item": "10.7202/1000324ar"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]
