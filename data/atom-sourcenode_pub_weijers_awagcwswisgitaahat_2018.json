@@ -34,5 +34,24 @@
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_weijers_awagcwswisgitaahat_2018"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4daae639-550d-4ad4-8b42-227ba521e4c1"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

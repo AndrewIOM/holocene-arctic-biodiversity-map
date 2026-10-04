@@ -1,0 +1,104 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "4daae639-550d-4ad4-8b42-227ba521e4c1"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              "WoodAnatomicalFeatures"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4daae639-550d-4ad4-8b42-227ba521e4c1"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "8e3a4069-6c1f-4023-90c8-e4cde8be8d7c"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4daae639-550d-4ad4-8b42-227ba521e4c1"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "b56dd95f-460b-47b4-bddf-0fcc9ab2e067"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4daae639-550d-4ad4-8b42-227ba521e4c1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-62ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentLatestSpecified": {
+            "HistoryYearAD": 2012.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4daae639-550d-4ad4-8b42-227ba521e4c1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "72ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestSpecified": {
+            "HistoryYearAD": 1878.0
+          }
+        }
+      }
+    ]
+  ]
+]

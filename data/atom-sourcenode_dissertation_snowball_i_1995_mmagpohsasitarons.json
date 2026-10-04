@@ -1,0 +1,34 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "dissertation_snowball_i_1995_mmagpohsasitarons"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "Dissertation": {
+              "Author": {
+                "item1": [
+                  "I"
+                ],
+                "item2": "Snowball"
+              },
+              "Title": {
+                "item": "Mineral magnetic and geochemical properties of Holocene sediments and soils in the Abisko region of northern Sweden"
+              },
+              "Institution": {
+                "item": "Lund University"
+              },
+              "CompletionYear": 1995
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

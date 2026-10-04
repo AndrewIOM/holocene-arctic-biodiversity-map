@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "sourcenode",
+        "pub_sonesson_pzaatls_1968"
+      ]
+    },
+    {
+      "SourceNode": {
+        "Unscreened": {
+          "PublishedSource": {
+            "JournalArticle": {
+              "FirstAuthor": {
+                "item1": [
+                  "M"
+                ],
+                "item2": "Sonesson"
+              },
+              "AdditionalAuthors": [
+                {
+                  "item1": [
+                    "M"
+                  ],
+                  "item2": "Sonesson"
+                }
+              ],
+              "Title": {
+                "item": "Pollen zones at Abisko, Torne Lappmark, Sweden"
+              },
+              "Journal": {
+                "item": "Bot. Not."
+              },
+              "Year": 1968
+            }
+          }
+        }
+      }
+    }
+  ],
+  []
+]

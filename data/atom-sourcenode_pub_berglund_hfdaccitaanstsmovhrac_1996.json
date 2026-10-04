@@ -29,10 +29,71 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_berglund_hfdaccitaanstsmovhrac_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "dissertation_snowball_i_1995_mmagpohsasitarons"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_berglund_hfdaccitaanstsmovhrac_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_sonesson_pzaatls_1968"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_berglund_hfdaccitaanstsmovhrac_1996"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_sonesson_lqfdottansp2pae_1974"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

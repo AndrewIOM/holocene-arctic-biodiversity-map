@@ -29,20 +29,29 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          {
-            "Stalled": [
-              [],
-              {
-                "item": "source-primary-or-secondary"
-              },
-              {
-                "item": "Primary but focused on Canada"
-              }
-            ]
-          }
+          "CompletedAll"
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_korosi_tihmdiflscaacgitcha_2018"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_griffiths_iitpdoecihalap_2017"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

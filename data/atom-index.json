@@ -35845,6 +35845,8 @@
 
 	{"NodeId":{"UUID":["contextnode","8e334719-04aa-433a-859e-7ef33586f880"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Novoja Rieka"},
 
+	{"NodeId":{"UUID":["contextnode","8e3a4069-6c1f-4023-90c8-e4cde8be8d7c"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Pika valley"},
+
 	{"NodeId":{"UUID":["contextnode","8e5b2b55-ab76-4ed5-9dff-7c68c389ae97"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Cape Espenberg"},
 
 	{"NodeId":{"UUID":["contextnode","8eeb0532-d2c3-4355-bd05-fa70f86f71a2"]},"NodeTypeName":"ContextNode","PrettyName":"Site: Hudson Bay Lowlands"},
@@ -39263,6 +39265,8 @@
 
 	{"NodeId":{"UUID":["individualdatenode","b566ca74-da8e-4138-9182-15aa10a0b621"]},"NodeTypeName":"IndividualDateNode","PrettyName":"An individual date"},
 
+	{"NodeId":{"UUID":["individualdatenode","b56dd95f-460b-47b4-bddf-0fcc9ab2e067"]},"NodeTypeName":"IndividualDateNode","PrettyName":"An individual date"},
+
 	{"NodeId":{"UUID":["individualdatenode","b5f8e0f8-97f7-46ce-bf38-c340996f1847"]},"NodeTypeName":"IndividualDateNode","PrettyName":"An individual date"},
 
 	{"NodeId":{"UUID":["individualdatenode","b6063b62-44bd-4fff-adf4-817bafe49b38"]},"NodeTypeName":"IndividualDateNode","PrettyName":"An individual date"},
@@ -41014,6 +41018,8 @@
 	{"NodeId":{"UUID":["individualtimelinenode","4d3de9bc-96ca-47ae-9c05-b7817dcbfbf2"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
 	{"NodeId":{"UUID":["individualtimelinenode","4d47a58e-8eb2-4c0a-a5e6-6e492551bae1"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
+
+	{"NodeId":{"UUID":["individualtimelinenode","4daae639-550d-4ad4-8b42-227ba521e4c1"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
 	{"NodeId":{"UUID":["individualtimelinenode","4e3721b5-69a3-4f0e-b3c3-d050ef061312"]},"NodeTypeName":"IndividualTimelineNode","PrettyName":"A study timeline"},
 
@@ -88021,6 +88027,8 @@
 
 	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_paître_c_2008_ddmfdmtdhqn"]},"NodeTypeName":"SourceNode","PrettyName":"Paître, C (2008). [dissertation] Dynamique des marges forestières de milieu tourbeux du haut-boréal, Québec nordique"},
 
+	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_snowball_i_1995_mmagpohsasitarons"]},"NodeTypeName":"SourceNode","PrettyName":"Snowball, I (1995). [dissertation] Mineral magnetic and geochemical properties of Holocene sediments and soils in the Abisko region of northern Sweden"},
+
 	{"NodeId":{"FriendlyKey":["sourcenode","dissertation_waythomas_cf_1990_qgaleothlacmrisa"]},"NodeTypeName":"SourceNode","PrettyName":"Waythomas, C. F (1990). [dissertation] Quaternary geology and Late-Quaternary Environments of the Holitna Lowland and Chuilnuk-Kiokluk Mountains Region, Interior Southwestern Alaska"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","grey_ager_t_at1a1yprfsminswap3iaqasbmaap1a1ifqsuomomu"]},"NodeTypeName":"SourceNode","PrettyName":"Grey literature source: Ager, T.A. 1980. A 16,000 year pollen record from St. Michael Island, Norton Sound, western Alaska. Page 3 in American Quaternary Association, Sixth Biennial Meeting, Abstracts and Program, 18-20 August 1980. Institute for Quaternary Studies, University of Maine, Orono, Maine, USA."},
@@ -96000,6 +96008,8 @@
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_sonesson_lqfdottansp2pae_1974"]},"NodeTypeName":"SourceNode","PrettyName":"Sonesson, M. (1974). Late Quaternary Forest Development of the Tornetrask Area North Sweden Part 2 Pollen Analytical Evidence"},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_sonesson_lqfdottanspisomfe_1974"]},"NodeTypeName":"SourceNode","PrettyName":"Sonesson, M; Lundberg, B (1974). Late Quaternary forest development of the Torneträsk area, north Sweden. Part I. Structure of modern forest ecosystems. Oikos"},
+
+	{"NodeId":{"FriendlyKey":["sourcenode","pub_sonesson_pzaatls_1968"]},"NodeTypeName":"SourceNode","PrettyName":"Sonesson, M; Sonesson, M (1968). Pollen zones at Abisko, Torne Lappmark, Sweden. Bot. Not."},
 
 	{"NodeId":{"FriendlyKey":["sourcenode","pub_sonesson_somvitttansicotpm_1970"]},"NodeTypeName":"SourceNode","PrettyName":"Sonesson, M; Sonesson, M (1970). Studies on mire vegetation in the Torne träsk area, Northern Sweden. III. Communities of the poor mires.. Opera Botanica"},
 

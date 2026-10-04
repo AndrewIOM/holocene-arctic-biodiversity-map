@@ -2,7 +2,7 @@
 // Script to make scenario data from AI extraction
 // -----------------------
 
-#r "nuget:Newtonsoft.Json,v=13.0"
+#r "nuget: Newtonsoft.Json,v=13.0"
 #r "nuget: FSharp.Data"
 #r "nuget: Microsoft.FSharpLu.Json"
 #r "../../dist/BiodiversityCoder.Core.dll"
@@ -11,14 +11,15 @@
 open Backing
 open System
 open System.Text.RegularExpressions
+open BiodiversityCoder.Core
 
 module Settings =
 
     let sourceIdList = "refs.txt"
     let sourcePdfFolder = "/Users/andrewmartin/Library/CloudStorage/Tresorit-AndrewMartin/CHARTER Work Package 4/Source PDFs/"
-    let uploadFolder = "/Users/andrewmartin/Desktop/elicit/files-to-upload/"
-    let extractionSheetDir = "/Users/andrewmartin/Desktop/elicit/extraction-sheets/"
-
+    let uploadFolder = "/Users/andrewmartin/Desktop/elicit-upload/"
+    let extractionSheetDir = "/Volumes/Server HD/Research Projects/Arctic Biodiversity Map/elicit/extraction-sheets/"
+    let graphDir = "/Volumes/Server HD/GitHub Projects/holocene-arctic-biodiversity-map/data"
 
 (**
 First, we need to batch copy source PDFs based on their source ID for upload.
@@ -60,10 +61,12 @@ module FileOps =
             then File.Copy((Path.Combine(f.OldPath + f.FileName)), Path.Combine(f.NewPath,f.FileName))
         )
 
-
-printfn "Copying source PDFs to upload folder..."
-FileOps.copyPdfsToFolder ()
-printfn "Done."
+printfn "[1] Copy PDFs to upload folder? [y/N]"
+if System.Console.ReadKey().Key = ConsoleKey.Y
+then
+    printfn "Copying source PDFs to upload folder..."
+    FileOps.copyPdfsToFolder () |> ignore
+    printfn "Done."
 
 (**
 Next, we load in the whole extraction sheet and parse it accordingly.
@@ -127,3 +130,35 @@ let scenarioList =
 printfn "Saving results to file..."
 Microsoft.FSharpLu.Json.Compact.serializeToFile "scenarios.json" scenarioList
 printfn "Done. All operations complete."
+
+printfn "Place completed scenarios into scenarios-checked.json."
+printfn "Input scenarios in scenarios-checked.json into graph database? To do so, type 'y'."
+if System.Console.ReadKey().Key = ConsoleKey.Y
+then
+
+    let scens : list<string * list<BiodiversityCoder.Core.Scenarios.Scenario * list<BiodiversityCoder.Core.Exposure.StudyTimeline.IndividualDateNode>> * list<string>> =
+        Microsoft.FSharpLu.Json.Compact.deserializeFile "scenarios-checked.json"
+
+    let graph =
+        result {
+            let! graph =
+                BiodiversityCoder.Core.Storage.loadOrInitGraph Settings.graphDir
+
+            let updated =
+                List.fold (fun s t -> s)
+                    graph
+                    scens
+
+            // Find source node.
+            // For each scenario:
+                // Input scenario.
+                // Find new timeline.
+                // Add any dates to the timeline.
+
+            return updated
+        }
+
+    if graph.IsError then
+        printfn "Errored in graph update: %A" graph
+
+    ()
